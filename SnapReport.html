@@ -259,7 +259,7 @@
 <hr>
 </div>
 <div style="width:1300px; position:absolute; top:135px; left:30px; z-index:1">
-<h3>Updated : 2019.11.25 20:15 (KST)</h3>
+<h3>Updated : 2019.11.26 0:21 (KST)</h3>
 <hr>
 </div>
 <div style="width:1300px; position:absolute; top:210px; left:30px; z-index:1">
@@ -269,12 +269,12 @@
 <canvas id = "ProjectStatus" width = "1280px" height = "130px" ></canvas >
 </div>
 <script>
-DrawHorizonStackBarChart('ProjectStatus', 'Snaps Projects', 'Project Count', 3, 10);
+DrawHorizonStackBarChart('ProjectStatus', 'Snaps Projects', 'Project Count', 2, 11);
 </script>
 <div style = "width:400px;margin:3px; position:absolute;top:440px; left:50px; z-index:1">
 <canvas id = "Avg. Swap success rate" width = "100px" height = "100px" ></canvas >
 </div>
-<script>SuccessRateDrawChart('Avg. Swap success rate','Avg. Swap success rate', 1910, 58);</script>
+<script>SuccessRateDrawChart('Avg. Swap success rate','Avg. Swap success rate', 1912, 56);</script>
 <div style = "width:400px;margin:3px; position:absolute;top:440px; left:50px; z-index:0">
 <canvas id = "SwapSuccessRate" width = "400px" height = "400px" ></canvas >
 </div>
@@ -283,14 +283,14 @@ DrawHorizonStackBarChart('ProjectStatus', 'Snaps Projects', 'Project Count', 3, 
 <canvas id = "ErrorTracking" width = "700px" height = "400px" ></canvas >
 </div>
 <script>
-var inLabels = ['2019-10-19','2019-10-20','2019-10-21','2019-10-22','2019-10-23','2019-10-24','2019-10-25','2019-10-28','2019-10-29','2019-10-30','2019-10-31','2019-11-01','2019-11-02','2019-11-03','2019-11-04','2019-11-05','2019-11-06','2019-11-07','2019-11-08','2019-11-09','2019-11-10','2019-11-11','2019-11-12','2019-11-13','2019-11-14','2019-11-15','2019-11-16','2019-11-17','2019-11-18','2019-11-19','2019-11-20','2019-11-21','2019-11-22','2019-11-23','2019-11-24','2019-11-25',];
-var inValues = [99.41521,99.41521,99.41521,99.41521,99.41521,99.41521,99.41521,99.41521,99.41521,99.41521,99.41521,98.34755,98.34755,98.34755,98.34755,98.34755,98.34755,98.34755,98.40086,98.40086,98.40086,98.40086,99.41521,99.41521,99.41521,99.41521,99.41521,99.41521,96.84959,96.84959,96.79878,96.79878,97.10366,97.10366,97.15447,97.05285,];
+var inLabels = ['2019-10-19','2019-10-20','2019-10-21','2019-10-22','2019-10-23','2019-10-24','2019-10-25','2019-10-28','2019-10-29','2019-10-30','2019-10-31','2019-11-01','2019-11-02','2019-11-03','2019-11-04','2019-11-05','2019-11-06','2019-11-07','2019-11-08','2019-11-09','2019-11-10','2019-11-11','2019-11-12','2019-11-13','2019-11-14','2019-11-15','2019-11-16','2019-11-17','2019-11-18','2019-11-19','2019-11-20','2019-11-21','2019-11-22','2019-11-23','2019-11-24','2019-11-25','2019-11-26',];
+var inValues = [99.41521,99.41521,99.41521,99.41521,99.41521,99.41521,99.41521,99.41521,99.41521,99.41521,99.41521,98.34755,98.34755,98.34755,98.34755,98.34755,98.34755,98.34755,98.40086,98.40086,98.40086,98.40086,99.41521,99.41521,99.41521,99.41521,99.41521,99.41521,96.84959,96.84959,96.79878,96.79878,97.10366,97.10366,97.15447,97.05285,97.15447,];
 DrawLineChart('ErrorTracking', 'Success Rate Tracking', 'Date', 'Avg. Swap Success rate', inLabels, inValues);
 </script>
 <div style = "width:400px;margin:3px; position:absolute;top:900px; left:50px; z-index:1">
 <canvas id = "Avg. Swap success rate (with NoHD)" width = "100px" height = "100px" ></canvas >
 </div>
-<script>SuccessRateDrawChart('Avg. Swap success rate (with NoHD)','Avg. Swap success rate (with NoHD)', 1910, 359);</script>
+<script>SuccessRateDrawChart('Avg. Swap success rate (with NoHD)','Avg. Swap success rate (with NoHD)', 1912, 357);</script>
 <div style = "width:400px;margin:3px; position:absolute;top:900px; left:50px; z-index:0">
 <canvas id = "SwapPureSuccessRate" width = "400px" height = "400px" ></canvas >
 </div>
@@ -299,8 +299,8 @@ DrawLineChart('ErrorTracking', 'Success Rate Tracking', 'Date', 'Avg. Swap Succe
 <canvas id = "PureErrorTracking" width = "700px" height = "400px" ></canvas >
 </div>
 <script>
-var inLabels = ['2019-10-19','2019-10-20','2019-10-21','2019-10-22','2019-10-23','2019-10-24','2019-10-25','2019-10-28','2019-10-29','2019-10-30','2019-10-31','2019-11-01','2019-11-02','2019-11-03','2019-11-04','2019-11-05','2019-11-06','2019-11-07','2019-11-08','2019-11-09','2019-11-10','2019-11-11','2019-11-12','2019-11-13','2019-11-14','2019-11-15','2019-11-16','2019-11-17','2019-11-18','2019-11-19','2019-11-20','2019-11-21','2019-11-22','2019-11-23','2019-11-24','2019-11-25',];
-var inValues = [84.53506,84.53506,84.53506,84.53506,84.53506,84.53506,84.53506,84.53506,84.53506,84.53506,84.53506,84.74966,84.74966,84.74966,84.74966,84.74966,84.74966,84.74966,84.79559,84.79559,84.79559,84.79559,84.53506,84.53506,84.53506,84.53506,84.53506,84.53506,84.00176,84.00176,83.95769,83.95769,84.22212,84.22212,84.2662,84.17805,];
+var inLabels = ['2019-10-19','2019-10-20','2019-10-21','2019-10-22','2019-10-23','2019-10-24','2019-10-25','2019-10-28','2019-10-29','2019-10-30','2019-10-31','2019-11-01','2019-11-02','2019-11-03','2019-11-04','2019-11-05','2019-11-06','2019-11-07','2019-11-08','2019-11-09','2019-11-10','2019-11-11','2019-11-12','2019-11-13','2019-11-14','2019-11-15','2019-11-16','2019-11-17','2019-11-18','2019-11-19','2019-11-20','2019-11-21','2019-11-22','2019-11-23','2019-11-24','2019-11-25','2019-11-26',];
+var inValues = [84.53506,84.53506,84.53506,84.53506,84.53506,84.53506,84.53506,84.53506,84.53506,84.53506,84.53506,84.74966,84.74966,84.74966,84.74966,84.74966,84.74966,84.74966,84.79559,84.79559,84.79559,84.79559,84.53506,84.53506,84.53506,84.53506,84.53506,84.53506,84.00176,84.00176,83.95769,83.95769,84.22212,84.22212,84.2662,84.17805,84.2662,];
 DrawLineChart('PureErrorTracking', 'Success Rate Tracking (with NoHD)', 'Date', 'Avg. Swap Success rate with NoHD', inLabels, inValues);
 </script>
 <div style="width:1300px; position:absolute; top:1400px; left:30px; z-index:1">
@@ -359,9 +359,9 @@ DrawLineChart('PureErrorTracking', 'Success Rate Tracking (with NoHD)', 'Date', 
 </tr>
 <tr align='center'>
 	<td>Snaps_Exterior_Military_Base</td>
-	<td bgcolor='yellow'>99 %</td>
-	<td>198</td>
-	<td bgcolor='yellow'><a href=".\COMP_Snaps_Exterior_Military_Base_NonSwapableOnly.html">2</a></td>
+	<td>100 %</td>
+	<td>200</td>
+	<td>0</td>
 	<td>0</td>
 	<td>0</td>
 </tr>
