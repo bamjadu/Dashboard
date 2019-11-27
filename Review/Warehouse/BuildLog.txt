@@ -1,10 +1,10 @@
 Initiating legacy licensing module
-LICENSE SYSTEM [20191127 9:29:23] Next license update check is after 2019-11-27T00:57:54
+LICENSE SYSTEM [20191127 9:33:25] Next license update check is after 2019-11-27T00:57:54
 
 Built from '2018.4/staging' branch; Version is '2018.4.0f1 (b6ffa8986c8d) revision 11993000'; Using compiler version '191326128'
 OS: 'Windows 10  (10.0.0) 64bit' Language: 'ko' Physical Memory: 32586 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-[Package Manager] Server::Start -- Port 55872 was selected
+[Package Manager] Server::Start -- Port 51881 was selected
 
  COMMAND LINE ARGUMENTS:
 C:/UnityEditor/2018.4.0f1/Editor/Unity.exe
@@ -19,8 +19,8 @@ e:/build/LemonSky/Warehouse/2934/BuildLog.txt
 Successfully changed project path to: E:/p4/WorldUrbanBiomes/Warehouse/Warehouse/
 E:/p4/WorldUrbanBiomes/Warehouse/Warehouse
 Using Asset Import Pipeline V1.
-Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000063 seconds
-Loading Asset Database...0.020993 seconds
+Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000060 seconds
+Loading Asset Database...0.021129 seconds
 Build target: OSXUniversal found and added!
 Build target: WindowsStoreApps found and added!
 Build target: Win64 found and added!
@@ -49,8 +49,8 @@ Build target: N3DS found and added!
 Build target: WP8 found and added!
 Build target: SamsungTV found and added!
 Build target: Tizen found and added!
-AssetDatabase consistency checks...0.020363 seconds
-Refreshing native plugins compatible for Editor in 9.17 ms, found 3 plugins.
+AssetDatabase consistency checks...0.020817 seconds
+Refreshing native plugins compatible for Editor in 11.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Unity Package Manager
 [Package Manager] Done resolving packages in 0.13s seconds
@@ -167,51 +167,51 @@ Initialize mono
 Mono path[0] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
 Begin MonoManager ReloadAssembly
-Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering precompiled unity dll's ...
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001799 seconds.
+Registered in 0.001818 seconds.
 Registering platform support modules:
-Registered platform support modules in: 0.0587194s.
-Native extension for Android target not found
-Native extension for WebGL target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.86 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.567 seconds
-Registering precompiled user dll's ...
-Registered in 0.062098 seconds.
-Platform modules already initialized, skipping
-Begin MonoManager ReloadAssembly
-Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
-Registering platform support modules:
-Registered platform support modules in: 0.0363321s.
+Registered platform support modules in: 0.0594926s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.63 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Preloading 1 native plugins for Editor in 0.87 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.081 seconds
+- Completed reload, in  1.616 seconds
+Registering precompiled user dll's ...
+Registered in 0.057868 seconds.
 Platform modules already initialized, skipping
-Validating Project structure ... 0.006772 seconds.
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
+Registering platform support modules:
+Registered platform support modules in: 0.0349862s.
+Native extension for Android target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.037 seconds
+Platform modules already initialized, skipping
+Validating Project structure ... 0.007074 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
 Unloading 2168 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 192.9 MB.
 System memory in use after: 100.2 MB.
 
 Unloading 616 unused Assets to reduce memory usage. Loaded Objects now: 2351.
-Total: 20.642300 ms (FindLiveObjects: 0.362200 ms CreateObjectMapping: 0.112600 ms MarkObjects: 1.814400 ms  DeleteObjects: 18.352400 ms)
+Total: 20.649800 ms (FindLiveObjects: 0.347100 ms CreateObjectMapping: 0.096700 ms MarkObjects: 1.801400 ms  DeleteObjects: 18.404100 ms)
 
 Updating Assets/Scripts/Editor/ASBuildScript.cs - GUID: fe20c2e5831b63e4daab16eb685c9041...
 ----- Compute hash for Assets/Scripts/Editor/ASBuildScript.cs.
- done. [Time: 174.364400 ms] 
+ done. [Time: 174.101900 ms] 
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 Reloading assemblies after script compilation.
@@ -235,42 +235,42 @@ UnauthorizedAccessException: Access to the path "E:\p4\WorldUrbanBiomes\Warehous
 
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering platform support modules:
-Registered platform support modules in: 0.0350844s.
+Registered platform support modules in: 0.0345745s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 7.29 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 6.99 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.262 seconds
 Platform modules already initialized, skipping
-Script Compilation Pipeline Post Process Assets time: 1.918765s
-Assembly Updater Post Process Assets time: 0.000670s
-Script Compilation Pipeline Post Process Assets time: 0.000496s
-Assembly Updater Post Process Assets time: 0.000056s
+Script Compilation Pipeline Post Process Assets time: 1.944569s
+Assembly Updater Post Process Assets time: 0.000687s
+Script Compilation Pipeline Post Process Assets time: 0.000410s
+Assembly Updater Post Process Assets time: 0.000125s
 Unloading 153 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 66.0 MB.
 System memory in use after: 66.1 MB.
 
 Unloading 116 unused Assets to reduce memory usage. Loaded Objects now: 2431.
-Total: 2.219700 ms (FindLiveObjects: 0.274100 ms CreateObjectMapping: 0.062900 ms MarkObjects: 1.859400 ms  DeleteObjects: 0.023000 ms)
+Total: 2.270600 ms (FindLiveObjects: 0.288000 ms CreateObjectMapping: 0.072200 ms MarkObjects: 1.887100 ms  DeleteObjects: 0.022900 ms)
 
-Refreshing native plugins compatible for Editor in 12.26 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Refreshing native plugins compatible for Editor in 0.50 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 12.21 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.11 ms.
 
-Refresh Completed time: 2.483384s
-	Asset Scan time: 0.035346s
+Refresh Completed time: 2.513667s
+	Asset Scan time: 0.036447s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
-	Asset Import (Scripting) time: 0.248204s (count: 29)
-	Post Processs Assets (Scripting) time: 1.939997s
+	Asset Import (Scripting) time: 0.252199s (count: 29)
+	Post Processs Assets (Scripting) time: 1.966792s
 	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
-	Asset Import (Non Scripting) time: 0.039837s (count: 2)
-	Post Process Assets (Non Scripting) time: 0.006217s
-	Dependent Assets to Import Queue time: 0.006578s
+	Asset Import (Non Scripting) time: 0.042252s (count: 2)
+	Post Process Assets (Non Scripting) time: 0.006801s
+	Dependent Assets to Import Queue time: 0.005840s
 
-Warming cache for 5086 main assets: 0.016613 seconds elapsed
+Warming cache for 5086 main assets: 0.017578 seconds elapsed
 Initializing Unity extensions:
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
@@ -297,7 +297,7 @@ System memory in use before: 64.7 MB.
 System memory in use after: 64.7 MB.
 
 Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 2456.
-Total: 2.082000 ms (FindLiveObjects: 0.208900 ms CreateObjectMapping: 0.043800 ms MarkObjects: 1.790200 ms  DeleteObjects: 0.038700 ms)
+Total: 2.140900 ms (FindLiveObjects: 0.206400 ms CreateObjectMapping: 0.044000 ms MarkObjects: 1.851700 ms  DeleteObjects: 0.038500 ms)
 
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
@@ -324,10 +324,10 @@ ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
 Script Compilation Pipeline Post Process Assets time: 0.000015s
 Assembly Updater Post Process Assets time: 0.000030s
 Updating ProjectSettings/UnityConnectSettings.asset - GUID: 0000000000000000a100000000000000...
- done. [Time: 53.588700 ms] 
-Script Compilation Pipeline Post Process Assets time: 0.000009s
-Assembly Updater Post Process Assets time: 0.000036s
-Refreshing native plugins compatible for Editor in 0.46 ms, found 4 plugins.
+ done. [Time: 55.154900 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000011s
+Assembly Updater Post Process Assets time: 0.000037s
+Refreshing native plugins compatible for Editor in 0.42 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.11 ms.
 BuildPlayer: start building target 19
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
@@ -344,9 +344,9 @@ BuildPlayer: start building target 19
 
 -----Compiler Commandline Arguments:
 Filename: C:\UnityEditor\2018.4.0f1\Editor\Data\Tools\Roslyn\csc.exe
-Arguments: /noconfig  /shared @Temp/UnityTempFile-db9b87f9640a21e4e9c62037c3c3d2df
+Arguments: /noconfig  /shared @Temp/UnityTempFile-da9d31a65b4822341b6207c93df02a9c
 index: 20
-Responsefile: Temp/UnityTempFile-db9b87f9640a21e4e9c62037c3c3d2df Contents: 
+Responsefile: Temp/UnityTempFile-da9d31a65b4822341b6207c93df02a9c Contents: 
 /target:library
 /nowarn:0169
 /out:Temp/Unity.Polybrush.dll
@@ -673,27 +673,22 @@ Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Type\AttributeLay
 - Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
 Script Module: Unity.Postprocessing.Runtime.dll
-Pass: 0 took 17 milliseconds
+Pass: 0 took 21 milliseconds
 Pass: 1 took 3 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
 Script Module: Unity.RenderPipelines.Core.Runtime.dll
 Pass: 0 took 13 milliseconds
 Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
-Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
-Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 20 milliseconds
-Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbols will be read from Temp\Unity.TextMeshPro.pdb
-Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 23 milliseconds
-Pass: 1 took 5 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
 Symbols will be read from Temp\Unity.ProBuilder.Poly2Tri.pdb
 Script Module: Unity.ProBuilder.Poly2Tri.dll
 Pass: 0 took 0 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 23 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll
 Symbols will be read from Temp\Unity.ProBuilder.KdTree.pdb
@@ -713,8 +708,13 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProGrids.dll
 Symbols will be read from Temp\Unity.ProGrids.pdb
 Script Module: Unity.ProGrids.dll
-Pass: 0 took 16 milliseconds
+Pass: 0 took 12 milliseconds
 Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 23 milliseconds
+Pass: 1 took 5 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
 Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
@@ -738,15 +738,15 @@ System memory in use before: 65.6 MB.
 System memory in use after: 65.7 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2476.
-Total: 6.790600 ms (FindLiveObjects: 0.312700 ms CreateObjectMapping: 0.070700 ms MarkObjects: 6.390800 ms  DeleteObjects: 0.015800 ms)
+Total: 7.764600 ms (FindLiveObjects: 0.309800 ms CreateObjectMapping: 0.062200 ms MarkObjects: 7.367900 ms  DeleteObjects: 0.024000 ms)
 
-Load scene 'Temp/__Backupscenes/0.backup' time: 0.043000 ms 
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.025200 ms 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 65.1 MB.
 System memory in use after: 65.2 MB.
 
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2476.
-Total: 6.625100 ms (FindLiveObjects: 0.318800 ms CreateObjectMapping: 0.068000 ms MarkObjects: 6.232000 ms  DeleteObjects: 0.005600 ms)
+Total: 6.568000 ms (FindLiveObjects: 0.310800 ms CreateObjectMapping: 0.063100 ms MarkObjects: 6.188700 ms  DeleteObjects: 0.005100 ms)
 
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
@@ -767,22 +767,27 @@ Total: 6.625100 ms (FindLiveObjects: 0.318800 ms CreateObjectMapping: 0.068000 m
 - Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
 Script Module: Unity.Postprocessing.Runtime.dll
-Pass: 0 took 29 milliseconds
+Pass: 0 took 33 milliseconds
 Pass: 1 took 3 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Polybrush.dll
 Symbols will be read from Temp\Unity.Polybrush.pdb
 Script Module: Unity.Polybrush.dll
-Pass: 0 took 42 milliseconds
+Pass: 0 took 24 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
 Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 31 milliseconds
-Pass: 1 took 1 milliseconds
+Pass: 0 took 35 milliseconds
+Pass: 1 took 2 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
 Symbols will be read from Temp\Unity.ProBuilder.Poly2Tri.pdb
 Script Module: Unity.ProBuilder.Poly2Tri.dll
 Pass: 0 took 0 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 25 milliseconds
 Pass: 1 took 0 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
@@ -790,13 +795,8 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbols will be read from Temp\Unity.TextMeshPro.pdb
 Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 38 milliseconds
+Pass: 0 took 47 milliseconds
 Pass: 1 took 5 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
-Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
-Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 33 milliseconds
-Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll
 Symbols will be read from Temp\Unity.ProBuilder.KdTree.pdb
 Script Module: Unity.ProBuilder.KdTree.dll
@@ -815,13 +815,14 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProGrids.dll
 Symbols will be read from Temp\Unity.ProGrids.pdb
 Script Module: Unity.ProGrids.dll
-Pass: 0 took 17 milliseconds
+Pass: 0 took 14 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
 Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
 Pass: 0 took 0 milliseconds
 Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.Settings.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
@@ -834,27 +835,26 @@ Pass: 1 took 0 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.Recorder.dll
 Symbols will be read from Temp\Unity.Recorder.pdb
 Script Module: Unity.Recorder.dll
-Pass: 0 took 17 milliseconds
+Pass: 0 took 22 milliseconds
 Pass: 1 took 0 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.Recorder.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
 Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
-Pass: 0 took 69 milliseconds
+Pass: 0 took 62 milliseconds
 Pass: 1 took 5 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Polybrush.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Polybrush.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.dll
 Symbols will be read from Temp\Unity.ProBuilder.pdb
 Script Module: Unity.ProBuilder.dll
-Pass: 0 took 14 milliseconds
+Pass: 0 took 16 milliseconds
 Pass: 1 took 1 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.Recorder.Editor.dll
@@ -866,7 +866,7 @@ Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
 Symbols will be read from Temp\Assembly-CSharp.pdb
 Script Module: Assembly-CSharp.dll
-Pass: 0 took 12 milliseconds
+Pass: 0 took 16 milliseconds
 Pass: 1 took 0 milliseconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
@@ -891,16 +891,16 @@ UnauthorizedAccessException: Access to the path "E:\p4\WorldUrbanBiomes\Warehous
 
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering platform support modules:
-Registered platform support modules in: 0.0359982s.
+Registered platform support modules in: 0.0355473s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.00 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.81 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
 Mono: successfully reloaded assembly
-Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-- Completed reload, in  1.374 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+- Completed reload, in  1.334 seconds
 Platform modules already initialized, skipping
 Batchmode quit successfully invoked - shutting down!
 UnauthorizedAccessException: Access to the path "E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\ProjectSettings\Packages\com.unity.probuilder\Settings.json" is denied.
@@ -920,12 +920,12 @@ UnauthorizedAccessException: Access to the path "E:\p4\WorldUrbanBiomes\Warehous
  
 (Filename: <d7ac571ca2d04b2f981d0d886fa067cf> Line: 0)
 
-[Performance] CurlRequestCheck                        :       15 samples, Peak.  21.8 us (2.4x), Avg.  9.11 us, Total. 136.6 us (0.0%)
-[Performance] PackageManager::RunRequestSynchronously :        3 samples, Peak.  52.0 us (2.6x), Avg.  20.3 us, Total. 60.80 us (0.0%)
+[Performance] CurlRequestCheck                        :       15 samples, Peak.  22.2 us (2.5x), Avg.  8.79 us, Total. 131.8 us (0.0%)
+[Performance] PackageManager::RunRequestSynchronously :        3 samples, Peak.  26.4 us (2.2x), Avg.  11.9 us, Total. 35.60 us (0.0%)
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.037536s
-	Asset Scan time: 0.036257s
+Refresh Completed time: 0.038086s
+	Asset Scan time: 0.036831s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -936,8 +936,8 @@ Refresh Completed time: 0.037536s
 
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.037258s
-	Asset Scan time: 0.036048s
+Refresh Completed time: 0.034394s
+	Asset Scan time: 0.033137s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -947,14 +947,14 @@ Refresh Completed time: 0.037258s
 	Dependent Assets to Import Queue time: 0.000000s
 
 Setting up 8 worker threads for Enlighten.
-  Thread -> id: e810 -> priority: 1 
-  Thread -> id: 8c18 -> priority: 1 
-  Thread -> id: b298 -> priority: 1 
-  Thread -> id: 9204 -> priority: 1 
-  Thread -> id: 318c -> priority: 1 
-  Thread -> id: c67c -> priority: 1 
-  Thread -> id: 9fd8 -> priority: 1 
-  Thread -> id: 9c40 -> priority: 1 
+  Thread -> id: d0bc -> priority: 1 
+  Thread -> id: e7c4 -> priority: 1 
+  Thread -> id: c5fc -> priority: 1 
+  Thread -> id: b1d4 -> priority: 1 
+  Thread -> id: 71d4 -> priority: 1 
+  Thread -> id: e724 -> priority: 1 
+  Thread -> id: 2408 -> priority: 1 
+  Thread -> id: 8660 -> priority: 1 
 [Package Manager] Server::Kill -- Server was shutdown
 Cleanup mono
 Exiting batchmode successfully now!
