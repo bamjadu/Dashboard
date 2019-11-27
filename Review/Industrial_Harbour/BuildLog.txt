@@ -1,10 +1,10 @@
 Initiating legacy licensing module
-LICENSE SYSTEM [20191127 15:19:42] Next license update check is after 2019-11-27T00:57:54
+LICENSE SYSTEM [20191127 15:31:7] Next license update check is after 2019-11-27T00:57:54
 
 Built from '2018.4/staging' branch; Version is '2018.4.0f1 (b6ffa8986c8d) revision 11993000'; Using compiler version '191326128'
 OS: 'Windows 10  (10.0.0) 64bit' Language: 'ko' Physical Memory: 32586 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-[Package Manager] Server::Start -- Port 63120 was selected
+[Package Manager] Server::Start -- Port 54136 was selected
 
  COMMAND LINE ARGUMENTS:
 C:/UnityEditor/2018.4.0f1/Editor/Unity.exe
@@ -19,8 +19,8 @@ e:/build/Elite3D/Industrial_Harbour/2950/BuildLog.txt
 Successfully changed project path to: E:/p4/WorldUrbanBiomes/Industrial_Harbour/
 E:/p4/WorldUrbanBiomes/Industrial_Harbour
 Using Asset Import Pipeline V1.
-Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000061 seconds
-Loading Asset Database...0.020573 seconds
+Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000058 seconds
+Loading Asset Database...0.020358 seconds
 Build target: OSXUniversal found and added!
 Build target: WindowsStoreApps found and added!
 Build target: Win64 found and added!
@@ -49,8 +49,8 @@ Build target: N3DS found and added!
 Build target: WP8 found and added!
 Build target: SamsungTV found and added!
 Build target: Tizen found and added!
-AssetDatabase consistency checks...0.019153 seconds
-Refreshing native plugins compatible for Editor in 9.01 ms, found 2 plugins.
+AssetDatabase consistency checks...0.021019 seconds
+Refreshing native plugins compatible for Editor in 8.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Unity Package Manager
 [Package Manager] Done resolving packages in 0.19s seconds
@@ -161,119 +161,441 @@ Initialize mono
 Mono path[0] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
 Begin MonoManager ReloadAssembly
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering precompiled unity dll's ...
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001831 seconds.
+Registered in 0.001777 seconds.
 Registering platform support modules:
-Registered platform support modules in: 0.0816107s.
+Registered platform support modules in: 0.0600096s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 1.07 ms.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.85 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.661 seconds
+- Completed reload, in  1.641 seconds
 Registering precompiled user dll's ...
-Registered in 0.066897 seconds.
+Registered in 0.067595 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering platform support modules:
-Registered platform support modules in: 0.0354904s.
+Registered platform support modules in: 0.0379083s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.22 ms.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.066 seconds
+- Completed reload, in  1.075 seconds
 Platform modules already initialized, skipping
-Validating Project structure ... 0.012293 seconds.
+Validating Project structure ... 0.013242 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
 
-Hashing assets (2 files)... 0.051 seconds
-  file read: 0.000 seconds (0.022 MB)
-  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
-  wait for read: 0.051 seconds (CPUT thread waiting for I/O thread, aka disk bound)
-  hash: 0.000 seconds
------ Compute hash(es) for 2 asset(s).
+Hashing assets (340 files)... 0.161 seconds
+  file read: 0.019 seconds (45.230 MB)
+  wait for write: 0.014 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.104 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.049 seconds
+----- Compute hash(es) for 340 asset(s).
+----- Asset named Assets/ExampleAssets/Prefabs/Props.prefab is skipped as no actual change.
+----- Asset named Assets/ExampleAssets/Prefabs/Workshop Set.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/Ground_Set_01/Ground_10m_10m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/Ground_Set_01/Ground_20m_10m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/Ground_Set_01/Ground_20m_20m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/Ground_Set_01/Ground_40m_20m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/Ground_Set_01/Ground_40m_40m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_01_5m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_01_5m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_01_5m_03_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_01_5m_04_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_01_End_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_01_End_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_01_Start_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_01_Start_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_02_5m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_02_5m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_02_5m_03_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_02_5m_04_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_02_End_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_02_End_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_02_Start_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_02_Start_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_Canopy_5m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_GarageDoor_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_GarageDoor_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_Platform_5m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_Platform_End_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_Platform_Start_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/PortFront_Set_01/PortFront_10m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/PortFront_Set_01/PortFront_10m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/PortFront_Set_01/PortFront_10m_03_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/PortFront_Set_01/PortFront_20m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/PortFront_Set_01/PortFront_20m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/PortFront_Set_01/PortFront_20m_03_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/PortFront_Set_01/PortFront_20m_04_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/PortFront_Set_01/PortFront_40m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/PortFront_Set_01/PortFront_40m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/PortFront_Set_01/PortFront_40m_03_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/PortFront_Set_01/PortFront_40m_04_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/PortFront_Set_01/PortFront_CornerClose_10m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/PortFront_Set_01/PortFront_CornerClose_10m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/PortFront_Set_01/PortFront_CornerOpen_20m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/PortFront_Set_01/PortFront_CornerOpen_20m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/PortFront_Set_01/PortFront_CornerOpen_60m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/StreetLight_set_01/StreetLight_Double_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/StreetLight_set_01/StreetLight_Double_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/StreetLight_set_01/StreetLight_Double_8m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/StreetLight_set_01/StreetLight_Double_8m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/StreetLight_set_01/StreetLight_HighMast_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/StreetLight_set_01/StreetLight_HighMast_15m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/StreetLight_set_01/StreetLight_HighMast_20m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/StreetLight_set_01/StreetLight_Pole_15m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/StreetLight_set_01/StreetLight_Pole_20m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/StreetLight_set_01/StreetLight_Pole_8m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/StreetLight_set_01/StreetLight_Single_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/StreetLight_set_01/StreetLight_Single_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/StreetLight_set_01/StreetLight_Single_8m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/StreetLight_set_01/StreetLight_Single_8m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Environment/StreetLight_set_01/StreetLight_WallMounted_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/CargoShip_01/CargoShip_Back_70m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/CargoShip_01/CargoShip_Bridge_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/CargoShip_01/CargoShip_Container_Shelf_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/CargoShip_01/CargoShip_Foremast_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/CargoShip_01/CargoShip_Front_70m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/CargoShip_01/CargoShip_Mid_70m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/CargoShip_01/CargoShip_Mid_70m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/ContainerSpreader_Set_01/ContainerSpreader_12m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/ContainerSpreader_Set_01/ContainerSpreader_6m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/GantryCrane_01/GantryCrane_01_Cabin_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/GantryCrane_01/GantryCrane_01_HingeCablesFront_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/GantryCrane_01/GantryCrane_01_Office_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/GantryCrane_01/GantryCrane_01_StructureBack_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/GantryCrane_01/GantryCrane_01_StructureBottom_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/GantryCrane_01/GantryCrane_01_StructureCenter_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/GantryCrane_01/GantryCrane_01_StructureFront_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/GantryCrane_01/GantryCrane_01_StructureTop_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/GantryCrane_01/GantryCrane_01_Traction_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/GantryCrane_01/GantryCrane_01_prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/GantryCrane_02/GantryCrane_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/GantryCrane_02/GantryCrane_02_Structure_01 Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/GantryCrane_02/GantryCrane_02_Traction_01 Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/GantryCrane_02/GantryCrane_02_Traction_02 Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Hero Props/GantryCrane_02/GantryCrane_02_Trolley_01 Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Barrel_Oil_01_A_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Barrel_Oil_01_B_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Barrel_Water_Pallet_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Barrel_Water_Pallet_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Barrel_Water_Set_01/Barrel_Water_01_A_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Barrel_Water_Set_01/Barrel_Water_01_B_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Barrel_Water_Set_01/Barrel_Water_02_A_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Barrel_Water_Set_01/Barrel_Water_02_B_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Barrier_Gate_Set_01/BarrierGate_Closed_2m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Barrier_Gate_Set_01/BarrierGate_Closed_4m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Barrier_Gate_Set_01/BarrierGate_Closed_6m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Barrier_Gate_Set_01/BarrierGate_Open_2m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Barrier_Gate_Set_01/BarrierGate_Open_4m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Barrier_Gate_Set_01/BarrierGate_Open_6m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Barrier_Gate_Set_01/ParkingBarrier_2m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Barrier_Gate_Set_01/ParkingBarrier_6m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Barrier_Gate_Set_01/ParkingBarrier_Base_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Barrier_Gate_Set_01/ParkingBarrier_Support_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Barrier_Gate_Set_01/Parkingbarrier_4m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Box_Pallet_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Box_Pallet_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Brick_Pallet_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/BuoyPillar_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/CableSpool_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Cargo_Container_Set_01/Container_Cargo_12m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Cargo_Container_Set_01/Container_Cargo_12m_Stack_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Cargo_Container_Set_01/Container_Cargo_12m_Stack_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Cargo_Container_Set_01/Container_Cargo_12m_Stack_03_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Cargo_Container_Set_01/Container_Cargo_6m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Cargo_Container_Set_01/Container_Rack_6m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Cargo_Container_Set_01/Container_Tank_6m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Cement_Pallet_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Container_IBC_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/CraneRail_Set_01/CraneRail_10m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/CraneRail_Set_01/CraneRail_20m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/CraneRail_Set_01/CraneRail_40m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/CraneRail_Set_01/CraneRail_Stopper_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Dampener_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Forklift_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Lifebuoy_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Lifebuoy_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/MooringBollard_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/MooringBollard_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/MooringBollard_03_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/OilTank_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/PalletTrolley_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Pallet_Set_01/Pallet_01_A_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Pallet_Set_01/Pallet_01_B_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Pallet_Set_01/Pallet_02_A_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Pallet_Set_01/Pallet_02_B_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Pallet_Set_01/Pallet_03_A_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Pallet_Set_01/Pallet_03_B_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Pallet_Set_01/Pallet_Plank_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Pallet_Set_01/Pallet_Plank_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Pallet_Set_01/Pallet_Plank_03_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Pallet_Set_01/Pallet_Plank_04_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Stack_Beam_Set_01/Stack_Beam_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Stack_Beam_Set_01/Stack_Beam_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Stack_Beam_Set_01/Stack_Beam_03_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Stack_Metal_Pipe_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Stack_Wood_Set_01/Stack_Wood_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/Stack_Wood_Set_01/Stack_Wood_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/TrafficBarrier_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prefabs/Props/TrafficBarrier_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Ground_Set_01/Ground_10m_10m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Ground_Set_01/Ground_20m_10m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Ground_Set_01/Ground_20m_20m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Ground_Set_01/Ground_40m_20m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Ground_Set_01/Ground_40m_40m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_01_5m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_01_5m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_01_5m_03_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_01_5m_04_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_01_End_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_01_End_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_01_Start_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_01_Start_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_02_5m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_02_5m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_02_5m_03_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_02_5m_04_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_02_End_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_02_End_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_02_Start_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_02_Start_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_Canopy_5m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_GarageDoor_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_GarageDoor_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_Platform_5m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_Platform_End_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/IndustrialUnit_Set_01/IndustrialUnit_Platform_Start_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/OfficeContainer_Set_01/OfficeContainer_12m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/OfficeContainer_Set_01/OfficeContainer_12m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/OfficeContainer_Set_01/OfficeContainer_6m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/OfficeContainer_Set_01/OfficeContainer_6m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/OfficeContainer_Set_01/OfficeContainer_6m_03_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/OfficeContainer_Set_01/OfficeContainer_6m_04_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/OfficeContainer_Set_01/OfficeContainer_Base_6m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/OfficeContainer_Set_01/OfficeContainer_Catwalk_1m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/OfficeContainer_Set_01/OfficeContainer_Catwalk_2m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/OfficeContainer_Set_01/OfficeContainer_Catwalk_4m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/OfficeContainer_Set_01/OfficeContainer_Catwalk_Corner_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/OfficeContainer_Set_01/OfficeContainer_Catwalk_Side_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/OfficeContainer_Set_01/OfficeContainer_Stairs_3m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/OfficeContainer_Set_01/OfficeContainer_Stairs_3m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/OfficeContainer_Set_01/OfficeContainer_Stairs_Base_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/OilSilo_Set_01/OilSilo_A_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/OilSilo_Set_01/OilSilo_A_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/OilSilo_Set_01/OilSilo_B_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/OilSilo_Set_01/OilSilo_C_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/OilSilo_Set_01/OilSilo_D_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/PortFront_Set_01/PortFront_10m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/PortFront_Set_01/PortFront_10m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/PortFront_Set_01/PortFront_10m_03_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/PortFront_Set_01/PortFront_20m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/PortFront_Set_01/PortFront_20m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/PortFront_Set_01/PortFront_20m_03_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/PortFront_Set_01/PortFront_20m_04_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/PortFront_Set_01/PortFront_40m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/PortFront_Set_01/PortFront_40m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/PortFront_Set_01/PortFront_40m_03_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/PortFront_Set_01/PortFront_40m_04_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/PortFront_Set_01/PortFront_CornerClose_10m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/PortFront_Set_01/PortFront_CornerClose_10m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/PortFront_Set_01/PortFront_CornerOpen_20m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/PortFront_Set_01/PortFront_CornerOpen_20m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/PortFront_Set_01/PortFront_CornerOpen_60m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/StreetLight_Set_01/StreetLight_Double_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/StreetLight_Set_01/StreetLight_Double_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/StreetLight_Set_01/StreetLight_Double_8m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/StreetLight_Set_01/StreetLight_Double_8m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/StreetLight_Set_01/StreetLight_HighMast_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/StreetLight_Set_01/StreetLight_HighMast_15m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/StreetLight_Set_01/StreetLight_HighMast_20m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/StreetLight_Set_01/StreetLight_Pole_15m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/StreetLight_Set_01/StreetLight_Pole_20m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/StreetLight_Set_01/StreetLight_Pole_8m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/StreetLight_Set_01/StreetLight_Single_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/StreetLight_Set_01/StreetLight_Single_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/StreetLight_Set_01/StreetLight_Single_8m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/StreetLight_Set_01/StreetLight_Single_8m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/StreetLight_Set_01/StreetLight_WallMounted_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Wall_Set_01/Wall_01_10m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Wall_Set_01/Wall_01_1m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Wall_Set_01/Wall_01_20m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Wall_Set_01/Wall_01_2m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Wall_Set_01/Wall_01_4m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Wall_Set_01/Wall_01_Pillar_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Warehouse_Set_01/Warehouse_01_10m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Warehouse_Set_01/Warehouse_01_10m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Warehouse_Set_01/Warehouse_01_20m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Warehouse_Set_01/Warehouse_01_End_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Warehouse_Set_01/Warehouse_01_End_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Warehouse_Set_01/Warehouse_01_Start_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Warehouse_Set_01/Warehouse_01_Start_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Warehouse_Set_01/Warehouse_02_10m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Warehouse_Set_01/Warehouse_02_10m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Warehouse_Set_01/Warehouse_02_End_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Warehouse_Set_01/Warehouse_02_End_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Warehouse_Set_01/Warehouse_02_Start_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Warehouse_Set_01/Warehouse_02_Start_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Wharf_Set_01/Wharf30m_Dock_10m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Wharf_Set_01/Wharf30m_End_10m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Wharf_Set_01/Wharf30m_Mid_10m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Wharf_Set_01/Wharf30m_Mid_20m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Environment/Wharf_Set_01/Wharf30m_Mid_40m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/CargoShip_01/CargoShip_Back_70m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/CargoShip_01/CargoShip_Bridge_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/CargoShip_01/CargoShip_Container_Shelf_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/CargoShip_01/CargoShip_Foremast_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/CargoShip_01/CargoShip_Front_70m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/CargoShip_01/CargoShip_Mid_70m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/CargoShip_01/CargoShip_Mid_70m_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/ContainerSpreader_Set_01/ContainerSpreader_12m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/ContainerSpreader_Set_01/ContainerSpreader_6m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/GantryCrane_01/GantryCrane_01.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/GantryCrane_01/GantryCrane_01_Cabin_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/GantryCrane_01/GantryCrane_01_HingeCablesFront_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/GantryCrane_01/GantryCrane_01_Office_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/GantryCrane_01/GantryCrane_01_StructureBack_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/GantryCrane_01/GantryCrane_01_StructureBottom_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/GantryCrane_01/GantryCrane_01_StructureCenter_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/GantryCrane_01/GantryCrane_01_StructureFront_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/GantryCrane_01/GantryCrane_01_StructureTop_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/GantryCrane_01/GantryCrane_01_Traction_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/GantryCrane_02/GantryCrane_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/GantryCrane_02/GantryCrane_02_Structure_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/GantryCrane_02/GantryCrane_02_Traction_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/GantryCrane_02/GantryCrane_02_Traction_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Hero Props/GantryCrane_02/GantryCrane_02_Trolley_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Barrel_Oil_01_A_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Barrel_Oil_01_B_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Barrel_Water_Pallet_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Barrel_Water_Pallet_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Barrel_Water_Set_01/Barrel_Water_01_A_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Barrel_Water_Set_01/Barrel_Water_01_B_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Barrel_Water_Set_01/Barrel_Water_02_A_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Barrel_Water_Set_01/Barrel_Water_02_B_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Barrier_Gate_Set_01/BarrierGate_Closed_2m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Barrier_Gate_Set_01/BarrierGate_Closed_4m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Barrier_Gate_Set_01/BarrierGate_Closed_6m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Barrier_Gate_Set_01/BarrierGate_Open_2m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Barrier_Gate_Set_01/BarrierGate_Open_4m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Barrier_Gate_Set_01/BarrierGate_Open_6m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Barrier_Gate_Set_01/ParkingBarrier_2m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Barrier_Gate_Set_01/ParkingBarrier_6m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Barrier_Gate_Set_01/ParkingBarrier_Base_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Barrier_Gate_Set_01/ParkingBarrier_Support_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Barrier_Gate_Set_01/Parkingbarrier_4m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/BoxPallet_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Box_Pallet_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Box_Pallet_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Brick_Pallet_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/BuoyPillar_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/CableSpool_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Cargo_Container_Set_01/Container_Cargo_12m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Cargo_Container_Set_01/Container_Cargo_6m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Cargo_Container_Set_01/Container_Rack_6m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Cargo_Container_Set_01/Container_Tank_6m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Cement_Pallet_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Container_IBC_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/CraneRail_Set_01/CraneRail_10m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/CraneRail_Set_01/CraneRail_20m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/CraneRail_Set_01/CraneRail_40m_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/CraneRail_Set_01/CraneRail_Stopper_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Dampener_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Fence_Set_01/Fence_2m_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Fence_Set_01/Fence_4m_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Fence_Set_01/Fence_6m_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Fence_Set_01/Fence_Gate_1m_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Fence_Set_01/Fence_Gate_2m_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Lifebuoy_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Lifebuoy_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/MooringBollard_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/MooringBollard_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/MooringBollard_03_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/OilTank_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/PalletTrolley_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Pallet_Set_01/Pallet_01_A_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Pallet_Set_01/Pallet_01_B_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Pallet_Set_01/Pallet_02_A_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Pallet_Set_01/Pallet_02_B_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Pallet_Set_01/Pallet_03_A_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Pallet_Set_01/Pallet_03_B_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Pallet_Set_01/Pallet_Plank_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Pallet_Set_01/Pallet_Plank_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Pallet_Set_01/Pallet_Plank_03_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Pallet_Set_01/Pallet_Plank_04_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Stack_Beam_Set_01/Stack_Beam_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Stack_Beam_Set_01/Stack_Beam_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Stack_Beam_Set_01/Stack_Beam_03_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Stack_Metal_Pipe_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Stack_Wood_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/Stack_Wood_02_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/TrafficBarrier_01_Prefab.prefab is skipped as no actual change.
+----- Asset named Assets/Prototype/Prefabs/Props/TrafficBarrier_02_Prefab.prefab is skipped as no actual change.
 
-*** 7a6beb40223ca674fb2ed63580812681 replaces 87ff4ad080b32fb459cc3558e856d706 at path assets/materials/hero props/cargoship_01/cargoship_bottom_blend_01_mat.mat 
-*** 9a588aed1773e7f49b3b82455b72741b replaces a0da90312adb9ed4caec7accedf7b3cd at path assets/materials/hero props/cargoship_01/cargoship_top_blend_01_mat.mat 
-Refresh: trashing asset 87ff4ad080b32fb459cc3558e856d706
-Refresh: trashing asset a0da90312adb9ed4caec7accedf7b3cd
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.6 MB.
-System memory in use after: 53.2 MB.
+Unloading 1898 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.3 MB.
+System memory in use after: 92.6 MB.
 
 Unloading 568 unused Assets to reduce memory usage. Loaded Objects now: 2129.
-Total: 21.649100 ms (FindLiveObjects: 0.298600 ms CreateObjectMapping: 0.075400 ms MarkObjects: 1.834200 ms  DeleteObjects: 19.440500 ms)
+Total: 21.158400 ms (FindLiveObjects: 0.328100 ms CreateObjectMapping: 0.074500 ms MarkObjects: 1.767000 ms  DeleteObjects: 18.988500 ms)
 
 Updating Assets/Scripts/editor/ASBuildScript.cs - GUID: c78e2fec8bba9a04db72ef88002b5a02...
 ----- Compute hash for Assets/Scripts/editor/ASBuildScript.cs.
- done. [Time: 175.422900 ms] 
+ done. [Time: 191.911000 ms] 
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 Reloading assemblies after script compilation.
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering platform support modules:
-Registered platform support modules in: 0.0377589s.
+Registered platform support modules in: 0.0368278s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 6.54 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.288 seconds
-Platform modules already initialized, skipping
-Script Compilation Pipeline Post Process Assets time: 1.953966s
-Assembly Updater Post Process Assets time: 0.000667s
-Updating Assets/Materials/Hero Props/CargoShip_01/CargoShip_Bottom_Blend_01_Mat.mat - GUID: 7a6beb40223ca674fb2ed63580812681...
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
- done. [Time: 2872.690500 ms] 
-Script Compilation Pipeline Post Process Assets time: 0.000499s
-Assembly Updater Post Process Assets time: 0.000040s
-Unloading 187 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 415.4 MB.
-System memory in use after: 415.4 MB.
-
-Unloading 148 unused Assets to reduce memory usage. Loaded Objects now: 2408.
-Total: 2.927700 ms (FindLiveObjects: 0.285900 ms CreateObjectMapping: 0.060800 ms MarkObjects: 2.479700 ms  DeleteObjects: 0.100800 ms)
-
-Updating Assets/Materials/Hero Props/CargoShip_01/CargoShip_Top_Blend_01_Mat.mat - GUID: 9a588aed1773e7f49b3b82455b72741b...
- done. [Time: 653.065800 ms] 
-Script Compilation Pipeline Post Process Assets time: 0.000021s
-Assembly Updater Post Process Assets time: 0.000155s
-Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 411.3 MB.
-System memory in use after: 411.4 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 2409.
-Total: 3.469700 ms (FindLiveObjects: 0.306800 ms CreateObjectMapping: 0.114900 ms MarkObjects: 2.984200 ms  DeleteObjects: 0.063200 ms)
-
-Refreshing native plugins compatible for Editor in 12.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.82 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
-Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.273 seconds
+Platform modules already initialized, skipping
+Script Compilation Pipeline Post Process Assets time: 1.917442s
+Assembly Updater Post Process Assets time: 0.000662s
+Script Compilation Pipeline Post Process Assets time: 0.000365s
+Assembly Updater Post Process Assets time: 0.000058s
+Unloading 154 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.4 MB.
+System memory in use after: 63.5 MB.
 
-Refresh Completed time: 6.177590s
-	Asset Scan time: 0.036189s
-	Asset Hashing: 0.051023s [23.0 KB, 0.440682 mb/s]
-	Asset Import (Scripting) time: 0.251086s (count: 29)
-	Post Processs Assets (Scripting) time: 1.965863s
+Unloading 117 unused Assets to reduce memory usage. Loaded Objects now: 2209.
+Total: 2.179800 ms (FindLiveObjects: 0.268300 ms CreateObjectMapping: 0.053500 ms MarkObjects: 1.834800 ms  DeleteObjects: 0.022500 ms)
+
+Refreshing native plugins compatible for Editor in 11.99 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+
+Refresh Completed time: 2.724398s
+	Asset Scan time: 0.037982s
+	Asset Hashing: 0.161248s [45.2 MB, 280.496674 mb/s]
+	Asset Import (Scripting) time: 0.321374s (count: 29)
+	Post Processs Assets (Scripting) time: 1.931241s
 	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
-	Asset Import (Non Scripting) time: 3.561448s (count: 4)
-	Post Process Assets (Non Scripting) time: 0.019142s
-	Dependent Assets to Import Queue time: 0.006055s
+	Asset Import (Non Scripting) time: 0.043840s (count: 2)
+	Post Process Assets (Non Scripting) time: 0.002124s
+	Dependent Assets to Import Queue time: 0.005893s
 
-Warming cache for 4397 main assets: 0.013699 seconds elapsed
+Warming cache for 4397 main assets: 0.014091 seconds elapsed
 Initializing Unity extensions:
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
@@ -296,26 +618,24 @@ Initializing Unity extensions:
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
 Unloading 108 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.3 MB.
-System memory in use after: 121.4 MB.
+System memory in use before: 61.7 MB.
+System memory in use after: 61.8 MB.
 
-Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2274.
-Total: 2.598400 ms (FindLiveObjects: 0.248900 ms CreateObjectMapping: 0.048700 ms MarkObjects: 2.283000 ms  DeleteObjects: 0.017400 ms)
+Unloading 81 unused Assets to reduce memory usage. Loaded Objects now: 2221.
+Total: 2.403900 ms (FindLiveObjects: 0.288100 ms CreateObjectMapping: 0.038500 ms MarkObjects: 2.029600 ms  DeleteObjects: 0.047300 ms)
 
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
-Script Compilation Pipeline Post Process Assets time: 0.000033s
-Assembly Updater Post Process Assets time: 0.000083s
-Updating ProjectSettings/QualitySettings.asset - GUID: 00000000000000009000000000000000...
- done. [Time: 5.321500 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000013s
+Assembly Updater Post Process Assets time: 0.000030s
 Updating ProjectSettings/UnityConnectSettings.asset - GUID: 0000000000000000a100000000000000...
- done. [Time: 5.344900 ms] 
-Script Compilation Pipeline Post Process Assets time: 0.000020s
-Assembly Updater Post Process Assets time: 0.000113s
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
+ done. [Time: 53.463900 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000012s
+Assembly Updater Post Process Assets time: 0.000038s
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
 BuildPlayer: start building target 19
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
@@ -329,22 +649,22 @@ BuildPlayer: start building target 19
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
 Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 15 milliseconds
+Pass: 0 took 17 milliseconds
 Pass: 1 took 2 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
-Symbols will be read from Temp\Unity.ProBuilder.Poly2Tri.pdb
-Script Module: Unity.ProBuilder.Poly2Tri.dll
-Pass: 0 took 0 milliseconds
-Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
 Script Module: Unity.Postprocessing.Runtime.dll
 Pass: 0 took 15 milliseconds
 Pass: 1 took 1 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
+Symbols will be read from Temp\Unity.ProBuilder.Poly2Tri.pdb
+Script Module: Unity.ProBuilder.Poly2Tri.dll
+Pass: 0 took 0 milliseconds
+Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
 Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
 Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 27 milliseconds
+Pass: 0 took 22 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll
 Symbols will be read from Temp\Unity.ProBuilder.KdTree.pdb
@@ -371,25 +691,25 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbols will be read from Temp\Unity.TextMeshPro.pdb
 Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 36 milliseconds
-Pass: 1 took 10 milliseconds
+Pass: 0 took 41 milliseconds
+Pass: 1 took 5 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.dll
 Symbols will be read from Temp\Unity.ProBuilder.pdb
 Script Module: Unity.ProBuilder.dll
-Pass: 0 took 14 milliseconds
+Pass: 0 took 18 milliseconds
 Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
 Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
-Pass: 0 took 48 milliseconds
+Pass: 0 took 49 milliseconds
 Pass: 1 took 5 milliseconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
 
 -----Compiler Commandline Arguments:
 Filename: C:\UnityEditor\2018.4.0f1\Editor\Data\Tools\Roslyn\csc.exe
-Arguments: /noconfig  /shared @Temp/UnityTempFile-2ad918a83fde6ca47ac0e494bb4aef2a
+Arguments: /noconfig  /shared @Temp/UnityTempFile-217eea47d9eb0c6419d5c96450bb51d7
 index: 20
-Responsefile: Temp/UnityTempFile-2ad918a83fde6ca47ac0e494bb4aef2a Contents: 
+Responsefile: Temp/UnityTempFile-217eea47d9eb0c6419d5c96450bb51d7 Contents: 
 /target:library
 /nowarn:0169
 /out:Temp/Assembly-CSharp.dll
@@ -693,28 +1013,28 @@ Assets\TutorialInfo\Scripts\Readme.cs
 Microsoft (R) Visual C# Compiler version 2.9.1.65535 (9d34608e)
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Assets\Scripts\ReplaceSelectedWindow.cs(7,38): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
-Assets\Scripts\ReplacematerialWindow.cs(6,38): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\ColliderAddWindow.cs(12,34): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\ReplacematerialWindow.cs(6,38): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\ReplaceSelectedWindow.cs(7,38): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\SelectLightmapStatic.cs(7,37): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
-Assets\Scripts\OutlinerToolsWindow.cs(9,36): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\gridSelectedWindow.cs(8,35): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\OutlinerToolsWindow.cs(9,36): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\PrefabCreator.cs(8,7): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\PrefabCreator.cs(8,7): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\ColliderAddWindow.cs(119,44): error CS0246: The type or namespace name 'StaticEditorFlags' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\ReplaceSelectedWindow.cs(19,6): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\ReplaceSelectedWindow.cs(19,6): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\ReplacematerialWindow.cs(20,3): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\ReplacematerialWindow.cs(20,3): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\ColliderAddWindow.cs(26,3): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\ColliderAddWindow.cs(26,3): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\OutlinerToolsWindow.cs(8,2): error CS0246: The type or namespace name 'InitializeOnLoadAttribute' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\OutlinerToolsWindow.cs(8,2): error CS0246: The type or namespace name 'InitializeOnLoad' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\SelectLightmapStatic.cs(8,6): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\SelectLightmapStatic.cs(8,6): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
-Assets\Scripts\ReplaceSelectedWindow.cs(19,6): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
-Assets\Scripts\ReplaceSelectedWindow.cs(19,6): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
-Assets\Scripts\OutlinerToolsWindow.cs(149,40): error CS0246: The type or namespace name 'SceneView' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\gridSelectedWindow.cs(22,3): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\gridSelectedWindow.cs(22,3): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
-Assets\Scripts\ColliderAddWindow.cs(26,3): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
-Assets\Scripts\ColliderAddWindow.cs(26,3): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
-Assets\Scripts\ReplacematerialWindow.cs(20,3): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
-Assets\Scripts\ReplacematerialWindow.cs(20,3): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\OutlinerToolsWindow.cs(149,40): error CS0246: The type or namespace name 'SceneView' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\OutlinerToolsWindow.cs(25,3): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\OutlinerToolsWindow.cs(25,3): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\OutlinerToolsWindow.cs(31,3): error CS0246: The type or namespace name 'InitializeOnLoadMethodAttribute' could not be found (are you missing a using directive or an assembly reference?)
@@ -722,29 +1042,29 @@ Assets\Scripts\OutlinerToolsWindow.cs(31,3): error CS0246: The type or namespace
 -----CompilerOutput:-stderr----------
 -----EndCompilerOutput---------------
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
-Assets\Scripts\ReplaceSelectedWindow.cs(7,38): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\ColliderAddWindow.cs(12,34): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
  
-(Filename: Assets\Scripts\ReplaceSelectedWindow.cs Line: 7)
+(Filename: Assets\Scripts\ColliderAddWindow.cs Line: 12)
 
 Assets\Scripts\ReplacematerialWindow.cs(6,38): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
  
 (Filename: Assets\Scripts\ReplacematerialWindow.cs Line: 6)
 
-Assets\Scripts\ColliderAddWindow.cs(12,34): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\ReplaceSelectedWindow.cs(7,38): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
  
-(Filename: Assets\Scripts\ColliderAddWindow.cs Line: 12)
+(Filename: Assets\Scripts\ReplaceSelectedWindow.cs Line: 7)
 
 Assets\Scripts\SelectLightmapStatic.cs(7,37): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
  
 (Filename: Assets\Scripts\SelectLightmapStatic.cs Line: 7)
 
-Assets\Scripts\OutlinerToolsWindow.cs(9,36): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
- 
-(Filename: Assets\Scripts\OutlinerToolsWindow.cs Line: 9)
-
 Assets\Scripts\gridSelectedWindow.cs(8,35): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
  
 (Filename: Assets\Scripts\gridSelectedWindow.cs Line: 8)
+
+Assets\Scripts\OutlinerToolsWindow.cs(9,36): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
+ 
+(Filename: Assets\Scripts\OutlinerToolsWindow.cs Line: 9)
 
 Assets\Scripts\PrefabCreator.cs(8,7): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
  
@@ -758,6 +1078,30 @@ Assets\Scripts\ColliderAddWindow.cs(119,44): error CS0246: The type or namespace
  
 (Filename: Assets\Scripts\ColliderAddWindow.cs Line: 119)
 
+Assets\Scripts\ReplaceSelectedWindow.cs(19,6): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
+ 
+(Filename: Assets\Scripts\ReplaceSelectedWindow.cs Line: 19)
+
+Assets\Scripts\ReplaceSelectedWindow.cs(19,6): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
+ 
+(Filename: Assets\Scripts\ReplaceSelectedWindow.cs Line: 19)
+
+Assets\Scripts\ReplacematerialWindow.cs(20,3): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
+ 
+(Filename: Assets\Scripts\ReplacematerialWindow.cs Line: 20)
+
+Assets\Scripts\ReplacematerialWindow.cs(20,3): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
+ 
+(Filename: Assets\Scripts\ReplacematerialWindow.cs Line: 20)
+
+Assets\Scripts\ColliderAddWindow.cs(26,3): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
+ 
+(Filename: Assets\Scripts\ColliderAddWindow.cs Line: 26)
+
+Assets\Scripts\ColliderAddWindow.cs(26,3): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
+ 
+(Filename: Assets\Scripts\ColliderAddWindow.cs Line: 26)
+
 Assets\Scripts\OutlinerToolsWindow.cs(8,2): error CS0246: The type or namespace name 'InitializeOnLoadAttribute' could not be found (are you missing a using directive or an assembly reference?)
  
 (Filename: Assets\Scripts\OutlinerToolsWindow.cs Line: 8)
@@ -774,18 +1118,6 @@ Assets\Scripts\SelectLightmapStatic.cs(8,6): error CS0246: The type or namespace
  
 (Filename: Assets\Scripts\SelectLightmapStatic.cs Line: 8)
 
-Assets\Scripts\ReplaceSelectedWindow.cs(19,6): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
- 
-(Filename: Assets\Scripts\ReplaceSelectedWindow.cs Line: 19)
-
-Assets\Scripts\ReplaceSelectedWindow.cs(19,6): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
- 
-(Filename: Assets\Scripts\ReplaceSelectedWindow.cs Line: 19)
-
-Assets\Scripts\OutlinerToolsWindow.cs(149,40): error CS0246: The type or namespace name 'SceneView' could not be found (are you missing a using directive or an assembly reference?)
- 
-(Filename: Assets\Scripts\OutlinerToolsWindow.cs Line: 149)
-
 Assets\Scripts\gridSelectedWindow.cs(22,3): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
  
 (Filename: Assets\Scripts\gridSelectedWindow.cs Line: 22)
@@ -794,21 +1126,9 @@ Assets\Scripts\gridSelectedWindow.cs(22,3): error CS0246: The type or namespace 
  
 (Filename: Assets\Scripts\gridSelectedWindow.cs Line: 22)
 
-Assets\Scripts\ColliderAddWindow.cs(26,3): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\OutlinerToolsWindow.cs(149,40): error CS0246: The type or namespace name 'SceneView' could not be found (are you missing a using directive or an assembly reference?)
  
-(Filename: Assets\Scripts\ColliderAddWindow.cs Line: 26)
-
-Assets\Scripts\ColliderAddWindow.cs(26,3): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
- 
-(Filename: Assets\Scripts\ColliderAddWindow.cs Line: 26)
-
-Assets\Scripts\ReplacematerialWindow.cs(20,3): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
- 
-(Filename: Assets\Scripts\ReplacematerialWindow.cs Line: 20)
-
-Assets\Scripts\ReplacematerialWindow.cs(20,3): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
- 
-(Filename: Assets\Scripts\ReplacematerialWindow.cs Line: 20)
+(Filename: Assets\Scripts\OutlinerToolsWindow.cs Line: 149)
 
 Assets\Scripts\OutlinerToolsWindow.cs(25,3): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
  
@@ -831,20 +1151,20 @@ Error building Player because scripts had compiler errors
  
 (Filename:  Line: -1)
 
-Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.0 MB.
-System memory in use after: 64.1 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2293.
-Total: 11.420100 ms (FindLiveObjects: 0.300700 ms CreateObjectMapping: 0.058200 ms MarkObjects: 11.033800 ms  DeleteObjects: 0.026500 ms)
-
-Load scene 'Temp/__Backupscenes/0.backup' time: 0.031200 ms 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 63.4 MB.
-System memory in use after: 63.5 MB.
+System memory in use after: 63.4 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2291.
-Total: 9.871000 ms (FindLiveObjects: 0.294900 ms CreateObjectMapping: 0.055500 ms MarkObjects: 9.505500 ms  DeleteObjects: 0.014400 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2241.
+Total: 9.486100 ms (FindLiveObjects: 0.274200 ms CreateObjectMapping: 0.050000 ms MarkObjects: 9.145500 ms  DeleteObjects: 0.015800 ms)
+
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.028000 ms 
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.7 MB.
+System memory in use after: 62.9 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2241.
+Total: 9.461000 ms (FindLiveObjects: 0.257800 ms CreateObjectMapping: 0.034700 ms MarkObjects: 9.162000 ms  DeleteObjects: 0.005700 ms)
 
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
@@ -863,7 +1183,7 @@ Total: 9.871000 ms (FindLiveObjects: 0.294900 ms CreateObjectMapping: 0.055500 m
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
 Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 21 milliseconds
+Pass: 0 took 28 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
 Symbols will be read from Temp\Unity.ProBuilder.Poly2Tri.pdb
@@ -873,19 +1193,19 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
 Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
 Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 35 milliseconds
+Pass: 0 took 90 milliseconds
 Pass: 1 took 0 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
 Script Module: Unity.Postprocessing.Runtime.dll
-Pass: 0 took 20 milliseconds
+Pass: 0 took 15 milliseconds
 Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbols will be read from Temp\Unity.TextMeshPro.pdb
 Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 79 milliseconds
-Pass: 1 took 5 milliseconds
+Pass: 0 took 62 milliseconds
+Pass: 1 took 6 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll
 Symbols will be read from Temp\Unity.ProBuilder.KdTree.pdb
 Script Module: Unity.ProBuilder.KdTree.dll
@@ -899,7 +1219,7 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProGrids.dll
 Symbols will be read from Temp\Unity.ProGrids.pdb
 Script Module: Unity.ProGrids.dll
-Pass: 0 took 15 milliseconds
+Pass: 0 took 14 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
@@ -908,8 +1228,6 @@ Pass: 0 took 0 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Settings.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
@@ -917,20 +1235,22 @@ Pass: 1 took 0 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.dll
 Symbols will be read from Temp\Unity.ProBuilder.pdb
 Script Module: Unity.ProBuilder.dll
-Pass: 0 took 15 milliseconds
-Pass: 1 took 1 milliseconds
+Pass: 0 took 27 milliseconds
+Pass: 1 took 2 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
 Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
 Pass: 0 took 70 milliseconds
-Pass: 1 took 6 milliseconds
+Pass: 1 took 5 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll
@@ -940,7 +1260,7 @@ Pass: 1 took 6 milliseconds
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
 Symbols will be read from Temp\Assembly-CSharp.pdb
 Script Module: Assembly-CSharp.dll
-Pass: 0 took 35 milliseconds
+Pass: 0 took 45 milliseconds
 Pass: 1 took 0 milliseconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
@@ -1000,24 +1320,24 @@ Reloading assemblies after script compilation.
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering platform support modules:
-Registered platform support modules in: 0.0341912s.
+Registered platform support modules in: 0.0460681s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Mono: successfully reloaded assembly
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.10 ms.
-- Completed reload, in  1.398 seconds
+- Completed reload, in  1.469 seconds
 Platform modules already initialized, skipping
 Batchmode quit successfully invoked - shutting down!
-[Performance] CurlRequestCheck                        :       14 samples, Peak.  32.2 us (3.1x), Avg.  10.3 us, Total. 144.8 us (0.0%)
-[Performance] PackageManager::RunRequestSynchronously :        4 samples, Peak.  29.9 us (2.7x), Avg.  10.9 us, Total. 43.80 us (0.0%)
+[Performance] CurlRequestCheck                        :       14 samples, Peak.  23.2 us (2.6x), Avg.  8.86 us, Total. 124.0 us (0.0%)
+[Performance] PackageManager::RunRequestSynchronously :        4 samples, Peak.  25.4 us (2.4x), Avg.  10.7 us, Total. 42.70 us (0.0%)
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.039036s
-	Asset Scan time: 0.037706s
+Refresh Completed time: 0.038090s
+	Asset Scan time: 0.036762s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -1028,8 +1348,8 @@ Refresh Completed time: 0.039036s
 
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.037126s
-	Asset Scan time: 0.036004s
+Refresh Completed time: 0.038046s
+	Asset Scan time: 0.036696s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -1039,14 +1359,14 @@ Refresh Completed time: 0.037126s
 	Dependent Assets to Import Queue time: 0.000000s
 
 Setting up 8 worker threads for Enlighten.
-  Thread -> id: bf48 -> priority: 1 
-  Thread -> id: 6114 -> priority: 1 
-  Thread -> id: d26c -> priority: 1 
-  Thread -> id: 8180 -> priority: 1 
-  Thread -> id: b7c8 -> priority: 1 
-  Thread -> id: 2ed0 -> priority: 1 
-  Thread -> id: f84 -> priority: 1 
-  Thread -> id: eaac -> priority: 1 
+  Thread -> id: a778 -> priority: 1 
+  Thread -> id: ca30 -> priority: 1 
+  Thread -> id: 5650 -> priority: 1 
+  Thread -> id: e4c4 -> priority: 1 
+  Thread -> id: 7728 -> priority: 1 
+  Thread -> id: b59c -> priority: 1 
+  Thread -> id: 9618 -> priority: 1 
+  Thread -> id: 7250 -> priority: 1 
 [Package Manager] Server::Kill -- Server was shutdown
 Cleanup mono
 Exiting batchmode successfully now!
