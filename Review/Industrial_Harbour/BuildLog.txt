@@ -1,10 +1,10 @@
 Initiating legacy licensing module
-LICENSE SYSTEM [20191127 9:14:49] Next license update check is after 2019-11-27T00:57:54
+LICENSE SYSTEM [20191127 9:18:54] Next license update check is after 2019-11-27T00:57:54
 
 Built from '2018.4/staging' branch; Version is '2018.4.0f1 (b6ffa8986c8d) revision 11993000'; Using compiler version '191326128'
 OS: 'Windows 10  (10.0.0) 64bit' Language: 'ko' Physical Memory: 32586 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-[Package Manager] Server::Start -- Port 49764 was selected
+[Package Manager] Server::Start -- Port 54554 was selected
 
  COMMAND LINE ARGUMENTS:
 C:/UnityEditor/2018.4.0f1/Editor/Unity.exe
@@ -19,8 +19,8 @@ e:/build/Elite3D/Industrial_Harbour/2950/BuildLog.txt
 Successfully changed project path to: E:/p4/WorldUrbanBiomes/Industrial_Harbour/
 E:/p4/WorldUrbanBiomes/Industrial_Harbour
 Using Asset Import Pipeline V1.
-Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000065 seconds
-Loading Asset Database...0.021127 seconds
+Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000063 seconds
+Loading Asset Database...0.020079 seconds
 Build target: OSXUniversal found and added!
 Build target: WindowsStoreApps found and added!
 Build target: Win64 found and added!
@@ -49,11 +49,11 @@ Build target: N3DS found and added!
 Build target: WP8 found and added!
 Build target: SamsungTV found and added!
 Build target: Tizen found and added!
-AssetDatabase consistency checks...0.020614 seconds
-Refreshing native plugins compatible for Editor in 10.06 ms, found 2 plugins.
+AssetDatabase consistency checks...0.018784 seconds
+Refreshing native plugins compatible for Editor in 8.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Unity Package Manager
-[Package Manager] Done resolving packages in 0.13s seconds
+[Package Manager] Done resolving packages in 0.19s seconds
 [Package Manager] Registering 43 packages:
 [Package Manager]  * Package :  com.unity.ads@2.3.1
     (location: E:\p4\WorldUrbanBiomes\Industrial_Harbour\Library\PackageCache\com.unity.ads@2.3.1)
@@ -161,7 +161,7 @@ Initialize mono
 Mono path[0] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
 Begin MonoManager ReloadAssembly
 Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
@@ -169,43 +169,43 @@ Registering precompiled unity dll's ...
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001913 seconds.
+Registered in 0.001823 seconds.
 Registering platform support modules:
-Registered platform support modules in: 0.0579812s.
+Registered platform support modules in: 0.0649415s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.87 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.563 seconds
+- Completed reload, in  1.577 seconds
 Registering precompiled user dll's ...
-Registered in 0.065022 seconds.
+Registered in 0.066539 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering platform support modules:
-Registered platform support modules in: 0.0351441s.
+Registered platform support modules in: 0.03425s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.12 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.013 seconds
+- Completed reload, in  1.046 seconds
 Platform modules already initialized, skipping
-Validating Project structure ... 0.012186 seconds.
+Validating Project structure ... 0.012238 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
 Unloading 1898 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 185.3 MB.
 System memory in use after: 92.6 MB.
 
 Unloading 568 unused Assets to reduce memory usage. Loaded Objects now: 2129.
-Total: 20.445400 ms (FindLiveObjects: 0.329900 ms CreateObjectMapping: 0.075700 ms MarkObjects: 1.818100 ms  DeleteObjects: 18.221300 ms)
+Total: 22.376200 ms (FindLiveObjects: 0.323900 ms CreateObjectMapping: 0.083800 ms MarkObjects: 1.742800 ms  DeleteObjects: 20.225400 ms)
 
 Updating Assets/Scripts/editor/ASBuildScript.cs - GUID: c78e2fec8bba9a04db72ef88002b5a02...
 ----- Compute hash for Assets/Scripts/editor/ASBuildScript.cs.
- done. [Time: 199.203500 ms] 
+ done. [Time: 195.811200 ms] 
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 Reloading assemblies after script compilation.
@@ -229,42 +229,42 @@ UnauthorizedAccessException: Access to the path "E:\p4\WorldUrbanBiomes\Industri
 
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering platform support modules:
-Registered platform support modules in: 0.0351486s.
+Registered platform support modules in: 0.0351314s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 5.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.57 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.228 seconds
+- Completed reload, in  1.257 seconds
 Platform modules already initialized, skipping
-Script Compilation Pipeline Post Process Assets time: 1.943374s
-Assembly Updater Post Process Assets time: 0.000655s
-Script Compilation Pipeline Post Process Assets time: 0.000398s
-Assembly Updater Post Process Assets time: 0.000057s
+Script Compilation Pipeline Post Process Assets time: 2.027682s
+Assembly Updater Post Process Assets time: 0.000682s
+Script Compilation Pipeline Post Process Assets time: 0.000357s
+Assembly Updater Post Process Assets time: 0.000058s
 Unloading 154 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 63.5 MB.
 System memory in use after: 63.6 MB.
 
-Unloading 117 unused Assets to reduce memory usage. Loaded Objects now: 2209.
-Total: 2.285900 ms (FindLiveObjects: 0.277200 ms CreateObjectMapping: 0.053900 ms MarkObjects: 1.932000 ms  DeleteObjects: 0.022400 ms)
+Unloading 117 unused Assets to reduce memory usage. Loaded Objects now: 2210.
+Total: 2.207500 ms (FindLiveObjects: 0.272900 ms CreateObjectMapping: 0.052500 ms MarkObjects: 1.859000 ms  DeleteObjects: 0.022500 ms)
 
-Refreshing native plugins compatible for Editor in 12.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 14.41 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
-Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 
-Refresh Completed time: 2.513404s
-	Asset Scan time: 0.038114s
+Refresh Completed time: 2.587387s
+	Asset Scan time: 0.036249s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
-	Asset Import (Scripting) time: 0.279021s (count: 29)
-	Post Processs Assets (Scripting) time: 1.955750s
+	Asset Import (Scripting) time: 0.276226s (count: 29)
+	Post Processs Assets (Scripting) time: 2.040131s
 	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
-	Asset Import (Non Scripting) time: 0.033584s (count: 2)
-	Post Process Assets (Non Scripting) time: 0.002129s
-	Dependent Assets to Import Queue time: 0.005340s
+	Asset Import (Non Scripting) time: 0.034101s (count: 2)
+	Post Process Assets (Non Scripting) time: 0.002106s
+	Dependent Assets to Import Queue time: 0.005529s
 
-Warming cache for 4397 main assets: 0.013091 seconds elapsed
+Warming cache for 4397 main assets: 0.013205 seconds elapsed
 Initializing Unity extensions:
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
@@ -290,21 +290,21 @@ Unloading 108 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 61.8 MB.
 System memory in use after: 61.9 MB.
 
-Unloading 81 unused Assets to reduce memory usage. Loaded Objects now: 2221.
-Total: 2.069000 ms (FindLiveObjects: 0.203700 ms CreateObjectMapping: 0.037300 ms MarkObjects: 1.786800 ms  DeleteObjects: 0.040800 ms)
+Unloading 81 unused Assets to reduce memory usage. Loaded Objects now: 2222.
+Total: 2.067100 ms (FindLiveObjects: 0.212800 ms CreateObjectMapping: 0.037200 ms MarkObjects: 1.776500 ms  DeleteObjects: 0.040200 ms)
 
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
-Script Compilation Pipeline Post Process Assets time: 0.000017s
+Script Compilation Pipeline Post Process Assets time: 0.000016s
 Assembly Updater Post Process Assets time: 0.000030s
 Updating ProjectSettings/UnityConnectSettings.asset - GUID: 0000000000000000a100000000000000...
- done. [Time: 48.598000 ms] 
+ done. [Time: 57.148300 ms] 
 Script Compilation Pipeline Post Process Assets time: 0.000009s
-Assembly Updater Post Process Assets time: 0.000041s
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Assembly Updater Post Process Assets time: 0.000038s
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 BuildPlayer: start building target 19
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
@@ -318,22 +318,22 @@ BuildPlayer: start building target 19
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
 Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 15 milliseconds
+Pass: 0 took 17 milliseconds
 Pass: 1 took 2 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 21 milliseconds
+Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
 Script Module: Unity.Postprocessing.Runtime.dll
-Pass: 0 took 15 milliseconds
+Pass: 0 took 14 milliseconds
 Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
 Symbols will be read from Temp\Unity.ProBuilder.Poly2Tri.pdb
 Script Module: Unity.ProBuilder.Poly2Tri.dll
 Pass: 0 took 0 milliseconds
-Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
-Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
-Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 20 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll
 Symbols will be read from Temp\Unity.ProBuilder.KdTree.pdb
@@ -348,7 +348,7 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProGrids.dll
 Symbols will be read from Temp\Unity.ProGrids.pdb
 Script Module: Unity.ProGrids.dll
-Pass: 0 took 17 milliseconds
+Pass: 0 took 16 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
@@ -360,25 +360,25 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbols will be read from Temp\Unity.TextMeshPro.pdb
 Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 36 milliseconds
-Pass: 1 took 8 milliseconds
+Pass: 0 took 46 milliseconds
+Pass: 1 took 5 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.dll
 Symbols will be read from Temp\Unity.ProBuilder.pdb
 Script Module: Unity.ProBuilder.dll
-Pass: 0 took 17 milliseconds
-Pass: 1 took 1 milliseconds
+Pass: 0 took 19 milliseconds
+Pass: 1 took 3 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
 Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
-Pass: 0 took 45 milliseconds
+Pass: 0 took 42 milliseconds
 Pass: 1 took 5 milliseconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
 
 -----Compiler Commandline Arguments:
 Filename: C:\UnityEditor\2018.4.0f1\Editor\Data\Tools\Roslyn\csc.exe
-Arguments: /noconfig  /shared @Temp/UnityTempFile-ff7c482846860f54985a5a3a669dc137
+Arguments: /noconfig  /shared @Temp/UnityTempFile-e60566934062f8140ad73e56f7817545
 index: 20
-Responsefile: Temp/UnityTempFile-ff7c482846860f54985a5a3a669dc137 Contents: 
+Responsefile: Temp/UnityTempFile-e60566934062f8140ad73e56f7817545 Contents: 
 /target:library
 /nowarn:0169
 /out:Temp/Assembly-CSharp.dll
@@ -682,27 +682,27 @@ Assets\TutorialInfo\Scripts\Readme.cs
 Microsoft (R) Visual C# Compiler version 2.9.1.65535 (9d34608e)
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Assets\Scripts\ReplaceSelectedWindow.cs(7,38): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
-Assets\Scripts\ReplacematerialWindow.cs(6,38): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\ColliderAddWindow.cs(12,34): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\ReplaceSelectedWindow.cs(7,38): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\SelectLightmapStatic.cs(7,37): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
-Assets\Scripts\OutlinerToolsWindow.cs(9,36): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\ReplacematerialWindow.cs(6,38): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\gridSelectedWindow.cs(8,35): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\ColliderAddWindow.cs(119,44): error CS0246: The type or namespace name 'StaticEditorFlags' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\PrefabCreator.cs(8,7): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\PrefabCreator.cs(8,7): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
-Assets\Scripts\ColliderAddWindow.cs(119,44): error CS0246: The type or namespace name 'StaticEditorFlags' could not be found (are you missing a using directive or an assembly reference?)
-Assets\Scripts\ReplaceSelectedWindow.cs(19,6): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
-Assets\Scripts\ReplaceSelectedWindow.cs(19,6): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\SelectLightmapStatic.cs(8,6): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\SelectLightmapStatic.cs(8,6): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
-Assets\Scripts\ReplacematerialWindow.cs(20,3): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
-Assets\Scripts\ReplacematerialWindow.cs(20,3): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
-Assets\Scripts\OutlinerToolsWindow.cs(8,2): error CS0246: The type or namespace name 'InitializeOnLoadAttribute' could not be found (are you missing a using directive or an assembly reference?)
-Assets\Scripts\OutlinerToolsWindow.cs(8,2): error CS0246: The type or namespace name 'InitializeOnLoad' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\ReplaceSelectedWindow.cs(19,6): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\ReplaceSelectedWindow.cs(19,6): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\OutlinerToolsWindow.cs(9,36): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\ColliderAddWindow.cs(26,3): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\ColliderAddWindow.cs(26,3): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\ReplacematerialWindow.cs(20,3): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\ReplacematerialWindow.cs(20,3): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\gridSelectedWindow.cs(22,3): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\gridSelectedWindow.cs(22,3): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\OutlinerToolsWindow.cs(8,2): error CS0246: The type or namespace name 'InitializeOnLoadAttribute' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\OutlinerToolsWindow.cs(8,2): error CS0246: The type or namespace name 'InitializeOnLoad' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\OutlinerToolsWindow.cs(149,40): error CS0246: The type or namespace name 'SceneView' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\OutlinerToolsWindow.cs(25,3): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\OutlinerToolsWindow.cs(25,3): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
@@ -711,29 +711,29 @@ Assets\Scripts\OutlinerToolsWindow.cs(31,3): error CS0246: The type or namespace
 -----CompilerOutput:-stderr----------
 -----EndCompilerOutput---------------
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
-Assets\Scripts\ReplaceSelectedWindow.cs(7,38): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
- 
-(Filename: Assets\Scripts\ReplaceSelectedWindow.cs Line: 7)
-
-Assets\Scripts\ReplacematerialWindow.cs(6,38): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
- 
-(Filename: Assets\Scripts\ReplacematerialWindow.cs Line: 6)
-
 Assets\Scripts\ColliderAddWindow.cs(12,34): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
  
 (Filename: Assets\Scripts\ColliderAddWindow.cs Line: 12)
+
+Assets\Scripts\ReplaceSelectedWindow.cs(7,38): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
+ 
+(Filename: Assets\Scripts\ReplaceSelectedWindow.cs Line: 7)
 
 Assets\Scripts\SelectLightmapStatic.cs(7,37): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
  
 (Filename: Assets\Scripts\SelectLightmapStatic.cs Line: 7)
 
-Assets\Scripts\OutlinerToolsWindow.cs(9,36): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\ReplacematerialWindow.cs(6,38): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
  
-(Filename: Assets\Scripts\OutlinerToolsWindow.cs Line: 9)
+(Filename: Assets\Scripts\ReplacematerialWindow.cs Line: 6)
 
 Assets\Scripts\gridSelectedWindow.cs(8,35): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
  
 (Filename: Assets\Scripts\gridSelectedWindow.cs Line: 8)
+
+Assets\Scripts\ColliderAddWindow.cs(119,44): error CS0246: The type or namespace name 'StaticEditorFlags' could not be found (are you missing a using directive or an assembly reference?)
+ 
+(Filename: Assets\Scripts\ColliderAddWindow.cs Line: 119)
 
 Assets\Scripts\PrefabCreator.cs(8,7): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
  
@@ -743,9 +743,13 @@ Assets\Scripts\PrefabCreator.cs(8,7): error CS0246: The type or namespace name '
  
 (Filename: Assets\Scripts\PrefabCreator.cs Line: 8)
 
-Assets\Scripts\ColliderAddWindow.cs(119,44): error CS0246: The type or namespace name 'StaticEditorFlags' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\SelectLightmapStatic.cs(8,6): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
  
-(Filename: Assets\Scripts\ColliderAddWindow.cs Line: 119)
+(Filename: Assets\Scripts\SelectLightmapStatic.cs Line: 8)
+
+Assets\Scripts\SelectLightmapStatic.cs(8,6): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
+ 
+(Filename: Assets\Scripts\SelectLightmapStatic.cs Line: 8)
 
 Assets\Scripts\ReplaceSelectedWindow.cs(19,6): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
  
@@ -755,29 +759,9 @@ Assets\Scripts\ReplaceSelectedWindow.cs(19,6): error CS0246: The type or namespa
  
 (Filename: Assets\Scripts\ReplaceSelectedWindow.cs Line: 19)
 
-Assets\Scripts\SelectLightmapStatic.cs(8,6): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Scripts\OutlinerToolsWindow.cs(9,36): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
  
-(Filename: Assets\Scripts\SelectLightmapStatic.cs Line: 8)
-
-Assets\Scripts\SelectLightmapStatic.cs(8,6): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
- 
-(Filename: Assets\Scripts\SelectLightmapStatic.cs Line: 8)
-
-Assets\Scripts\ReplacematerialWindow.cs(20,3): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
- 
-(Filename: Assets\Scripts\ReplacematerialWindow.cs Line: 20)
-
-Assets\Scripts\ReplacematerialWindow.cs(20,3): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
- 
-(Filename: Assets\Scripts\ReplacematerialWindow.cs Line: 20)
-
-Assets\Scripts\OutlinerToolsWindow.cs(8,2): error CS0246: The type or namespace name 'InitializeOnLoadAttribute' could not be found (are you missing a using directive or an assembly reference?)
- 
-(Filename: Assets\Scripts\OutlinerToolsWindow.cs Line: 8)
-
-Assets\Scripts\OutlinerToolsWindow.cs(8,2): error CS0246: The type or namespace name 'InitializeOnLoad' could not be found (are you missing a using directive or an assembly reference?)
- 
-(Filename: Assets\Scripts\OutlinerToolsWindow.cs Line: 8)
+(Filename: Assets\Scripts\OutlinerToolsWindow.cs Line: 9)
 
 Assets\Scripts\ColliderAddWindow.cs(26,3): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
  
@@ -787,6 +771,14 @@ Assets\Scripts\ColliderAddWindow.cs(26,3): error CS0246: The type or namespace n
  
 (Filename: Assets\Scripts\ColliderAddWindow.cs Line: 26)
 
+Assets\Scripts\ReplacematerialWindow.cs(20,3): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
+ 
+(Filename: Assets\Scripts\ReplacematerialWindow.cs Line: 20)
+
+Assets\Scripts\ReplacematerialWindow.cs(20,3): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
+ 
+(Filename: Assets\Scripts\ReplacematerialWindow.cs Line: 20)
+
 Assets\Scripts\gridSelectedWindow.cs(22,3): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
  
 (Filename: Assets\Scripts\gridSelectedWindow.cs Line: 22)
@@ -794,6 +786,14 @@ Assets\Scripts\gridSelectedWindow.cs(22,3): error CS0246: The type or namespace 
 Assets\Scripts\gridSelectedWindow.cs(22,3): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
  
 (Filename: Assets\Scripts\gridSelectedWindow.cs Line: 22)
+
+Assets\Scripts\OutlinerToolsWindow.cs(8,2): error CS0246: The type or namespace name 'InitializeOnLoadAttribute' could not be found (are you missing a using directive or an assembly reference?)
+ 
+(Filename: Assets\Scripts\OutlinerToolsWindow.cs Line: 8)
+
+Assets\Scripts\OutlinerToolsWindow.cs(8,2): error CS0246: The type or namespace name 'InitializeOnLoad' could not be found (are you missing a using directive or an assembly reference?)
+ 
+(Filename: Assets\Scripts\OutlinerToolsWindow.cs Line: 8)
 
 Assets\Scripts\OutlinerToolsWindow.cs(149,40): error CS0246: The type or namespace name 'SceneView' could not be found (are you missing a using directive or an assembly reference?)
  
@@ -824,16 +824,16 @@ Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 63.3 MB.
 System memory in use after: 63.3 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2241.
-Total: 10.453600 ms (FindLiveObjects: 0.290000 ms CreateObjectMapping: 0.050400 ms MarkObjects: 10.096300 ms  DeleteObjects: 0.016200 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2242.
+Total: 9.682500 ms (FindLiveObjects: 0.290400 ms CreateObjectMapping: 0.056000 ms MarkObjects: 9.317100 ms  DeleteObjects: 0.018300 ms)
 
-Load scene 'Temp/__Backupscenes/0.backup' time: 0.029600 ms 
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.025700 ms 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 62.7 MB.
 System memory in use after: 62.8 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2241.
-Total: 12.214100 ms (FindLiveObjects: 0.332800 ms CreateObjectMapping: 0.063500 ms MarkObjects: 11.805800 ms  DeleteObjects: 0.011400 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2242.
+Total: 8.678900 ms (FindLiveObjects: 0.282200 ms CreateObjectMapping: 0.055000 ms MarkObjects: 8.336100 ms  DeleteObjects: 0.005000 ms)
 
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
@@ -852,19 +852,24 @@ Total: 12.214100 ms (FindLiveObjects: 0.332800 ms CreateObjectMapping: 0.063500 
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
 Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 26 milliseconds
+Pass: 0 took 27 milliseconds
 Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
 Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
 Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 72 milliseconds
+Pass: 0 took 42 milliseconds
 Pass: 1 took 0 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
 Script Module: Unity.Postprocessing.Runtime.dll
-Pass: 0 took 21 milliseconds
-Pass: 1 took 1 milliseconds
+Pass: 0 took 25 milliseconds
+Pass: 1 took 3 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 43 milliseconds
+Pass: 1 took 5 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
 Symbols will be read from Temp\Unity.ProBuilder.Poly2Tri.pdb
 Script Module: Unity.ProBuilder.Poly2Tri.dll
@@ -894,42 +899,37 @@ Pass: 1 took 0 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbols will be read from Temp\Unity.TextMeshPro.pdb
-Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 60 milliseconds
-Pass: 1 took 14 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.Settings.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll
-- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.dll
 Symbols will be read from Temp\Unity.ProBuilder.pdb
 Script Module: Unity.ProBuilder.dll
-Pass: 0 took 16 milliseconds
-Pass: 1 took 63 milliseconds
+Pass: 0 took 18 milliseconds
+Pass: 1 took 1 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
 Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
-Pass: 0 took 60 milliseconds
+Pass: 0 took 72 milliseconds
 Pass: 1 took 5 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
 Symbols will be read from Temp\Assembly-CSharp.pdb
 Script Module: Assembly-CSharp.dll
-Pass: 0 took 43 milliseconds
+Pass: 0 took 42 milliseconds
 Pass: 1 took 0 milliseconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
@@ -1006,16 +1006,16 @@ UnauthorizedAccessException: Access to the path "E:\p4\WorldUrbanBiomes\Industri
 
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering platform support modules:
-Registered platform support modules in: 0.0351392s.
+Registered platform support modules in: 0.0332077s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
 Mono: successfully reloaded assembly
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-- Completed reload, in  1.305 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+- Completed reload, in  1.321 seconds
 Platform modules already initialized, skipping
 Batchmode quit successfully invoked - shutting down!
 UnauthorizedAccessException: Access to the path "E:\p4\WorldUrbanBiomes\Industrial_Harbour\ProjectSettings\Packages\com.unity.probuilder\Settings.json" is denied.
@@ -1035,12 +1035,12 @@ UnauthorizedAccessException: Access to the path "E:\p4\WorldUrbanBiomes\Industri
  
 (Filename: <d7ac571ca2d04b2f981d0d886fa067cf> Line: 0)
 
-[Performance] CurlRequestCheck                        :       15 samples, Peak.  22.1 us (2.6x), Avg.  8.62 us, Total. 129.3 us (0.0%)
-[Performance] PackageManager::RunRequestSynchronously :        3 samples, Peak.  28.8 us (2.3x), Avg.  12.7 us, Total. 38.00 us (0.0%)
+[Performance] CurlRequestCheck                        :       14 samples, Peak.  21.3 us (2.2x), Avg.  9.59 us, Total. 134.3 us (0.0%)
+[Performance] PackageManager::RunRequestSynchronously :        4 samples, Peak.  27.9 us (2.5x), Avg.  11.1 us, Total. 44.40 us (0.0%)
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.039078s
-	Asset Scan time: 0.037673s
+Refresh Completed time: 0.039524s
+	Asset Scan time: 0.038198s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -1051,8 +1051,8 @@ Refresh Completed time: 0.039078s
 
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.034883s
-	Asset Scan time: 0.033787s
+Refresh Completed time: 0.036638s
+	Asset Scan time: 0.035434s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -1062,14 +1062,14 @@ Refresh Completed time: 0.034883s
 	Dependent Assets to Import Queue time: 0.000000s
 
 Setting up 8 worker threads for Enlighten.
-  Thread -> id: 7ad8 -> priority: 1 
-  Thread -> id: 9b38 -> priority: 1 
-  Thread -> id: a188 -> priority: 1 
-  Thread -> id: 4fbc -> priority: 1 
-  Thread -> id: be7c -> priority: 1 
-  Thread -> id: c834 -> priority: 1 
-  Thread -> id: 17b4 -> priority: 1 
-  Thread -> id: 8c5c -> priority: 1 
+  Thread -> id: c884 -> priority: 1 
+  Thread -> id: e260 -> priority: 1 
+  Thread -> id: eb8c -> priority: 1 
+  Thread -> id: da04 -> priority: 1 
+  Thread -> id: a4d0 -> priority: 1 
+  Thread -> id: 9118 -> priority: 1 
+  Thread -> id: 7564 -> priority: 1 
+  Thread -> id: 3924 -> priority: 1 
 [Package Manager] Server::Kill -- Server was shutdown
 Cleanup mono
 Exiting batchmode successfully now!
