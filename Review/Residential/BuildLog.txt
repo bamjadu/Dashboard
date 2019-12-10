@@ -1,10 +1,10 @@
 Initiating legacy licensing module
-LICENSE SYSTEM [20191210 18:14:43] Next license update check is after 2019-12-10T01:50:42
+LICENSE SYSTEM [20191210 19:0:20] Next license update check is after 2019-12-10T01:50:42
 
 Built from '2018.4/staging' branch; Version is '2018.4.0f1 (b6ffa8986c8d) revision 11993000'; Using compiler version '191326128'
 OS: 'Windows 10  (10.0.0) 64bit' Language: 'ko' Physical Memory: 32586 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-[Package Manager] Server::Start -- Port 58012 was selected
+[Package Manager] Server::Start -- Port 49445 was selected
 
  COMMAND LINE ARGUMENTS:
 C:/UnityEditor/2018.4.0f1/Editor/Unity.exe
@@ -15,12 +15,12 @@ E:/p4/WorldUrbanBiomes/Residential/
 -executeMethod
 ASBuildScript.RunBuild
 -logfile
-e:/build/ArtsUnited/Residential/3212/BuildLog.txt
+e:/build/ArtsUnited/Residential/3214/BuildLog.txt
 Successfully changed project path to: E:/p4/WorldUrbanBiomes/Residential/
 E:/p4/WorldUrbanBiomes/Residential
 Using Asset Import Pipeline V1.
-Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000061 seconds
-Loading Asset Database...0.016036 seconds
+Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000060 seconds
+Loading Asset Database...0.015577 seconds
 Build target: OSXUniversal found and added!
 Build target: WindowsStoreApps found and added!
 Build target: Win64 found and added!
@@ -49,11 +49,11 @@ Build target: N3DS found and added!
 Build target: WP8 found and added!
 Build target: SamsungTV found and added!
 Build target: Tizen found and added!
-AssetDatabase consistency checks...0.016064 seconds
-Refreshing native plugins compatible for Editor in 8.80 ms, found 3 plugins.
+AssetDatabase consistency checks...0.032870 seconds
+Refreshing native plugins compatible for Editor in 8.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Unity Package Manager
-[Package Manager] Done resolving packages in 0.17s seconds
+[Package Manager] Done resolving packages in 0.13s seconds
 [Package Manager] Registering 43 packages:
 [Package Manager]  * Package :  com.unity.ads@2.0.8
     (location: E:\p4\WorldUrbanBiomes\Residential\Library\PackageCache\com.unity.ads@2.0.8)
@@ -161,7 +161,7 @@ Initialize mono
 Mono path[0] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
 Begin MonoManager ReloadAssembly
 Refreshing native plugins compatible for Editor in 0.45 ms, found 4 plugins.
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
@@ -169,36 +169,36 @@ Registering precompiled unity dll's ...
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001839 seconds.
+Registered in 0.001752 seconds.
 Registering platform support modules:
-Registered platform support modules in: 0.0593527s.
+Registered platform support modules in: 0.0601226s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.48 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.89 ms.
+Preloading 1 native plugins for Editor in 0.87 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.575 seconds
+- Completed reload, in  1.576 seconds
 Registering precompiled user dll's ...
-Registered in 0.053987 seconds.
+Registered in 0.051371 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering platform support modules:
-Registered platform support modules in: 0.0337382s.
+Registered platform support modules in: 0.0344507s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.51 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.973 seconds
+- Completed reload, in  0.966 seconds
 Platform modules already initialized, skipping
-Validating Project structure ... 0.008330 seconds.
+Validating Project structure ... 0.008158 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.030523s
-	Asset Scan time: 0.029270s
+Refresh Completed time: 0.029894s
+	Asset Scan time: 0.028842s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -213,7 +213,7 @@ WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
-Warming cache for 3340 main assets: 0.005973 seconds elapsed
+Warming cache for 3339 main assets: 0.006074 seconds elapsed
 Initializing Unity extensions:
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
@@ -236,22 +236,22 @@ Initializing Unity extensions:
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
 Unloading 1536 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.4 MB.
-System memory in use after: 172.0 MB.
+System memory in use before: 173.3 MB.
+System memory in use after: 171.9 MB.
 
 Unloading 354 unused Assets to reduce memory usage. Loaded Objects now: 2025.
-Total: 3.006900 ms (FindLiveObjects: 0.264900 ms CreateObjectMapping: 0.037600 ms MarkObjects: 1.706800 ms  DeleteObjects: 0.997300 ms)
+Total: 2.852100 ms (FindLiveObjects: 0.279600 ms CreateObjectMapping: 0.043500 ms MarkObjects: 1.573400 ms  DeleteObjects: 0.955200 ms)
 
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
-Script Compilation Pipeline Post Process Assets time: 0.000457s
-Assembly Updater Post Process Assets time: 0.000056s
+Script Compilation Pipeline Post Process Assets time: 0.000507s
+Assembly Updater Post Process Assets time: 0.000057s
 Updating ProjectSettings/UnityConnectSettings.asset - GUID: 0000000000000000a100000000000000...
- done. [Time: 64.270200 ms] 
+ done. [Time: 68.164100 ms] 
 Script Compilation Pipeline Post Process Assets time: 0.000009s
-Assembly Updater Post Process Assets time: 0.000036s
+Assembly Updater Post Process Assets time: 0.000034s
 Refreshing native plugins compatible for Editor in 0.44 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.10 ms.
 BuildPlayer: start building target 19
@@ -262,30 +262,30 @@ BuildPlayer: start building target 19
 - Starting compile Library/ScriptAssemblies/Unity.Timeline.dll
 - Starting compile Library/ScriptAssemblies/Unity.Formats.Fbx.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
-- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
-Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
-Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 25 milliseconds
-Pass: 1 took 1 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
-Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
-Script Module: Unity.Postprocessing.Runtime.dll
-Pass: 0 took 14 milliseconds
-Pass: 1 took 2 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
-Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
-Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 12 milliseconds
-Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Timeline.dll
 Symbols will be read from Temp\Unity.Timeline.pdb
 Script Module: Unity.Timeline.dll
 Pass: 0 took 0 milliseconds
 Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
+Script Module: Unity.Postprocessing.Runtime.dll
+Pass: 0 took 13 milliseconds
+Pass: 1 took 3 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
+Script Module: Unity.RenderPipelines.Core.Runtime.dll
+Pass: 0 took 12 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 20 milliseconds
+Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Formats.Fbx.Runtime.dll
 Symbols will be read from Temp\Unity.Formats.Fbx.Runtime.pdb
 Script Module: Unity.Formats.Fbx.Runtime.dll
-Pass: 0 took 18 milliseconds
+Pass: 0 took 12 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
@@ -296,12 +296,12 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbols will be read from Temp\Unity.TextMeshPro.pdb
 Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 28 milliseconds
-Pass: 1 took 16 milliseconds
+Pass: 0 took 35 milliseconds
+Pass: 1 took 5 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
 Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
-Pass: 0 took 42 milliseconds
+Pass: 0 took 36 milliseconds
 Pass: 1 took 5 milliseconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
@@ -311,24 +311,24 @@ Pass: 0 took 12 milliseconds
 Pass: 1 took 0 milliseconds
 DisplayProgressbar: Building Player
 Opening scene 'Assets/Scenes/Lighting.unity'
-Load scene 'Assets/Scenes/Lighting.unity' time: 0.010000 ms 
+Load scene 'Assets/Scenes/Lighting.unity' time: 0.009900 ms 
 Unloading 201 Unused Serialized files (Serialized files now loaded: 0)
 WARNING: Shader Unsupported: 'Hidden/PostProcessing/Uber' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/PostProcessing/Uber' - Pass '' has no vertex shader
-System memory in use before: 163.8 MB.
-System memory in use after: 163.5 MB.
+System memory in use before: 185.3 MB.
+System memory in use after: 185.2 MB.
 
-Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 2348.
-Total: 7.363700 ms (FindLiveObjects: 0.370300 ms CreateObjectMapping: 0.034200 ms MarkObjects: 6.765300 ms  DeleteObjects: 0.192900 ms)
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 2497.
+Total: 7.226200 ms (FindLiveObjects: 0.338000 ms CreateObjectMapping: 0.046100 ms MarkObjects: 6.657900 ms  DeleteObjects: 0.183500 ms)
 
 Opening scene 'Assets/Scenes/SampleScene.unity'
-Load scene 'Assets/Scenes/SampleScene.unity' time: 0.008000 ms 
-Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 353.5 MB.
-System memory in use after: 353.3 MB.
+Load scene 'Assets/Scenes/SampleScene.unity' time: 0.008700 ms 
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 370.4 MB.
+System memory in use after: 370.3 MB.
 
-Unloading 618 unused Assets to reduce memory usage. Loaded Objects now: 38876.
-Total: 17.914800 ms (FindLiveObjects: 1.915400 ms CreateObjectMapping: 0.752600 ms MarkObjects: 14.048200 ms  DeleteObjects: 1.197600 ms)
+Unloading 623 unused Assets to reduce memory usage. Loaded Objects now: 38818.
+Total: 18.998000 ms (FindLiveObjects: 2.129100 ms CreateObjectMapping: 0.884300 ms MarkObjects: 14.709300 ms  DeleteObjects: 1.274400 ms)
 
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
@@ -9192,6 +9192,1326 @@ ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
 (Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
 
 DisplayProgressbar: Building Player
+Opening scene 'Assets/Scenes/Test_Range.unity'
+Load scene 'Assets/Scenes/Test_Range.unity' time: 0.014900 ms 
+Unloading 800 Unused Serialized files (Serialized files now loaded: 0)
+WARNING: Shader Unsupported: 'Hidden/PostProcessing/Uber' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/PostProcessing/Uber' - Pass '' has no vertex shader
+System memory in use before: 326.2 MB.
+System memory in use after: 324.4 MB.
+
+Unloading 188 unused Assets to reduce memory usage. Loaded Objects now: 7721.
+Total: 8.883300 ms (FindLiveObjects: 0.571900 ms CreateObjectMapping: 0.118900 ms MarkObjects: 7.690000 ms  DeleteObjects: 0.501800 ms)
+
+Script attached to 'Fence_Grid_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'FlowerPot_LOD02' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Bar_Sunshade_01_LOD02' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Mailbox_02_01_Snap015_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Windows_03_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Fence_Frontyard_End_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Bar_Parasol_01_LOD02' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Lamp_Street_01_LOD03' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Stone_Steps_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Windows_02_Frame_02_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Roof_4X4_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'bar_parasol_02_LOD02' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Bar_Parasol_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Str_Bench_01_LOD02' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Bar_Parasol_01_LOD03' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Fence_Backyard_Tile_02_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Bar_Sunshade_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Windows_02_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Dumpster_01_LOD1' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Dumpster_01_LOD2' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Bar_Chair_01_LOD1' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Stairs_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Door_Frame_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Brick_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Porch_400X400_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Pedestrian_Passage_03_Snaps015' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Fire_Hydrant_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'BirdBath_LOD02' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'PowerPole_Transformer_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Str_Bench_01_LOD03' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Door_Frame_02_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Fire_Hydrant_LOD02' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Chimney_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Door_Frame_04_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Lamp_Wirehanging_3x_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Interior_Wall_Door_300X500_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Swimming_Pool_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Eaves_400X400_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Eaves_400X400_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Cement_Corner_100X100_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'bar_parasol_02_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Fence_Grid_02_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'PowerPole_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Windows_01_01_Glass_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Vent_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Lamp_Garden_Pilar_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Mailbox_02_Snap015_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Bar_Chair_01_LOD3' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Roof_Side_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Wall_Corner_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Garden_light_LOD02' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Porch_400X400_03_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Door_Frame_03_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Flowerbed_High_2x_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Flowerbed_6x_HalfCircle_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Lamp_Wirehanging_3x_01_LOD02' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Sidewalk_02_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Plastic_Trash_Can_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'FlowerPot_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Lamp_Wirehanging_3x_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Pergola_Short_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Long_FlowerPot_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Fence_Grid_Left_02_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Pool_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Bar_Sunshade_01_LOD03' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Door_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Windows_04_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Roof_Top_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Bar_Chair_01_LOD2' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Mailbox_01_LOD02' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Porch_Rail_2x_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Windows_Frame_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'bar_parasol_02_LOD03' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Stairs_02_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Door_02_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Stop_Sign_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Door_03_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Fence_Backyard_Left_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Fence_Frontyard_Tile_Left_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Dumpster_01_LOD4' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Roof_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Fence_Wall_Left_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'FlowerPot_LOD02' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Lamp_Street_01_LOD02' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'PowerPole_Transformer_01_LOD02' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Str_Bench_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Fence_Backyard_End_02_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Stone_Road_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Lamp_Wall_Original_LOD02' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Brick_02_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Garden_light_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Lamp_Wall_Original_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Plastic_Trash_Can_LOD02' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Windows_Frame_03_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Deck_Chair_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Bar_Table_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Sidewalk_Corner_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Door_04_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Fence_Wall_End_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Lamp_Street_High_01_LOD02' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Flowerbed_High_7x_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Porch_Rail_1x_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Dumpster_01_LOD3' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Lamp_Wall_Box_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Pergola_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'PowerPole_01_LOD02' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Lamp_Street_High_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'FlowerPot_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Lamp_Street_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'BirdBath_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Deck_Chair_02_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Windows_01_02_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Roof_Side_03_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Guidepost_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Mailbox_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'FenceDark_Backyard_End_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Porch_Edge_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Roof_Side_02_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Porch_400X400_02_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
 
 
 Mono dependencies included in the build
@@ -9232,41 +10552,41 @@ Dependency assembly - Unity.RenderPipelines.HighDefinition.Runtime.dll
 Dependency assembly - Unity.TextMeshPro.dll
 Dependency assembly - Unity.Timeline.dll
 
-Unloading 701 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 337.2 MB.
-System memory in use after: 302.7 MB.
+Unloading 269 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 219.7 MB.
+System memory in use after: 183.9 MB.
 
-Unloading 2974 unused Assets to reduce memory usage. Loaded Objects now: 2115.
-Total: 12.768000 ms (FindLiveObjects: 0.499900 ms CreateObjectMapping: 0.095900 ms MarkObjects: 7.738300 ms  DeleteObjects: 4.433100 ms)
+Unloading 3090 unused Assets to reduce memory usage. Loaded Objects now: 2117.
+Total: 12.695500 ms (FindLiveObjects: 0.407500 ms CreateObjectMapping: 0.085200 ms MarkObjects: 6.833200 ms  DeleteObjects: 5.368900 ms)
 
 [EnlightenBakeManager] m_Clear = false;
 Setting up 8 worker threads for Enlighten.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-  Thread -> id: 6480 -> priority: 1 
-  Thread -> id: 6ad0 -> priority: 1 
-  Thread -> id: 5fe8 -> priority: 1 
-  Thread -> id: 7360 -> priority: 1 
-  Thread -> id: 5f20 -> priority: 1 
-  Thread -> id: 4460 -> priority: 1 
-  Thread -> id: 42a0 -> priority: 1 
-  Thread -> id: 6244 -> priority: 1 
-System memory in use before: 166.2 MB.
-System memory in use after: 166.3 MB.
+  Thread -> id: 6018 -> priority: 1 
+  Thread -> id: 55d4 -> priority: 1 
+  Thread -> id: b28 -> priority: 1 
+  Thread -> id: 4484 -> priority: 1 
+  Thread -> id: 1a4c -> priority: 1 
+  Thread -> id: 78ac -> priority: 1 
+  Thread -> id: 6194 -> priority: 1 
+  Thread -> id: 34f0 -> priority: 1 
+System memory in use before: 166.8 MB.
+System memory in use after: 167.0 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2128.
-Total: 7.364000 ms (FindLiveObjects: 0.318500 ms CreateObjectMapping: 0.044700 ms MarkObjects: 6.995300 ms  DeleteObjects: 0.004800 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2130.
+Total: 6.701000 ms (FindLiveObjects: 0.309800 ms CreateObjectMapping: 0.036000 ms MarkObjects: 6.350500 ms  DeleteObjects: 0.004000 ms)
 
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 167.6 MB.
-System memory in use after: 166.4 MB.
+System memory in use before: 168.2 MB.
+System memory in use after: 167.0 MB.
 
-Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 2115.
-Total: 8.889300 ms (FindLiveObjects: 0.313100 ms CreateObjectMapping: 0.039500 ms MarkObjects: 7.676600 ms  DeleteObjects: 0.859500 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 2117.
+Total: 8.114700 ms (FindLiveObjects: 0.265100 ms CreateObjectMapping: 0.034500 ms MarkObjects: 6.964600 ms  DeleteObjects: 0.850200 ms)
 
 DisplayProgressbar: Compiling shader variants
-Compiled shader 'HDRP/Lit' in 2.30s
+Compiled shader 'HDRP/Lit' in 2.29s
     d3d11 (total internal programs: 1232, unique: 1217)
 Compressed shader 'HDRP/Lit' on d3d11 from 28.24MB to 6.86MB
 Compressed shader 'Hidden/HDRP/ColorResolve' on d3d11 from 2.40MB to 0.63MB
@@ -9276,27 +10596,34 @@ DisplayProgressbar: Building Player
 WARNING: Shader Unsupported: 'Hidden/PostProcessing/Uber' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/PostProcessing/Uber' - Pass '' has no vertex shader
 DisplayProgressbar: Compiling shader variants
-Compiled shader 'Hidden/PostProcessing/Uber' in 9.04s
+Compiled shader 'Hidden/PostProcessing/Uber' in 8.75s
     d3d11 (total internal programs: 3456, unique: 3456)
 Compressed shader 'Hidden/PostProcessing/Uber' on d3d11 from 11.64MB to 0.79MB
 DisplayProgressbar: Building Player
 Compressed shader 'HDRP/LayeredLit' on d3d11 from 3.90MB to 0.92MB
+Unloading 653 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 221.6 MB.
+System memory in use after: 219.6 MB.
+
+Unloading 717 unused Assets to reduce memory usage. Loaded Objects now: 2131.
+Total: 10.409900 ms (FindLiveObjects: 0.337000 ms CreateObjectMapping: 0.046300 ms MarkObjects: 7.924600 ms  DeleteObjects: 2.101700 ms)
+
 
 -------------------------------------------------------------------------------
 Build Report
 Uncompressed usage by category (Percentages based on user generated assets only):
-Textures               909.1 mb	 90.3% 
-Meshes                 26.9 mb	 2.7% 
+Textures               925.1 mb	 89.9% 
+Meshes                 27.5 mb	 2.7% 
 Animations             0.0 kb	 0.0% 
 Sounds                 0.0 kb	 0.0% 
-Shaders                13.8 mb	 1.4% 
+Shaders                13.8 mb	 1.3% 
 Other Assets           5.8 mb	 0.6% 
-Levels                 6.4 mb	 0.6% 
-Scripts                2.5 mb	 0.3% 
+Levels                 7.3 mb	 0.7% 
+Scripts                2.5 mb	 0.2% 
 Included DLLs          13.2 mb	 1.3% 
-File headers           29.3 mb	 2.9% 
-Total User Assets      1007.0 mb	 100.0% 
-Complete build size    1043.6 mb
+File headers           34.3 mb	 3.3% 
+Total User Assets      1029.5 mb	 100.0% 
+Complete build size    1066.1 mb
 Used Assets and files from the Resources folder, sorted by uncompressed size:
  21.3 mb	 2.0% Assets/Art/Textures/Props/Decal/Decal_Road_01_MaskMap_Snaps015.tga
  21.3 mb	 2.0% Assets/Art/Textures/Props/Decal/Decal_Road_01_Albedo_Snaps015.tga
@@ -9443,6 +10770,10 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  5.3 mb	 0.5% Assets/Art/Textures/Structure/Door/Door_Albedo_Snaps015.tga
  4.5 mb	 0.4% Assets/Art/Model/Building/Background_House_C_Snaps015.FBX
  4.0 mb	 0.4% Assets/Scenes/SampleScene/ReflectionProbe-4.exr
+ 4.0 mb	 0.4% Assets/Scenes/SampleScene/ReflectionProbe-3.exr
+ 4.0 mb	 0.4% Assets/Scenes/SampleScene/ReflectionProbe-2.exr
+ 4.0 mb	 0.4% Assets/Scenes/SampleScene/ReflectionProbe-1.exr
+ 4.0 mb	 0.4% Assets/Scenes/SampleScene/ReflectionProbe-0.exr
  3.1 mb	 0.3% Assets/Art/Model/Building/Background_House_B_Snaps015.fbx
  2.8 mb	 0.3% Assets/Art/Model/Building/Background_House_D_Snaps015.fbx
  2.7 mb	 0.3% Assets/Art/Textures/Props/Exterior/Canopy/Canopy_Normal_Snaps015.tga
@@ -9571,6 +10902,7 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  341.5 kb	 0.0% Assets/Art/Textures/Props/Exterior/Grass/Grass_Albedo_Snaps015.tga
  337.5 kb	 0.0% Assets/Art/Model/Props/Exterior/Plants/Plant_Climber_06_Snaps015.FBX
  290.7 kb	 0.0% Assets/Art/Model/Props/Exterior/Plants/Plant_Climber_01_Snaps015.FBX
+ 283.3 kb	 0.0% Assets/Art/Model/Props/Exterior/Plants/Plant_Treebush_01_Snaps015.fbx
  272.5 kb	 0.0% Assets/Art/Model/Props/Exterior/PowerPole_01_Snaps015.fbx
  262.6 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Textures/SMAA/AreaTex.tga
  238.7 kb	 0.0% Assets/Art/Model/Structure/Door/Door_04_Snaps015.fbx
@@ -9586,7 +10918,9 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  150.5 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/RenderPass/MSAA/AoResolve.shader
  150.2 kb	 0.0% Assets/Art/Model/Props/Exterior/Plants/Red_Flowers_01_Snaps015.FBX
  146.3 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/lightlistbuild-clustered.compute
+ 142.3 kb	 0.0% Assets/Art/Model/Props/Exterior/Plants/Pink_Flowers_02_Snaps015.fbx
  125.8 kb	 0.0% Assets/Art/Model/Props/Exterior/Plants/Small_FlowerPot_01_Snaps015.fbx
+ 121.9 kb	 0.0% Assets/Art/Model/Props/Exterior/Plants/Plant_Lily_Snaps015.FBX
  121.5 kb	 0.0% Assets/Art/Model/Props/Exterior/Fire_Hydrant_Snaps015.FBX
  119.7 kb	 0.0% Assets/Art/Model/Props/Exterior/Plants/Long_Flower_02_Snaps015.fbx
  117.2 kb	 0.0% Assets/Art/Model/Props/Exterior/Plants/Pink_Flowers_01_Snaps015.FBX
@@ -9630,6 +10964,7 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  54.8 kb	 0.0% Assets/Art/Model/Props/Exterior/Plants/Plant_Climber_10_Snaps015.FBX
  53.5 kb	 0.0% Assets/Art/Model/Structure/Wall/Interior_Wall_Door_300X500_01_Snaps015.fbx
  53.0 kb	 0.0% Assets/Art/Model/Props/Exterior/Flowerbed_6x_HalfCircle_Snaps015.FBX
+ 51.8 kb	 0.0% Assets/Art/Model/Structure/Roof/Roof_Side_03_Snaps015.fbx
  51.1 kb	 0.0% Assets/Art/Model/Props/Exterior/Lamp_Street_High_01_Snaps015.fbx
  49.2 kb	 0.0% Assets/Art/Model/Props/Exterior/Plants/Flower_Yellow_01_Snaps015.FBX
  48.9 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DepthOfField.shader
@@ -9666,6 +11001,7 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  19.3 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.shader
  18.7 kb	 0.0% Assets/Art/Model/Props/Exterior/Porch_Rail_2x_End_Snaps015.fbx
  18.3 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Overlays.shader
+ 18.3 kb	 0.0% Assets/Art/Model/Structure/Roof/Roof_Side_02_Snaps015.FBX
  16.6 kb	 0.0% Assets/Art/Model/Structure/Floor/Road_Corner_01_Snaps015.fbx
  16.5 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MotionBlur.shader
  15.7 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Core/CoreResources/EncodeBC6H.compute
@@ -9696,6 +11032,7 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  9.7 kb	 0.0% Assets/Art/Material/Structure/Wall/Brick_Wall_02_Layer_Snaps015.mat
  9.7 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/lightlistbuild-bigtile.compute
  9.7 kb	 0.0% Assets/Art/Model/Structure/Wall/Wall_Corner_Snaps015.fbx
+ 9.6 kb	 0.0% Assets/Art/Model/Structure/Floor/Kerb_05_Snaps015.FBX
  9.5 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/ShaderLibrary/Blit.shader
  9.5 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/RenderPass/MSAA/DepthValues.shader
  9.2 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GrainBaker.shader
@@ -9713,8 +11050,8 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  7.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Core/Debugging/Prefabs/Widgets/DebugUI Color.prefab
  7.6 kb	 0.0% Assets/Art/Model/Structure/Porch/Porch_Edge_01_Snaps015.fbx
  7.5 kb	 0.0% Assets/Art/Model/Props/Exterior/Mailbox_02_Snaps015.FBX
+ 7.4 kb	 0.0% Assets/Art/Model/Structure/Floor/Kerb_03_Snaps015.fbx
  7.4 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Core/Debugging/Prefabs/Widgets/DebugUI Vector4.prefab
- 7.3 kb	 0.0% Assets/Art/Model/Structure/Floor/Kerb_03_Snaps015.fbx
  7.3 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/TemporalAntialiasing.shader
  7.3 kb	 0.0% Assets/Art/Model/Structure/Wall/Wall_Door_02_Snaps015.fbx
  7.2 kb	 0.0% Assets/Art/Model/Structure/Wall/Wall_Door_01_Snaps015.fbx
@@ -9731,7 +11068,9 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  6.1 kb	 0.0% Assets/Art/Model/Structure/Floor/Sidewalk_Corner_01_Snaps015.fbx
  6.1 kb	 0.0% Assets/Settings/001_main.asset
  6.1 kb	 0.0% Assets/Art/Model/Props/Exterior/Pergola_Short_Snaps015.FBX
+ 6.1 kb	 0.0% Assets/Art/Model/Props/Exterior/Pergola_Snaps015.FBX
  6.0 kb	 0.0% Assets/Art/Model/Structure/Wall/Windows_Wall_01_Snaps015.fbx
+ 5.9 kb	 0.0% Assets/Settings/PostProcessVolumeProfile_01.asset
  5.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Debug/DebugLightVolumes.shader
  5.9 kb	 0.0% Assets/Art/Model/Structure/Wall/Windows_Wall_02_Snaps015.fbx
  5.7 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DeferredFog.shader
@@ -9786,6 +11125,7 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  4.7 kb	 0.0% Assets/Art/Material/Props/Tiling/Concrete_Ground_01_Snaps015.mat
  4.7 kb	 0.0% Assets/Art/Material/Props/Exterior/Lamp_Street_High_01_Snaps015.mat
  4.7 kb	 0.0% Assets/Art/Material/Props/Tiling/Pool_Tiles_Snaps015.mat
+ 4.7 kb	 0.0% Assets/Art/Model/Structure/Floor/Kerb_04_Snaps015.fbx
  4.7 kb	 0.0% Assets/Art/Material/Props/Exterior/Gardenlight_01_Snaps015.mat
  4.7 kb	 0.0% Assets/Art/Material/Props/Exterior/Lamp_Street_01_Snaps015.mat
  4.7 kb	 0.0% Assets/Art/Material/Structure/Trim/House_Trim_02_Snaps015.mat
@@ -9838,6 +11178,7 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  4.6 kb	 0.0% Assets/Art/Material/Structure/Door/Door_Snaps015.mat
  4.6 kb	 0.0% Assets/Art/Material/Props/Exterior/Table_Snaps015.mat
  4.6 kb	 0.0% Assets/Art/Material/Props/Exterior/Canopy_Snaps015.mat
+ 4.6 kb	 0.0% Assets/Art/Material/Gray_01.mat
  4.6 kb	 0.0% Assets/Art/Model/Structure/Floor/Narrow_Brick_03_Snaps015.FBX
  4.5 kb	 0.0% Assets/Art/Model/Structure/Wall/Exterior_Wall_300X100_Snaps015.fbx
  4.4 kb	 0.0% Assets/Art/Model/Structure/Floor/Exterior_Floor_01_Snaps015.FBX
@@ -10339,21 +11680,21 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_LineInfo.cs
  0.1 kb	 0.0% Packages/com.unity.timeline/Runtime/RuntimeStub.cs
 -------------------------------------------------------------------------------
-Unloading 662 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 204.9 MB.
-System memory in use after: 202.9 MB.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.1 MB.
+System memory in use after: 167.9 MB.
 
-Unloading 727 unused Assets to reduce memory usage. Loaded Objects now: 2136.
-Total: 9.126000 ms (FindLiveObjects: 0.367200 ms CreateObjectMapping: 0.073600 ms MarkObjects: 6.583000 ms  DeleteObjects: 2.101700 ms)
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2139.
+Total: 8.102800 ms (FindLiveObjects: 0.305000 ms CreateObjectMapping: 0.047400 ms MarkObjects: 7.493700 ms  DeleteObjects: 0.256300 ms)
 
 DisplayProgressNotification: Build Successful
-Load scene 'Temp/__Backupscenes/0.backup' time: 0.366100 ms 
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.025000 ms 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.3 MB.
-System memory in use after: 189.4 MB.
+System memory in use before: 167.2 MB.
+System memory in use after: 167.3 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2128.
-Total: 8.835200 ms (FindLiveObjects: 0.314000 ms CreateObjectMapping: 0.045200 ms MarkObjects: 8.469100 ms  DeleteObjects: 0.006400 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2131.
+Total: 6.838600 ms (FindLiveObjects: 0.305700 ms CreateObjectMapping: 0.046400 ms MarkObjects: 6.482100 ms  DeleteObjects: 0.003900 ms)
 
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
@@ -10366,62 +11707,62 @@ Total: 8.835200 ms (FindLiveObjects: 0.314000 ms CreateObjectMapping: 0.045200 m
 - Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
 - Starting compile Library/ScriptAssemblies/Autodesk.Fbx.dll
 - Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Timeline.dll
-Symbols will be read from Temp\Unity.Timeline.pdb
-Script Module: Unity.Timeline.dll
-Pass: 0 took 0 milliseconds
-Pass: 1 took 0 milliseconds
-- Starting compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
-Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
-Script Module: Unity.Postprocessing.Runtime.dll
-Pass: 0 took 56 milliseconds
-Pass: 1 took 3 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
-Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
-Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 16 milliseconds
-Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
 Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
 Script Module: Unity.Analytics.DataPrivacy.dll
 Pass: 0 took 21 milliseconds
 Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Formats.Fbx.Runtime.dll
-Symbols will be read from Temp\Unity.Formats.Fbx.Runtime.pdb
-Script Module: Unity.Formats.Fbx.Runtime.dll
-Pass: 0 took 13 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Timeline.dll
+Symbols will be read from Temp\Unity.Timeline.pdb
+Script Module: Unity.Timeline.dll
+Pass: 0 took 0 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
 Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
 Pass: 0 took 0 milliseconds
 Pass: 1 took 0 milliseconds
-- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
-- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
+Script Module: Unity.Postprocessing.Runtime.dll
+Pass: 0 took 14 milliseconds
+Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbols will be read from Temp\Unity.TextMeshPro.pdb
 Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 93 milliseconds
+Pass: 0 took 40 milliseconds
 Pass: 1 took 5 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
+Script Module: Unity.RenderPipelines.Core.Runtime.dll
+Pass: 0 took 13 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Formats.Fbx.Runtime.dll
+Symbols will be read from Temp\Unity.Formats.Fbx.Runtime.pdb
+Script Module: Unity.Formats.Fbx.Runtime.dll
+Pass: 0 took 13 milliseconds
+Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
 - Finished compile Library/ScriptAssemblies/Autodesk.Fbx.dll
 - Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.Formats.Fbx.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.Formats.Fbx.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Formats.Fbx.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
 Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
-Pass: 0 took 56 milliseconds
+Pass: 0 took 55 milliseconds
 Pass: 1 took 5 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Formats.Fbx.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
@@ -10448,12 +11789,12 @@ Assets\Editor\replace.cs(54,54): warning CS0618: 'PrefabType' is obsolete: 'Pref
 (Filename: Assets\Editor\replace.cs Line: 54)
 
 Batchmode quit successfully invoked - shutting down!
-[Performance] CurlRequestCheck                        :       15 samples, Peak.  36.9 us (3.6x), Avg.  10.2 us, Total. 152.5 us (0.0%)
-[Performance] PackageManager::RunRequestSynchronously :        4 samples, Peak.  81.2 us (2.5x), Avg.  32.4 us, Total. 129.6 us (0.0%)
+[Performance] CurlRequestCheck                        :       15 samples, Peak.  21.9 us (2.2x), Avg.  9.90 us, Total. 148.5 us (0.0%)
+[Performance] PackageManager::RunRequestSynchronously :        3 samples, Peak.  28.3 us (2.3x), Avg.  12.6 us, Total. 37.70 us (0.0%)
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.031106s
-	Asset Scan time: 0.029883s
+Refresh Completed time: 0.030273s
+	Asset Scan time: 0.029100s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -10464,8 +11805,8 @@ Refresh Completed time: 0.031106s
 
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.029537s
-	Asset Scan time: 0.028509s
+Refresh Completed time: 0.029948s
+	Asset Scan time: 0.028940s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
