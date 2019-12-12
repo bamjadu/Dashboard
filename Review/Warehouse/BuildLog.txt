@@ -1,10 +1,10 @@
 Initiating legacy licensing module
-LICENSE SYSTEM [20191212 15:25:47] Next license update check is after 2019-12-10T01:50:42
+LICENSE SYSTEM [20191212 16:27:23] Next license update check is after 2019-12-10T01:50:42
 
 Built from '2018.4/staging' branch; Version is '2018.4.0f1 (b6ffa8986c8d) revision 11993000'; Using compiler version '191326128'
 OS: 'Windows 10  (10.0.0) 64bit' Language: 'ko' Physical Memory: 32586 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-[Package Manager] Server::Start -- Port 53017 was selected
+[Package Manager] Server::Start -- Port 63130 was selected
 
  COMMAND LINE ARGUMENTS:
 C:/UnityEditor/2018.4.0f1/Editor/Unity.exe
@@ -15,12 +15,12 @@ E:/p4/WorldUrbanBiomes/Warehouse/Warehouse/
 -executeMethod
 ASBuildScript.RunBuild
 -logfile
-e:/build/LemonSky/Warehouse/3277/BuildLog.txt
+e:/build/LemonSky/Warehouse/3283/BuildLog.txt
 Successfully changed project path to: E:/p4/WorldUrbanBiomes/Warehouse/Warehouse/
 E:/p4/WorldUrbanBiomes/Warehouse/Warehouse
 Using Asset Import Pipeline V1.
-Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000061 seconds
-Loading Asset Database...0.022084 seconds
+Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000062 seconds
+Loading Asset Database...0.022184 seconds
 Build target: OSXUniversal found and added!
 Build target: WindowsStoreApps found and added!
 Build target: Win64 found and added!
@@ -49,8 +49,8 @@ Build target: N3DS found and added!
 Build target: WP8 found and added!
 Build target: SamsungTV found and added!
 Build target: Tizen found and added!
-AssetDatabase consistency checks...0.023296 seconds
-Refreshing native plugins compatible for Editor in 8.85 ms, found 3 plugins.
+AssetDatabase consistency checks...0.025750 seconds
+Refreshing native plugins compatible for Editor in 9.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Unity Package Manager
 [Package Manager] Done resolving packages in 0.19s seconds
@@ -167,100 +167,39 @@ Initialize mono
 Mono path[0] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
 Begin MonoManager ReloadAssembly
-Refreshing native plugins compatible for Editor in 0.59 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 4 plugins.
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering precompiled unity dll's ...
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001824 seconds.
+Registered in 0.002087 seconds.
 Registering platform support modules:
-Registered platform support modules in: 0.060132s.
+Registered platform support modules in: 0.0605537s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.95 ms.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 1.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.578 seconds
+- Completed reload, in  1.626 seconds
 Registering precompiled user dll's ...
-Registered in 0.060908 seconds.
+Registered in 0.068790 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering platform support modules:
-Registered platform support modules in: 0.0380074s.
+Registered platform support modules in: 0.0343358s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.65 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Preloading 1 native plugins for Editor in 0.13 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.037 seconds
+- Completed reload, in  0.906 seconds
 Platform modules already initialized, skipping
-Validating Project structure ... 0.008316 seconds.
-Refresh: detecting if any assets need to be imported or removed ...
-
-Refresh Completed time: 0.038097s
-	Asset Scan time: 0.036690s
-	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
-	Asset Import (Scripting) time: 0.000000s (count: 0)
-	Post Processs Assets (Scripting) time: 0.000000s
-	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
-	Asset Import (Non Scripting) time: 0.000000s (count: 0)
-	Post Process Assets (Non Scripting) time: 0.000000s
-	Dependent Assets to Import Queue time: 0.000000s
-
-WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
-WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
-WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
-WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
-WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
-WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
-Warming cache for 5530 main assets: 0.021076 seconds elapsed
-Initializing Unity extensions:
- 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
- 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
- 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'  GUID: f70555f144d8491a825f0804e09c671c
- 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'  GUID: f5f67c52d1564df4a8936ccd202a3bd8
- 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'  GUID: 844f815391db42d49455cbf1a7bfc434
- 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'  GUID: dc443db3e92b4983b9738c1131f555cb
- 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll'  GUID: ed7343f30e3843b3afda8f8b02669cea
- 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll'  GUID: 4a3ecb1425d14502837abea459cf2b70
- 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'  GUID: 5f32cd94baa94578a686d4b9d6b660f7
- 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll'  GUID: b5da970776034f77a070d99423d68791
- 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'  GUID: 870353891bb340e2b2a9c8707e7419ba
- 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'  GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
- 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'  GUID: ead147da21254ff9a0a936bdd75e1680
- 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll'  GUID: e4f4cf1b9b434137a499903a7a1d651a
- 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
- 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'  GUID: 3a84de5cd0624681b6b6dcd8921d912a
- 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'  GUID: 80a3616ca19596e4da0f10f14d241e9f
- 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
- 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
- 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
-Unloading 2168 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 196.0 MB.
-System memory in use after: 194.6 MB.
-
-Unloading 560 unused Assets to reduce memory usage. Loaded Objects now: 2468.
-Total: 3.511900 ms (FindLiveObjects: 0.392100 ms CreateObjectMapping: 0.100500 ms MarkObjects: 1.906200 ms  DeleteObjects: 1.112200 ms)
-
-WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
-WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
-WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
-WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
-Script Compilation Pipeline Post Process Assets time: 0.000411s
-Assembly Updater Post Process Assets time: 0.000045s
-Updating ProjectSettings/UnityConnectSettings.asset - GUID: 0000000000000000a100000000000000...
- done. [Time: 76.367600 ms] 
-Script Compilation Pipeline Post Process Assets time: 0.000010s
-Assembly Updater Post Process Assets time: 0.000038s
-Refreshing native plugins compatible for Editor in 0.40 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-BuildPlayer: start building target 19
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
 - Starting compile Library/ScriptAssemblies/Unity.Polybrush.dll
@@ -272,86 +211,231 @@ BuildPlayer: start building target 19
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.Stl.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProGrids.dll
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+- Starting compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.Settings.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll
+- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
+Script Module: Unity.Postprocessing.Runtime.dll
+Pass: 0 took 70 milliseconds
+Pass: 1 took 11 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Polybrush.dll
+Symbols will be read from Temp\Unity.Polybrush.pdb
+Script Module: Unity.Polybrush.dll
+Pass: 0 took 22 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
+Script Module: Unity.RenderPipelines.Core.Runtime.dll
+Pass: 0 took 15 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
+Symbols will be read from Temp\Unity.ProBuilder.Poly2Tri.pdb
+Script Module: Unity.ProBuilder.Poly2Tri.dll
+Pass: 0 took 0 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 26 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll
+Symbols will be read from Temp\Unity.ProBuilder.KdTree.pdb
+Script Module: Unity.ProBuilder.KdTree.dll
+Pass: 0 took 0 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Timeline.dll
+Symbols will be read from Temp\Unity.Timeline.pdb
+Script Module: Unity.Timeline.dll
+Pass: 0 took 0 milliseconds
+Pass: 1 took 0 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+- Starting compile Library/ScriptAssemblies/Unity.ProBuilder.dll
+- Starting compile Library/ScriptAssemblies/Unity.Recorder.dll
+- Starting compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 110 milliseconds
+Pass: 1 took 15 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Stl.dll
+Symbols will be read from Temp\Unity.ProBuilder.Stl.pdb
+Script Module: Unity.ProBuilder.Stl.dll
+Pass: 0 took 0 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.ProGrids.dll
+Symbols will be read from Temp\Unity.ProGrids.pdb
+Script Module: Unity.ProGrids.dll
+Pass: 0 took 34 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
+Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
+Pass: 0 took 0 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Settings.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll
+- Starting compile Library/ScriptAssemblies/Unity.Polybrush.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Recorder.dll
+Symbols will be read from Temp\Unity.Recorder.pdb
+Script Module: Unity.Recorder.dll
+Pass: 0 took 26 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.dll
+Symbols will be read from Temp\Unity.ProBuilder.pdb
+Script Module: Unity.ProBuilder.dll
+Pass: 0 took 19 milliseconds
+Pass: 1 took 1 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.Recorder.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
+Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
+Pass: 0 took 63 milliseconds
+Pass: 1 took 6 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Polybrush.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Recorder.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
+Registering platform support modules:
+Registered platform support modules in: 0.0371369s.
+Native extension for Android target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.969 seconds
+Platform modules already initialized, skipping
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
 
 -----Compiler Commandline Arguments:
 Filename: C:\UnityEditor\2018.4.0f1\Editor\Data\Tools\Roslyn\csc.exe
-Arguments: /noconfig  /shared @Temp/UnityTempFile-20ad1d6be4ebb6244a320657a09560a3
+Arguments: /noconfig  /shared @Temp/UnityTempFile-9f1fff473671f8549925c880dde9892c
 index: 20
-Responsefile: Temp/UnityTempFile-20ad1d6be4ebb6244a320657a09560a3 Contents: 
+Responsefile: Temp/UnityTempFile-9f1fff473671f8549925c880dde9892c Contents: 
 /target:library
 /nowarn:0169
-/out:Temp/Unity.Polybrush.dll
+/out:Temp/Assembly-CSharp.dll
 /debug:portable
-/optimize+
+/optimize-
 /nostdlib+
 /preferreduilang:en-US
 /langversion:latest
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.AIModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ARModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.AccessibilityModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.AnimationModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.AssetBundleModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.AudioModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.BaselibModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ClothModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ClusterInputModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ClusterRendererModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.CoreModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.CrashReportingModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.DirectorModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.FileSystemHttpModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.GameCenterModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.GridModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.HotReloadModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.IMGUIModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ImageConversionModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.InputModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.JSONSerializeModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.LocalizationModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ParticleSystemModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.PerformanceReportingModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.PhysicsModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.Physics2DModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ProfilerModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ScreenCaptureModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.SharedInternalsModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.SpriteMaskModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.SpriteShapeModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.StreamingModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.StyleSheetsModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.SubstanceModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.TLSModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.TerrainModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.TerrainPhysicsModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.TextCoreModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.TextRenderingModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.TilemapModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.TimelineModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UIModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UIElementsModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UNETModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UmbraModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UnityAnalyticsModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UnityConnectModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UnityTestProtocolModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UnityWebRequestModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UnityWebRequestAudioModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UnityWebRequestTextureModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UnityWebRequestWWWModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.VFXModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.VRModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.VehiclesModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.VideoModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.WindModule.dll
-/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.XRModule.dll
-/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
-/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll
-/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll
-/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll
-/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll
-/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.TextCoreModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.VFXModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEditor.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/Unity.Locator.dll
+/reference:Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.ProGrids.dll
+/reference:Library/ScriptAssemblies/Unity.ProBuilder.dll
+/reference:Library/ScriptAssemblies/Unity.Polybrush.dll
+/reference:Library/ScriptAssemblies/Unity.Polybrush.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll
+/reference:Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+/reference:Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Recorder.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Recorder.dll
+/reference:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Timeline.dll
+/reference:Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+/reference:Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+/reference:Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
+/reference:Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll
+/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll
+/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll
+/reference:E:/p4/WorldUrbanBiomes/Warehouse/Warehouse/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll
+/reference:E:/p4/WorldUrbanBiomes/Warehouse/Warehouse/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll
+/reference:E:/p4/WorldUrbanBiomes/Warehouse/Warehouse/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll
 /reference:C:\UnityEditor\2018.4.0f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll
 /reference:C:\UnityEditor\2018.4.0f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\Microsoft.Win32.Primitives.dll
 /reference:C:\UnityEditor\2018.4.0f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.AppContext.dll
@@ -484,6 +568,7 @@ Responsefile: Temp/UnityTempFile-20ad1d6be4ebb6244a320657a09560a3 Contents:
 /define:UNITY_2018
 /define:PLATFORM_ARCH_64
 /define:UNITY_64
+/define:UNITY_INCLUDE_TESTS
 /define:ENABLE_AUDIO
 /define:ENABLE_CACHING
 /define:ENABLE_CLOTH
@@ -554,275 +639,51 @@ Responsefile: Temp/UnityTempFile-20ad1d6be4ebb6244a320657a09560a3 Contents:
 /define:ENABLE_WEBSOCKET_HOST
 /define:ENABLE_MONO
 /define:NET_STANDARD_2_0
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:UNITY_TEAM_LICENSE
+/define:ENABLE_VSTU
 /define:UNITY_PRO_LICENSE
 /define:UNITY_POST_PROCESSING_STACK_V2
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\AssemblyInfo.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Enum\BrushMirror.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Enum\ComponentIndex.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Enum\Culling.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Enum\Direction.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Enum\MeshChannel.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Enum\MirrorCoordinateSpace.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Enum\ModelSource.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Enum\PaintMode.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Enum\PlacementDirection.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Enum\SelectionRenderState.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\MonoBehaviour\OverlayRenderer.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\MonoBehaviour\PolybrushMesh.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\MonoBehaviour\z_AdditionalVertexStreams.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\MonoBehaviour\ZoomOverride.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Type\AttributeLayout.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Type\ColorMask.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Type\CommonEdge.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Type\GradientSerializer.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Type\ICustomSettings.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Type\IHasDefault.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Type\IValid.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Type\MirrorSettings.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Type\PolyEdge.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Type\PolyMesh.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Type\RndVec3.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Type\SplatSet.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Type\SplatWeight.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Type\SubMesh.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Utility\BoundsUtility.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Utility\Math.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Utility\MeshUtility.cs
-E:\p4\WorldUrbanBiomes\Warehouse\Warehouse\Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Utility\Util.cs
+Assets\Scripts\BatchMeshExportFromPolyBrush.cs
+Assets\Scripts\LightmappedLOD.cs
+Assets\Scripts\LightmappedLODAssigner.cs
+Assets\Scripts\Rotation.cs
+Assets\Scripts\SceneCameraTheft.cs
+Assets\Scripts\SimpleCameraController.cs
+Assets\TutorialInfo\Scripts\Readme.cs
 
------CompilerOutput:-stdout--exitcode: 1--compilationhadfailure: True--outfile: Temp/Unity.Polybrush.dll
+-----CompilerOutput:-stdout--exitcode: 1--compilationhadfailure: True--outfile: Temp/Assembly-CSharp.dll
 Microsoft (R) Visual C# Compiler version 2.9.1.65535 (9d34608e)
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Type\AttributeLayout.cs(62,13): error CS0103: The name 'ArrayUtility' does not exist in the current context
-Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Type\AttributeLayout.cs(75,13): error CS0103: The name 'ArrayUtility' does not exist in the current context
+Assets\Scripts\BatchMeshExportFromPolyBrush.cs(6,19): error CS0234: The type or namespace name 'Formats' does not exist in the namespace 'UnityEditor' (are you missing an assembly reference?)
+Assets\Scripts\BatchMeshExportFromPolyBrush.cs(7,7): error CS0246: The type or namespace name 'Autodesk' could not be found (are you missing a using directive or an assembly reference?)
 -----CompilerOutput:-stderr----------
 -----EndCompilerOutput---------------
-- Finished compile Library/ScriptAssemblies/Unity.Polybrush.dll
-- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
-Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
-Script Module: Unity.Postprocessing.Runtime.dll
-Pass: 0 took 16 milliseconds
-Pass: 1 took 4 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
-Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
-Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 13 milliseconds
-Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
-Symbols will be read from Temp\Unity.ProBuilder.Poly2Tri.pdb
-Script Module: Unity.ProBuilder.Poly2Tri.dll
-Pass: 0 took 0 milliseconds
-Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
-Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
-Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 20 milliseconds
-Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll
-Symbols will be read from Temp\Unity.ProBuilder.KdTree.pdb
-Script Module: Unity.ProBuilder.KdTree.dll
-Pass: 0 took 0 milliseconds
-Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Timeline.dll
-Symbols will be read from Temp\Unity.Timeline.pdb
-Script Module: Unity.Timeline.dll
-Pass: 0 took 0 milliseconds
-Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Stl.dll
-Symbols will be read from Temp\Unity.ProBuilder.Stl.pdb
-Script Module: Unity.ProBuilder.Stl.dll
-Pass: 0 took 0 milliseconds
-Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.ProGrids.dll
-Symbols will be read from Temp\Unity.ProGrids.pdb
-Script Module: Unity.ProGrids.dll
-Pass: 0 took 13 milliseconds
-Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbols will be read from Temp\Unity.TextMeshPro.pdb
-Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 27 milliseconds
-Pass: 1 took 5 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
-Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
-Pass: 0 took 0 milliseconds
-Pass: 1 took 0 milliseconds
-Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Type\AttributeLayout.cs(62,13): error CS0103: The name 'ArrayUtility' does not exist in the current context
- 
-(Filename: Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Type\AttributeLayout.cs Line: 62)
-
-Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Type\AttributeLayout.cs(75,13): error CS0103: The name 'ArrayUtility' does not exist in the current context
- 
-(Filename: Library\PackageCache\com.unity.polybrush@1.0.0\Runtime\Scripts\Type\AttributeLayout.cs Line: 75)
-
-DisplayProgressNotification: Build Failed
-Error building Player because scripts had compiler errors
- 
-(Filename:  Line: -1)
-
-Unloading 84 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 161.9 MB.
-System memory in use after: 162.0 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2556.
-Total: 6.609600 ms (FindLiveObjects: 0.333800 ms CreateObjectMapping: 0.064400 ms MarkObjects: 6.195800 ms  DeleteObjects: 0.015200 ms)
-
-Load scene 'Temp/__Backupscenes/0.backup' time: 0.045300 ms 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 160.4 MB.
-System memory in use after: 160.6 MB.
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2556.
-Total: 6.284700 ms (FindLiveObjects: 0.322400 ms CreateObjectMapping: 0.062500 ms MarkObjects: 5.894000 ms  DeleteObjects: 0.005400 ms)
-
-- Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
-- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
-- Starting compile Library/ScriptAssemblies/Unity.Polybrush.dll
-- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
-- Starting compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
-- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
-- Starting compile Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll
-- Starting compile Library/ScriptAssemblies/Unity.Timeline.dll
-- Starting compile Library/ScriptAssemblies/Unity.ProBuilder.Stl.dll
-- Starting compile Library/ScriptAssemblies/Unity.ProGrids.dll
-- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
-- Starting compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.Settings.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll
-- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
-Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
-Script Module: Unity.Postprocessing.Runtime.dll
-Pass: 0 took 18 milliseconds
-Pass: 1 took 1 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Polybrush.dll
-Symbols will be read from Temp\Unity.Polybrush.pdb
-Script Module: Unity.Polybrush.dll
-Pass: 0 took 33 milliseconds
-Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
-Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
-Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 14 milliseconds
-Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
-Symbols will be read from Temp\Unity.ProBuilder.Poly2Tri.pdb
-Script Module: Unity.ProBuilder.Poly2Tri.dll
-Pass: 0 took 0 milliseconds
-Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
-Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
-Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 25 milliseconds
-Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Timeline.dll
-Symbols will be read from Temp\Unity.Timeline.pdb
-Script Module: Unity.Timeline.dll
-Pass: 0 took 0 milliseconds
-Pass: 1 took 0 milliseconds
-- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
-- Starting compile Library/ScriptAssemblies/Unity.Recorder.dll
-- Starting compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbols will be read from Temp\Unity.TextMeshPro.pdb
-Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 54 milliseconds
-Pass: 1 took 5 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll
-Symbols will be read from Temp\Unity.ProBuilder.KdTree.pdb
-Script Module: Unity.ProBuilder.KdTree.dll
-Pass: 0 took 0 milliseconds
-Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Stl.dll
-Symbols will be read from Temp\Unity.ProBuilder.Stl.pdb
-Script Module: Unity.ProBuilder.Stl.dll
-Pass: 0 took 0 milliseconds
-Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.ProGrids.dll
-Symbols will be read from Temp\Unity.ProGrids.pdb
-Script Module: Unity.ProGrids.dll
-Pass: 0 took 20 milliseconds
-Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
-Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
-Pass: 0 took 0 milliseconds
-Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Settings.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll
-- Starting compile Library/ScriptAssemblies/Unity.ProBuilder.dll
-- Starting compile Library/ScriptAssemblies/Unity.Polybrush.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Recorder.dll
-Symbols will be read from Temp\Unity.Recorder.pdb
-Script Module: Unity.Recorder.dll
-Pass: 0 took 24 milliseconds
-Pass: 1 took 0 milliseconds
-- Starting compile Library/ScriptAssemblies/Unity.Recorder.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
-Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
-Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
-Pass: 0 took 81 milliseconds
-Pass: 1 took 9 milliseconds
-- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Polybrush.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.dll
-Symbols will be read from Temp\Unity.ProBuilder.pdb
-Script Module: Unity.ProBuilder.dll
-Pass: 0 took 15 milliseconds
-Pass: 1 took 1 milliseconds
-- Starting compile Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Recorder.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll
-- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
-Symbols will be read from Temp\Assembly-CSharp.pdb
-Script Module: Assembly-CSharp.dll
-Pass: 0 took 12 milliseconds
-Pass: 1 took 0 milliseconds
-- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
-- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
-Reloading assemblies after script compilation.
-Begin MonoManager ReloadAssembly
-Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
-Registering platform support modules:
-Registered platform support modules in: 0.0354554s.
-Native extension for Android target not found
-Native extension for WebGL target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.89 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Mono: successfully reloaded assembly
-Refreshing native plugins compatible for Editor in 0.63 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-- Completed reload, in  1.334 seconds
-Platform modules already initialized, skipping
-Batchmode quit successfully invoked - shutting down!
-[Performance] CurlRequestCheck                        :       15 samples, Peak.  30.5 us (3.0x), Avg.  10.0 us, Total. 150.0 us (0.0%)
-[Performance] PackageManager::RunRequestSynchronously :        4 samples, Peak.  29.6 us (2.8x), Avg.  10.7 us, Total. 42.60 us (0.0%)
+Assets\Scripts\BatchMeshExportFromPolyBrush.cs(6,19): error CS0234: The type or namespace name 'Formats' does not exist in the namespace 'UnityEditor' (are you missing an assembly reference?)
+ 
+(Filename: Assets\Scripts\BatchMeshExportFromPolyBrush.cs Line: 6)
+
+Assets\Scripts\BatchMeshExportFromPolyBrush.cs(7,7): error CS0246: The type or namespace name 'Autodesk' could not be found (are you missing a using directive or an assembly reference?)
+ 
+(Filename: Assets\Scripts\BatchMeshExportFromPolyBrush.cs Line: 7)
+
+Validating Project structure ... 0.008901 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.038215s
-	Asset Scan time: 0.036925s
+Refresh Completed time: 0.041231s
+	Asset Scan time: 0.039868s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -831,28 +692,47 @@ Refresh Completed time: 0.038215s
 	Post Process Assets (Non Scripting) time: 0.000000s
 	Dependent Assets to Import Queue time: 0.000000s
 
-Refresh: detecting if any assets need to be imported or removed ...
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Warming cache for 5533 main assets: 0.021059 seconds elapsed
+Initializing Unity extensions:
+ 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
+ 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
+ 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'  GUID: f70555f144d8491a825f0804e09c671c
+ 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'  GUID: f5f67c52d1564df4a8936ccd202a3bd8
+ 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'  GUID: 844f815391db42d49455cbf1a7bfc434
+ 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'  GUID: dc443db3e92b4983b9738c1131f555cb
+ 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll'  GUID: ed7343f30e3843b3afda8f8b02669cea
+ 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll'  GUID: 4a3ecb1425d14502837abea459cf2b70
+ 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'  GUID: 5f32cd94baa94578a686d4b9d6b660f7
+ 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll'  GUID: b5da970776034f77a070d99423d68791
+ 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'  GUID: 870353891bb340e2b2a9c8707e7419ba
+ 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'  GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+ 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'  GUID: ead147da21254ff9a0a936bdd75e1680
+ 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll'  GUID: e4f4cf1b9b434137a499903a7a1d651a
+ 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+ 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'  GUID: 3a84de5cd0624681b6b6dcd8921d912a
+ 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'  GUID: 80a3616ca19596e4da0f10f14d241e9f
+ 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
+ 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
+ 'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
+Unloading 1765 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.7 MB.
+System memory in use after: 182.4 MB.
 
-Refresh Completed time: 0.034876s
-	Asset Scan time: 0.033724s
-	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
-	Asset Import (Scripting) time: 0.000000s (count: 0)
-	Post Processs Assets (Scripting) time: 0.000000s
-	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
-	Asset Import (Non Scripting) time: 0.000000s (count: 0)
-	Post Process Assets (Non Scripting) time: 0.000000s
-	Dependent Assets to Import Queue time: 0.000000s
+Unloading 152 unused Assets to reduce memory usage. Loaded Objects now: 2471.
+Total: 3.017600 ms (FindLiveObjects: 0.246200 ms CreateObjectMapping: 0.047700 ms MarkObjects: 1.937900 ms  DeleteObjects: 0.785300 ms)
 
-Setting up 8 worker threads for Enlighten.
-  Thread -> id: 3034 -> priority: 1 
-  Thread -> id: 4f94 -> priority: 1 
-  Thread -> id: 71c8 -> priority: 1 
-  Thread -> id: 4a0c -> priority: 1 
-  Thread -> id: 782c -> priority: 1 
-  Thread -> id: 4a90 -> priority: 1 
-  Thread -> id: 79d0 -> priority: 1 
-  Thread -> id: 7148 -> priority: 1 
-[Package Manager] Server::Kill -- Server was shutdown
-Cleanup mono
-Exiting batchmode successfully now!
-Exiting without the bug reporter. Application will terminate with return code 0
+Scripts have compiler errors.
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Utilities/Argv.cpp Line: 354)
+
+
+Aborting batchmode due to failure:
+Scripts have compiler errors.
+
+Exiting without the bug reporter. Application will terminate with return code 1
