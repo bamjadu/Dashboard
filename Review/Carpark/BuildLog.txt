@@ -1,10 +1,10 @@
 Initiating legacy licensing module
-LICENSE SYSTEM [20191217 17:56:16] Next license update check is after 2019-12-18T01:14:32
+LICENSE SYSTEM [20191217 18:4:9] Next license update check is after 2019-12-18T01:14:32
 
 Built from '2018.4/staging' branch; Version is '2018.4.0f1 (b6ffa8986c8d) revision 11993000'; Using compiler version '191326128'
 OS: 'Windows 10  (10.0.0) 64bit' Language: 'ko' Physical Memory: 32586 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-[Package Manager] Server::Start -- Port 65406 was selected
+[Package Manager] Server::Start -- Port 56698 was selected
 
  COMMAND LINE ARGUMENTS:
 C:/UnityEditor/2018.4.0f1/Editor/Unity.exe
@@ -15,12 +15,12 @@ E:/p4/WorldUrbanBiomes/Carpark/Carpark/
 -executeMethod
 ASBuildScript.RunBuild
 -logfile
-e:/build/LemonSky/Carpark/3401/BuildLog.txt
+e:/build/LemonSky/Carpark/3403/BuildLog.txt
 Successfully changed project path to: E:/p4/WorldUrbanBiomes/Carpark/Carpark/
 E:/p4/WorldUrbanBiomes/Carpark/Carpark
 Using Asset Import Pipeline V1.
-Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000065 seconds
-Loading Asset Database...0.018425 seconds
+Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000059 seconds
+Loading Asset Database...0.018148 seconds
 Build target: OSXUniversal found and added!
 Build target: WindowsStoreApps found and added!
 Build target: Win64 found and added!
@@ -49,8 +49,8 @@ Build target: N3DS found and added!
 Build target: WP8 found and added!
 Build target: SamsungTV found and added!
 Build target: Tizen found and added!
-AssetDatabase consistency checks...0.018672 seconds
-Refreshing native plugins compatible for Editor in 8.19 ms, found 2 plugins.
+AssetDatabase consistency checks...0.018683 seconds
+Refreshing native plugins compatible for Editor in 7.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Unity Package Manager
 [Package Manager] Done resolving packages in 0.19s seconds
@@ -163,44 +163,44 @@ Initialize mono
 Mono path[0] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
 Begin MonoManager ReloadAssembly
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering precompiled unity dll's ...
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001757 seconds.
+Registered in 0.001807 seconds.
 Registering platform support modules:
-Registered platform support modules in: 0.0591682s.
+Registered platform support modules in: 0.0602827s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.91 ms.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.88 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.568 seconds
+- Completed reload, in  1.629 seconds
 Registering precompiled user dll's ...
-Registered in 0.050284 seconds.
+Registered in 0.051452 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering platform support modules:
-Registered platform support modules in: 0.0341595s.
+Registered platform support modules in: 0.0360803s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.991 seconds
+- Completed reload, in  1.035 seconds
 Platform modules already initialized, skipping
-Validating Project structure ... 0.003942 seconds.
+Validating Project structure ... 0.003930 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.030747s
-	Asset Scan time: 0.029480s
+Refresh Completed time: 0.032454s
+	Asset Scan time: 0.031188s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -209,13 +209,13 @@ Refresh Completed time: 0.030747s
 	Post Process Assets (Non Scripting) time: 0.000000s
 	Dependent Assets to Import Queue time: 0.000000s
 
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
-WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
-WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
-Warming cache for 4055 main assets: 0.008702 seconds elapsed
+Warming cache for 4029 main assets: 0.008543 seconds elapsed
 Initializing Unity extensions:
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
@@ -237,23 +237,23 @@ Initializing Unity extensions:
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
-Unloading 1883 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 184.3 MB.
-System memory in use after: 182.8 MB.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.9 MB.
+System memory in use after: 182.4 MB.
 
-Unloading 401 unused Assets to reduce memory usage. Loaded Objects now: 2340.
-Total: 3.249000 ms (FindLiveObjects: 0.358400 ms CreateObjectMapping: 0.074800 ms MarkObjects: 1.787400 ms  DeleteObjects: 1.027900 ms)
+Unloading 392 unused Assets to reduce memory usage. Loaded Objects now: 2340.
+Total: 3.119300 ms (FindLiveObjects: 0.350400 ms CreateObjectMapping: 0.072200 ms MarkObjects: 1.684700 ms  DeleteObjects: 1.011500 ms)
 
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
-Script Compilation Pipeline Post Process Assets time: 0.000529s
-Assembly Updater Post Process Assets time: 0.000067s
+Script Compilation Pipeline Post Process Assets time: 0.000484s
+Assembly Updater Post Process Assets time: 0.000053s
 Updating ProjectSettings/UnityConnectSettings.asset - GUID: 0000000000000000a100000000000000...
- done. [Time: 69.454800 ms] 
+ done. [Time: 69.168500 ms] 
 Script Compilation Pipeline Post Process Assets time: 0.000010s
-Assembly Updater Post Process Assets time: 0.000036s
+Assembly Updater Post Process Assets time: 0.000034s
 Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.10 ms.
 BuildPlayer: start building target 19
@@ -267,36 +267,30 @@ BuildPlayer: start building target 19
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.Stl.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProGrids.dll
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
-- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
-Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
-Script Module: Unity.Postprocessing.Runtime.dll
-Pass: 0 took 16 milliseconds
-Pass: 1 took 3 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbols will be read from Temp\Unity.TextMeshPro.pdb
-Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 23 milliseconds
-Pass: 1 took 10 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Polybrush.dll
 Symbols will be read from Temp\Unity.Polybrush.pdb
 Script Module: Unity.Polybrush.dll
-Pass: 0 took 12 milliseconds
-Pass: 1 took 0 milliseconds
+Pass: 0 took 19 milliseconds
+Pass: 1 took 3 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
+Script Module: Unity.Postprocessing.Runtime.dll
+Pass: 0 took 13 milliseconds
+Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
 Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 12 milliseconds
+Pass: 0 took 14 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
 Symbols will be read from Temp\Unity.ProBuilder.Poly2Tri.pdb
 Script Module: Unity.ProBuilder.Poly2Tri.dll
 Pass: 0 took 0 milliseconds
 Pass: 1 took 0 milliseconds
-- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 - Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
 Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
 Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 21 milliseconds
+Pass: 0 took 25 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll
 Symbols will be read from Temp\Unity.ProBuilder.KdTree.pdb
@@ -311,41 +305,47 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProGrids.dll
 Symbols will be read from Temp\Unity.ProGrids.pdb
 Script Module: Unity.ProGrids.dll
-Pass: 0 took 17 milliseconds
+Pass: 0 took 18 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
 Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
 Pass: 0 took 0 milliseconds
 Pass: 1 took 0 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
-Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
-Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
-Pass: 0 took 47 milliseconds
-Pass: 1 took 5 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 38 milliseconds
+Pass: 1 took 6 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.dll
 Symbols will be read from Temp\Unity.ProBuilder.pdb
 Script Module: Unity.ProBuilder.dll
-Pass: 0 took 13 milliseconds
-Pass: 1 took 1 milliseconds
+Pass: 0 took 18 milliseconds
+Pass: 1 took 5 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
+Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
+Pass: 0 took 43 milliseconds
+Pass: 1 took 5 milliseconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
 Symbols will be read from Temp\Assembly-CSharp.pdb
 Script Module: Assembly-CSharp.dll
-Pass: 0 took 13 milliseconds
+Pass: 0 took 17 milliseconds
 Pass: 1 took 0 milliseconds
 DisplayProgressbar: Building Player
 Opening scene 'Assets/Scenes/Asset_Layout.unity'
-Load scene 'Assets/Scenes/Asset_Layout.unity' time: 0.010400 ms 
+Load scene 'Assets/Scenes/Asset_Layout.unity' time: 0.010300 ms 
 Unloading 197 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.1 MB.
-System memory in use after: 229.7 MB.
+System memory in use before: 227.0 MB.
+System memory in use after: 227.2 MB.
 
-Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 11095.
-Total: 9.458100 ms (FindLiveObjects: 0.756500 ms CreateObjectMapping: 0.309600 ms MarkObjects: 8.186500 ms  DeleteObjects: 0.205200 ms)
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 10528.
+Total: 9.276100 ms (FindLiveObjects: 0.740200 ms CreateObjectMapping: 0.291600 ms MarkObjects: 8.051500 ms  DeleteObjects: 0.192400 ms)
 
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
@@ -405,38 +405,38 @@ Dependency assembly - Unity.RenderPipelines.Core.ShaderLibrary.dll
 Dependency assembly - Unity.RenderPipelines.HighDefinition.Runtime.dll
 Dependency assembly - Unity.TextMeshPro.dll
 
-Unloading 611 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 239.1 MB.
-System memory in use after: 191.3 MB.
+Unloading 584 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 237.3 MB.
+System memory in use after: 186.1 MB.
 
-Unloading 5278 unused Assets to reduce memory usage. Loaded Objects now: 2430.
-Total: 15.244100 ms (FindLiveObjects: 0.657600 ms CreateObjectMapping: 0.322300 ms MarkObjects: 6.948500 ms  DeleteObjects: 7.315000 ms)
+Unloading 4945 unused Assets to reduce memory usage. Loaded Objects now: 2430.
+Total: 14.813300 ms (FindLiveObjects: 0.607200 ms CreateObjectMapping: 0.224100 ms MarkObjects: 7.137800 ms  DeleteObjects: 6.843600 ms)
 
 [EnlightenBakeManager] m_Clear = false;
 Setting up 8 worker threads for Enlighten.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-  Thread -> id: 2970 -> priority: 1 
-  Thread -> id: 1730 -> priority: 1 
-  Thread -> id: 6a0 -> priority: 1 
-  Thread -> id: 6454 -> priority: 1 
-  Thread -> id: 26fc -> priority: 1 
-  Thread -> id: 4f90 -> priority: 1 
-  Thread -> id: 20a4 -> priority: 1 
-  Thread -> id: 3bf8 -> priority: 1 
-System memory in use before: 162.5 MB.
-System memory in use after: 162.6 MB.
+  Thread -> id: 4e7c -> priority: 1 
+  Thread -> id: 605c -> priority: 1 
+  Thread -> id: 2e08 -> priority: 1 
+  Thread -> id: 558 -> priority: 1 
+  Thread -> id: 4ea4 -> priority: 1 
+  Thread -> id: 64e0 -> priority: 1 
+  Thread -> id: 4d68 -> priority: 1 
+  Thread -> id: 32ec -> priority: 1 
+System memory in use before: 162.4 MB.
+System memory in use after: 162.5 MB.
 
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2443.
-Total: 7.468400 ms (FindLiveObjects: 0.336600 ms CreateObjectMapping: 0.039200 ms MarkObjects: 7.087600 ms  DeleteObjects: 0.004500 ms)
+Total: 6.954200 ms (FindLiveObjects: 0.334500 ms CreateObjectMapping: 0.060800 ms MarkObjects: 6.554100 ms  DeleteObjects: 0.004300 ms)
 
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.9 MB.
-System memory in use after: 162.8 MB.
+System memory in use before: 163.7 MB.
+System memory in use after: 162.6 MB.
 
 Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2430.
-Total: 9.018400 ms (FindLiveObjects: 0.339900 ms CreateObjectMapping: 0.039800 ms MarkObjects: 7.825100 ms  DeleteObjects: 0.812800 ms)
+Total: 8.132600 ms (FindLiveObjects: 0.328400 ms CreateObjectMapping: 0.058900 ms MarkObjects: 6.928600 ms  DeleteObjects: 0.816200 ms)
 
 Compressed shader 'HDRenderPipeline/Lit' on d3d11 from 8.90MB to 2.14MB
 Compressed shader 'Hidden/HDRenderPipeline/ColorResolve' on d3d11 from 2.29MB to 0.62MB
@@ -445,12 +445,12 @@ Compressed shader 'HDRenderPipeline/TerrainLit' on d3d11 from 2.77MB to 0.58MB
 DisplayProgressbar: Compiling shader variants
 Compressed shader 'Hidden/PostProcessing/Uber' on d3d11 from 3.81MB to 0.24MB
 Compressed shader 'Shader Graphs/mask_colorize' on d3d11 from 1.11MB to 0.26MB
-Unloading 489 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 220.0 MB.
-System memory in use after: 217.8 MB.
+Unloading 480 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 219.3 MB.
+System memory in use after: 217.1 MB.
 
 Unloading 683 unused Assets to reduce memory usage. Loaded Objects now: 2444.
-Total: 9.900000 ms (FindLiveObjects: 0.347300 ms CreateObjectMapping: 0.058000 ms MarkObjects: 6.875800 ms  DeleteObjects: 2.618700 ms)
+Total: 10.139300 ms (FindLiveObjects: 0.323700 ms CreateObjectMapping: 0.054200 ms MarkObjects: 7.134000 ms  DeleteObjects: 2.627000 ms)
 
 DisplayProgressbar: Building Player
 
@@ -463,12 +463,12 @@ Animations             0.0 kb	 0.0%
 Sounds                 0.0 kb	 0.0% 
 Shaders                6.2 mb	 1.7% 
 Other Assets           4.6 mb	 1.2% 
-Levels                 758.3 kb	 0.2% 
+Levels                 703.5 kb	 0.2% 
 Scripts                2.9 mb	 0.8% 
 Included DLLs          13.2 mb	 3.6% 
-File headers           3.2 mb	 0.9% 
-Total User Assets      368.5 mb	 100.0% 
-Complete build size    405.1 mb
+File headers           3.0 mb	 0.8% 
+Total User Assets      368.2 mb	 100.0% 
+Complete build size    404.8 mb
 Used Assets and files from the Resources folder, sorted by uncompressed size:
  32.0 mb	 7.9% Assets/HDR/canary_wharf.hdr
  5.3 mb	 1.3% Assets/Textures/Props/SprinklerPipe_01a_MM_snaps019.tga
@@ -739,7 +739,6 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  4.9 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Copy.shader
  4.9 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStd.shader
  4.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/GGXConvolution/GGXConvolve.shader
- 4.8 kb	 0.0% Assets/Model/Props/SprinklerPipe_15a_COL_snaps019.fbx
  4.7 kb	 0.0% Assets/Materials/Props/CP_ParkingBooth_01b_Alpha_snaps019.mat
  4.7 kb	 0.0% Assets/Materials/Props/CP_ParkingBooth_01a_Alpha_snaps019.mat
  4.7 kb	 0.0% Assets/Materials/Props/EmergencyLight_01a_Alpha_snaps019.mat
@@ -868,7 +867,6 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  3.1 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Debug/ColorGradient.png
  3.1 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.shader
  3.1 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/AxF/PreIntegratedFGD_CookTorrance.shader
- 3.0 kb	 0.0% Assets/Model/Props/SprinklerPipe_14a_COL_snaps019.fbx
  3.0 kb	 0.0% Assets/Model/Props/SprinklerPipe_05a_COL_snaps019.fbx
  3.0 kb	 0.0% Assets/Model/Props/PlasticPipe_12a_COL_snaps019.fbx
  3.0 kb	 0.0% Assets/Model/Props/PlasticPipe_05a_COL_snaps019.fbx
@@ -897,7 +895,6 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  2.5 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/GGXConvolution/ComputeGgxIblSampleData.compute
  2.4 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/ShadowClear.shader
  2.4 kb	 0.0% Assets/Model/Props/TicketMachine_01a_COL_snaps019.fbx
- 2.4 kb	 0.0% Assets/Model/Props/SprinklerPipe_13a_COL_snaps019.fbx
  2.4 kb	 0.0% Assets/Model/Props/PlasticPipe_04a_COL_snaps019.fbx
  2.4 kb	 0.0% Assets/Model/Props/EdgeGuard_01a_COL_snaps019.fbx
  2.4 kb	 0.0% Assets/Model/Props/Cage_03a_COL_snaps019.fbx
@@ -921,12 +918,6 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  1.6 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ExposureHistogram.compute
  1.6 kb	 0.0% Assets/Model/Props/FluorescentLight_02a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/FluorescentLight_01a_COL_snaps019.fbx
- 1.6 kb	 0.0% Assets/Model/Props/SprinklerPipe_18a_COL_snaps019.fbx
- 1.6 kb	 0.0% Assets/Model/Props/SprinklerPipe_17a_COL_snaps019.fbx
- 1.6 kb	 0.0% Assets/Model/Props/SprinklerPipe_16a_COL_snaps019.fbx
- 1.6 kb	 0.0% Assets/Model/Props/SprinklerPipe_12a_COL_snaps019.fbx
- 1.6 kb	 0.0% Assets/Model/Props/SprinklerPipe_11a_COL_snaps019.fbx
- 1.6 kb	 0.0% Assets/Model/Props/SprinklerPipe_10a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/SprinklerPipe_09a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/SprinklerPipe_08a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/SprinklerPipe_07a_COL_snaps019.fbx
@@ -1529,20 +1520,20 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  0.1 kb	 0.0% Packages/com.unity.probuilder/Content/Resources/Materials/EdgePicker.mat
 -------------------------------------------------------------------------------
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.4 MB.
-System memory in use after: 163.2 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2450.
-Total: 8.151200 ms (FindLiveObjects: 0.359000 ms CreateObjectMapping: 0.057000 ms MarkObjects: 7.520200 ms  DeleteObjects: 0.214200 ms)
-
-DisplayProgressNotification: Build Successful
-Load scene 'Temp/__Backupscenes/0.backup' time: 0.020700 ms 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.7 MB.
+System memory in use before: 163.1 MB.
 System memory in use after: 162.9 MB.
 
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2450.
+Total: 8.350800 ms (FindLiveObjects: 0.340400 ms CreateObjectMapping: 0.039400 ms MarkObjects: 7.748100 ms  DeleteObjects: 0.222200 ms)
+
+DisplayProgressNotification: Build Successful
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.019500 ms 
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 162.5 MB.
+System memory in use after: 162.6 MB.
+
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2442.
-Total: 7.803100 ms (FindLiveObjects: 0.338600 ms CreateObjectMapping: 0.059300 ms MarkObjects: 7.400800 ms  DeleteObjects: 0.004100 ms)
+Total: 7.056500 ms (FindLiveObjects: 0.309300 ms CreateObjectMapping: 0.050400 ms MarkObjects: 6.690500 ms  DeleteObjects: 0.005500 ms)
 
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
@@ -1562,18 +1553,18 @@ Total: 7.803100 ms (FindLiveObjects: 0.338600 ms CreateObjectMapping: 0.059300 m
 - Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
 Script Module: Unity.Postprocessing.Runtime.dll
-Pass: 0 took 644 milliseconds
+Pass: 0 took 19 milliseconds
 Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Polybrush.dll
 Symbols will be read from Temp\Unity.Polybrush.pdb
 Script Module: Unity.Polybrush.dll
-Pass: 0 took 13 milliseconds
+Pass: 0 took 31 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
 Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 13 milliseconds
-Pass: 1 took 0 milliseconds
+Pass: 0 took 24 milliseconds
+Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
 Symbols will be read from Temp\Unity.ProBuilder.Poly2Tri.pdb
 Script Module: Unity.ProBuilder.Poly2Tri.dll
@@ -1582,16 +1573,8 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
 Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
 Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 26 milliseconds
+Pass: 0 took 25 milliseconds
 Pass: 1 took 0 milliseconds
-- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
-- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbols will be read from Temp\Unity.TextMeshPro.pdb
-Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 51 milliseconds
-Pass: 1 took 5 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll
 Symbols will be read from Temp\Unity.ProBuilder.KdTree.pdb
 Script Module: Unity.ProBuilder.KdTree.dll
@@ -1605,8 +1588,18 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProGrids.dll
 Symbols will be read from Temp\Unity.ProGrids.pdb
 Script Module: Unity.ProGrids.dll
-Pass: 0 took 17 milliseconds
+Pass: 0 took 13 milliseconds
 Pass: 1 took 0 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+- Starting compile Library/ScriptAssemblies/Unity.ProBuilder.dll
+- Starting compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 42 milliseconds
+Pass: 1 took 5 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
 Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
@@ -1617,46 +1610,44 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll
-- Starting compile Library/ScriptAssemblies/Unity.ProBuilder.dll
 - Starting compile Library/ScriptAssemblies/Unity.Polybrush.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
-Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
-Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
-Pass: 0 took 67 milliseconds
-Pass: 1 took 5 milliseconds
-- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Polybrush.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.dll
 Symbols will be read from Temp\Unity.ProBuilder.pdb
 Script Module: Unity.ProBuilder.dll
-Pass: 0 took 14 milliseconds
-Pass: 1 took 1 milliseconds
+Pass: 0 took 24 milliseconds
+Pass: 1 took 2 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Polybrush.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
+Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
+Pass: 0 took 60 milliseconds
+Pass: 1 took 5 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
 Symbols will be read from Temp\Assembly-CSharp.pdb
 Script Module: Assembly-CSharp.dll
-Pass: 0 took 12 milliseconds
+Pass: 0 took 18 milliseconds
 Pass: 1 took 0 milliseconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 Batchmode quit successfully invoked - shutting down!
-[Performance] CurlRequestCheck                        :       15 samples, Peak.  25.5 us (2.8x), Avg.  8.99 us, Total. 134.8 us (0.0%)
-[Performance] PackageManager::RunRequestSynchronously :        4 samples, Peak.  26.8 us (1.8x), Avg.  14.8 us, Total. 59.30 us (0.0%)
+[Performance] CurlRequestCheck                        :       15 samples, Peak.  24.2 us (2.3x), Avg.  10.6 us, Total. 159.2 us (0.0%)
+[Performance] PackageManager::RunRequestSynchronously :        4 samples, Peak.  29.3 us (2.6x), Avg.  11.5 us, Total. 45.90 us (0.0%)
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.030995s
-	Asset Scan time: 0.029790s
+Refresh Completed time: 0.031303s
+	Asset Scan time: 0.029987s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -1667,8 +1658,8 @@ Refresh Completed time: 0.030995s
 
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.030697s
-	Asset Scan time: 0.029667s
+Refresh Completed time: 0.030043s
+	Asset Scan time: 0.029001s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
