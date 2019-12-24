@@ -6,12 +6,12 @@
 Entitlement-based licensing initiated
 [LicensingClient] Licenses Updated successfully in LicensingClient
 
-LICENSE SYSTEM [20191224 10:46:46] Next license update check is after 2019-12-18T01:14:32
+LICENSE SYSTEM [20191224 15:41:45] Next license update check is after 2019-12-18T01:14:32
 
 Built from '2019.3/staging' branch; Version is '2019.3.0f3 (6c9e2bfd6f81) revision 7118379'; Using compiler version '191627012'
 OS: 'Windows 10  (10.0.0) 64bit' Language: 'ko' Physical Memory: 32586 MB
 [Licensing::Module] Serial number assigned to: "I3-FZY2-BBA3-B5MZ-47SC-XXXX"\nBatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-[Package Manager] Server::Start -- Port 49935 was selected
+[Package Manager] Server::Start -- Port 51403 was selected
 
  COMMAND LINE ARGUMENTS:
 C:/UnityEditor/2019.3.0f3/Editor/Unity.exe
@@ -22,12 +22,12 @@ E:/p4/SpecialProjects/Beijing_2035/
 -executeMethod
 ASBuildScript.RunBuild
 -logfile
-e:/build/ArtsUnited/Beijing_2035/3668/BuildLog.txt
+e:/build/ArtsUnited/Beijing_2035/3670/BuildLog.txt
 Successfully changed project path to: E:/p4/SpecialProjects/Beijing_2035/
 E:/p4/SpecialProjects/Beijing_2035
 Using Asset Import Pipeline V2.
 DisplayProgressbar: Unity Package Manager
-Adding genesis user token [Package Manager] Done resolving packages in 0.72s seconds
+Adding genesis user token [Package Manager] Done resolving packages in 0.79s seconds
 [Package Manager] Done checking package constraints in 0.00s seconds
 [Package Manager] 
 Registered 47 packages:
@@ -83,7 +83,7 @@ Registered 47 packages:
 
 [Subsystems] No new subsystems found in resolved package list.
 [Package Manager] Done registering packages in 0.00s seconds
-Refreshing native plugins compatible for Editor in 45.73 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 50.65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2019.3.0f3 (6c9e2bfd6f81)
 [Subsystems] Discovering subsystems at path C:/UnityEditor/2019.3.0f3/Editor/Data/Resources/UnitySubsystems
@@ -100,44 +100,44 @@ Initialize mono
 Mono path[0] = 'C:/UnityEditor/2019.3.0f3/Editor/Data/Managed'
 Mono path[1] = 'C:/UnityEditor/2019.3.0f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/UnityEditor/2019.3.0f3/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
-ImportWorker Server TCP listen port: 54810
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+ImportWorker Server TCP listen port: 49248
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/UnityEditor/2019.3.0f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001281 seconds.
+Registered in 0.001428 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 50.58 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.942 seconds
+- Completed reload, in  1.040 seconds
 Registering precompiled user dll's ...
-Registered in 0.077536 seconds.
+Registered in 0.096543 seconds.
 Platform modules already initialized, skipping
-Validating Project structure ... 0.012239 seconds.
+Validating Project structure ... 0.014088 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.011283 seconds.
+Upgrading shader files ...0.013126 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\p4\SpecialProjects\Beijing_2035\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 49.08 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 57.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 Refresh completed in 0.000002 seconds.
-- Completed reload, in  0.787 seconds
+- Completed reload, in  0.865 seconds
 Platform modules already initialized, skipping
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions)
-RefreshProfiler: Total: 1805.340ms
-	InvokeBeforeRefreshCallbacks: 0.168ms
+RefreshProfiler: Total: 1988.616ms
+	InvokeBeforeRefreshCallbacks: 0.169ms
 	ApplyChangesToAssetFolders: 0.053ms
 	WriteModifiedImportersToTextMetaFiles: 0.000ms
 	CleanLegacyArtifacts: 0.000ms
-	Scan: 94.506ms
+	Scan: 120.389ms
 	UnregisterDeletedAssets: 0.000ms
 	InitializeImportedAssetsSnapshot: 0.134ms
-	GetAllGuidsForCategorization: 0.347ms
-	CategorizeAssets: 105.034ms
-	ImportAndPostprocessOutOfDateAssets: 1582.046ms (1582.046ms without children)
+	GetAllGuidsForCategorization: 0.305ms
+	CategorizeAssets: 117.278ms
+	ImportAndPostprocessOutOfDateAssets: 1726.063ms (1726.062ms without children)
 		ImportManagerImport: 0.000ms (0.000ms without children)
 			ImportInProcess: 0.000ms
 			ImportOutOfProcess: 0.000ms
@@ -150,24 +150,24 @@ RefreshProfiler: Total: 1805.340ms
 		ReloadImportedAssets: 0.000ms
 	InvokeProjectHasChanged: 0.000ms
 	UpdateImportedAssetsSnapshot: -0.000ms
-	ReloadSourceAssets: 0.492ms
-	UnloadImportedAssets: 0.006ms
-	Hotreload: 0.057ms
-	FixTempGuids: 0.005ms
-	Untracked: 22.491ms
-Refresh completed in 0.164062 seconds.
+	ReloadSourceAssets: 0.516ms
+	UnloadImportedAssets: 0.007ms
+	Hotreload: 0.125ms
+	FixTempGuids: 0.004ms
+	Untracked: 23.573ms
+Refresh completed in 0.183790 seconds.
 RefreshInfo: RefreshV2(ForceSynchronousImport)
-RefreshProfiler: Total: 164.052ms
-	InvokeBeforeRefreshCallbacks: 0.203ms
-	ApplyChangesToAssetFolders: 0.050ms
+RefreshProfiler: Total: 183.780ms
+	InvokeBeforeRefreshCallbacks: 0.194ms
+	ApplyChangesToAssetFolders: 0.046ms
 	WriteModifiedImportersToTextMetaFiles: 0.000ms
 	CleanLegacyArtifacts: 0.000ms
-	Scan: 107.016ms
+	Scan: 122.394ms
 	UnregisterDeletedAssets: 0.000ms
-	InitializeImportedAssetsSnapshot: 5.304ms
-	GetAllGuidsForCategorization: 0.364ms
-	CategorizeAssets: 31.810ms
-	ImportAndPostprocessOutOfDateAssets: 5.635ms (5.634ms without children)
+	InitializeImportedAssetsSnapshot: 5.575ms
+	GetAllGuidsForCategorization: 0.318ms
+	CategorizeAssets: 34.729ms
+	ImportAndPostprocessOutOfDateAssets: 5.994ms (5.993ms without children)
 		ImportManagerImport: 0.000ms (0.000ms without children)
 			ImportInProcess: 0.000ms
 			ImportOutOfProcess: 0.000ms
@@ -176,28 +176,28 @@ RefreshProfiler: Total: 164.052ms
 				RemoteAssetCacheResolve: 0.000ms
 				RemoteAssetCacheDownloadFile: 0.000ms
 		CompileScripts: 0.000ms
-		PostProcessAllAssets: 0.000ms
+		PostProcessAllAssets: 0.001ms
 		ReloadImportedAssets: 0.000ms
 	InvokeProjectHasChanged: 0.000ms
 	UpdateImportedAssetsSnapshot: -0.000ms
-	ReloadSourceAssets: 0.492ms
-	UnloadImportedAssets: 0.214ms
-	Hotreload: 0.017ms
-	FixTempGuids: 0.003ms
-	Untracked: 12.945ms
-Refresh completed in 0.145701 seconds.
+	ReloadSourceAssets: 0.543ms
+	UnloadImportedAssets: 0.258ms
+	Hotreload: 0.020ms
+	FixTempGuids: 0.008ms
+	Untracked: 13.701ms
+Refresh completed in 0.186662 seconds.
 RefreshInfo: RefreshV2(ForceSynchronousImport)
-RefreshProfiler: Total: 145.690ms
-	InvokeBeforeRefreshCallbacks: 0.173ms
-	ApplyChangesToAssetFolders: 0.053ms
+RefreshProfiler: Total: 186.556ms
+	InvokeBeforeRefreshCallbacks: 0.190ms
+	ApplyChangesToAssetFolders: 0.049ms
 	WriteModifiedImportersToTextMetaFiles: 0.000ms
 	CleanLegacyArtifacts: 0.000ms
-	Scan: 91.284ms
+	Scan: 127.795ms
 	UnregisterDeletedAssets: 0.000ms
-	InitializeImportedAssetsSnapshot: 4.486ms
-	GetAllGuidsForCategorization: 0.345ms
-	CategorizeAssets: 31.655ms
-	ImportAndPostprocessOutOfDateAssets: 4.896ms (4.896ms without children)
+	InitializeImportedAssetsSnapshot: 4.524ms
+	GetAllGuidsForCategorization: 0.329ms
+	CategorizeAssets: 34.286ms
+	ImportAndPostprocessOutOfDateAssets: 5.338ms (5.338ms without children)
 		ImportManagerImport: 0.000ms (0.000ms without children)
 			ImportInProcess: 0.000ms
 			ImportOutOfProcess: 0.000ms
@@ -210,24 +210,24 @@ RefreshProfiler: Total: 145.690ms
 		ReloadImportedAssets: 0.000ms
 	InvokeProjectHasChanged: 0.000ms
 	UpdateImportedAssetsSnapshot: -0.000ms
-	ReloadSourceAssets: 0.507ms
-	UnloadImportedAssets: 0.223ms
-	Hotreload: 0.016ms
-	FixTempGuids: 0.002ms
-	Untracked: 12.049ms
-Refresh completed in 0.192080 seconds.
+	ReloadSourceAssets: 0.531ms
+	UnloadImportedAssets: 0.242ms
+	Hotreload: 0.022ms
+	FixTempGuids: 0.006ms
+	Untracked: 13.245ms
+Refresh completed in 0.223992 seconds.
 RefreshInfo: RefreshV2(NoUpdateAssetOptions)
-RefreshProfiler: Total: 192.067ms
-	InvokeBeforeRefreshCallbacks: 0.308ms
-	ApplyChangesToAssetFolders: 0.122ms
+RefreshProfiler: Total: 223.870ms
+	InvokeBeforeRefreshCallbacks: 0.295ms
+	ApplyChangesToAssetFolders: 0.058ms
 	WriteModifiedImportersToTextMetaFiles: 0.000ms
 	CleanLegacyArtifacts: 0.000ms
-	Scan: 113.851ms
+	Scan: 158.820ms
 	UnregisterDeletedAssets: 0.000ms
-	InitializeImportedAssetsSnapshot: 10.258ms
-	GetAllGuidsForCategorization: 0.332ms
-	CategorizeAssets: 48.533ms
-	ImportAndPostprocessOutOfDateAssets: 4.168ms (4.168ms without children)
+	InitializeImportedAssetsSnapshot: 9.815ms
+	GetAllGuidsForCategorization: 0.329ms
+	CategorizeAssets: 34.141ms
+	ImportAndPostprocessOutOfDateAssets: 5.391ms (5.391ms without children)
 		ImportManagerImport: 0.000ms (0.000ms without children)
 			ImportInProcess: 0.000ms
 			ImportOutOfProcess: 0.000ms
@@ -236,28 +236,28 @@ RefreshProfiler: Total: 192.067ms
 				RemoteAssetCacheResolve: 0.000ms
 				RemoteAssetCacheDownloadFile: 0.000ms
 		CompileScripts: 0.000ms
-		PostProcessAllAssets: 0.000ms
+		PostProcessAllAssets: 0.001ms
 		ReloadImportedAssets: 0.000ms
 	InvokeProjectHasChanged: 0.000ms
 	UpdateImportedAssetsSnapshot: -0.001ms
-	ReloadSourceAssets: 0.921ms
-	UnloadImportedAssets: 0.274ms
-	Hotreload: 0.032ms
+	ReloadSourceAssets: 0.992ms
+	UnloadImportedAssets: 0.262ms
+	Hotreload: 0.034ms
 	FixTempGuids: 0.003ms
-	Untracked: 13.267ms
-Refresh completed in 0.198133 seconds.
+	Untracked: 13.730ms
+Refresh completed in 0.183334 seconds.
 RefreshInfo: RefreshV2(NoUpdateAssetOptions)
-RefreshProfiler: Total: 198.124ms
-	InvokeBeforeRefreshCallbacks: 0.188ms
+RefreshProfiler: Total: 183.256ms
+	InvokeBeforeRefreshCallbacks: 0.191ms
 	ApplyChangesToAssetFolders: 0.048ms
 	WriteModifiedImportersToTextMetaFiles: 0.000ms
 	CleanLegacyArtifacts: 0.000ms
-	Scan: 144.841ms
+	Scan: 125.066ms
 	UnregisterDeletedAssets: 0.000ms
-	InitializeImportedAssetsSnapshot: 3.722ms
-	GetAllGuidsForCategorization: 0.302ms
-	CategorizeAssets: 32.178ms
-	ImportAndPostprocessOutOfDateAssets: 4.593ms (4.593ms without children)
+	InitializeImportedAssetsSnapshot: 3.920ms
+	GetAllGuidsForCategorization: 0.324ms
+	CategorizeAssets: 35.505ms
+	ImportAndPostprocessOutOfDateAssets: 4.945ms (4.945ms without children)
 		ImportManagerImport: 0.000ms (0.000ms without children)
 			ImportInProcess: 0.000ms
 			ImportOutOfProcess: 0.000ms
@@ -270,132 +270,12 @@ RefreshProfiler: Total: 198.124ms
 		ReloadImportedAssets: 0.000ms
 	InvokeProjectHasChanged: 0.000ms
 	UpdateImportedAssetsSnapshot: -0.000ms
-	ReloadSourceAssets: 0.924ms
-	UnloadImportedAssets: 0.257ms
-	Hotreload: 0.019ms
-	FixTempGuids: 0.003ms
-	Untracked: 11.049ms
+	ReloadSourceAssets: 0.977ms
+	UnloadImportedAssets: 0.327ms
+	Hotreload: 0.018ms
+	FixTempGuids: 0.004ms
+	Untracked: 11.933ms
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Requesting non existent keyword at index 168. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 195. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 198. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 302. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 304. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 168. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 195. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 198. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 302. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 304. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 168. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 195. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 198. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 302. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 304. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 168. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 195. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 198. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 302. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 304. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 168. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 195. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 198. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 302. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 304. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 168. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 195. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 198. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 302. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 304. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 168. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 195. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 198. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 302. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 304. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 168. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 195. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 198. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 302. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
-Requesting non existent keyword at index 304. 
-(Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
-
 Requesting non existent keyword at index 131. 
 (Filename: C:\buildslave\unity\build\Runtime/Shaders/ShaderKeywords.cpp Line: 237)
 
@@ -411,11 +291,11 @@ Requesting non existent keyword at index 132.
 Initializing Unity extensions:
  'C:/UnityEditor/2019.3.0f3/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
 Unloading 119 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.0 MB.
+System memory in use before: 91.1 MB.
 System memory in use after: 89.6 MB.
 
 Unloading 161 unused Assets to reduce memory usage. Loaded Objects now: 3306.
-Total: 2.598300 ms (FindLiveObjects: 0.195700 ms CreateObjectMapping: 0.069200 ms MarkObjects: 1.355600 ms  DeleteObjects: 0.977400 ms)
+Total: 3.448900 ms (FindLiveObjects: 0.335800 ms CreateObjectMapping: 0.100500 ms MarkObjects: 1.951700 ms  DeleteObjects: 1.060400 ms)
 
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
@@ -428,8 +308,8 @@ BuildPlayer: start building target 19
 - Starting script compilation
 - Starting compile Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll
 - Starting compile Library/PlayerScriptAssemblies/UnityEngine.UI.dll
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll in 2.169848 seconds
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.UI.dll in 2.184807 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll in 2.605116 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.UI.dll in 2.606796 seconds
 - Starting compile Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll
 - Starting compile Library/PlayerScriptAssemblies/Unity.Timeline.dll
 - Starting compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
@@ -437,25 +317,25 @@ BuildPlayer: start building target 19
 - Starting compile Library/PlayerScriptAssemblies/Unity.Subsystem.Registration.dll
 - Starting compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 - Starting compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
-- Finished compile Library/PlayerScriptAssemblies/Unity.Subsystem.Registration.dll in 0.331804 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.XR.Management.dll in 0.372511 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll in 0.349806 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll in 0.344639 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.Timeline.dll in 0.4544 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll in 0.603703 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll in 0.589024 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.Subsystem.Registration.dll in 0.647745 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.XR.Management.dll in 0.745401 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll in 1.231434 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.Timeline.dll in 1.245877 seconds
 - Starting compile Library/PlayerScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
-- Finished compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll in 0.520806 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll in 1.274192 seconds
 - Starting compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
-- Finished compile Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll in 0.640455 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll in 0.225963 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll in 0.191774 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll in 0.276526 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll in 0.41819 seconds
 - Starting compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
-- Finished compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll in 1.108859 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll in 2.237469 seconds
 - Starting compile Library/PlayerScriptAssemblies/Assembly-CSharp.dll
 
 -----Compiler Commandline Arguments:
 Filename: C:\UnityEditor\2019.3.0f3\Editor\Data\Tools\RoslynScripts\unity_csc.bat
-Arguments: /noconfig @Temp/UnityTempFile-f6547c40f7a97184da2ec322219a5024
-Responsefile: Temp/UnityTempFile-f6547c40f7a97184da2ec322219a5024 Contents: 
+Arguments: /noconfig @Temp/UnityTempFile-57cb8c0b9db79cd48b0ec7d22132b59b
+Responsefile: Temp/UnityTempFile-57cb8c0b9db79cd48b0ec7d22132b59b Contents: 
 /target:library
 /nowarn:0169
 /out:Temp/Assembly-CSharp.dll
@@ -752,12 +632,12 @@ Assets\Scripts\Profile\SimpleProfiler.cs(10,6): error CS0246: The type or namesp
 Assets\Scripts\Profile\SimpleProfiler.cs(10,6): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
 -----CompilerOutput:-stderr----------
 -----EndCompilerOutput---------------
-- Finished script compilation in 4.299513 seconds
+- Finished script compilation in 6.877895 seconds
 Assets\Scripts\Profile\SimpleProfiler.cs(7,31): error CS0246: The type or namespace name 'EditorWindow' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\Profile\SimpleProfiler.cs(10,6): error CS0246: The type or namespace name 'MenuItemAttribute' could not be found (are you missing a using directive or an assembly reference?)
 Assets\Scripts\Profile\SimpleProfiler.cs(10,6): error CS0246: The type or namespace name 'MenuItem' could not be found (are you missing a using directive or an assembly reference?)
-Library\PackageCache\com.unity.xr.management@3.0.4\Runtime\XRGeneralSettings.cs(37,22): warning CS0414: The field 'XRGeneralSettings.m_ProviderStarted' is assigned but its value is never used
 Library\PackageCache\com.unity.xr.management@3.0.4\Runtime\XRGeneralSettings.cs(36,22): warning CS0414: The field 'XRGeneralSettings.m_ProviderIntialized' is assigned but its value is never used
+Library\PackageCache\com.unity.xr.management@3.0.4\Runtime\XRGeneralSettings.cs(37,22): warning CS0414: The field 'XRGeneralSettings.m_ProviderStarted' is assigned but its value is never used
 [ScriptCompilation] Recompiling all scripts because: Recompiling scripts for editor because player build failed.
 DisplayProgressNotification: Build Failed
 Error building Player because scripts had compiler errors
@@ -766,30 +646,30 @@ System memory in use before: 93.5 MB.
 System memory in use after: 93.6 MB.
 
 Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 3328.
-Total: 3.495800 ms (FindLiveObjects: 0.377800 ms CreateObjectMapping: 0.101100 ms MarkObjects: 3.004700 ms  DeleteObjects: 0.011900 ms)
+Total: 3.518000 ms (FindLiveObjects: 0.407100 ms CreateObjectMapping: 0.106600 ms MarkObjects: 2.990700 ms  DeleteObjects: 0.013300 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            0.428 ms
-	Integration:            5.833 ms
-	Integration of assets:  0.001 ms
-	Thread Wait Time:       19.247 ms
-	Total Operation Time:   25.510 ms
+	Deserialize:            0.655 ms
+	Integration:            5.629 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       18.578 ms
+	Total Operation Time:   24.866 ms
 System memory in use before: 93.3 MB.
 System memory in use after: 93.5 MB.
 
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 3328.
-Total: 3.721500 ms (FindLiveObjects: 0.351900 ms CreateObjectMapping: 0.109700 ms MarkObjects: 3.254000 ms  DeleteObjects: 0.005600 ms)
+Total: 3.691500 ms (FindLiveObjects: 0.382400 ms CreateObjectMapping: 0.100800 ms MarkObjects: 3.201600 ms  DeleteObjects: 0.006400 ms)
 
 - Starting script compilation
 - Starting compile Library/ScriptAssemblies/UnityEngine.TestRunner.dll
 - Starting compile Library/ScriptAssemblies/UnityEngine.UI.dll
-- Finished compile Library/ScriptAssemblies/UnityEngine.TestRunner.dll in 0.295327 seconds
+- Finished compile Library/ScriptAssemblies/UnityEngine.TestRunner.dll in 0.291459 seconds
 - Starting compile Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-- Finished compile Library/ScriptAssemblies/UnityEngine.UI.dll in 0.344285 seconds
-- Finished compile Library/ScriptAssemblies/UnityEditor.TestRunner.dll in 0.33777 seconds
+- Finished compile Library/ScriptAssemblies/UnityEngine.UI.dll in 0.360812 seconds
+- Finished compile Library/ScriptAssemblies/UnityEditor.TestRunner.dll in 0.542157 seconds
 - Starting compile Library/ScriptAssemblies/UnityEditor.UI.dll
-- Finished compile Library/ScriptAssemblies/UnityEditor.UI.dll in 0.266387 seconds
+- Finished compile Library/ScriptAssemblies/UnityEditor.UI.dll in 0.277623 seconds
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
 - Starting compile Library/ScriptAssemblies/Unity.Timeline.dll
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
@@ -801,42 +681,42 @@ Total: 3.721500 ms (FindLiveObjects: 0.351900 ms CreateObjectMapping: 0.109700 m
 - Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.VSCode.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll in 0.351043 seconds
-- Finished compile Library/ScriptAssemblies/Unity.XR.Management.dll in 0.392766 seconds
-- Finished compile Library/ScriptAssemblies/Unity.Subsystem.Registration.dll in 0.385804 seconds
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll in 0.26781 seconds
+- Finished compile Library/ScriptAssemblies/Unity.XR.Management.dll in 0.321633 seconds
+- Finished compile Library/ScriptAssemblies/Unity.Subsystem.Registration.dll in 0.324682 seconds
 - Starting compile Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll in 0.395924 seconds
-- Finished compile Library/ScriptAssemblies/Unity.Timeline.dll in 0.478017 seconds
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll in 0.423384 seconds
+- Finished compile Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.dll in 0.356936 seconds
+- Starting compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Timeline.dll in 0.550112 seconds
+- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll in 0.45432 seconds
 - Starting compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll in 0.534493 seconds
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll in 0.597149 seconds
+- Finished compile Library/ScriptAssemblies/Unity.VSCode.Editor.dll in 0.492335 seconds
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Rider.Editor.dll in 0.525717 seconds
-- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll in 0.509289 seconds
-- Finished compile Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.dll in 0.460799 seconds
-- Starting compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.VSCode.Editor.dll in 0.640036 seconds
-- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll in 1.04752 seconds
-- Finished compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll in 0.545534 seconds
-- Finished compile Library/ScriptAssemblies/Unity.XR.Management.Editor.dll in 0.605496 seconds
+- Finished compile Library/ScriptAssemblies/Unity.Rider.Editor.dll in 0.577454 seconds
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll in 1.366595 seconds
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll in 0.759978 seconds
+- Finished compile Library/ScriptAssemblies/Unity.XR.Management.Editor.dll in 1.558334 seconds
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll in 1.535337 seconds
+- Finished compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll in 1.728951 seconds
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll in 0.959321 seconds
-- Finished compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll in 1.323652 seconds
-- Finished compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll in 1.209917 seconds
-- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll in 0.957817 seconds
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll in 1.217732 seconds
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll in 2.227483 seconds
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll in 3.268399 seconds
+- Finished compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll in 3.53148 seconds
+- Finished compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll in 3.685981 seconds
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll in 2.107653 seconds
 - Starting compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll in 1.07755 seconds
+- Finished compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll in 2.749739 seconds
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll in 0.780561 seconds
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll in 1.66599 seconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
-- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll in 0.190144 seconds
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll in 0.33207 seconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
-- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll in 0.257961 seconds
-- Finished script compilation in 5.907895 seconds
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll in 0.247837 seconds
+- Finished script compilation in 10.663414 seconds
 Assets\Editor\replace.cs(52,13): warning CS0618: 'PrefabType' is obsolete: 'PrefabType no longer tells everything about Prefab instance.'
 Assets\Editor\replace.cs(52,31): warning CS0618: 'PrefabUtility.GetPrefabType(Object)' is obsolete: 'Use GetPrefabAssetType and GetPrefabInstanceStatus to get the full picture about Prefab types.'
 Assets\Editor\replace.cs(54,25): warning CS0618: 'PrefabType' is obsolete: 'PrefabType no longer tells everything about Prefab instance.'
@@ -845,7 +725,7 @@ Reloading assemblies after script compilation.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\p4\SpecialProjects\Beijing_2035\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 52.64 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 53.69 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 Refresh completed in 0.000001 seconds.
@@ -879,17 +759,86 @@ RefreshProfiler: Total: 0.000ms
 	FixTempGuids: 0.000ms
 	Untracked: 0.000ms
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions)
-RefreshProfiler: Total: 160.012ms
-	InvokeBeforeRefreshCallbacks: 0.202ms
+RefreshProfiler: Total: 205.295ms
+	InvokeBeforeRefreshCallbacks: 0.208ms
+	ApplyChangesToAssetFolders: 0.054ms
+	WriteModifiedImportersToTextMetaFiles: 0.000ms
+	CleanLegacyArtifacts: 0.000ms
+	Scan: 131.573ms
+	UnregisterDeletedAssets: 0.000ms
+	InitializeImportedAssetsSnapshot: 5.053ms
+	GetAllGuidsForCategorization: 0.371ms
+	CategorizeAssets: 49.904ms
+	ImportAndPostprocessOutOfDateAssets: 4.639ms (4.639ms without children)
+		ImportManagerImport: 0.000ms (0.000ms without children)
+			ImportInProcess: 0.000ms
+			ImportOutOfProcess: 0.000ms
+			UpdateCategorizedAssets: 0.000ms
+			RemoteAssetCacheGetArtifact: 0.000ms (0.000ms without children)
+				RemoteAssetCacheResolve: 0.000ms
+				RemoteAssetCacheDownloadFile: 0.000ms
+		CompileScripts: 0.000ms
+		PostProcessAllAssets: 0.000ms
+		ReloadImportedAssets: 0.000ms
+	InvokeProjectHasChanged: 0.000ms
+	UpdateImportedAssetsSnapshot: -0.000ms
+	ReloadSourceAssets: 0.949ms
+	UnloadImportedAssets: 0.259ms
+	Hotreload: 0.690ms
+	FixTempGuids: 0.004ms
+	Untracked: 11.590ms
+- Completed reload, in  1.204 seconds
+Platform modules already initialized, skipping
+Batchmode quit successfully invoked - shutting down!
+[Performance] WinEditorMain                                               :        1 samples, Peak.  3.07 s (1.0x), Avg.  3.07 s, Total. 3.075 s (9.7%)
+[Performance] WinEditorMain.ConfigureCrashHandler                         :        1 samples, Peak.  21.6 us (1.0x), Avg.  21.6 us, Total. 21.60 us (0.0%)
+[Performance] WinEditorMain.CurlRequestInitialize                         :        1 samples, Peak.  4.19 ms (1.0x), Avg.  4.19 ms, Total. 4.187 ms (0.0%)
+[Performance] WinEditorMain.SetupLogFile                                  :        1 samples, Peak.   259 us (1.0x), Avg.   259 us, Total. 258.9 us (0.0%)
+[Performance] WinEditorMain.RunNativeTestsIfRequiredAndExit               :        1 samples, Peak.  3.70 us (1.0x), Avg.  3.70 us, Total. 3.700 us (0.0%)
+[Performance] WinEditorMain.Licensing                                     :        1 samples, Peak.  3.04 s (1.0x), Avg.  3.04 s, Total. 3.040 s (9.6%)
+[Performance] WinEditorMain.InitializeCrashHandler                        :        1 samples, Peak.  20.3 ms (1.0x), Avg.  20.3 ms, Total. 20.26 ms (0.1%)
+[Performance] WinEditorMain.CreateApplication                             :        1 samples, Peak.   366 us (1.0x), Avg.   366 us, Total. 366.0 us (0.0%)
+[Performance] Application.InitializeProject                               :        1 samples, Peak.  7.53 s (1.0x), Avg.  7.53 s, Total. 7.529 s (23.8%)
+[Performance] Application.PackageManager.StartServer                      :        1 samples, Peak.  5.47 ms (1.0x), Avg.  5.47 ms, Total. 5.473 ms (0.0%)
+[Performance] Application.IsBrowserCacheEmpty                             :        1 samples, Peak.  1.17 ms (1.0x), Avg.  1.17 ms, Total. 1.172 ms (0.0%)
+[Performance] Application.AcquireProjectLock                              :        1 samples, Peak.  10.6 ms (1.0x), Avg.  10.6 ms, Total. 10.63 ms (0.0%)
+[Performance] Application.InitializeEngineNoGraphics                      :        1 samples, Peak.  20.3 ms (1.0x), Avg.  20.3 ms, Total. 20.34 ms (0.1%)
+[Performance] Application.PackageManager.Initialize                       :        1 samples, Peak.  1.02 s (1.0x), Avg.  1.02 s, Total. 1.021 s (3.2%)
+[Performance] CurlRequestCheck                                            :       18 samples, Peak.  48.4 us (3.7x), Avg.  13.1 us, Total. 235.3 us (0.0%)
+[Performance] PackageManager::RunRequestSynchronously                     :       14 samples, Peak.  35.1 us (3.0x), Avg.  11.6 us, Total. 162.4 us (0.0%)
+[Performance] Application.EngineGraphics.Initialize                       :        1 samples, Peak.   160 ms (1.0x), Avg.   160 ms, Total. 160.0 ms (0.5%)
+[Performance] Application.GI.Initialize                                   :        1 samples, Peak.   359 ms (1.0x), Avg.   359 ms, Total. 359.2 ms (1.1%)
+[Performance] Application.LoadAllDefaultResourcesFromEditor               :        1 samples, Peak.  2.02 ms (1.0x), Avg.  2.02 ms, Total. 2.023 ms (0.0%)
+[Performance] Application.LoadMonoAssemblies                              :        1 samples, Peak.  1.19 s (1.0x), Avg.  1.19 s, Total. 1.191 s (3.8%)
+[Performance] ProcessService.EditorAfterLoadAllAssemblies                 :        3 samples, Peak.  31.8 ms (1.1x), Avg.  27.9 ms, Total. 83.82 ms (0.3%)
+[Performance] Application.ReadLicenseInfo                                 :        1 samples, Peak.  1.52 ms (1.0x), Avg.  1.52 ms, Total. 1.516 ms (0.0%)
+[Performance] Application.InitialScriptRefresh                            :        1 samples, Peak.  1.99 s (1.0x), Avg.  1.99 s, Total. 1.994 s (6.3%)
+[Performance] Application.AssetDatabase.Refresh                           :        1 samples, Peak.   184 ms (1.0x), Avg.   184 ms, Total. 183.9 ms (0.6%)
+[Performance] Application.ImportAssetsWithMismatchingAssetImporterVersion :        1 samples, Peak.   553 ms (1.0x), Avg.   553 ms, Total. 553.1 ms (1.7%)
+[Performance] Application.SyncCurrentColorSpace                           :        1 samples, Peak.   383 ms (1.0x), Avg.   383 ms, Total. 382.9 ms (1.2%)
+[Performance] Application.OnUsbDevicesChanged                             :        1 samples, Peak.  4.57 ms (1.0x), Avg.  4.57 ms, Total. 4.574 ms (0.0%)
+[Performance] Application.AssetInstanceCacheUpdate                        :        1 samples, Peak.   300 ns (1.0x), Avg.   300 ns, Total. 300.0 ns (0.0%)
+[Performance] Application.UnityExtensions.Initialize                      :        1 samples, Peak.  4.56 ms (1.0x), Avg.  4.56 ms, Total. 4.561 ms (0.0%)
+[Performance] Application.InitializeManagedCompilationPipeline            :        1 samples, Peak.   374 ms (1.0x), Avg.   374 ms, Total. 373.6 ms (1.2%)
+[Performance] Application.ExecuteStartups                                 :        1 samples, Peak.  19.4 ms (1.0x), Avg.  19.4 ms, Total. 19.44 ms (0.1%)
+[Performance] Application.RebuildOSMenu                                   :        1 samples, Peak.  58.1 ms (1.0x), Avg.  58.1 ms, Total. 58.05 ms (0.2%)
+[Performance] Application.editorInitializingProject                       :        1 samples, Peak.  12.6 us (1.0x), Avg.  12.6 us, Total. 12.60 us (0.0%)
+[Performance] GUIView.RepaintAll.PlayerLoopController                     :        2 samples, Peak.  1.80 us (1.6x), Avg.  1.10 us, Total. 2.200 us (0.0%)
+[Performance] Application.InvokeFinishedLoadingProject                    :        1 samples, Peak.  38.2 ms (1.0x), Avg.  38.2 ms, Total. 38.17 ms (0.1%)
+[Performance] ProcessService.OnProjectLoaded                              :        1 samples, Peak.  32.5 ms (1.0x), Avg.  32.5 ms, Total. 32.49 ms (0.1%)
+Refresh completed in 0.165358 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions)
+RefreshProfiler: Total: 165.347ms
+	InvokeBeforeRefreshCallbacks: 0.188ms
 	ApplyChangesToAssetFolders: 0.050ms
 	WriteModifiedImportersToTextMetaFiles: 0.000ms
 	CleanLegacyArtifacts: 0.000ms
-	Scan: 89.340ms
+	Scan: 113.982ms
 	UnregisterDeletedAssets: 0.000ms
-	InitializeImportedAssetsSnapshot: 4.746ms
-	GetAllGuidsForCategorization: 0.311ms
-	CategorizeAssets: 47.291ms
-	ImportAndPostprocessOutOfDateAssets: 4.495ms (4.495ms without children)
+	InitializeImportedAssetsSnapshot: 4.051ms
+	GetAllGuidsForCategorization: 0.379ms
+	CategorizeAssets: 30.342ms
+	ImportAndPostprocessOutOfDateAssets: 4.435ms (4.434ms without children)
 		ImportManagerImport: 0.000ms (0.000ms without children)
 			ImportInProcess: 0.000ms
 			ImportOutOfProcess: 0.000ms
@@ -902,93 +851,24 @@ RefreshProfiler: Total: 160.012ms
 		ReloadImportedAssets: 0.000ms
 	InvokeProjectHasChanged: 0.000ms
 	UpdateImportedAssetsSnapshot: -0.000ms
-	ReloadSourceAssets: 0.909ms
-	UnloadImportedAssets: 0.257ms
-	Hotreload: 0.774ms
-	FixTempGuids: 0.005ms
-	Untracked: 11.632ms
-- Completed reload, in  1.168 seconds
-Platform modules already initialized, skipping
-Batchmode quit successfully invoked - shutting down!
-[Performance] WinEditorMain                                               :        1 samples, Peak.  2.91 s (1.0x), Avg.  2.91 s, Total. 2.908 s (12.7%)
-[Performance] WinEditorMain.ConfigureCrashHandler                         :        1 samples, Peak.  19.9 us (1.0x), Avg.  19.9 us, Total. 19.90 us (0.0%)
-[Performance] WinEditorMain.CurlRequestInitialize                         :        1 samples, Peak.  2.50 ms (1.0x), Avg.  2.50 ms, Total. 2.496 ms (0.0%)
-[Performance] WinEditorMain.SetupLogFile                                  :        1 samples, Peak.   175 us (1.0x), Avg.   175 us, Total. 175.4 us (0.0%)
-[Performance] WinEditorMain.RunNativeTestsIfRequiredAndExit               :        1 samples, Peak.  2.20 us (1.0x), Avg.  2.20 us, Total. 2.200 us (0.0%)
-[Performance] WinEditorMain.Licensing                                     :        1 samples, Peak.  2.87 s (1.0x), Avg.  2.87 s, Total. 2.873 s (12.5%)
-[Performance] WinEditorMain.InitializeCrashHandler                        :        1 samples, Peak.  21.4 ms (1.0x), Avg.  21.4 ms, Total. 21.37 ms (0.1%)
-[Performance] WinEditorMain.CreateApplication                             :        1 samples, Peak.   453 us (1.0x), Avg.   453 us, Total. 453.1 us (0.0%)
-[Performance] Application.InitializeProject                               :        1 samples, Peak.  6.97 s (1.0x), Avg.  6.97 s, Total. 6.970 s (30.4%)
-[Performance] Application.PackageManager.StartServer                      :        1 samples, Peak.  3.90 ms (1.0x), Avg.  3.90 ms, Total. 3.904 ms (0.0%)
-[Performance] Application.IsBrowserCacheEmpty                             :        1 samples, Peak.  1.44 ms (1.0x), Avg.  1.44 ms, Total. 1.440 ms (0.0%)
-[Performance] Application.AcquireProjectLock                              :        1 samples, Peak.  15.5 ms (1.0x), Avg.  15.5 ms, Total. 15.52 ms (0.1%)
-[Performance] Application.InitializeEngineNoGraphics                      :        1 samples, Peak.  26.3 ms (1.0x), Avg.  26.3 ms, Total. 26.28 ms (0.1%)
-[Performance] Application.PackageManager.Initialize                       :        1 samples, Peak.  1.02 s (1.0x), Avg.  1.02 s, Total. 1.017 s (4.4%)
-[Performance] CurlRequestCheck                                            :       18 samples, Peak.  58.0 us (3.9x), Avg.  14.7 us, Total. 265.3 us (0.0%)
-[Performance] PackageManager::RunRequestSynchronously                     :       13 samples, Peak.  38.1 us (3.4x), Avg.  11.3 us, Total. 146.4 us (0.0%)
-[Performance] Application.EngineGraphics.Initialize                       :        1 samples, Peak.   155 ms (1.0x), Avg.   155 ms, Total. 155.3 ms (0.7%)
-[Performance] Application.GI.Initialize                                   :        1 samples, Peak.   348 ms (1.0x), Avg.   348 ms, Total. 347.7 ms (1.5%)
-[Performance] Application.LoadAllDefaultResourcesFromEditor               :        1 samples, Peak.  1.95 ms (1.0x), Avg.  1.95 ms, Total. 1.949 ms (0.0%)
-[Performance] Application.LoadMonoAssemblies                              :        1 samples, Peak.  1.07 s (1.0x), Avg.  1.07 s, Total. 1.069 s (4.7%)
-[Performance] ProcessService.EditorAfterLoadAllAssemblies                 :        3 samples, Peak.  30.7 ms (1.1x), Avg.  26.7 ms, Total. 80.21 ms (0.4%)
-[Performance] Application.ReadLicenseInfo                                 :        1 samples, Peak.  1.43 ms (1.0x), Avg.  1.43 ms, Total. 1.425 ms (0.0%)
-[Performance] Application.InitialScriptRefresh                            :        1 samples, Peak.  1.81 s (1.0x), Avg.  1.81 s, Total. 1.810 s (7.9%)
-[Performance] Application.AssetDatabase.Refresh                           :        1 samples, Peak.   164 ms (1.0x), Avg.   164 ms, Total. 164.2 ms (0.7%)
-[Performance] Application.ImportAssetsWithMismatchingAssetImporterVersion :        1 samples, Peak.   478 ms (1.0x), Avg.   478 ms, Total. 477.8 ms (2.1%)
-[Performance] Application.SyncCurrentColorSpace                           :        1 samples, Peak.   394 ms (1.0x), Avg.   394 ms, Total. 393.7 ms (1.7%)
-[Performance] Application.OnUsbDevicesChanged                             :        1 samples, Peak.  4.46 ms (1.0x), Avg.  4.46 ms, Total. 4.458 ms (0.0%)
-[Performance] Application.AssetInstanceCacheUpdate                        :        1 samples, Peak.   300 ns (1.0x), Avg.   300 ns, Total. 300.0 ns (0.0%)
-[Performance] Application.UnityExtensions.Initialize                      :        1 samples, Peak.  4.63 ms (1.0x), Avg.  4.63 ms, Total. 4.632 ms (0.0%)
-[Performance] Application.InitializeManagedCompilationPipeline            :        1 samples, Peak.   343 ms (1.0x), Avg.   343 ms, Total. 343.2 ms (1.5%)
-[Performance] Application.ExecuteStartups                                 :        1 samples, Peak.  14.8 ms (1.0x), Avg.  14.8 ms, Total. 14.82 ms (0.1%)
-[Performance] Application.RebuildOSMenu                                   :        1 samples, Peak.  53.2 ms (1.0x), Avg.  53.2 ms, Total. 53.16 ms (0.2%)
-[Performance] Application.editorInitializingProject                       :        1 samples, Peak.  12.9 us (1.0x), Avg.  12.9 us, Total. 12.90 us (0.0%)
-[Performance] GUIView.RepaintAll.PlayerLoopController                     :        2 samples, Peak.  1.90 us (1.7x), Avg.  1.10 us, Total. 2.200 us (0.0%)
-[Performance] Application.InvokeFinishedLoadingProject                    :        1 samples, Peak.  34.1 ms (1.0x), Avg.  34.1 ms, Total. 34.09 ms (0.1%)
-[Performance] ProcessService.OnProjectLoaded                              :        1 samples, Peak.  29.0 ms (1.0x), Avg.  29.0 ms, Total. 29.01 ms (0.1%)
-Refresh completed in 0.162261 seconds.
-RefreshInfo: RefreshV2(NoUpdateAssetOptions)
-RefreshProfiler: Total: 162.250ms
-	InvokeBeforeRefreshCallbacks: 0.169ms
-	ApplyChangesToAssetFolders: 0.052ms
-	WriteModifiedImportersToTextMetaFiles: 0.000ms
-	CleanLegacyArtifacts: 0.000ms
-	Scan: 108.819ms
-	UnregisterDeletedAssets: 0.000ms
-	InitializeImportedAssetsSnapshot: 4.060ms
-	GetAllGuidsForCategorization: 0.351ms
-	CategorizeAssets: 31.878ms
-	ImportAndPostprocessOutOfDateAssets: 4.447ms (4.447ms without children)
-		ImportManagerImport: 0.000ms (0.000ms without children)
-			ImportInProcess: 0.000ms
-			ImportOutOfProcess: 0.000ms
-			UpdateCategorizedAssets: 0.000ms
-			RemoteAssetCacheGetArtifact: 0.000ms (0.000ms without children)
-				RemoteAssetCacheResolve: 0.000ms
-				RemoteAssetCacheDownloadFile: 0.000ms
-		CompileScripts: 0.000ms
-		PostProcessAllAssets: 0.000ms
-		ReloadImportedAssets: 0.000ms
-	InvokeProjectHasChanged: 0.000ms
-	UpdateImportedAssetsSnapshot: -0.000ms
-	ReloadSourceAssets: 0.952ms
-	UnloadImportedAssets: 0.252ms
+	ReloadSourceAssets: 0.859ms
+	UnloadImportedAssets: 0.235ms
 	Hotreload: 0.019ms
 	FixTempGuids: 0.003ms
-	Untracked: 11.249ms
-Refresh completed in 0.180079 seconds.
+	Untracked: 10.805ms
+Refresh completed in 0.158330 seconds.
 RefreshInfo: RefreshV2(NoUpdateAssetOptions)
-RefreshProfiler: Total: 180.063ms
-	InvokeBeforeRefreshCallbacks: 0.161ms
+RefreshProfiler: Total: 158.272ms
+	InvokeBeforeRefreshCallbacks: 0.156ms
 	ApplyChangesToAssetFolders: 0.048ms
 	WriteModifiedImportersToTextMetaFiles: 0.000ms
 	CleanLegacyArtifacts: 0.000ms
-	Scan: 127.279ms
+	Scan: 105.152ms
 	UnregisterDeletedAssets: 0.000ms
-	InitializeImportedAssetsSnapshot: 3.955ms
-	GetAllGuidsForCategorization: 0.317ms
-	CategorizeAssets: 30.783ms
-	ImportAndPostprocessOutOfDateAssets: 4.586ms (4.586ms without children)
+	InitializeImportedAssetsSnapshot: 3.916ms
+	GetAllGuidsForCategorization: 0.352ms
+	CategorizeAssets: 31.571ms
+	ImportAndPostprocessOutOfDateAssets: 4.548ms (4.548ms without children)
 		ImportManagerImport: 0.000ms (0.000ms without children)
 			ImportInProcess: 0.000ms
 			ImportOutOfProcess: 0.000ms
@@ -1001,20 +881,20 @@ RefreshProfiler: Total: 180.063ms
 		ReloadImportedAssets: 0.000ms
 	InvokeProjectHasChanged: 0.000ms
 	UpdateImportedAssetsSnapshot: -0.000ms
-	ReloadSourceAssets: 0.953ms
-	UnloadImportedAssets: 0.261ms
-	Hotreload: 0.019ms
+	ReloadSourceAssets: 0.955ms
+	UnloadImportedAssets: 0.282ms
+	Hotreload: 0.021ms
 	FixTempGuids: 0.004ms
-	Untracked: 11.697ms
+	Untracked: 11.268ms
 Setting up 8 worker threads for Enlighten.
-  Thread -> id: 6118 -> priority: 1 
-  Thread -> id: 1f08 -> priority: 1 
-  Thread -> id: 7738 -> priority: 1 
-  Thread -> id: 68e0 -> priority: 1 
-  Thread -> id: 38b0 -> priority: 1 
-  Thread -> id: 3240 -> priority: 1 
-  Thread -> id: 5ab8 -> priority: 1 
-  Thread -> id: 6b48 -> priority: 1 
+  Thread -> id: 5178 -> priority: 1 
+  Thread -> id: 9854 -> priority: 1 
+  Thread -> id: 9268 -> priority: 1 
+  Thread -> id: 458c -> priority: 1 
+  Thread -> id: 9188 -> priority: 1 
+  Thread -> id: 1b94 -> priority: 1 
+  Thread -> id: 29b4 -> priority: 1 
+  Thread -> id: 65cc -> priority: 1 
 Cleanup mono
 Exiting batchmode successfully now!
 Exiting without the bug reporter. Application will terminate with return code 0
