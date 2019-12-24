@@ -1,10 +1,10 @@
 Initiating legacy licensing module
-LICENSE SYSTEM [20191223 22:9:3] Next license update check is after 2019-12-18T01:14:32
+LICENSE SYSTEM [20191224 16:17:27] Next license update check is after 2019-12-18T01:14:32
 
 Built from '2018.4/staging' branch; Version is '2018.4.0f1 (b6ffa8986c8d) revision 11993000'; Using compiler version '191326128'
 OS: 'Windows 10  (10.0.0) 64bit' Language: 'ko' Physical Memory: 32586 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-[Package Manager] Server::Start -- Port 54019 was selected
+[Package Manager] Server::Start -- Port 59807 was selected
 
  COMMAND LINE ARGUMENTS:
 C:/UnityEditor/2018.4.0f1/Editor/Unity.exe
@@ -15,12 +15,12 @@ E:/p4/WorldUrbanBiomes/Carpark/Carpark/
 -executeMethod
 ASBuildScript.RunBuild
 -logfile
-e:/build/LemonSky/Carpark/3666/BuildLog.txt
+e:/build/LemonSky/Carpark/3671/BuildLog.txt
 Successfully changed project path to: E:/p4/WorldUrbanBiomes/Carpark/Carpark/
 E:/p4/WorldUrbanBiomes/Carpark/Carpark
 Using Asset Import Pipeline V1.
-Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000065 seconds
-Loading Asset Database...0.018529 seconds
+Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000063 seconds
+Loading Asset Database...0.023896 seconds
 Build target: OSXUniversal found and added!
 Build target: WindowsStoreApps found and added!
 Build target: Win64 found and added!
@@ -49,8 +49,8 @@ Build target: N3DS found and added!
 Build target: WP8 found and added!
 Build target: SamsungTV found and added!
 Build target: Tizen found and added!
-AssetDatabase consistency checks...0.016929 seconds
-Refreshing native plugins compatible for Editor in 7.67 ms, found 2 plugins.
+AssetDatabase consistency checks...0.024021 seconds
+Refreshing native plugins compatible for Editor in 10.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Unity Package Manager
 [Package Manager] Done resolving packages in 0.19s seconds
@@ -163,44 +163,44 @@ Initialize mono
 Mono path[0] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
 Begin MonoManager ReloadAssembly
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering precompiled unity dll's ...
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001760 seconds.
+Registered in 0.002313 seconds.
 Registering platform support modules:
-Registered platform support modules in: 0.0583988s.
-Native extension for Android target not found
-Native extension for WebGL target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.86 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.554 seconds
-Registering precompiled user dll's ...
-Registered in 0.051218 seconds.
-Platform modules already initialized, skipping
-Begin MonoManager ReloadAssembly
-Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
-Registering platform support modules:
-Registered platform support modules in: 0.0341279s.
+Registered platform support modules in: 0.0740744s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 1.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.828 seconds
+Registering precompiled user dll's ...
+Registered in 0.060846 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
+Registering platform support modules:
+Registered platform support modules in: 0.0429301s.
+Native extension for Android target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.011 seconds
+- Completed reload, in  1.346 seconds
 Platform modules already initialized, skipping
-Validating Project structure ... 0.003922 seconds.
+Validating Project structure ... 0.004501 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.030430s
-	Asset Scan time: 0.029115s
+Refresh Completed time: 0.036912s
+	Asset Scan time: 0.035191s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -215,7 +215,7 @@ WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RG
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
-Warming cache for 4089 main assets: 0.008909 seconds elapsed
+Warming cache for 4100 main assets: 0.010145 seconds elapsed
 Initializing Unity extensions:
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
@@ -237,25 +237,25 @@ Initializing Unity extensions:
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
-Unloading 1882 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 184.5 MB.
-System memory in use after: 183.0 MB.
+Unloading 1889 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.7 MB.
+System memory in use after: 183.3 MB.
 
-Unloading 400 unused Assets to reduce memory usage. Loaded Objects now: 2340.
-Total: 3.123800 ms (FindLiveObjects: 0.282000 ms CreateObjectMapping: 0.054400 ms MarkObjects: 1.761600 ms  DeleteObjects: 1.025400 ms)
+Unloading 407 unused Assets to reduce memory usage. Loaded Objects now: 2340.
+Total: 3.723900 ms (FindLiveObjects: 0.375300 ms CreateObjectMapping: 0.087100 ms MarkObjects: 2.073400 ms  DeleteObjects: 1.187500 ms)
 
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
-Script Compilation Pipeline Post Process Assets time: 0.000557s
-Assembly Updater Post Process Assets time: 0.000065s
+Script Compilation Pipeline Post Process Assets time: 0.000469s
+Assembly Updater Post Process Assets time: 0.000053s
 Updating ProjectSettings/UnityConnectSettings.asset - GUID: 0000000000000000a100000000000000...
- done. [Time: 66.457000 ms] 
-Script Compilation Pipeline Post Process Assets time: 0.000010s
-Assembly Updater Post Process Assets time: 0.000034s
-Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+ done. [Time: 81.534600 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000014s
+Assembly Updater Post Process Assets time: 0.000057s
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
 BuildPlayer: start building target 19
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
@@ -267,20 +267,20 @@ BuildPlayer: start building target 19
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.Stl.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProGrids.dll
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
-Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
-Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 18 milliseconds
-Pass: 1 took 2 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
-Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
-Script Module: Unity.Postprocessing.Runtime.dll
-Pass: 0 took 18 milliseconds
-Pass: 1 took 1 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
+Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
+Pass: 0 took 0 milliseconds
+Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Polybrush.dll
 Symbols will be read from Temp\Unity.Polybrush.pdb
 Script Module: Unity.Polybrush.dll
-Pass: 0 took 13 milliseconds
+Pass: 0 took 15 milliseconds
+Pass: 1 took 2 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
+Script Module: Unity.RenderPipelines.Core.Runtime.dll
+Pass: 0 took 24 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
 Symbols will be read from Temp\Unity.ProBuilder.Poly2Tri.pdb
@@ -290,7 +290,7 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
 Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
 Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 20 milliseconds
+Pass: 0 took 27 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll
 Symbols will be read from Temp\Unity.ProBuilder.KdTree.pdb
@@ -305,62 +305,76 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProGrids.dll
 Symbols will be read from Temp\Unity.ProGrids.pdb
 Script Module: Unity.ProGrids.dll
-Pass: 0 took 12 milliseconds
+Pass: 0 took 18 milliseconds
 Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
-Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
-Pass: 0 took 0 milliseconds
-Pass: 1 took 0 milliseconds
-- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.dll
+- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
+Script Module: Unity.Postprocessing.Runtime.dll
+Pass: 0 took 14 milliseconds
+Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbols will be read from Temp\Unity.TextMeshPro.pdb
 Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 39 milliseconds
+Pass: 0 took 38 milliseconds
 Pass: 1 took 5 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.dll
 Symbols will be read from Temp\Unity.ProBuilder.pdb
 Script Module: Unity.ProBuilder.dll
-Pass: 0 took 21 milliseconds
-Pass: 1 took 3 milliseconds
+Pass: 0 took 19 milliseconds
+Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
 Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
-Pass: 0 took 44 milliseconds
-Pass: 1 took 5 milliseconds
+Pass: 0 took 45 milliseconds
+Pass: 1 took 6 milliseconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
 Symbols will be read from Temp\Assembly-CSharp.pdb
 Script Module: Assembly-CSharp.dll
-Pass: 0 took 13 milliseconds
+Pass: 0 took 17 milliseconds
 Pass: 1 took 0 milliseconds
 DisplayProgressbar: Building Player
 Opening scene 'Assets/Scenes/Asset_Layout.unity'
-Load scene 'Assets/Scenes/Asset_Layout.unity' time: 0.009900 ms 
+Load scene 'Assets/Scenes/Asset_Layout.unity' time: 0.011800 ms 
 Unloading 197 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 247.9 MB.
-System memory in use after: 248.5 MB.
+System memory in use before: 248.1 MB.
+System memory in use after: 248.7 MB.
 
 Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 12723.
-Total: 9.829900 ms (FindLiveObjects: 0.877000 ms CreateObjectMapping: 0.419400 ms MarkObjects: 8.329700 ms  DeleteObjects: 0.202900 ms)
+Total: 10.787500 ms (FindLiveObjects: 0.837900 ms CreateObjectMapping: 0.394500 ms MarkObjects: 9.355100 ms  DeleteObjects: 0.199400 ms)
 
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+DisplayProgressbar: Compiling shader variants
+DisplayProgressbar: Building Player
+Opening scene 'Assets/Scenes/Carpark.unity'
+Load scene 'Assets/Scenes/Carpark.unity' time: 0.013700 ms 
+LightmapEditorSettings: switching bake backend from 1 to 2.
+Unloading 711 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 388.3 MB.
+System memory in use after: 395.2 MB.
+
+Unloading 3669 unused Assets to reduce memory usage. Loaded Objects now: 237099.
+Total: 128.282600 ms (FindLiveObjects: 15.887500 ms CreateObjectMapping: 10.203100 ms MarkObjects: 97.306300 ms  DeleteObjects: 4.884600 ms)
+
+DisplayProgressbar: Compiling shader variants
+DisplayProgressbar: Building Player
 
 
 Mono dependencies included in the build
@@ -405,190 +419,212 @@ Dependency assembly - Unity.RenderPipelines.Core.ShaderLibrary.dll
 Dependency assembly - Unity.RenderPipelines.HighDefinition.Runtime.dll
 Dependency assembly - Unity.TextMeshPro.dll
 
-Unloading 721 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 259.0 MB.
-System memory in use after: 234.6 MB.
+Unloading 275 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 296.6 MB.
+System memory in use after: 238.4 MB.
 
-Unloading 6168 unused Assets to reduce memory usage. Loaded Objects now: 2430.
-Total: 16.308100 ms (FindLiveObjects: 0.625800 ms CreateObjectMapping: 0.151500 ms MarkObjects: 6.605700 ms  DeleteObjects: 8.924500 ms)
+Unloading 4398 unused Assets to reduce memory usage. Loaded Objects now: 2431.
+Total: 21.077700 ms (FindLiveObjects: 2.641500 ms CreateObjectMapping: 0.223400 ms MarkObjects: 6.705400 ms  DeleteObjects: 11.507100 ms)
 
 [EnlightenBakeManager] m_Clear = false;
 Setting up 8 worker threads for Enlighten.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-  Thread -> id: 57e8 -> priority: 1 
-  Thread -> id: 4808 -> priority: 1 
-  Thread -> id: 93a8 -> priority: 1 
-  Thread -> id: 7bec -> priority: 1 
-  Thread -> id: 5aac -> priority: 1 
-  Thread -> id: 3ca0 -> priority: 1 
-  Thread -> id: 5e94 -> priority: 1 
-  Thread -> id: 4628 -> priority: 1 
-System memory in use before: 163.2 MB.
-System memory in use after: 163.3 MB.
+  Thread -> id: 2e74 -> priority: 1 
+  Thread -> id: 5024 -> priority: 1 
+  Thread -> id: 52d8 -> priority: 1 
+  Thread -> id: 1d14 -> priority: 1 
+  Thread -> id: 8d4c -> priority: 1 
+  Thread -> id: 99e4 -> priority: 1 
+  Thread -> id: 9474 -> priority: 1 
+  Thread -> id: 4b18 -> priority: 1 
+System memory in use before: 211.4 MB.
+System memory in use after: 211.5 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2443.
-Total: 7.169300 ms (FindLiveObjects: 0.322000 ms CreateObjectMapping: 0.056100 ms MarkObjects: 6.786000 ms  DeleteObjects: 0.004400 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2444.
+Total: 7.542100 ms (FindLiveObjects: 0.938800 ms CreateObjectMapping: 0.069800 ms MarkObjects: 6.528600 ms  DeleteObjects: 0.004300 ms)
 
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 164.5 MB.
-System memory in use after: 163.4 MB.
+System memory in use before: 212.7 MB.
+System memory in use after: 211.6 MB.
 
-Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2430.
-Total: 8.135600 ms (FindLiveObjects: 0.284300 ms CreateObjectMapping: 0.042500 ms MarkObjects: 6.996500 ms  DeleteObjects: 0.811900 ms)
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2431.
+Total: 8.338000 ms (FindLiveObjects: 0.758100 ms CreateObjectMapping: 0.043600 ms MarkObjects: 6.736600 ms  DeleteObjects: 0.799400 ms)
 
-Compressed shader 'HDRenderPipeline/Lit' on d3d11 from 8.90MB to 2.14MB
+Compiled shader 'HDRenderPipeline/Lit' in 37.15s
+    d3d11 (total internal programs: 848, unique: 744)
+Compressed shader 'HDRenderPipeline/Lit' on d3d11 from 11.05MB to 2.67MB
 Compressed shader 'Hidden/HDRenderPipeline/ColorResolve' on d3d11 from 2.29MB to 0.62MB
 Compressed shader 'Hidden/HDRenderPipeline/TerrainLit_Basemap' on d3d11 from 2.41MB to 0.57MB
 Compressed shader 'HDRenderPipeline/TerrainLit' on d3d11 from 2.77MB to 0.58MB
+Compiled shader 'Hidden/PostProcessing/DepthOfField' in 1.82s
+    d3d11 (total internal programs: 40, unique: 14)
 DisplayProgressbar: Compiling shader variants
+Compiled shader 'Hidden/PostProcessing/Uber' in 7.86s
+    d3d11 (total internal programs: 1152, unique: 1152)
 Compressed shader 'Hidden/PostProcessing/Uber' on d3d11 from 3.81MB to 0.24MB
 Compressed shader 'Shader Graphs/mask_colorize' on d3d11 from 1.11MB to 0.26MB
 Unloading 600 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 224.7 MB.
-System memory in use after: 222.5 MB.
+System memory in use before: 272.9 MB.
+System memory in use after: 270.7 MB.
 
-Unloading 696 unused Assets to reduce memory usage. Loaded Objects now: 2444.
-Total: 10.138100 ms (FindLiveObjects: 0.396400 ms CreateObjectMapping: 0.084100 ms MarkObjects: 7.110800 ms  DeleteObjects: 2.546600 ms)
+Unloading 696 unused Assets to reduce memory usage. Loaded Objects now: 2445.
+Total: 11.501700 ms (FindLiveObjects: 1.103500 ms CreateObjectMapping: 0.107600 ms MarkObjects: 7.578700 ms  DeleteObjects: 2.710800 ms)
 
 DisplayProgressbar: Building Player
 
 -------------------------------------------------------------------------------
 Build Report
 Uncompressed usage by category (Percentages based on user generated assets only):
-Textures               446.5 mb	 91.6% 
-Meshes                 9.8 mb	 2.0% 
+Textures               507.1 mb	 78.7% 
+Meshes                 14.0 mb	 2.2% 
 Animations             0.0 kb	 0.0% 
 Sounds                 0.0 kb	 0.0% 
-Shaders                6.3 mb	 1.3% 
-Other Assets           4.6 mb	 1.0% 
-Levels                 878.5 kb	 0.2% 
-Scripts                2.9 mb	 0.6% 
-Included DLLs          13.2 mb	 2.7% 
-File headers           3.6 mb	 0.7% 
-Total User Assets      487.7 mb	 100.0% 
-Complete build size    524.3 mb
+Shaders                6.9 mb	 1.1% 
+Other Assets           4.9 mb	 0.8% 
+Levels                 29.6 mb	 4.6% 
+Scripts                2.9 mb	 0.4% 
+Included DLLs          13.2 mb	 2.0% 
+File headers           65.8 mb	 10.2% 
+Total User Assets      644.3 mb	 100.0% 
+Complete build size    681.0 mb
 Used Assets and files from the Resources folder, sorted by uncompressed size:
- 32.0 mb	 6.1% Assets/HDR/canary_wharf.hdr
- 5.3 mb	 1.0% Assets/Textures/Props/SprinklerPipe_01a_MM_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/OfficeCabinet_01a_MM_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/ChargingStation_01a_N_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/ChargingStation_01a_MM_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/CP_ParkingBooth_01b_N_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/CP_ParkingBooth_01b_MM_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/CP_ParkingBooth_01b_D_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/CP_ParkingBooth_01a_N_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/CP_ParkingBooth_01a_MM_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/CP_ParkingBooth_01a_D_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/AutoPayStation_01a_N_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/AutoPayStation_01a_MM_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Structures/BridgePillar_01a_N_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Structures/BridgePillar_01a_MM_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Structures/BridgePillar_01a_D_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/Ventilation_01a_N_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/Ventilation_01a_MM_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/TicketMachine_MM_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/SwitchBox_01a_MM_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/SprinklerPipe_01a_N_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/OfficeCabinet_01a_N_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/LightPole_01a_MM_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/DebrisBottle_01a_N_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/DebrisBottle_01a_MM_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/Compressor_01a_N_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/Compressor_01a_MM_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/Compressor_01a_D_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/ClearanceBar_01a_N_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/ClearanceBar_01a_MM_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Tiling/Concrete_01a_N_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Tiling/Concrete_01a_MM_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/TrashCan_01a_N_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/TrashCan_01a_MM_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/TicketMachine_N_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/SwitchBox_01a_N_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/StandSign_01_N_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/StandSign_01_MM_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/LightPole_01a_N_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/LightPole_01a_E_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/Drainage_01a_N_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/Drainage_01a_MM_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/DebrisPaper_N_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/DebrisPaper_MM_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Structures/Decal_02a_D_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Structures/Decal_01a_D_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/Door_01a_N_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/Door_01a_MM_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/Door_01a_D_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/Cone_01a_N_snaps019.tga
- 5.3 mb	 1.0% Assets/Textures/Props/Cone_01a_MM_snaps019.tga
- 4.0 mb	 0.8% Packages/com.unity.postprocessing/PostProcessing/Textures/Lens Dirt/LensDirt02.png
- 2.7 mb	 0.5% Assets/Textures/Props/CashierMachine_01a_N_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/CashierMachine_01a_MM_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/WheelStopper_01a_N_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/WheelStopper_01a_MM_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/WheelClamp_01a_N_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/WheelClamp_01a_MM_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/SpeedBump_01a_MM_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/FenceBarrier_01a_N_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/FenceBarrier_01a_MM_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/SpeedBump_01a_N_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/FireHose_01a_N_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/FireHose_01a_MM_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/Bench_01a_MM_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/Bench_01a_N_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/CP_ParkingBooth_01b_Mask_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/ChargingStation_01a_E_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/ChargingStation_01a_D_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/AutoPayStation_01a_E_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/AutoPayStation_01a_D_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/Ventilation_01a_D_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/SprinklerPipe_01a_D_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/OfficeCabinet_01a_D_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/DebrisBottle_01a_D_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/ClearanceBar_01a_D_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Tiling/Concrete_01a_D_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/TrashCan_01a_D_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/TicketMachine_E_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/TicketMachine_D_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/SwitchBox_01a_E_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/SwitchBox_01a_D_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/StandSign_01_D_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/LightPole_01a_D_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/Drainage_01a_D_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/DebrisPaper_D_snaps019.tga
- 2.7 mb	 0.5% Assets/Textures/Props/Cone_01a_D_snaps019.tga
- 2.6 mb	 0.5% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/Deferred.compute
- 2.5 mb	 0.5% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/Lit/Lit.shader
- 1.3 mb	 0.3% Assets/Textures/Props/FluorescentLight_01a_N_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/FluorescentLight_01a_MM_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/FireExtinguisher_01a_N_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/FireExtinguisher_01a_MM_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/OfficeTable_01a_N_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/OfficeTable_01a_MM_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/EdgeGuard_01a_MM_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/DisplayBoard_01a_N_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/DisplayBoard_01a_MM_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/ConvexMirror_01a_N_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/ConvexMirror_01a_MM_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/CableTray_01a_MM_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/EdgeGuard_01a_N_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/CashierMachine_01a_E_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/CashierMachine_01a_D_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/CableTray_01a_N_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/WheelStopper_01a_D_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/WheelClamp_01a_D_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/Pipe_01a_N_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/Pipe_01a_MM_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/FenceBarrier_01a_D_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/Cage_01a_N_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/Cage_01a_MM_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/Cage_01a_D_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/SpeedBump_01a_D_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/FireHose_01a_D_snaps019.tga
- 1.3 mb	 0.3% Assets/Textures/Props/Bench_01a_D_snaps019.tga
- 820.2 kb	 0.2% Assets/Model/Props/CP_ParkingBooth_01a_snaps019.fbx
+ 32.0 mb	 4.7% Assets/HDR/canary_wharf.hdr
+ 5.3 mb	 0.8% Assets/Textures/Props/SprinklerPipe_01a_MM_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/ParkingBarrier_01a_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/ParkingBarrier_01a_MM_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/OfficeCabinet_01a_MM_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/ChargingStation_01a_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/ChargingStation_01a_MM_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/CP_ParkingBooth_01b_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/CP_ParkingBooth_01b_MM_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/CP_ParkingBooth_01b_D_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/CP_ParkingBooth_01a_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/CP_ParkingBooth_01a_MM_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/CP_ParkingBooth_01a_D_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/AutoPayStation_01a_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/AutoPayStation_01a_MM_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Tiling/RoadAsphalt_01a_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Tiling/RoadAsphalt_01a_MM_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Tiling/RoadAsphalt_01a_D_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Tiling/Cement_02a_MaskMap_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Structures/BridgePillar_01a_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Structures/BridgePillar_01a_MM_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Structures/BridgePillar_01a_D_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/Ventilation_01a_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/Ventilation_01a_MM_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/TicketMachine_MM_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/SwitchBox_01a_MM_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/SprinklerPipe_01a_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/OfficeCabinet_01a_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/LightPole_01a_MM_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/DebrisBottle_01a_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/DebrisBottle_01a_MM_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/Compressor_01a_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/Compressor_01a_MM_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/Compressor_01a_D_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/ClearanceBar_01a_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/ClearanceBar_01a_MM_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Tiling/Concrete_01a_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Tiling/Concrete_01a_MM_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Tiling/Cement_02a_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Tiling/Cement_01a_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Tiling/Cement_01a_MM_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/TrashCan_01a_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/TrashCan_01a_MM_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/TicketMachine_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/SwitchBox_01a_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/StandSign_01_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/StandSign_01_MM_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/LightPole_01a_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/LightPole_01a_E_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/Drainage_01a_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/Drainage_01a_MM_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/DebrisPaper_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/DebrisPaper_MM_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Structures/Decal_02a_D_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Structures/Decal_01a_D_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/Door_01a_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/Door_01a_MM_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/Door_01a_D_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/Cone_01a_N_snaps019.tga
+ 5.3 mb	 0.8% Assets/Textures/Props/Cone_01a_MM_snaps019.tga
+ 4.0 mb	 0.6% Packages/com.unity.postprocessing/PostProcessing/Textures/Lens Dirt/LensDirt02.png
+ 3.1 mb	 0.5% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/Lit/Lit.shader
+ 2.7 mb	 0.4% Assets/Textures/Props/CashierMachine_01a_N_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/CashierMachine_01a_MM_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/WheelStopper_01a_N_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/WheelStopper_01a_MM_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/WheelClamp_01a_N_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/WheelClamp_01a_MM_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/SpeedBump_01a_MM_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/FenceBarrier_01a_N_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/FenceBarrier_01a_MM_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/SpeedBump_01a_N_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/FireHose_01a_N_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/FireHose_01a_MM_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/Bench_01a_MM_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/Bench_01a_N_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/CP_ParkingBooth_01b_Mask_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/ParkingBarrier_01a_D_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/ChargingStation_01a_E_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/ChargingStation_01a_D_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/AutoPayStation_01a_E_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/AutoPayStation_01a_D_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/Ventilation_01a_D_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/SprinklerPipe_01a_D_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/OfficeCabinet_01a_D_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/DebrisBottle_01a_D_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/ClearanceBar_01a_D_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Tiling/Concrete_01a_D_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Tiling/Cement_02a_D_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Tiling/Cement_01a_D_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/TrashCan_01a_D_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/TicketMachine_E_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/TicketMachine_D_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/SwitchBox_01a_E_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/SwitchBox_01a_D_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/StandSign_01_D_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/LightPole_01a_D_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/Drainage_01a_D_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/DebrisPaper_D_snaps019.tga
+ 2.7 mb	 0.4% Assets/Textures/Props/Cone_01a_D_snaps019.tga
+ 2.6 mb	 0.4% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/Deferred.compute
+ 1.3 mb	 0.2% Assets/Textures/Props/FluorescentLight_01a_N_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/FluorescentLight_01a_MM_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/FireExtinguisher_01a_N_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/FireExtinguisher_01a_MM_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/SensorLight_01a_N_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/SensorLight_01a_MM_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/SensorLight_01a_D_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/OfficeTable_01a_N_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/OfficeTable_01a_MM_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/EdgeGuard_01a_MM_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/DisplayBoard_01a_N_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/DisplayBoard_01a_MM_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/ConvexMirror_01a_N_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/ConvexMirror_01a_MM_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/CableTray_01a_MM_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/EdgeGuard_01a_N_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/CashierMachine_01a_E_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/CashierMachine_01a_D_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/CableTray_01a_N_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/WheelStopper_01a_D_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/WheelClamp_01a_D_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/Pipe_01a_N_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/Pipe_01a_MM_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/FenceBarrier_01a_D_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/Cage_01a_N_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/Cage_01a_MM_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/Cage_01a_D_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/SpeedBump_01a_D_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/FireHose_01a_D_snaps019.tga
+ 1.3 mb	 0.2% Assets/Textures/Props/Bench_01a_D_snaps019.tga
+ 820.2 kb	 0.1% Assets/Model/Props/CP_ParkingBooth_01a_snaps019.fbx
  741.1 kb	 0.1% Assets/Model/Props/DisplayBoard_01a_snaps019.fbx
  696.5 kb	 0.1% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/TerrainLit/TerrainLit.shader
+ 682.8 kb	 0.1% Assets/Textures/Props/SensorLight_01a_Mask_snaps019.tga
  682.8 kb	 0.1% Assets/Textures/Props/OfficeTable_01a_mask_snaps019.tga
  682.8 kb	 0.1% Assets/Textures/Props/FluorescentLight_01a_E_snaps019.tga
  682.8 kb	 0.1% Assets/Textures/Props/FluorescentLight_01a_D_snaps019.tga
@@ -602,38 +638,45 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  682.8 kb	 0.1% Assets/Textures/Props/Pipe_01a_D_snaps019.tga
  669.5 kb	 0.1% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/TerrainLit/TerrainLit_Basemap.shader
  643.4 kb	 0.1% Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/RenderPass/MSAA/ColorResolve.shader
+ 554.8 kb	 0.1% Assets/Model/Props/Scaleman.fbx
  536.9 kb	 0.1% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Uber.shader
  518.3 kb	 0.1% Assets/Model/Props/ChargingStation_01a_snaps019.fbx
  489.6 kb	 0.1% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/ShadowBlurMoments.compute
  364.8 kb	 0.1% Assets/Model/Structure/Bridge/BridgePillar_01a_snaps019.fbx
  362.6 kb	 0.1% Assets/Model/Props/Drainage_04a_snaps019.fbx
  352.6 kb	 0.1% Assets/Model/Props/FireExtinguisher_01a_snaps019.fbx
- 341.5 kb	 0.1% Assets/Textures/Props/EmergencyLight_01a_N_snaps019.tga
- 341.5 kb	 0.1% Assets/Textures/Props/EmergencyLight_01a_MM_snaps019.tga
- 341.5 kb	 0.1% Assets/Textures/Props/EmergencyLight_01a_E_snaps019.tga
- 341.5 kb	 0.1% Assets/Textures/Props/EmergencyLight_01a_D_snaps019.tga
- 341.5 kb	 0.1% Assets/Textures/Props/FireAlarm_01a_MM_snaps019.tga
- 341.5 kb	 0.1% Assets/Textures/Props/FireAlarm_01a_N_snaps019.tga
- 341.5 kb	 0.1% Assets/Textures/Props/Cable_01a_MM_snaps019.tga
- 341.5 kb	 0.1% Assets/Textures/Props/Bollard_01a_N_snaps019.tga
- 341.5 kb	 0.1% Assets/Textures/Props/Bollard_01a_MM_snaps019.tga
- 341.5 kb	 0.1% Assets/Textures/Props/Cable_01a_N_snaps019.tga
- 341.5 kb	 0.1% Assets/Textures/Props/Bell_01a_N_snaps019.tga
- 341.5 kb	 0.1% Assets/Textures/Props/Bell_01a_MM_snaps019.tga
- 341.5 kb	 0.1% Packages/com.unity.probuilder/Content/Material/Textures/GridBox_Trigger.png
- 341.5 kb	 0.1% Packages/com.unity.probuilder/Content/Material/Textures/GridBox_Collider.png
- 339.8 kb	 0.1% Assets/Model/Props/CP_ParkingBooth_Door_01a_snaps019.fbx
- 321.2 kb	 0.1% Assets/Model/Structure/Bridge/BridgePillar_02a_snaps019.fbx
- 315.3 kb	 0.1% Assets/Materials/ShaderGraph/mask_colorize.shadergraph
- 298.3 kb	 0.1% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/VolumetricLighting/VolumetricLighting.compute
- 290.1 kb	 0.1% Assets/Model/Props/FireHose_01a_snaps019.fbx
- 272.4 kb	 0.1% Assets/Model/Props/Drainage_03a_snaps019.fbx
+ 341.5 kb	 0.0% Assets/Textures/Props/EmergencyLight_01a_N_snaps019.tga
+ 341.5 kb	 0.0% Assets/Textures/Props/EmergencyLight_01a_MM_snaps019.tga
+ 341.5 kb	 0.0% Assets/Textures/Props/EmergencyLight_01a_E_snaps019.tga
+ 341.5 kb	 0.0% Assets/Textures/Props/EmergencyLight_01a_D_snaps019.tga
+ 341.5 kb	 0.0% Assets/Textures/Props/FireAlarm_01a_MM_snaps019.tga
+ 341.5 kb	 0.0% Assets/Textures/Props/FireAlarm_01a_N_snaps019.tga
+ 341.5 kb	 0.0% Assets/Textures/Props/Cable_01a_MM_snaps019.tga
+ 341.5 kb	 0.0% Assets/Textures/Props/Bollard_01a_N_snaps019.tga
+ 341.5 kb	 0.0% Assets/Textures/Props/Bollard_01a_MM_snaps019.tga
+ 341.5 kb	 0.0% Assets/Textures/Props/Cable_01a_N_snaps019.tga
+ 341.5 kb	 0.0% Assets/Textures/Props/Bell_01a_N_snaps019.tga
+ 341.5 kb	 0.0% Assets/Textures/Props/Bell_01a_MM_snaps019.tga
+ 341.5 kb	 0.0% Packages/com.unity.probuilder/Content/Material/Textures/GridBox_Trigger.png
+ 341.5 kb	 0.0% Packages/com.unity.probuilder/Content/Material/Textures/GridBox_Collider.png
+ 339.8 kb	 0.0% Assets/Model/Props/CP_ParkingBooth_Door_01a_snaps019.fbx
+ 321.2 kb	 0.0% Assets/Model/Structure/Bridge/BridgePillar_02a_snaps019.fbx
+ 315.3 kb	 0.0% Assets/Materials/ShaderGraph/mask_colorize.shadergraph
+ 298.3 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/VolumetricLighting/VolumetricLighting.compute
+ 297.7 kb	 0.0% Assets/Model/Props/CashierMachine_01a_snaps019.fbx
+ 290.1 kb	 0.0% Assets/Model/Props/FireHose_01a_snaps019.fbx
+ 272.4 kb	 0.0% Assets/Model/Props/Drainage_03a_snaps019.fbx
  262.6 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Textures/SMAA/AreaTex.tga
+ 262.4 kb	 0.0% Assets/Model/Props/SprinklerPipe_08a_snaps019.fbx
  243.8 kb	 0.0% Assets/Model/Props/Ventilation_02a_snaps019.fbx
  238.0 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/SubsurfaceScattering/SubsurfaceScattering.compute
+ 225.1 kb	 0.0% Assets/Model/Props/FenceBarrier_01a_snaps019.fbx
  224.6 kb	 0.0% Assets/Model/Props/Cage_02a_snaps019.fbx
+ 224.3 kb	 0.0% Assets/Model/Props/Compressor_02a_snaps019.fbx
  215.9 kb	 0.0% Assets/Model/Props/WheelClamp_01a_snaps019.fbx
+ 210.2 kb	 0.0% Assets/Model/Structure/Carpark/CP_SpiralRamp_01a_snaps019.fbx
  201.1 kb	 0.0% Assets/Model/Props/Drainage_05a_snaps019.fbx
+ 187.9 kb	 0.0% Assets/Model/Props/OfficeChair_01a_snaps019.fbx
  181.7 kb	 0.0% Assets/Model/Props/Drainage_02a_snaps019.fbx
  177.0 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Deferred.shader
  170.8 kb	 0.0% Assets/Textures/Props/Camera_01a_N_snaps019.tga
@@ -646,16 +689,24 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  170.8 kb	 0.0% Packages/com.unity.probuilder/Content/Material/Textures/GridBox_NoDraw.png
  169.9 kb	 0.0% Assets/Model/Props/ConvexMirror_01a_snaps019.fbx
  169.0 kb	 0.0% Assets/Model/Props/Door_01a_snaps019.fbx
- 164.6 kb	 0.0% Assets/Model/Props/SprinklerPipe_08a_snaps019.fbx
+ 167.2 kb	 0.0% Assets/Model/Structure/Carpark/LiftFrame_01a_snaps019.fbx
+ 160.1 kb	 0.0% Assets/Model/Props/Compressor_01a_snaps019.fbx
  157.2 kb	 0.0% Assets/Model/Props/Ventilation_01a_snaps019.fbx
  152.2 kb	 0.0% Assets/Model/Props/Cage_03a_snaps019.fbx
+ 148.0 kb	 0.0% Assets/Model/Structure/Road/Road_05a_snaps019.fbx
  147.5 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/RenderPass/MSAA/AoResolve.shader
  146.3 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/lightlistbuild-clustered.compute
+ 144.9 kb	 0.0% Assets/Model/Props/AutoPayStation_01a_snaps019.fbx
  132.8 kb	 0.0% Assets/Model/Props/MegaPhone_01a_snaps019.fbx
+ 118.5 kb	 0.0% Assets/Model/Props/SprinklerPipe_09a_snaps019.fbx
  114.8 kb	 0.0% Assets/Model/Structure/Bridge/BridgePillar_03a_snaps019.fbx
+ 113.3 kb	 0.0% Assets/Model/Props/SprinklerPipe_08b_snaps019.fbx
  110.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/lightlistbuild.compute
+ 110.6 kb	 0.0% Assets/Model/Structure/Carpark/Lift_01a_snaps019.fbx
  104.2 kb	 0.0% Assets/Model/Props/TrashCan_01a_snaps019.fbx
+ 102.2 kb	 0.0% Assets/Model/Props/TicketMachine_01a_snaps019.fbx
  98.7 kb	 0.0% Assets/Model/Props/Ventilation_09a_snaps019.fbx
+ 98.6 kb	 0.0% Assets/Model/Structure/Bridge/BridgePlatform_02a_snaps019.fbx
  97.8 kb	 0.0% Assets/Model/Props/DebrisBottle_05a_snaps019.fbx
  96.5 kb	 0.0% Resources/unity_builtin_extra
  93.6 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/AutoExposure.compute
@@ -665,11 +716,19 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  90.7 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute
  85.5 kb	 0.0% Assets/Textures/Props/Camera_01a_D_snaps019.tga
  83.9 kb	 0.0% Assets/Model/Props/Ventilation_05a_snaps019.fbx
+ 83.1 kb	 0.0% Assets/Model/Structure/Bridge/BridgePlatform_01a_snaps019.fbx
+ 79.7 kb	 0.0% Assets/Model/Props/SensorLight_01a_snaps019.fbx
  79.7 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Core/Debugging/Prefabs/Fonts/Perfect DOS VGA 437.ttf
- 77.3 kb	 0.0% Assets/Model/Props/SprinklerPipe_09a_snaps019.fbx
+ 79.1 kb	 0.0% Assets/Model/Structure/Carpark/CP_EmergencyStair_02a_snaps019.fbx
+ 76.8 kb	 0.0% Assets/Model/Structure/Bridge/BridgeStairs_01a_snaps019.fbx
  76.3 kb	 0.0% Assets/Model/Props/DebrisBottle_08a_snaps019.fbx
+ 74.7 kb	 0.0% Assets/Model/Structure/Carpark/CP_EmergencyStair_01a_snaps019.fbx
+ 73.5 kb	 0.0% Assets/Model/Props/ParkingBarrier_01a_snaps019.fbx
+ 72.9 kb	 0.0% Assets/Model/Structure/Bridge/BridgeStairs_02a_snaps019.fbx
+ 72.7 kb	 0.0% Assets/Model/Structure/Carpark/LiftFrame_03a_snaps019.fbx
  68.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/Decal/Decal.shader
  68.1 kb	 0.0% Assets/Model/Props/LightPole_01a_snaps019.fbx
+ 67.0 kb	 0.0% Assets/Model/Props/ParkingBarrier_02a_snaps019.fbx
  67.0 kb	 0.0% Assets/Model/Props/DebrisBottle_09a_snaps019.fbx
  66.2 kb	 0.0% Assets/Model/Props/Ventilation_08a_snaps019.fbx
  64.1 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Textures/Blue Noise 256px/LDR_LLL1_7.png
@@ -684,10 +743,10 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  63.5 kb	 0.0% Assets/Model/Props/DebrisBottle_03a_snaps019.fbx
  59.9 kb	 0.0% Assets/Model/Props/DebrisCan_04a_snaps019.fbx
  59.5 kb	 0.0% Assets/Model/Props/Cage_01a_snaps019.fbx
- 59.4 kb	 0.0% Assets/Model/Props/TicketMachine_01a_snaps019.fbx
  59.0 kb	 0.0% Assets/Model/Props/DebrisCan_01a_snaps019.fbx
  57.8 kb	 0.0% Assets/Model/Props/DebrisCan_02a_snaps019.fbx
  57.8 kb	 0.0% Assets/Model/Props/Bench_01a_snaps019.fbx
+ 55.9 kb	 0.0% Assets/Model/Structure/Carpark/Door_01a_snaps019.fbx
  53.5 kb	 0.0% Assets/Model/Props/Ventilation_07a_snaps019.fbx
  52.2 kb	 0.0% Assets/Model/Props/DebrisBottle_07a_snaps019.fbx
  51.5 kb	 0.0% Assets/Model/Structure/Bridge/BridgePillar_04a_snaps019.fbx
@@ -696,8 +755,13 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  49.9 kb	 0.0% Assets/Model/Props/DebrisBottle_02a_snaps019.fbx
  49.8 kb	 0.0% Assets/Model/Props/Ventilation_10a_snaps019.fbx
  48.9 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DepthOfField.shader
+ 46.4 kb	 0.0% Assets/Model/Structure/Carpark/ElectricRoomDoor_01a_snaps019.fbx
+ 45.9 kb	 0.0% Assets/Model/Structure/Carpark/CP_WallBlind_01a_snaps019.fbx
  44.7 kb	 0.0% Assets/Model/Props/DebrisCarton_01a_snaps019.fbx
+ 44.2 kb	 0.0% Assets/Model/Props/SprinklerPipe_04a_snaps019.fbx
+ 44.0 kb	 0.0% Assets/Model/Structure/Carpark/ElectricRoomDoor_02a_snaps019.fbx
  43.9 kb	 0.0% Assets/Model/Props/DebrisBook_01a_snaps019.fbx
+ 43.3 kb	 0.0% Assets/Model/Props/Bracket_02a_snaps019.fbx
  42.3 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/scrbound.compute
  41.2 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/VolumetricLighting/VolumeVoxelization.compute
  40.9 kb	 0.0% Assets/Model/Props/Bell_01a_snaps019.fbx
@@ -707,56 +771,80 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  40.3 kb	 0.0% Packages/com.unity.probuilder/Content/Shader/StandardVertexColor.shader
  39.0 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute
  38.8 kb	 0.0% Assets/Model/Props/CP_ParkingBooth_01a_COL_snaps019.fbx
+ 38.6 kb	 0.0% Assets/Model/Structure/Carpark/LiftFrame_02a_snaps019.fbx
+ 38.2 kb	 0.0% Assets/Model/Structure/Road/Road_02a_snaps019.fbx
+ 35.1 kb	 0.0% Assets/Model/Structure/Carpark/CP_GlassWall_02a_snaps019.fbx
  34.3 kb	 0.0% Assets/Model/Props/DebrisCarton_02a_snaps019.fbx
  33.3 kb	 0.0% Assets/Model/Props/Cone_01a_snaps019.fbx
  32.6 kb	 0.0% Assets/Model/Props/PlasticPipe_12a_snaps019.fbx
  32.6 kb	 0.0% Assets/Model/Props/DebrisBook_03a_snaps019.fbx
  32.1 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/DebugFont.tga
+ 31.7 kb	 0.0% Assets/Model/Props/SprinklerPipe_05b_snaps019.fbx
+ 31.5 kb	 0.0% Assets/Model/Props/SprinklerPipe_05a_snaps019.fbx
+ 30.5 kb	 0.0% Assets/Model/Props/SprinklerPipe_06a_snaps019.fbx
  30.3 kb	 0.0% Assets/Model/Props/Camera_01a_snaps019.fbx
  29.7 kb	 0.0% Assets/Model/Props/Bracket_01a_snaps019.fbx
  28.4 kb	 0.0% Assets/Model/Props/PlasticPipe_11a_snaps019.fbx
+ 28.4 kb	 0.0% Assets/Model/Structure/Road/Road_01a_snaps019.fbx
+ 28.4 kb	 0.0% Assets/Model/Props/CableTray_09a_snaps019.fbx
  28.2 kb	 0.0% Assets/Model/Props/DebrisCan_06a_snaps019.fbx
  28.0 kb	 0.0% Assets/Model/Props/Bracket_04a_snaps019.fbx
  28.0 kb	 0.0% Assets/Model/Props/DebrisCan_05a_snaps019.fbx
  27.9 kb	 0.0% Assets/Model/Structure/Bridge/BridgePillar_02a_COL_snaps019.fbx
  27.9 kb	 0.0% Assets/Model/Structure/Bridge/BridgePillar_01a_COL_snaps019.fbx
- 27.5 kb	 0.0% Assets/Model/Props/Bracket_02a_snaps019.fbx
  26.4 kb	 0.0% Assets/Model/Props/CP_ParkingBooth_Door_01a_COL_snaps019.fbx
  26.4 kb	 0.0% Assets/Model/Props/Bollard_01a_snaps019.fbx
+ 25.0 kb	 0.0% Assets/Model/Props/CableTray_05a_snaps019.fbx
+ 24.8 kb	 0.0% Assets/Model/Props/CableTray_07a_snaps019.fbx
  24.4 kb	 0.0% Assets/Model/Props/PlasticPipe_04a_snaps019.fbx
+ 24.3 kb	 0.0% Assets/Model/Props/Bracket_03a_snaps019.fbx
  23.9 kb	 0.0% Assets/Model/Props/SpeedBump_01a_snaps019.fbx
  23.8 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScalableAO.shader
- 23.7 kb	 0.0% Assets/Model/Props/SprinklerPipe_04a_snaps019.fbx
  22.2 kb	 0.0% Assets/Model/Props/DebrisBook_06a_snaps019.fbx
  22.2 kb	 0.0% Assets/Model/Props/PlasticPipe_05a_snaps019.fbx
  22.0 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Bloom.shader
+ 21.7 kb	 0.0% Assets/Model/Structure/Carpark/CP_WallWindow_01a_snaps019.fbx
  21.5 kb	 0.0% Assets/Model/Props/EdgeGuard_01a_snaps019.fbx
  20.7 kb	 0.0% Assets/Model/Props/PlasticPipe_07a_snaps019.fbx
  20.6 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut3DBaker.compute
  20.0 kb	 0.0% Assets/Model/Props/DebrisBook_04a_snaps019.fbx
- 19.3 kb	 0.0% Assets/Model/Props/SprinklerPipe_05a_snaps019.fbx
+ 19.6 kb	 0.0% Assets/Model/Props/OfficeDrawer_04a_snaps019.fbx
+ 19.6 kb	 0.0% Assets/Model/Props/OfficeDrawer_03a_snaps019.fbx
+ 19.6 kb	 0.0% Assets/Model/Props/OfficeDrawer_02a_snaps019.fbx
+ 19.6 kb	 0.0% Assets/Model/Props/OfficeDrawer_01a_snaps019.fbx
  19.3 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.shader
  18.3 kb	 0.0% Assets/Model/Props/DebrisBook_05a_snaps019.fbx
  18.3 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Overlays.shader
  17.9 kb	 0.0% Assets/Model/Props/DebrisBook_02a_snaps019.fbx
  17.8 kb	 0.0% Assets/Model/Props/DebrisBottleCap_02a_snaps019.fbx
- 17.6 kb	 0.0% Assets/Model/Props/SprinklerPipe_06a_snaps019.fbx
  17.6 kb	 0.0% Assets/Model/Props/PlasticPipe_14a_snaps019.fbx
+ 17.5 kb	 0.0% Assets/Model/Props/CableTray_08a_snaps019.fbx
  17.2 kb	 0.0% Assets/Model/Props/DebrisBottleCap_03a_snaps019.fbx
  17.1 kb	 0.0% Assets/Model/Props/PlasticPipe_13a_snaps019.fbx
+ 16.9 kb	 0.0% Assets/Model/Structure/Carpark/CP_Wall_02a_snaps019.fbx
  16.9 kb	 0.0% Assets/Model/Props/DebrisBottleCap_01a_snaps019.fbx
  16.6 kb	 0.0% Assets/Model/Props/WheelClamp_01a_COL_snaps019.fbx
  16.5 kb	 0.0% Assets/Model/Props/SpeedBump_02a_snaps019.fbx
  16.5 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MotionBlur.shader
+ 16.4 kb	 0.0% Assets/Model/Structure/Carpark/FireEscapeDoor_01a_snaps019.fbx
+ 16.0 kb	 0.0% Assets/Model/Props/OfficeCabinet_02a_snaps019.fbx
  15.9 kb	 0.0% Assets/Model/Props/SignBoard_01a_snaps019.fbx
  15.7 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Core/CoreResources/EncodeBC6H.compute
  14.5 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut2DBaker.shader
+ 14.3 kb	 0.0% Assets/Model/Props/SprinklerPipe_07a_snaps019.fbx
+ 14.1 kb	 0.0% Assets/Model/Structure/Carpark/CP_WallDoor_01a_snaps019.fbx
+ 14.0 kb	 0.0% Assets/Model/Props/SprinklerPipe_03a_snaps019.fbx
+ 14.0 kb	 0.0% Assets/Model/Props/SprinklerPipe_02a_snaps019.fbx
+ 14.0 kb	 0.0% Assets/Model/Props/SprinklerPipe_01a_snaps019.fbx
  14.0 kb	 0.0% Assets/Model/Props/WheelStopper_01a_snaps019.fbx
  13.9 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/FinalPass.shader
+ 13.8 kb	 0.0% Assets/Model/Props/SprinklerPipe_02b_snaps019.fbx
  13.8 kb	 0.0% Assets/Model/Props/ChargingStation_01a_COL_snaps019.fbx
+ 13.7 kb	 0.0% Assets/Model/Structure/Carpark/CP_Floor_03a_snaps019.fbx
  13.1 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.shader
- 12.9 kb	 0.0% Assets/Model/Props/Bracket_03a_snaps019.fbx
  12.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Debug/DebugViewTiles.shader
+ 12.7 kb	 0.0% Assets/Model/Structure/Carpark/LiftDoor_02a_snaps019.fbx
+ 12.7 kb	 0.0% Assets/Model/Structure/Carpark/LiftDoor_01a_snaps019.fbx
  11.8 kb	 0.0% Assets/Model/Props/Bracket_06a_snaps019.fbx
  11.7 kb	 0.0% Assets/Model/Props/CashierMachine_01a_COL_snaps019.fbx
  11.3 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/ShaderLibrary/CopyStencilBuffer.shader
@@ -771,30 +859,44 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  10.4 kb	 0.0% Assets/Model/Props/PlasticPipe_03a_snaps019.fbx
  10.4 kb	 0.0% Assets/Model/Props/PlasticPipe_02a_snaps019.fbx
  10.4 kb	 0.0% Assets/Model/Props/PlasticPipe_01_snaps019.fbx
+ 10.1 kb	 0.0% Assets/Model/Props/CableTray_09a_COL_snaps019.fbx
  10.1 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVO.shader
  10.0 kb	 0.0% Assets/Model/Props/Bracket_05a_snaps019.fbx
  9.7 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/lightlistbuild-bigtile.compute
  9.7 kb	 0.0% Assets/Model/Props/Ventilation_09a_COL_snaps019.fbx
+ 9.6 kb	 0.0% Assets/Model/Structure/Carpark/LiftWeight_01a_snaps019.fbx
  9.5 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/ShaderLibrary/Blit.shader
  9.5 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/RenderPass/MSAA/DepthValues.shader
  9.4 kb	 0.0% Assets/Model/Props/Bracket_07a_snaps019.fbx
  9.2 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GrainBaker.shader
  9.0 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/ScreenSpaceShadow.compute
+ 8.8 kb	 0.0% Assets/Model/Props/CableTray_01a_snaps019.fbx
  8.6 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/RenderPass/ColorPyramid.compute
+ 8.5 kb	 0.0% Assets/Model/Props/CableTray_04a_snaps019.fbx
+ 8.5 kb	 0.0% Assets/Model/Props/CableTray_03a_snaps019.fbx
+ 8.5 kb	 0.0% Assets/Model/Props/CableTray_02a_snaps019.fbx
  8.4 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Sky/ProceduralSky/ProceduralSky.shader
- 8.4 kb	 0.0% Assets/Model/Props/SprinklerPipe_07a_snaps019.fbx
  8.2 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/ScreenSpaceLighting/ScreenSpaceReflections.compute
  8.2 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/materialflags.compute
- 8.2 kb	 0.0% Assets/Model/Props/SprinklerPipe_03a_snaps019.fbx
- 8.2 kb	 0.0% Assets/Model/Props/SprinklerPipe_02a_snaps019.fbx
- 8.2 kb	 0.0% Assets/Model/Props/SprinklerPipe_01a_snaps019.fbx
+ 8.0 kb	 0.0% Assets/Model/Structure/Carpark/CP_FireEscapeWall_01a_snaps019.fbx
  7.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Core/Debugging/Prefabs/Widgets/DebugUI Color.prefab
+ 7.6 kb	 0.0% Assets/Model/Structure/Carpark/CP_Floor_02a_snaps019.fbx
  7.6 kb	 0.0% Assets/Model/Structure/Bridge/BridgePillar_03a_COL_snaps019.fbx
  7.4 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Core/Debugging/Prefabs/Widgets/DebugUI Vector4.prefab
  7.3 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/TemporalAntialiasing.shader
+ 7.2 kb	 0.0% Assets/Model/Structure/Carpark/CP_ElectricRoomWall_01a_snaps019.fbx
+ 7.2 kb	 0.0% Assets/Model/Structure/Carpark/CP_LiftRoof_01a_snaps019.fbx
+ 7.2 kb	 0.0% Assets/Model/Structure/Carpark/CP_Roof_01a_snaps019.fbx
+ 7.0 kb	 0.0% Assets/Model/Structure/Carpark/CP_ElevatedGround_05a_snaps019.fbx
+ 7.0 kb	 0.0% Assets/Model/Structure/Carpark/CP_Pillar_02a_snaps019.fbx
  6.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/TerrainLit/TerrainLit_Basemap_Gen.shader
  6.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Debug/DebugViewMaterialGBuffer.shader
+ 6.8 kb	 0.0% Assets/Model/Structure/Carpark/CP_ElevatedGround_02a_snaps019.fbx
+ 6.8 kb	 0.0% Assets/Model/Structure/Carpark/CP_ElevatedGround_01a_snaps019.fbx
+ 6.8 kb	 0.0% Assets/Model/Structure/Carpark/CP_ElevatedGround_04a_snaps019.fbx
  6.6 kb	 0.0% Assets/Model/Props/OfficeChair_01a_COL_snaps019.fbx
+ 6.6 kb	 0.0% Assets/Model/Structure/Carpark/CP_LiftPillar_02a_snaps019.fbx
+ 6.6 kb	 0.0% Assets/Model/Structure/Carpark/CP_LiftPillar_01a_snaps019.fbx
  6.4 kb	 0.0% Assets/Model/Props/FenceBarrier_01a_COL_snaps019.fbx
  6.3 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GaussianDownsample.compute
  6.3 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Core/Debugging/Prefabs/Widgets/DebugUI Vector3.prefab
@@ -804,8 +906,14 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  6.1 kb	 0.0% Assets/Scenes/Carpark/Carpark.asset
  6.0 kb	 0.0% Assets/Model/Props/LightPole_02a_COL_snaps019.fbx
  6.0 kb	 0.0% Assets/Model/Props/Ventilation_08a_COL_snaps019.fbx
+ 6.0 kb	 0.0% Assets/Model/Structure/Carpark/CP_SmallRamp_01a_snaps019.fbx
+ 6.0 kb	 0.0% Assets/Model/Structure/Carpark/CP_ElevatedGround_06a_snaps019.fbx
+ 6.0 kb	 0.0% Assets/Model/Structure/Carpark/CP_ElevatedGround_03a_snaps019.fbx
+ 6.0 kb	 0.0% Assets/Model/Structure/Carpark/CP_Pillar_03a_snaps019.fbx
  5.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Debug/DebugLightVolumes.shader
+ 5.8 kb	 0.0% Assets/Model/Props/CableTray_07a_COL_snaps019.fbx
  5.7 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DeferredFog.shader
+ 5.7 kb	 0.0% Assets/Model/Props/CableTray_08a_COL_snaps019.fbx
  5.7 kb	 0.0% Assets/Model/Props/Ventilation_07a_COL_snaps019.fbx
  5.6 kb	 0.0% Assets/Model/Props/SwitchBox_02a_COL_snaps019.fbx
  5.6 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/DebugDisplayHDShadowMap.shader
@@ -820,14 +928,18 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  5.1 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Sky/GradientSky/GradientSky.shader
  5.1 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute
  5.0 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Sky/HDRISky/HDRISky.shader
+ 5.0 kb	 0.0% Assets/Materials/Tiling/Glass_01a_snaps019.mat
  4.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/GGXConvolution/BuildProbabilityTables.compute
  4.9 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Copy.shader
  4.9 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStd.shader
  4.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/GGXConvolution/GGXConvolve.shader
+ 4.8 kb	 0.0% Assets/Model/Props/SprinklerPipe_06b_COL_snaps019.fbx
+ 4.8 kb	 0.0% Assets/Model/Structure/Road/Road_02a_COL_snaps019.fbx
  4.7 kb	 0.0% Assets/Materials/Props/CP_ParkingBooth_01b_Alpha_snaps019.mat
  4.7 kb	 0.0% Assets/Materials/Props/CP_ParkingBooth_01a_Alpha_snaps019.mat
  4.7 kb	 0.0% Assets/Materials/Props/EmergencyLight_01a_Alpha_snaps019.mat
  4.7 kb	 0.0% Assets/Materials/Props/Door_01a_Alpha_snaps019.mat
+ 4.7 kb	 0.0% Assets/Materials/Props/SensorLight_01a_Alpha_snaps019.mat
  4.7 kb	 0.0% Assets/Materials/Props/CP_ParkingBooth_01a_snaps019.mat
  4.6 kb	 0.0% Assets/Materials/Props/Cage_01a_Alpha_snaps019.mat
  4.6 kb	 0.0% Assets/Materials/Props/Compressor_01a_snaps019.mat
@@ -840,15 +952,21 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  4.6 kb	 0.0% Assets/Materials/Props/CP_ParkingBooth_01b_snaps019.mat
  4.6 kb	 0.0% Assets/Materials/Props/AutoPayStation_01a_snaps019.mat
  4.6 kb	 0.0% Assets/Materials/Props/SwitchBox_01a_snaps019.mat
+ 4.6 kb	 0.0% Assets/Materials/Props/SensorLight_01a_snaps019.mat
  4.6 kb	 0.0% Assets/Materials/Props/LightPole_01a_snaps019.mat
+ 4.6 kb	 0.0% Assets/Materials/Tiling/Cement_02a_snaps019.mat
+ 4.6 kb	 0.0% Assets/Materials/Tiling/Cement_01a_snaps019.mat
  4.6 kb	 0.0% Assets/Materials/Props/FireExtinguisher_01a_snaps019.mat
+ 4.6 kb	 0.0% Assets/Materials/Tiling/RoadConcrete_01a_snaps019.mat
  4.6 kb	 0.0% Assets/Materials/Structures/BridgePillar_01a_snaps019.mat
  4.6 kb	 0.0% Assets/Materials/Props/WheelStopper_01a_snaps019.mat
  4.6 kb	 0.0% Assets/Materials/Props/SprinklerPipe_01a_snaps019.mat
+ 4.6 kb	 0.0% Assets/Materials/Props/ParkingBarrier_01a_snaps019.mat
  4.6 kb	 0.0% Assets/Materials/Props/OfficeCabinet_01_snaps019.mat
  4.6 kb	 0.0% Assets/Materials/Props/FenceBarrier_01a_snaps019.mat
  4.6 kb	 0.0% Assets/Materials/Props/ConvexMirror_01a_snaps019.mat
  4.6 kb	 0.0% Assets/Materials/Props/ClearanceBar_01a_snaps019.mat
+ 4.5 kb	 0.0% Assets/Materials/Tiling/RoadAsphalt_01a_snaps019.mat
  4.5 kb	 0.0% Assets/Materials/Tiling/Concrete_01a_snaps019.mat
  4.5 kb	 0.0% Assets/Materials/Props/WheelClamp_01a_snaps019.mat
  4.5 kb	 0.0% Assets/Materials/Props/Ventilation_01a_snaps019.mat
@@ -873,6 +991,7 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  4.5 kb	 0.0% Assets/Materials/Props/Bench_01a_snaps019.mat
  4.5 kb	 0.0% Assets/Materials/Props/Bell_01a_snaps019.mat
  4.5 kb	 0.0% Assets/Materials/Tiling/Layout_Floor.mat
+ 4.5 kb	 0.0% Assets/Model/Props/CableTray_05a_COL_snaps019.fbx
  4.4 kb	 0.0% Assets/Materials/Props/MegaPhone_01a_snaps019.mat
  4.2 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.shader
  4.1 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_9.png
@@ -950,6 +1069,9 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  4.0 kb	 0.0% Assets/Materials/Props/OfficeChair_01a_snaps019.mat
  4.0 kb	 0.0% Assets/Model/Structure/Bridge/BridgePillar_04a_COL_snaps019.fbx
  4.0 kb	 0.0% Assets/Model/Props/Drainage_03a_COL_snaps019.fbx
+ 4.0 kb	 0.0% Assets/Model/Structure/Road/Road_05a_COL_snaps019.fbx
+ 4.0 kb	 0.0% Assets/Model/Structure/Road/Road_04a_COL_snaps019.fbx
+ 4.0 kb	 0.0% Assets/Model/Structure/Road/Road_01a_COL_snaps019.fbx
  4.0 kb	 0.0% Assets/Model/Props/Bracket_04a_COL_snaps019.fbx
  4.0 kb	 0.0% Assets/Model/Props/Bench_01a_COL_snaps019.fbx
  4.0 kb	 0.0% Assets/Materials/Structures/Decal_02a_snaps019.mat
@@ -969,7 +1091,9 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  3.4 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/PreIntegratedFGD/preIntegratedFGD_GGXDisneyDiffuse.shader
  3.3 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Debug/DebugDisplayLatlong.shader
  3.3 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/RenderPass/MotionVectors/CameraMotionVectors.shader
+ 3.3 kb	 0.0% Assets/Model/Structure/Carpark/CP_Pillar_01a_snaps019.fbx
  3.3 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Core/CoreResources/CubeToPano.shader
+ 3.2 kb	 0.0% Assets/Model/Props/ParkingBarrier_01a_COL_snaps019.fbx
  3.1 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.shader
  3.1 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Debug/ColorGradient.png
  3.1 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.shader
@@ -982,6 +1106,7 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  3.0 kb	 0.0% Packages/com.unity.probuilder/Content/Shader/UnlitVertexColor.shader
  2.9 kb	 0.0% Assets/Model/Props/FireExtinguisher_01a_COL_snaps019.fbx
  2.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Sky/BlitCubemap.shader
+ 2.9 kb	 0.0% Assets/Model/Props/SprinklerPipe_05b_COL_snaps019.fbx
  2.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Core/Debugging/Prefabs/Resources/DebugUI Canvas.prefab
  2.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Core/Debugging/Prefabs/Widgets/DebugUI Foldout.prefab
  2.9 kb	 0.0% Packages/com.unity.probuilder/Content/Shader/FacePicker.shader
@@ -991,12 +1116,17 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  2.8 kb	 0.0% Assets/Model/Props/StandSign_01a_COL_snaps019.fbx
  2.8 kb	 0.0% Assets/Model/Props/PlasticPipe_12a_COL_snaps019.fbx
  2.8 kb	 0.0% Assets/Model/Props/PlasticPipe_05a_COL_snaps019.fbx
+ 2.8 kb	 0.0% Assets/Model/Props/CableTray_04a_COL_snaps019.fbx
+ 2.8 kb	 0.0% Assets/Model/Props/CableTray_03a_COL_snaps019.fbx
+ 2.8 kb	 0.0% Assets/Model/Props/CableTray_02a_COL_snaps019.fbx
+ 2.8 kb	 0.0% Assets/Model/Props/CableTray_01a_COL_snaps019.fbx
  2.8 kb	 0.0% Assets/Model/Props/Bracket_02a_COL_snaps019.fbx
  2.8 kb	 0.0% Assets/Model/Props/Bracket_01a_COL_snaps019.fbx
  2.8 kb	 0.0% Assets/Model/Props/SprinklerPipe_06a_COL_snaps019.fbx
  2.8 kb	 0.0% Assets/Model/Props/LightPole_01a_COL_snaps019.fbx
  2.8 kb	 0.0% Assets/Model/Props/Drainage_05a_COL_snaps019.fbx
  2.8 kb	 0.0% Assets/Model/Props/Drainage_02a_COL_snaps019.fbx
+ 2.8 kb	 0.0% Assets/Model/Structure/Road/Road_03a_COL_snaps019.fbx
  2.8 kb	 0.0% Assets/Model/Props/Bracket_07a_COL_snaps019.fbx
  2.8 kb	 0.0% Assets/Model/Props/Bracket_06a_COL_snaps019.fbx
  2.8 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DiscardAlpha.shader
@@ -1019,8 +1149,10 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  2.2 kb	 0.0% Assets/Model/Props/TrashCan_01a_COL_snaps019.fbx
  2.1 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Core/Debugging/Prefabs/Widgets/DebugUI Toggle.prefab
  2.0 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample2.compute
+ 2.0 kb	 0.0% Assets/Model/Props/ParkingBarrier_02a_COL_snaps019.fbx
  2.0 kb	 0.0% Assets/Model/Props/DebrisBook_04a_COL_snaps019.fbx
  2.0 kb	 0.0% Assets/Model/Props/TrashCan_02a_COL_snaps019.fbx
+ 2.0 kb	 0.0% Assets/Model/Structure/Carpark/CP_Ramp_01a_snaps019.fbx
  2.0 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.compute
  1.8 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/builddispatchindirect.compute
  1.8 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.compute
@@ -1031,9 +1163,11 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  1.6 kb	 0.0% Assets/Model/Props/FluorescentLight_02a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/FluorescentLight_01a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/SprinklerPipe_09a_COL_snaps019.fbx
+ 1.6 kb	 0.0% Assets/Model/Props/SprinklerPipe_08b_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/SprinklerPipe_08a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/SprinklerPipe_07a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/SprinklerPipe_03a_COL_snaps019.fbx
+ 1.6 kb	 0.0% Assets/Model/Props/SprinklerPipe_02b_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/SprinklerPipe_02a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/SprinklerPipe_01a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/EmergencyLight_02a_COL_snaps019.fbx
@@ -1055,6 +1189,8 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  1.6 kb	 0.0% Assets/Model/Props/DebrisBottleCap_01a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/ConvexMirror_01a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/AutoPayStation_01a_COL_snaps019.fbx
+ 1.6 kb	 0.0% Assets/Model/Structure/Carpark/CP_GlassWall_03a_snaps019.fbx
+ 1.6 kb	 0.0% Assets/Model/Structure/Carpark/CP_GlassWall_01a_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/Ventilation_10a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/SwitchBox_05a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/SwitchBox_03a_COL_snaps019.fbx
@@ -1062,6 +1198,7 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  1.6 kb	 0.0% Assets/Model/Props/SpeedBump_01a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/SignBoard_02a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/SignBoard_01a_COL_snaps019.fbx
+ 1.6 kb	 0.0% Assets/Model/Props/SensorLight_01a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/PlasticPipe_14a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/PlasticPipe_13a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/PlasticPipe_10a_COL_snaps019.fbx
@@ -1090,6 +1227,7 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  1.6 kb	 0.0% Assets/Model/Props/DebrisBook_01a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/Compressor_02a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/Compressor_01a_COL_snaps019.fbx
+ 1.6 kb	 0.0% Assets/Model/Structure/Carpark/CP_Floor_01a_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/Door_01a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/Camera_01a_COL_snaps011.fbx
  1.6 kb	 0.0% Assets/Model/Props/Cage_02a_COL_snaps019.fbx
@@ -1102,10 +1240,12 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  1.6 kb	 0.0% Assets/Model/Props/Bracket_05a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/Bracket_03a_COL_snaps019.fbx
  1.6 kb	 0.0% Assets/Model/Props/Bell_01a_COL_snaps011.fbx
+ 1.6 kb	 0.0% Assets/Model/Structure/Carpark/CP_Wall_01a_snaps019.fbx
  1.6 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Core/Debugging/Prefabs/Widgets/DebugUI Group.prefab
  1.5 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/RenderPass/Distortion/ApplyDistorsion.compute
  1.5 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture3DLerp.compute
  1.5 kb	 0.0% Assets/Scenes/Asset_Layout/Layout Scene Settings Profile.asset
+ 1.5 kb	 0.0% Assets/Scenes/Carpark/Carpark Scene Settings.asset
  1.5 kb	 0.0% C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll
  1.5 kb	 0.0% C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll
  1.4 kb	 0.0% Assets/Model/Props/WheelStopper_01a_COL_snaps019.fbx
@@ -1639,21 +1779,21 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  0.1 kb	 0.0% Packages/com.unity.probuilder/Content/Resources/Materials/VertexPicker.mat
  0.1 kb	 0.0% Packages/com.unity.probuilder/Content/Resources/Materials/EdgePicker.mat
 -------------------------------------------------------------------------------
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 164.0 MB.
-System memory in use after: 163.8 MB.
+Unloading 146 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.0 MB.
+System memory in use after: 249.8 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2450.
-Total: 8.951800 ms (FindLiveObjects: 0.344100 ms CreateObjectMapping: 0.051300 ms MarkObjects: 8.333400 ms  DeleteObjects: 0.222400 ms)
+Unloading 95 unused Assets to reduce memory usage. Loaded Objects now: 2453.
+Total: 8.695700 ms (FindLiveObjects: 1.017500 ms CreateObjectMapping: 0.077300 ms MarkObjects: 7.271400 ms  DeleteObjects: 0.329000 ms)
 
 DisplayProgressNotification: Build Successful
-Load scene 'Temp/__Backupscenes/0.backup' time: 0.020500 ms 
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.091400 ms 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.4 MB.
-System memory in use after: 163.5 MB.
+System memory in use before: 246.3 MB.
+System memory in use after: 246.5 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2442.
-Total: 7.874500 ms (FindLiveObjects: 0.335400 ms CreateObjectMapping: 0.051300 ms MarkObjects: 7.482600 ms  DeleteObjects: 0.004400 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2445.
+Total: 9.215600 ms (FindLiveObjects: 0.965300 ms CreateObjectMapping: 0.072500 ms MarkObjects: 8.170700 ms  DeleteObjects: 0.006500 ms)
 
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
@@ -1670,15 +1810,20 @@ Total: 7.874500 ms (FindLiveObjects: 0.335400 ms CreateObjectMapping: 0.051300 m
 - Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll
+- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
+Script Module: Unity.Postprocessing.Runtime.dll
+Pass: 0 took 26 milliseconds
+Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Polybrush.dll
 Symbols will be read from Temp\Unity.Polybrush.pdb
 Script Module: Unity.Polybrush.dll
-Pass: 0 took 19 milliseconds
-Pass: 1 took 0 milliseconds
+Pass: 0 took 32 milliseconds
+Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
 Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 28 milliseconds
+Pass: 0 took 24 milliseconds
 Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
 Symbols will be read from Temp\Unity.ProBuilder.Poly2Tri.pdb
@@ -1688,19 +1833,16 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
 Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
 Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 27 milliseconds
+Pass: 0 took 30 milliseconds
 Pass: 1 took 0 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
-Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
-Script Module: Unity.Postprocessing.Runtime.dll
-Pass: 0 took 14 milliseconds
-Pass: 1 took 1 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbols will be read from Temp\Unity.TextMeshPro.pdb
 Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 54 milliseconds
-Pass: 1 took 5 milliseconds
+Pass: 0 took 63 milliseconds
+Pass: 1 took 7 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll
 Symbols will be read from Temp\Unity.ProBuilder.KdTree.pdb
 Script Module: Unity.ProBuilder.KdTree.dll
@@ -1714,60 +1856,58 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProGrids.dll
 Symbols will be read from Temp\Unity.ProGrids.pdb
 Script Module: Unity.ProGrids.dll
-Pass: 0 took 13 milliseconds
+Pass: 0 took 15 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
 Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
 Pass: 0 took 0 milliseconds
 Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.Settings.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll
-- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.dll
 - Starting compile Library/ScriptAssemblies/Unity.Polybrush.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
+Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
+Pass: 0 took 70 milliseconds
+Pass: 1 took 6 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.Polybrush.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.dll
 Symbols will be read from Temp\Unity.ProBuilder.pdb
 Script Module: Unity.ProBuilder.dll
-Pass: 0 took 14 milliseconds
-Pass: 1 took 1 milliseconds
+Pass: 0 took 15 milliseconds
+Pass: 1 took 2 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
-Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
-Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
-Pass: 0 took 101 milliseconds
-Pass: 1 took 5 milliseconds
-- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
 Symbols will be read from Temp\Assembly-CSharp.pdb
 Script Module: Assembly-CSharp.dll
-Pass: 0 took 13 milliseconds
+Pass: 0 took 19 milliseconds
 Pass: 1 took 0 milliseconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 Batchmode quit successfully invoked - shutting down!
-[Performance] CurlRequestCheck                        :       15 samples, Peak.  21.6 us (2.4x), Avg.  8.92 us, Total. 133.8 us (0.0%)
-[Performance] PackageManager::RunRequestSynchronously :        4 samples, Peak.  37.3 us (2.9x), Avg.  13.0 us, Total. 51.90 us (0.0%)
+[Performance] CurlRequestCheck                        :       14 samples, Peak.  30.2 us (3.0x), Avg.  10.0 us, Total. 140.0 us (0.0%)
+[Performance] PackageManager::RunRequestSynchronously :        4 samples, Peak.  28.5 us (2.5x), Avg.  11.3 us, Total. 45.30 us (0.0%)
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.030869s
-	Asset Scan time: 0.029620s
+Refresh Completed time: 0.035019s
+	Asset Scan time: 0.033676s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -1778,8 +1918,8 @@ Refresh Completed time: 0.030869s
 
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.028899s
-	Asset Scan time: 0.027904s
+Refresh Completed time: 0.032177s
+	Asset Scan time: 0.031136s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
