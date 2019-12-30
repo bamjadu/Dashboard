@@ -1,10 +1,10 @@
 Initiating legacy licensing module
-LICENSE SYSTEM [20191230 19:4:39] Next license update check is after 2019-12-31T01:34:12
+LICENSE SYSTEM [20191230 20:53:38] Next license update check is after 2019-12-31T01:34:12
 
 Built from '2018.4/staging' branch; Version is '2018.4.0f1 (b6ffa8986c8d) revision 11993000'; Using compiler version '191326128'
 OS: 'Windows 10  (10.0.0) 64bit' Language: 'ko' Physical Memory: 32586 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-[Package Manager] Server::Start -- Port 52842 was selected
+[Package Manager] Server::Start -- Port 51644 was selected
 
  COMMAND LINE ARGUMENTS:
 C:/UnityEditor/2018.4.0f1/Editor/Unity.exe
@@ -15,12 +15,12 @@ E:/p4/WorldUrbanBiomes/SciFi_Colony/SciFi_Colony/
 -executeMethod
 ASBuildScript.RunBuild
 -logfile
-e:/build/OF3D/SciFi_Colony/3742/BuildLog.txt
+e:/build/OF3D/SciFi_Colony/3744/BuildLog.txt
 Successfully changed project path to: E:/p4/WorldUrbanBiomes/SciFi_Colony/SciFi_Colony/
 E:/p4/WorldUrbanBiomes/SciFi_Colony/SciFi_Colony
 Using Asset Import Pipeline V1.
-Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000061 seconds
-Loading Asset Database...0.016235 seconds
+Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000060 seconds
+Loading Asset Database...0.016226 seconds
 Build target: OSXUniversal found and added!
 Build target: WindowsStoreApps found and added!
 Build target: Win64 found and added!
@@ -49,8 +49,8 @@ Build target: N3DS found and added!
 Build target: WP8 found and added!
 Build target: SamsungTV found and added!
 Build target: Tizen found and added!
-AssetDatabase consistency checks...0.016510 seconds
-Refreshing native plugins compatible for Editor in 7.09 ms, found 0 plugins.
+AssetDatabase consistency checks...0.016590 seconds
+Refreshing native plugins compatible for Editor in 6.94 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Unity Package Manager
 [Package Manager] Done resolving packages in 0.19s seconds
@@ -161,44 +161,44 @@ Initialize mono
 Mono path[0] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
 Begin MonoManager ReloadAssembly
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering precompiled unity dll's ...
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001735 seconds.
+Registered in 0.001792 seconds.
 Registering platform support modules:
-Registered platform support modules in: 0.0596043s.
+Registered platform support modules in: 0.0568222s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
-Preloading 1 native plugins for Editor in 0.90 ms.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.97 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.580 seconds
+- Completed reload, in  1.571 seconds
 Registering precompiled user dll's ...
-Registered in 0.049149 seconds.
+Registered in 0.049034 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering platform support modules:
-Registered platform support modules in: 0.0349301s.
+Registered platform support modules in: 0.033831s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
 Preloading 1 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.013 seconds
+- Completed reload, in  1.010 seconds
 Platform modules already initialized, skipping
-Validating Project structure ... 0.003540 seconds.
+Validating Project structure ... 0.003723 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.029220s
-	Asset Scan time: 0.028012s
+Refresh Completed time: 0.028788s
+	Asset Scan time: 0.027564s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -207,13 +207,13 @@ Refresh Completed time: 0.029220s
 	Post Process Assets (Non Scripting) time: 0.000000s
 	Dependent Assets to Import Queue time: 0.000000s
 
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
-WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
-WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
-Warming cache for 3504 main assets: 0.005445 seconds elapsed
+Warming cache for 3504 main assets: 0.005482 seconds elapsed
 Initializing Unity extensions:
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
@@ -240,19 +240,19 @@ System memory in use before: 173.7 MB.
 System memory in use after: 172.4 MB.
 
 Unloading 175 unused Assets to reduce memory usage. Loaded Objects now: 2253.
-Total: 2.768900 ms (FindLiveObjects: 0.245600 ms CreateObjectMapping: 0.043800 ms MarkObjects: 1.689800 ms  DeleteObjects: 0.789300 ms)
+Total: 2.756500 ms (FindLiveObjects: 0.307900 ms CreateObjectMapping: 0.056500 ms MarkObjects: 1.638500 ms  DeleteObjects: 0.753000 ms)
 
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
-Script Compilation Pipeline Post Process Assets time: 0.000535s
-Assembly Updater Post Process Assets time: 0.000078s
+Script Compilation Pipeline Post Process Assets time: 0.000445s
+Assembly Updater Post Process Assets time: 0.000039s
 Updating ProjectSettings/UnityConnectSettings.asset - GUID: 0000000000000000a100000000000000...
- done. [Time: 69.159500 ms] 
-Script Compilation Pipeline Post Process Assets time: 0.000011s
-Assembly Updater Post Process Assets time: 0.000034s
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+ done. [Time: 64.890000 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000008s
+Assembly Updater Post Process Assets time: 0.000033s
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
 Preloading 1 native plugins for Editor in 0.10 ms.
 BuildPlayer: start building target 19
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
@@ -264,25 +264,25 @@ BuildPlayer: start building target 19
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.Stl.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProGrids.dll
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
-Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
-Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 13 milliseconds
-Pass: 1 took 2 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 28 milliseconds
+Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
 Script Module: Unity.Postprocessing.Runtime.dll
 Pass: 0 took 13 milliseconds
-Pass: 1 took 1 milliseconds
+Pass: 1 took 2 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
+Script Module: Unity.RenderPipelines.Core.Runtime.dll
+Pass: 0 took 17 milliseconds
+Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
 Symbols will be read from Temp\Unity.ProBuilder.Poly2Tri.pdb
 Script Module: Unity.ProBuilder.Poly2Tri.dll
 Pass: 0 took 0 milliseconds
-Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
-Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
-Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 24 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll
 Symbols will be read from Temp\Unity.ProBuilder.KdTree.pdb
@@ -297,7 +297,7 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProGrids.dll
 Symbols will be read from Temp\Unity.ProGrids.pdb
 Script Module: Unity.ProGrids.dll
-Pass: 0 took 18 milliseconds
+Pass: 0 took 16 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
@@ -309,42 +309,35 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbols will be read from Temp\Unity.TextMeshPro.pdb
 Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 41 milliseconds
+Pass: 0 took 42 milliseconds
 Pass: 1 took 5 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.dll
 Symbols will be read from Temp\Unity.ProBuilder.pdb
 Script Module: Unity.ProBuilder.dll
-Pass: 0 took 13 milliseconds
+Pass: 0 took 18 milliseconds
 Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
 Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
-Pass: 0 took 42 milliseconds
+Pass: 0 took 41 milliseconds
 Pass: 1 took 5 milliseconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
 Symbols will be read from Temp\Assembly-CSharp.pdb
 Script Module: Assembly-CSharp.dll
-Pass: 0 took 17 milliseconds
+Pass: 0 took 12 milliseconds
 Pass: 1 took 0 milliseconds
 DisplayProgressbar: Building Player
 Opening scene 'Assets/Scenes/SciFi_Colony_PrefabLayout/Props_Layout.unity'
-Load scene 'Assets/Scenes/SciFi_Colony_PrefabLayout/Props_Layout.unity' time: 0.012300 ms 
+Load scene 'Assets/Scenes/SciFi_Colony_PrefabLayout/Props_Layout.unity' time: 0.012600 ms 
 LightmapEditorSettings: switching bake backend from 1 to 2.
 Unloading 193 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 171.6 MB.
 System memory in use after: 171.5 MB.
 
 Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3440.
-Total: 7.331600 ms (FindLiveObjects: 0.421700 ms CreateObjectMapping: 0.081200 ms MarkObjects: 6.645500 ms  DeleteObjects: 0.182500 ms)
+Total: 7.988700 ms (FindLiveObjects: 0.421400 ms CreateObjectMapping: 0.088200 ms MarkObjects: 7.288800 ms  DeleteObjects: 0.189900 ms)
 
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
@@ -353,15 +346,22 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 second
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Opening scene 'Assets/Scenes/SciFi_Colony_PrefabLayout/Structure_Layout.unity'
-Load scene 'Assets/Scenes/SciFi_Colony_PrefabLayout/Structure_Layout.unity' time: 0.008200 ms 
+Load scene 'Assets/Scenes/SciFi_Colony_PrefabLayout/Structure_Layout.unity' time: 0.008100 ms 
 Unloading 250 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.0 MB.
-System memory in use after: 182.0 MB.
+System memory in use before: 188.2 MB.
+System memory in use after: 184.2 MB.
 
-Unloading 1007 unused Assets to reduce memory usage. Loaded Objects now: 12026.
-Total: 12.595700 ms (FindLiveObjects: 0.862700 ms CreateObjectMapping: 0.374800 ms MarkObjects: 8.972100 ms  DeleteObjects: 2.385500 ms)
+Unloading 1007 unused Assets to reduce memory usage. Loaded Objects now: 15445.
+Total: 13.821200 ms (FindLiveObjects: 1.098000 ms CreateObjectMapping: 0.421500 ms MarkObjects: 9.793600 ms  DeleteObjects: 2.507500 ms)
 
 
 
@@ -407,41 +407,41 @@ Dependency assembly - Unity.RenderPipelines.HighDefinition.Runtime.dll
 Dependency assembly - Unity.TextMeshPro.dll
 
 Unloading 240 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 184.0 MB.
-System memory in use after: 170.8 MB.
+System memory in use before: 185.0 MB.
+System memory in use after: 178.6 MB.
 
-Unloading 690 unused Assets to reduce memory usage. Loaded Objects now: 2344.
-Total: 8.910300 ms (FindLiveObjects: 0.411900 ms CreateObjectMapping: 0.054500 ms MarkObjects: 6.363700 ms  DeleteObjects: 2.079400 ms)
+Unloading 815 unused Assets to reduce memory usage. Loaded Objects now: 2344.
+Total: 10.038400 ms (FindLiveObjects: 0.477200 ms CreateObjectMapping: 0.077200 ms MarkObjects: 6.752200 ms  DeleteObjects: 2.731300 ms)
 
 [EnlightenBakeManager] m_Clear = false;
 Setting up 12 worker threads for Enlighten.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-  Thread -> id: 34f4 -> priority: 1 
-  Thread -> id: 679c -> priority: 1 
-  Thread -> id: 75bc -> priority: 1 
-  Thread -> id: 87ec -> priority: 1 
-  Thread -> id: 54e8 -> priority: 1 
-  Thread -> id: 591c -> priority: 1 
-  Thread -> id: 888c -> priority: 1 
-  Thread -> id: 660c -> priority: 1 
-  Thread -> id: 4df4 -> priority: 1 
-  Thread -> id: 9374 -> priority: 1 
-  Thread -> id: 20a8 -> priority: 1 
-  Thread -> id: 4358 -> priority: 1 
-System memory in use before: 160.5 MB.
-System memory in use after: 160.7 MB.
+  Thread -> id: 390c -> priority: 1 
+  Thread -> id: 5388 -> priority: 1 
+  Thread -> id: 8f2c -> priority: 1 
+  Thread -> id: 30ec -> priority: 1 
+  Thread -> id: 2cb8 -> priority: 1 
+  Thread -> id: 3768 -> priority: 1 
+  Thread -> id: 41e8 -> priority: 1 
+  Thread -> id: 8aa8 -> priority: 1 
+  Thread -> id: 5830 -> priority: 1 
+  Thread -> id: 71fc -> priority: 1 
+  Thread -> id: 6658 -> priority: 1 
+  Thread -> id: 82e4 -> priority: 1 
+System memory in use before: 161.2 MB.
+System memory in use after: 161.3 MB.
 
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2357.
-Total: 6.965700 ms (FindLiveObjects: 0.288900 ms CreateObjectMapping: 0.035300 ms MarkObjects: 6.636600 ms  DeleteObjects: 0.004300 ms)
+Total: 7.360200 ms (FindLiveObjects: 0.323000 ms CreateObjectMapping: 0.043000 ms MarkObjects: 6.988900 ms  DeleteObjects: 0.004700 ms)
 
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 161.9 MB.
-System memory in use after: 160.7 MB.
+System memory in use before: 162.5 MB.
+System memory in use after: 161.4 MB.
 
 Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2344.
-Total: 8.417800 ms (FindLiveObjects: 0.258100 ms CreateObjectMapping: 0.041200 ms MarkObjects: 7.297400 ms  DeleteObjects: 0.820800 ms)
+Total: 8.127600 ms (FindLiveObjects: 0.308600 ms CreateObjectMapping: 0.056600 ms MarkObjects: 6.933800 ms  DeleteObjects: 0.828200 ms)
 
 Compressed shader 'HDRenderPipeline/Lit' on d3d11 from 8.31MB to 1.99MB
 Compressed shader 'Hidden/HDRenderPipeline/ColorResolve' on d3d11 from 2.29MB to 0.62MB
@@ -455,35 +455,36 @@ DisplayProgressbar: Building Player
 -------------------------------------------------------------------------------
 Build Report
 Uncompressed usage by category (Percentages based on user generated assets only):
-Textures               1014.1 mb	 96.7% 
-Meshes                 6.4 mb	 0.6% 
+Textures               1022.1 mb	 96.6% 
+Meshes                 6.5 mb	 0.6% 
 Animations             0.0 kb	 0.0% 
 Sounds                 0.0 kb	 0.0% 
 Shaders                6.9 mb	 0.7% 
 Other Assets           4.8 mb	 0.5% 
-Levels                 822.6 kb	 0.1% 
+Levels                 1.1 mb	 0.1% 
 Scripts                2.8 mb	 0.3% 
-Included DLLs          13.2 mb	 1.3% 
-File headers           41.3 kb	 0.0% 
-Total User Assets      1049.1 mb	 100.0% 
-Complete build size    1085.7 mb
+Included DLLs          13.2 mb	 1.2% 
+File headers           41.7 kb	 0.0% 
+Total User Assets      1057.6 mb	 100.0% 
+Complete build size    1094.2 mb
 Used Assets and files from the Resources folder, sorted by uncompressed size:
- 21.3 mb	 2.0% Assets/Textures/Structure_Unique/Tx_Mt_Building_Shop_01a_snaps020/Tx_Mt_Building_Shop_01c_snaps020_Unique_Normal.png
- 21.3 mb	 2.0% Assets/Textures/Structure_Unique/Tx_Mt_Building_Shop_01a_snaps020/Tx_Mt_Building_Shop_01c_snaps020_Unique_MaskMap.png
- 21.3 mb	 2.0% Assets/Textures/Props/Tx_Mt_Ventilation_Machine_01a_snaps020/Tx_Mt_Ventilation_Machine_01a_snaps020_Normal.tga
- 21.3 mb	 2.0% Assets/Textures/Props/Tx_Mt_Ventilation_Machine_01a_snaps020/Tx_Mt_Ventilation_Machine_01a_snaps020_MaskMap.tga
- 21.3 mb	 2.0% Assets/Textures/Props/Tx_Mt_Water_Tower_01_snaps020/Tx_Mt_Water_Tower_01_snaps020_MaskMap.tga
- 21.3 mb	 2.0% Assets/Textures/Props/Tx_Mt_Traffic_Light_02a_snaps020/Tx_Mt_Traffic_Light_02a_snaps020_Normal.tga
- 21.3 mb	 2.0% Assets/Textures/Props/Tx_Mt_Traffic_Light_02a_snaps020/Tx_Mt_Traffic_Light_02a_snaps020_MaskMap.tga
- 21.3 mb	 2.0% Assets/Textures/Props/Tx_Mt_Bus_Station_01a_snaps020/Tx_Mt_Bus_Station_01a_snaps020_Normal.tga
- 21.3 mb	 2.0% Assets/Textures/Props/Tx_Mt_Bus_Station_01a_snaps020/Tx_Mt_Bus_Station_01a_snaps020_MaskMap.tga
- 21.3 mb	 2.0% Assets/Textures/Props/Tx_Mt_Bus_Station_01a_snaps020/Tx_Mt_Bus_Station_01a_snaps020_BaseColor.tga
- 21.3 mb	 2.0% Assets/Textures/Props/Tx_Mt_Water_Tower_01_snaps020/Tx_Mt_Water_Tower_01_snaps020_Normal.tga
+ 21.3 mb	 1.9% Assets/Textures/Structure_Unique/Tx_Mt_Building_Shop_01a_snaps020/Tx_Mt_Building_Shop_01c_snaps020_Unique_Normal.png
+ 21.3 mb	 1.9% Assets/Textures/Structure_Unique/Tx_Mt_Building_Shop_01a_snaps020/Tx_Mt_Building_Shop_01c_snaps020_Unique_MaskMap.png
+ 21.3 mb	 1.9% Assets/Textures/Props/Tx_Mt_Ventilation_Machine_01a_snaps020/Tx_Mt_Ventilation_Machine_01a_snaps020_Normal.tga
+ 21.3 mb	 1.9% Assets/Textures/Props/Tx_Mt_Ventilation_Machine_01a_snaps020/Tx_Mt_Ventilation_Machine_01a_snaps020_MaskMap.tga
+ 21.3 mb	 1.9% Assets/Textures/Props/Tx_Mt_Water_Tower_01_snaps020/Tx_Mt_Water_Tower_01_snaps020_MaskMap.tga
+ 21.3 mb	 1.9% Assets/Textures/Props/Tx_Mt_Traffic_Light_02a_snaps020/Tx_Mt_Traffic_Light_02a_snaps020_Normal.tga
+ 21.3 mb	 1.9% Assets/Textures/Props/Tx_Mt_Traffic_Light_02a_snaps020/Tx_Mt_Traffic_Light_02a_snaps020_MaskMap.tga
+ 21.3 mb	 1.9% Assets/Textures/Props/Tx_Mt_Bus_Station_01a_snaps020/Tx_Mt_Bus_Station_01a_snaps020_Normal.tga
+ 21.3 mb	 1.9% Assets/Textures/Props/Tx_Mt_Bus_Station_01a_snaps020/Tx_Mt_Bus_Station_01a_snaps020_MaskMap.tga
+ 21.3 mb	 1.9% Assets/Textures/Props/Tx_Mt_Bus_Station_01a_snaps020/Tx_Mt_Bus_Station_01a_snaps020_BaseColor.tga
+ 21.3 mb	 1.9% Assets/Textures/Props/Tx_Mt_Water_Tower_01_snaps020/Tx_Mt_Water_Tower_01_snaps020_Normal.tga
  10.7 mb	 1.0% Assets/Textures/Structure_Unique/Tx_Mt_Building_Shop_01a_snaps020/Tx_Mt_Building_Shop_01b_snaps020_Unique_Normal.png
  10.7 mb	 1.0% Assets/Textures/Structure_Unique/Tx_Mt_Building_Shop_01a_snaps020/Tx_Mt_Building_Shop_01b_snaps020_Unique_MaskMap.png
  10.7 mb	 1.0% Assets/Textures/Structure_Unique/Tx_Mt_Building_Shop_01a_snaps020/Tx_Mt_Building_Shop_01a_snaps020_Unique_Normal.png
  10.7 mb	 1.0% Assets/Textures/Structure_Unique/Tx_Mt_Building_Shop_01a_snaps020/Tx_Mt_Building_Shop_01a_snaps020_Unique_MaskMap.png
  10.7 mb	 1.0% Assets/Textures/Structure_Unique/Tx_Mt_Building_Shop_01a_snaps020/Tx_Mt_Building_Shop_01c_snaps020_Unique_BaseColor.png
+ 10.7 mb	 1.0% Assets/Textures/Structure_Unique/Tx_Mt_Building_C_snaps020/Tx_Mt_Building_C_Wall_01a_snaps020_Tiling_DirtMask.png
  10.7 mb	 1.0% Assets/Textures/Structure_Unique/Tx_Mt_Building_Shop_01a_snaps020/Tx_Mt_Building_Shop_01c_snaps020_Unique_Emissive.png
  10.7 mb	 1.0% Assets/Textures/Props/Tx_Mt_Ventilation_Machine_01a_snaps020/Tx_Mt_Ventilation_Machine_01a_snaps020_Emissive.tga
  10.7 mb	 1.0% Assets/Textures/Props/Tx_Mt_Ventilation_Machine_01a_snaps020/Tx_Mt_Ventilation_Machine_01a_snaps020_BaseColor.tga
@@ -600,7 +601,6 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  2.7 mb	 0.2% Assets/Textures/Structure_Unique/Tx_Mt_Building_Canopy_01a_snaps020/Tx_Mt_Building_Canopy_01a_snaps020_Unique_BaseColor.png
  2.7 mb	 0.2% Assets/Textures/Structure_Unique/Tx_Mt_Building_C_snaps020/Tx_Mt_Building_C_Wall_02a_snaps020_Unique_Emissive.png
  2.7 mb	 0.2% Assets/Textures/Structure_Unique/Tx_Mt_Building_C_snaps020/Tx_Mt_Building_C_Wall_02a_snaps020_Unique_BaseColor.png
- 2.7 mb	 0.2% Assets/Textures/Structure_Unique/Tx_Mt_Building_C_snaps020/Tx_Mt_Building_C_Wall_01a_snaps020_Tiling_DirtMask.png
  2.7 mb	 0.2% Assets/Textures/Structure_Unique/Tx_Mt_Building_C_snaps020/Tx_Mt_Building_C_Roof_01a_snaps020_Unique_BaseColor.png
  2.7 mb	 0.2% Assets/Textures/Structure_Unique/Tx_Mt_Building_B_snaps020/Tx_Mt_Building_B_Wall_02a_snaps020_Unique_BaseColor.png
  2.7 mb	 0.2% Assets/Textures/Structure_Unique/Tx_Mt_Building_B_snaps020/Tx_Mt_Building_B_Wall_01a_snaps020_Unique_BaseColor.png
@@ -703,6 +703,7 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  90.7 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute
  90.7 kb	 0.0% Assets/Model/Props/Ventilating_Duct_01d_snaps020.FBX
  86.0 kb	 0.0% Assets/Model/Props/Ventilating_Duct_01b_snaps020.FBX
+ 85.7 kb	 0.0% Assets/Model/Structure/Building_C_Wall_02a_snaps020.fbx
  83.7 kb	 0.0% Assets/Model/Structure/Building_Additional_Wire_01a_snaps020.FBX
  83.0 kb	 0.0% Assets/Model/Props/Standing_Billboard_01a_snaps020.FBX
  82.7 kb	 0.0% Assets/Model/Structure/Building_Shop_01a_snaps020.fbx
@@ -733,6 +734,7 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  47.4 kb	 0.0% Assets/Model/Structure/Building_Additional_Metal_01b_snaps020.FBX
  47.4 kb	 0.0% Assets/Model/Structure/Building_Additional_Metal_01a_snaps020.FBX
  45.2 kb	 0.0% Assets/Model/Props/Ventilation_Machine_03a_snaps020.FBX
+ 44.8 kb	 0.0% Assets/Model/Structure/Building_C_Light_01a_snaps020.fbx
  44.4 kb	 0.0% Assets/Model/Structure/Road_Drainage_01a_snaps020.FBX
  44.1 kb	 0.0% Assets/Model/Structure/Building_Sidewalk_01c_snaps020.FBX
  43.7 kb	 0.0% Assets/Model/Structure/Building_A_Wall_01a_snaps020.fbx
@@ -748,14 +750,16 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  38.5 kb	 0.0% Assets/Model/Structure/Building_B_Pillar_01a_snaps020.fbx
  37.6 kb	 0.0% Assets/Model/Props/Warning_Block_Cylinder_01a_snaps020.fbx
  36.4 kb	 0.0% Assets/Model/Structure/Building_B_Wall_01b_snaps020.fbx
- 34.3 kb	 0.0% Assets/Model/Structure/Building_C_Wall_02a_snaps020.fbx
+ 34.4 kb	 0.0% Assets/Model/Structure/Building_C_Pillar_01a_snaps020.fbx
  34.1 kb	 0.0% Assets/Model/Props/Road_Sign_01b_snaps020.fbx
  34.0 kb	 0.0% Assets/Model/Structure/Building_Additional_Wall_01c_snaps020.FBX
+ 33.9 kb	 0.0% Assets/Model/Structure/Building_C_Wall_02b_snaps020.fbx
  33.5 kb	 0.0% Assets/Model/Structure/Building_Additional_Lamp_Holder_01b_snaps020.FBX
  32.2 kb	 0.0% Assets/Model/Structure/Building_Additional_Wall_03a_snaps020.FBX
  32.1 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/DebugFont.tga
  31.0 kb	 0.0% Assets/Model/Structure/Building_A_Door_01a_snaps020.fbx
  30.2 kb	 0.0% Assets/Model/Structure/Building_B_Wall_02a_snaps020.fbx
+ 25.0 kb	 0.0% Assets/Model/Structure/Building_C_Roof_01a_snaps020.fbx
  25.0 kb	 0.0% Assets/Model/Structure/Building_B_Wall_02b_snaps020.fbx
  24.3 kb	 0.0% Assets/Model/Structure/Building_Additional_Wall_02a_snaps020.FBX
  24.2 kb	 0.0% Assets/Model/Props/Bench_01a_snaps020.FBX
@@ -767,17 +771,18 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  20.6 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut3DBaker.compute
  19.3 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.shader
  18.3 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Overlays.shader
- 18.0 kb	 0.0% Assets/Model/Structure/Building_C_Light_01a_snaps020.fbx
+ 17.8 kb	 0.0% Assets/Model/Structure/Building_C_Door_01b_snaps020.fbx
+ 17.8 kb	 0.0% Assets/Model/Structure/Building_C_Door_01a_snaps020.fbx
  17.6 kb	 0.0% Assets/Model/Structure/Building_A_Wall_01b_snaps020.fbx
  17.1 kb	 0.0% Assets/Model/Structure/Building_Additional_Wire_02a_snaps020.FBX
  16.8 kb	 0.0% Assets/Model/Structure/Building_Door_01a_Frame_snaps020.fbx
+ 16.8 kb	 0.0% Assets/Model/Structure/Building_C_Wall_01a_snaps020.fbx
  16.5 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MotionBlur.shader
  15.7 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Core/CoreResources/EncodeBC6H.compute
  14.5 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut2DBaker.shader
  13.9 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/FinalPass.shader
- 13.8 kb	 0.0% Assets/Model/Structure/Building_C_Wall_02b_snaps020.fbx
- 13.6 kb	 0.0% Assets/Model/Structure/Building_C_Pillar_01a_snaps020.fbx
  13.1 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.shader
+ 12.9 kb	 0.0% Assets/Model/Structure/Building_C_Roof_01b_snaps020.fbx
  12.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Debug/DebugViewTiles.shader
  11.9 kb	 0.0% Assets/Model/Structure/Building_A_Roof_01a_snaps020.fbx
  11.8 kb	 0.0% Assets/Model/Structure/Road_Drainage_01b_snaps020.FBX
@@ -787,7 +792,6 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  11.1 kb	 0.0% Assets/Model/Structure/Building_B_Wall_02c_snaps020.fbx
  10.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Debug/DebugColorPicker.shader
  10.8 kb	 0.0% Assets/Model/Structure/Building_B_Wall_01c_snaps020.fbx
- 10.7 kb	 0.0% Assets/Model/Structure/Building_C_Roof_01a_snaps020.fbx
  10.1 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVO.shader
  9.7 kb	 0.0% Assets/Materials/Mt_Building_Additional_Wall_01a_snaps020_Paint_Tiling.mat
  9.7 kb	 0.0% Assets/Materials/Mt_Building_Additional_Wall_01a_snaps020_Glass_Tiling.mat
@@ -814,6 +818,7 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  9.0 kb	 0.0% Assets/Model/Structure/Building_Additional_Wall_02b_snaps020.FBX
  9.0 kb	 0.0% Assets/Model/Structure/Building_B_Roof_01a_snaps020.fbx
  9.0 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/ScreenSpaceShadow.compute
+ 9.0 kb	 0.0% Assets/Model/Structure/Building_C_Wall_02c_snaps020.fbx
  8.7 kb	 0.0% Assets/Model/Props/Pipe_Small_02a_snaps020_COL.FBX
  8.7 kb	 0.0% Assets/Model/Props/Pipe_01a_snaps020_COL.FBX
  8.7 kb	 0.0% Assets/Model/Structure/Building_Additional_Wall_01b_snaps020.FBX
@@ -827,8 +832,6 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  8.2 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/materialflags.compute
  7.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Core/Debugging/Prefabs/Widgets/DebugUI Color.prefab
  7.4 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Core/Debugging/Prefabs/Widgets/DebugUI Vector4.prefab
- 7.4 kb	 0.0% Assets/Model/Structure/Building_C_Door_01b_snaps020.fbx
- 7.4 kb	 0.0% Assets/Model/Structure/Building_C_Door_01a_snaps020.fbx
  7.3 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/TemporalAntialiasing.shader
  6.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/TerrainLit/TerrainLit_Basemap_Gen.shader
  6.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Debug/DebugViewMaterialGBuffer.shader
@@ -837,8 +840,6 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  6.3 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/Fabric/CharlieConvolve.shader
  6.1 kb	 0.0% Assets/Model/Structure/Building_Additional_Metal_02a_snaps020.FBX
  5.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Debug/DebugLightVolumes.shader
- 5.9 kb	 0.0% Assets/Model/Structure/Building_C_Wall_02c_snaps020.fbx
- 5.8 kb	 0.0% Assets/Model/Structure/Building_C_Wall_01a_snaps020.fbx
  5.8 kb	 0.0% Assets/Model/Props/Pipe_Small_02c_snaps020_COL.FBX
  5.8 kb	 0.0% Assets/Model/Props/Pipe_Small_02b_snaps020_COL.FBX
  5.7 kb	 0.0% Assets/Model/Props/Pipe_01c_snaps020_COL.FBX
@@ -856,7 +857,6 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  5.1 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Sky/GradientSky/GradientSky.shader
  5.1 kb	 0.0% Assets/Model/Structure/Building_A_Wall_01d_snaps020.fbx
  5.1 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute
- 5.1 kb	 0.0% Assets/Model/Structure/Building_C_Roof_01b_snaps020.fbx
  5.0 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Sky/HDRISky/HDRISky.shader
  4.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/GGXConvolution/BuildProbabilityTables.compute
  4.9 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Copy.shader
@@ -1538,20 +1538,20 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  0.1 kb	 0.0% Packages/com.unity.probuilder/Content/Resources/Materials/EdgePicker.mat
 -------------------------------------------------------------------------------
 Unloading 532 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 190.0 MB.
-System memory in use after: 187.6 MB.
+System memory in use before: 190.7 MB.
+System memory in use after: 188.3 MB.
 
 Unloading 711 unused Assets to reduce memory usage. Loaded Objects now: 2364.
-Total: 11.405400 ms (FindLiveObjects: 0.366900 ms CreateObjectMapping: 0.075500 ms MarkObjects: 7.770100 ms  DeleteObjects: 3.192500 ms)
+Total: 12.088800 ms (FindLiveObjects: 0.357900 ms CreateObjectMapping: 0.076700 ms MarkObjects: 8.392100 ms  DeleteObjects: 3.261700 ms)
 
 DisplayProgressNotification: Build Successful
-Load scene 'Temp/__Backupscenes/0.backup' time: 0.387400 ms 
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.383200 ms 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 177.2 MB.
-System memory in use after: 177.4 MB.
+System memory in use before: 177.9 MB.
+System memory in use after: 178.1 MB.
 
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2356.
-Total: 7.260900 ms (FindLiveObjects: 0.345000 ms CreateObjectMapping: 0.059100 ms MarkObjects: 6.850500 ms  DeleteObjects: 0.005800 ms)
+Total: 6.986000 ms (FindLiveObjects: 0.305300 ms CreateObjectMapping: 0.048400 ms MarkObjects: 6.627600 ms  DeleteObjects: 0.004500 ms)
 
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
@@ -1570,29 +1570,24 @@ Total: 7.260900 ms (FindLiveObjects: 0.345000 ms CreateObjectMapping: 0.059100 m
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
 Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 32 milliseconds
-Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
-Symbols will be read from Temp\Unity.ProBuilder.Poly2Tri.pdb
-Script Module: Unity.ProBuilder.Poly2Tri.dll
-Pass: 0 took 0 milliseconds
-Pass: 1 took 0 milliseconds
+Pass: 0 took 19 milliseconds
+Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
 Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
 Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 26 milliseconds
+Pass: 0 took 42 milliseconds
 Pass: 1 took 0 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
 Script Module: Unity.Postprocessing.Runtime.dll
-Pass: 0 took 18 milliseconds
+Pass: 0 took 14 milliseconds
 Pass: 1 took 1 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbols will be read from Temp\Unity.TextMeshPro.pdb
-Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 50 milliseconds
-Pass: 1 took 5 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
+Symbols will be read from Temp\Unity.ProBuilder.Poly2Tri.pdb
+Script Module: Unity.ProBuilder.Poly2Tri.dll
+Pass: 0 took 0 milliseconds
+Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll
 Symbols will be read from Temp\Unity.ProBuilder.KdTree.pdb
 Script Module: Unity.ProBuilder.KdTree.dll
@@ -1606,43 +1601,48 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProGrids.dll
 Symbols will be read from Temp\Unity.ProGrids.pdb
 Script Module: Unity.ProGrids.dll
-Pass: 0 took 13 milliseconds
+Pass: 0 took 12 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
 Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
 Pass: 0 took 0 milliseconds
 Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.Settings.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+- Starting compile Library/ScriptAssemblies/Unity.ProBuilder.dll
+- Starting compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 47 milliseconds
+Pass: 1 took 5 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll
-- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
-- Starting compile Library/ScriptAssemblies/Unity.ProBuilder.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.dll
 Symbols will be read from Temp\Unity.ProBuilder.pdb
 Script Module: Unity.ProBuilder.dll
-Pass: 0 took 23 milliseconds
-Pass: 1 took 2 milliseconds
+Pass: 0 took 14 milliseconds
+Pass: 1 took 1 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
 Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
-Pass: 0 took 69 milliseconds
+Pass: 0 took 62 milliseconds
 Pass: 1 took 5 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
 Symbols will be read from Temp\Assembly-CSharp.pdb
@@ -1652,12 +1652,12 @@ Pass: 1 took 0 milliseconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 Batchmode quit successfully invoked - shutting down!
-[Performance] CurlRequestCheck                        :       15 samples, Peak.  23.0 us (2.3x), Avg.  9.89 us, Total. 148.4 us (0.0%)
-[Performance] PackageManager::RunRequestSynchronously :        4 samples, Peak.  28.1 us (2.5x), Avg.  11.3 us, Total. 45.10 us (0.0%)
+[Performance] CurlRequestCheck                        :       15 samples, Peak.  21.8 us (2.2x), Avg.  9.77 us, Total. 146.5 us (0.0%)
+[Performance] PackageManager::RunRequestSynchronously :        4 samples, Peak.  27.8 us (2.5x), Avg.  11.1 us, Total. 44.30 us (0.0%)
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.030105s
-	Asset Scan time: 0.028709s
+Refresh Completed time: 0.029352s
+	Asset Scan time: 0.027907s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -1668,8 +1668,8 @@ Refresh Completed time: 0.030105s
 
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.028937s
-	Asset Scan time: 0.027894s
+Refresh Completed time: 0.028168s
+	Asset Scan time: 0.027139s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
