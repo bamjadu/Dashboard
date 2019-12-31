@@ -131,6 +131,62 @@
 		}
 	}
 
+	function DrawLineChartForProfile(chartName, chartTitle, xChartName, yChartName, inputLabels, inputValues)
+	{
+		var ctx = document.getElementById(chartName);
+		
+		if (ctx.getContext)
+		{
+			var context = ctx.getContext("2d");
+
+			var myChart = new Chart(context, {
+				type: 'line',
+				data: {
+					labels: inputLabels,
+						datasets: [{
+							label: 'Scanned value',
+							data: inputValues,
+							backgroundColor: 
+								'rgba(49, 215, 132, 1)',
+								
+							borderColor: 
+								'rgba(49, 215, 132, 1)',
+								
+							
+							fill: false
+						}]
+					},
+					options: {
+						responsive: true,
+						title: {
+							display: true,
+							text: chartTitle
+						},
+						animation: {
+							animateScale: true,
+							animateRotate: true
+						},
+						scales: {
+							xAxes: [{
+								display:true,
+								scaleLabel: {
+									display: true,
+									labelString: xChartName
+									}
+								}],
+							yAxes: [{
+								display:true,
+								scaleLabel: {
+									display: true,
+									labelString: yChartName
+									}
+								}]
+							}
+					}    
+				});
+		}
+	}
+
 </script>
 </head>
 
@@ -138,9 +194,9 @@
 <strong><pre>ASChecker Vetting Score</pre></strong>
 <hr style="width: 1200px; position: absolute; left: 10px">
 <br>
-<h1><pre>     <font color="red">1651</font> pt. (<font color="red">91</font>% passed)</pre></h1>
+<h1><pre>     <font color="red">1650</font> pt. (<font color="red">91</font>% passed)</pre></h1>
 <div style="width:1200px; position:absolute; top:135px; left:10px; z-index:1">
-<strong><pre>Report Charts - updated : 2019.12.31 14:41 (KST)</pre></strong>
+<strong><pre>Report Charts - updated : 2019.12.31 16:34 (KST)</pre></strong>
 <hr>
 </div>
 <div style="position:absolute; top:200px; left:10px; z-index:1">
@@ -260,11 +316,11 @@
 </div>
 <canvas id = "ASChecker.EmptyPrefabChecker" width = "100px" height = "100px" ></canvas >
 </div>
-<script>SuccessRateDrawChart('ASChecker.EmptyPrefabChecker','ASChecker.EmptyPrefabChecker', 200, 41);</script>
+<script>SuccessRateDrawChart('ASChecker.EmptyPrefabChecker','ASChecker.EmptyPrefabChecker', 202, 39);</script>
 <div style = "width:400px;margin:3px; position:absolute;top:1290px; left:410px; z-index:0">
 <canvas id = "sRateASChecker.EmptyPrefabChecker" width = "400px" height = "400px" ></canvas >
 </div>
-<script>ShowSucceeRateText('sRateASChecker.EmptyPrefabChecker',82);</script>
+<script>ShowSucceeRateText('sRateASChecker.EmptyPrefabChecker',83);</script>
 <div style = "width:400px;margin:3px; position:absolute;top:1290px; left:820px; z-index:1">
 <div class="tooltip"><strong><a href=".\ASChecker.LodChecker.html">No LOD setup</a></strong>
 	<span class="tooltiptext">If package includes LOD variations their prefabs need to be setup accordingly.</span>
@@ -326,7 +382,7 @@
 </div>
 <canvas id = "ASChecker.TextureChecker" width = "100px" height = "100px" ></canvas >
 </div>
-<script>SuccessRateDrawChart('ASChecker.TextureChecker','ASChecker.TextureChecker', 205, 0);</script>
+<script>SuccessRateDrawChart('ASChecker.TextureChecker','ASChecker.TextureChecker', 212, 0);</script>
 <div style = "width:400px;margin:3px; position:absolute;top:2150px; left:410px; z-index:0">
 <canvas id = "sRateASChecker.TextureChecker" width = "400px" height = "400px" ></canvas >
 </div>
@@ -337,11 +393,11 @@
 </div>
 <canvas id = "ASChecker.UnusedTextureChecker" width = "100px" height = "100px" ></canvas >
 </div>
-<script>SuccessRateDrawChart('ASChecker.UnusedTextureChecker','ASChecker.UnusedTextureChecker', 187, 18);</script>
+<script>SuccessRateDrawChart('ASChecker.UnusedTextureChecker','ASChecker.UnusedTextureChecker', 190, 22);</script>
 <div style = "width:400px;margin:3px; position:absolute;top:2150px; left:820px; z-index:0">
 <canvas id = "sRateASChecker.UnusedTextureChecker" width = "400px" height = "400px" ></canvas >
 </div>
-<script>ShowSucceeRateText('sRateASChecker.UnusedTextureChecker',91);</script>
+<script>ShowSucceeRateText('sRateASChecker.UnusedTextureChecker',89);</script>
 <pre><br></pre>
 <pre><br></pre>
 </div>
