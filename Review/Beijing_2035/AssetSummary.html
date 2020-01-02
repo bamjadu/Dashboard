@@ -131,6 +131,62 @@
 		}
 	}
 
+	function DrawLineChartForProfile(chartName, chartTitle, xChartName, yChartName, inputLabels, inputValues)
+	{
+		var ctx = document.getElementById(chartName);
+		
+		if (ctx.getContext)
+		{
+			var context = ctx.getContext("2d");
+
+			var myChart = new Chart(context, {
+				type: 'line',
+				data: {
+					labels: inputLabels,
+						datasets: [{
+							label: 'Scanned value',
+							data: inputValues,
+							backgroundColor: 
+								'rgba(49, 215, 132, 1)',
+								
+							borderColor: 
+								'rgba(49, 215, 132, 1)',
+								
+							
+							fill: false
+						}]
+					},
+					options: {
+						responsive: true,
+						title: {
+							display: true,
+							text: chartTitle
+						},
+						animation: {
+							animateScale: true,
+							animateRotate: true
+						},
+						scales: {
+							xAxes: [{
+								display:true,
+								scaleLabel: {
+									display: true,
+									labelString: xChartName
+									}
+								}],
+							yAxes: [{
+								display:true,
+								scaleLabel: {
+									display: true,
+									labelString: yChartName
+									}
+								}]
+							}
+					}    
+				});
+		}
+	}
+
 </script>
 </head>
 
@@ -138,19 +194,19 @@
 <pre><br></pre>
 <strong><pre>Unity version : 2019.3.0f3</pre></strong>
 <hr>
-<strong><pre>Updated : 2019.12.30 22:19 (KST)</pre></strong>
+<strong><pre>Updated : 2020.1.2 22:56 (KST)</pre></strong>
 <hr>
 <pre><br></pre>
 <strong><pre>Texture summary</pre></strong>
 <hr>
-<pre>	Number of Textures : 674</pre>
+<pre>	Number of Textures : 719</pre>
 <pre>	Number of Sprites : 0</pre>
 <pre>	Texture Resolution : 4096 x 4096, 2048 x 2048, 2048 x 1024, 1024 x 2048, 1024 x 1024, 1024 x 512, 512 x 512, 512 x 256, 256 x 256, 128 x 128, 64 x 64, 48 x 48</pre>
-<pre>		4096 x 4096 : 17</pre>
-<pre>		2048 x 2048 : 479</pre>
-<pre>		2048 x 1024 : 3</pre>
+<pre>		4096 x 4096 : 18</pre>
+<pre>		2048 x 2048 : 513</pre>
+<pre>		2048 x 1024 : 7</pre>
 <pre>		1024 x 2048 : 16</pre>
-<pre>		1024 x 1024 : 105</pre>
+<pre>		1024 x 1024 : 111</pre>
 <pre>		1024 x 512 : 4</pre>
 <pre>		512 x 512 : 26</pre>
 <pre>		512 x 256 : 3</pre>
@@ -161,14 +217,14 @@
 <pre><br></pre>
 <strong><pre>Model summary</pre></strong>
 <hr>
-<pre>	Number of Models : 295</pre>
+<pre>	Number of Models : 317</pre>
 <pre>	Number of Custom Shaders : 1</pre>
-<pre>	Number of Materials : 616</pre>
-<pre>	Number of Prefabs : 261</pre>
-<pre>	Number of Prefabs containing LOD : 237</pre>
-<pre>	Number of Meshes : 1096</pre>
-<pre>	Number of LOD Meshes : 240</pre>
-<pre>	Tri Counts : from 2 to 258814 (Average Tri counts per mesh : 8198.338)</pre>
+<pre>	Number of Materials : 565</pre>
+<pre>	Number of Prefabs : 286</pre>
+<pre>	Number of Prefabs containing LOD : 260</pre>
+<pre>	Number of Meshes : 985</pre>
+<pre>	Number of LOD Meshes : 263</pre>
+<pre>	Tri Counts : from 2 to 570162 (Average Tri counts per mesh : 10330.92)</pre>
 <pre>	LOD Counts : from 0 to 5</pre>
 <pre>	UV Counts : from 1 to 3</pre>
 <pre><br></pre>
@@ -179,7 +235,7 @@
 <pre>		Scene #1</pre>
 <pre>			Name : Layout_scene.unity</pre>
 <pre>			Path : Assets/Scenes/Layout_scene.unity</pre>
-<pre>			Included GameObjects in the Scene : 975</pre>
+<pre>			Included GameObjects in the Scene : 1171</pre>
 <pre>		Scene #2</pre>
 <pre>			Name : LightingNight.unity</pre>
 <pre>			Path : Assets/Scenes/LightingNight.unity</pre>
@@ -191,7 +247,7 @@
 <pre>		Scene #4</pre>
 <pre>			Name : samplescene.unity</pre>
 <pre>			Path : Assets/Scenes/samplescene.unity</pre>
-<pre>			Included GameObjects in the Scene : 16364</pre>
+<pre>			Included GameObjects in the Scene : 29435</pre>
 <pre>		Scene #5</pre>
 <pre>			Name : test_scene.unity</pre>
 <pre>			Path : Assets/Scenes/test_scene.unity</pre>
@@ -203,7 +259,7 @@
 <pre><br></pre>
 <strong><pre>Media summary</pre></strong>
 <hr>
-<pre>	Number of AnimationClips : 19</pre>
+<pre>	Number of AnimationClips : 27</pre>
 <pre>	Number of AudioClips : 0</pre>
 <pre>	Number of AudioMixers : 0</pre>
 <pre>	Number of VideoClips : 0</pre>
