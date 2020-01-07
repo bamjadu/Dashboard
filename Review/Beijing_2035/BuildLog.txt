@@ -6,12 +6,12 @@
 Entitlement-based licensing initiated
 [LicensingClient] Licenses Updated successfully in LicensingClient
 
-LICENSE SYSTEM [202014 19:13:50] Next license update check is after 2019-12-31T01:34:12
+LICENSE SYSTEM [202017 14:20:9] Next license update check is after 2020-01-07T02:13:29
 
 Built from '2019.3/staging' branch; Version is '2019.3.0f3 (6c9e2bfd6f81) revision 7118379'; Using compiler version '191627012'
 OS: 'Windows 10  (10.0.0) 64bit' Language: 'ko' Physical Memory: 32586 MB
 [Licensing::Module] Serial number assigned to: "I3-FZY2-BBA3-B5MZ-47SC-XXXX"\nBatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-[Package Manager] Server::Start -- Port 54094 was selected
+[Package Manager] Server::Start -- Port 51377 was selected
 
  COMMAND LINE ARGUMENTS:
 C:/UnityEditor/2019.3.0f3/Editor/Unity.exe
@@ -22,12 +22,12 @@ E:/p4/SpecialProjects/Beijing_2035/
 -executeMethod
 ASBuildScript.RunBuild
 -logfile
-e:/build/ArtsUnited/Beijing_2035/3820/BuildLog.txt
+e:/build/ArtsUnited/Beijing_2035/3849/BuildLog.txt
 Successfully changed project path to: E:/p4/SpecialProjects/Beijing_2035/
 E:/p4/SpecialProjects/Beijing_2035
 Using Asset Import Pipeline V2.
 DisplayProgressbar: Unity Package Manager
-Adding genesis user token [Package Manager] Done resolving packages in 0.78s seconds
+Adding genesis user token [Package Manager] Done resolving packages in 0.73s seconds
 [Package Manager] Done checking package constraints in 0.00s seconds
 [Package Manager] 
 Registered 47 packages:
@@ -83,7 +83,7 @@ Registered 47 packages:
 
 [Subsystems] No new subsystems found in resolved package list.
 [Package Manager] Done registering packages in 0.00s seconds
-Refreshing native plugins compatible for Editor in 54.09 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 47.68 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2019.3.0f3 (6c9e2bfd6f81)
 [Subsystems] Discovering subsystems at path C:/UnityEditor/2019.3.0f3/Editor/Data/Resources/UnitySubsystems
@@ -100,104 +100,44 @@ Initialize mono
 Mono path[0] = 'C:/UnityEditor/2019.3.0f3/Editor/Data/Managed'
 Mono path[1] = 'C:/UnityEditor/2019.3.0f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/UnityEditor/2019.3.0f3/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
-ImportWorker Server TCP listen port: 64962
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+ImportWorker Server TCP listen port: 60643
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/UnityEditor/2019.3.0f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001220 seconds.
+Registered in 0.001284 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 44.34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 45.78 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.927 seconds
+- Completed reload, in  0.966 seconds
 Registering precompiled user dll's ...
-Registered in 0.087251 seconds.
+Registered in 0.091524 seconds.
 Platform modules already initialized, skipping
-Validating Project structure ... 0.015022 seconds.
+Validating Project structure ... 0.014186 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.013108 seconds.
+Upgrading shader files ...0.013515 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\p4\SpecialProjects\Beijing_2035\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 50.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 51.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 Refresh completed in 0.000002 seconds.
-- Completed reload, in  0.787 seconds
+- Completed reload, in  0.791 seconds
 Platform modules already initialized, skipping
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions)
-RefreshProfiler: Total: 9808.655ms
-	InvokeBeforeRefreshCallbacks: 0.157ms
-	ApplyChangesToAssetFolders: 0.048ms
-	WriteModifiedImportersToTextMetaFiles: 0.000ms
-	CleanLegacyArtifacts: 0.000ms
-	Scan: 96.884ms
-	UnregisterDeletedAssets: 0.000ms
-	InitializeImportedAssetsSnapshot: 0.127ms
-	GetAllGuidsForCategorization: 0.331ms
-	CategorizeAssets: 827.819ms
-	ImportAndPostprocessOutOfDateAssets: 8860.059ms (8860.059ms without children)
-		ImportManagerImport: 0.000ms (0.000ms without children)
-			ImportInProcess: 0.000ms
-			ImportOutOfProcess: 0.000ms
-			UpdateCategorizedAssets: 0.000ms
-			RemoteAssetCacheGetArtifact: 0.000ms (0.000ms without children)
-				RemoteAssetCacheResolve: 0.000ms
-				RemoteAssetCacheDownloadFile: 0.000ms
-		CompileScripts: 0.000ms
-		PostProcessAllAssets: 0.000ms
-		ReloadImportedAssets: 0.000ms
-	InvokeProjectHasChanged: 0.000ms
-	UpdateImportedAssetsSnapshot: -0.000ms
-	ReloadSourceAssets: 0.488ms
-	UnloadImportedAssets: 0.007ms
-	Hotreload: 0.059ms
-	FixTempGuids: 0.002ms
-	Untracked: 22.674ms
-Refresh completed in 0.156807 seconds.
-RefreshInfo: RefreshV2(ForceSynchronousImport)
-RefreshProfiler: Total: 156.796ms
-	InvokeBeforeRefreshCallbacks: 0.209ms
-	ApplyChangesToAssetFolders: 0.054ms
-	WriteModifiedImportersToTextMetaFiles: 0.000ms
-	CleanLegacyArtifacts: 0.000ms
-	Scan: 95.791ms
-	UnregisterDeletedAssets: 0.000ms
-	InitializeImportedAssetsSnapshot: 5.816ms
-	GetAllGuidsForCategorization: 0.398ms
-	CategorizeAssets: 32.704ms
-	ImportAndPostprocessOutOfDateAssets: 6.187ms (6.187ms without children)
-		ImportManagerImport: 0.000ms (0.000ms without children)
-			ImportInProcess: 0.000ms
-			ImportOutOfProcess: 0.000ms
-			UpdateCategorizedAssets: 0.000ms
-			RemoteAssetCacheGetArtifact: 0.000ms (0.000ms without children)
-				RemoteAssetCacheResolve: 0.000ms
-				RemoteAssetCacheDownloadFile: 0.000ms
-		CompileScripts: 0.000ms
-		PostProcessAllAssets: 0.000ms
-		ReloadImportedAssets: 0.000ms
-	InvokeProjectHasChanged: 0.000ms
-	UpdateImportedAssetsSnapshot: -0.000ms
-	ReloadSourceAssets: 0.454ms
-	UnloadImportedAssets: 0.230ms
-	Hotreload: 0.020ms
-	FixTempGuids: 0.004ms
-	Untracked: 14.928ms
-Refresh completed in 0.172864 seconds.
-RefreshInfo: RefreshV2(ForceSynchronousImport)
-RefreshProfiler: Total: 172.854ms
-	InvokeBeforeRefreshCallbacks: 0.169ms
+RefreshProfiler: Total: 1899.797ms
+	InvokeBeforeRefreshCallbacks: 0.163ms
 	ApplyChangesToAssetFolders: 0.049ms
 	WriteModifiedImportersToTextMetaFiles: 0.000ms
 	CleanLegacyArtifacts: 0.000ms
-	Scan: 117.252ms
+	Scan: 169.671ms
 	UnregisterDeletedAssets: 0.000ms
-	InitializeImportedAssetsSnapshot: 4.419ms
-	GetAllGuidsForCategorization: 0.341ms
-	CategorizeAssets: 32.868ms
-	ImportAndPostprocessOutOfDateAssets: 4.751ms (4.751ms without children)
+	InitializeImportedAssetsSnapshot: 0.124ms
+	GetAllGuidsForCategorization: 0.377ms
+	CategorizeAssets: 132.780ms
+	ImportAndPostprocessOutOfDateAssets: 1573.718ms (1573.718ms without children)
 		ImportManagerImport: 0.000ms (0.000ms without children)
 			ImportInProcess: 0.000ms
 			ImportOutOfProcess: 0.000ms
@@ -210,24 +150,84 @@ RefreshProfiler: Total: 172.854ms
 		ReloadImportedAssets: 0.000ms
 	InvokeProjectHasChanged: 0.000ms
 	UpdateImportedAssetsSnapshot: -0.000ms
-	ReloadSourceAssets: 0.485ms
-	UnloadImportedAssets: 0.242ms
-	Hotreload: 0.018ms
+	ReloadSourceAssets: 0.497ms
+	UnloadImportedAssets: 0.007ms
+	Hotreload: 0.057ms
 	FixTempGuids: 0.003ms
-	Untracked: 12.257ms
-Refresh completed in 0.183650 seconds.
-RefreshInfo: RefreshV2(NoUpdateAssetOptions)
-RefreshProfiler: Total: 183.638ms
-	InvokeBeforeRefreshCallbacks: 0.332ms
-	ApplyChangesToAssetFolders: 0.094ms
+	Untracked: 22.354ms
+Refresh completed in 0.171236 seconds.
+RefreshInfo: RefreshV2(ForceSynchronousImport)
+RefreshProfiler: Total: 171.160ms
+	InvokeBeforeRefreshCallbacks: 0.219ms
+	ApplyChangesToAssetFolders: 0.053ms
 	WriteModifiedImportersToTextMetaFiles: 0.000ms
 	CleanLegacyArtifacts: 0.000ms
-	Scan: 108.459ms
+	Scan: 113.588ms
 	UnregisterDeletedAssets: 0.000ms
-	InitializeImportedAssetsSnapshot: 10.097ms
-	GetAllGuidsForCategorization: 0.533ms
-	CategorizeAssets: 44.895ms
-	ImportAndPostprocessOutOfDateAssets: 4.176ms (4.176ms without children)
+	InitializeImportedAssetsSnapshot: 5.429ms
+	GetAllGuidsForCategorization: 0.330ms
+	CategorizeAssets: 31.614ms
+	ImportAndPostprocessOutOfDateAssets: 5.641ms (5.641ms without children)
+		ImportManagerImport: 0.000ms (0.000ms without children)
+			ImportInProcess: 0.000ms
+			ImportOutOfProcess: 0.000ms
+			UpdateCategorizedAssets: 0.000ms
+			RemoteAssetCacheGetArtifact: 0.000ms (0.000ms without children)
+				RemoteAssetCacheResolve: 0.000ms
+				RemoteAssetCacheDownloadFile: 0.000ms
+		CompileScripts: 0.000ms
+		PostProcessAllAssets: 0.000ms
+		ReloadImportedAssets: 0.000ms
+	InvokeProjectHasChanged: 0.000ms
+	UpdateImportedAssetsSnapshot: -0.000ms
+	ReloadSourceAssets: 0.490ms
+	UnloadImportedAssets: 0.222ms
+	Hotreload: 0.016ms
+	FixTempGuids: 0.003ms
+	Untracked: 13.554ms
+Refresh completed in 0.155328 seconds.
+RefreshInfo: RefreshV2(ForceSynchronousImport)
+RefreshProfiler: Total: 155.318ms
+	InvokeBeforeRefreshCallbacks: 0.168ms
+	ApplyChangesToAssetFolders: 0.049ms
+	WriteModifiedImportersToTextMetaFiles: 0.000ms
+	CleanLegacyArtifacts: 0.000ms
+	Scan: 99.537ms
+	UnregisterDeletedAssets: 0.000ms
+	InitializeImportedAssetsSnapshot: 4.500ms
+	GetAllGuidsForCategorization: 0.378ms
+	CategorizeAssets: 32.328ms
+	ImportAndPostprocessOutOfDateAssets: 5.012ms (5.012ms without children)
+		ImportManagerImport: 0.000ms (0.000ms without children)
+			ImportInProcess: 0.000ms
+			ImportOutOfProcess: 0.000ms
+			UpdateCategorizedAssets: 0.000ms
+			RemoteAssetCacheGetArtifact: 0.000ms (0.000ms without children)
+				RemoteAssetCacheResolve: 0.000ms
+				RemoteAssetCacheDownloadFile: 0.000ms
+		CompileScripts: 0.000ms
+		PostProcessAllAssets: 0.000ms
+		ReloadImportedAssets: 0.000ms
+	InvokeProjectHasChanged: 0.000ms
+	UpdateImportedAssetsSnapshot: -0.000ms
+	ReloadSourceAssets: 0.501ms
+	UnloadImportedAssets: 0.208ms
+	Hotreload: 0.019ms
+	FixTempGuids: 0.003ms
+	Untracked: 12.615ms
+Refresh completed in 0.197890 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions)
+RefreshProfiler: Total: 197.878ms
+	InvokeBeforeRefreshCallbacks: 0.217ms
+	ApplyChangesToAssetFolders: 0.063ms
+	WriteModifiedImportersToTextMetaFiles: 0.000ms
+	CleanLegacyArtifacts: 0.000ms
+	Scan: 130.894ms
+	UnregisterDeletedAssets: 0.000ms
+	InitializeImportedAssetsSnapshot: 9.377ms
+	GetAllGuidsForCategorization: 0.437ms
+	CategorizeAssets: 37.219ms
+	ImportAndPostprocessOutOfDateAssets: 4.676ms (4.676ms without children)
 		ImportManagerImport: 0.000ms (0.000ms without children)
 			ImportInProcess: 0.000ms
 			ImportOutOfProcess: 0.000ms
@@ -240,24 +240,24 @@ RefreshProfiler: Total: 183.638ms
 		ReloadImportedAssets: 0.000ms
 	InvokeProjectHasChanged: 0.000ms
 	UpdateImportedAssetsSnapshot: -0.001ms
-	ReloadSourceAssets: 0.894ms
-	UnloadImportedAssets: 0.260ms
-	Hotreload: 0.035ms
-	FixTempGuids: 0.003ms
-	Untracked: 13.861ms
-Refresh completed in 0.185433 seconds.
+	ReloadSourceAssets: 0.930ms
+	UnloadImportedAssets: 0.265ms
+	Hotreload: 0.034ms
+	FixTempGuids: 0.002ms
+	Untracked: 13.766ms
+Refresh completed in 0.205932 seconds.
 RefreshInfo: RefreshV2(NoUpdateAssetOptions)
-RefreshProfiler: Total: 185.423ms
-	InvokeBeforeRefreshCallbacks: 0.184ms
-	ApplyChangesToAssetFolders: 0.048ms
+RefreshProfiler: Total: 205.923ms
+	InvokeBeforeRefreshCallbacks: 0.192ms
+	ApplyChangesToAssetFolders: 0.052ms
 	WriteModifiedImportersToTextMetaFiles: 0.000ms
 	CleanLegacyArtifacts: 0.000ms
-	Scan: 110.867ms
+	Scan: 151.251ms
 	UnregisterDeletedAssets: 0.000ms
-	InitializeImportedAssetsSnapshot: 3.828ms
-	GetAllGuidsForCategorization: 0.372ms
-	CategorizeAssets: 32.232ms
-	ImportAndPostprocessOutOfDateAssets: 4.734ms (4.734ms without children)
+	InitializeImportedAssetsSnapshot: 4.111ms
+	GetAllGuidsForCategorization: 0.325ms
+	CategorizeAssets: 32.617ms
+	ImportAndPostprocessOutOfDateAssets: 4.660ms (4.660ms without children)
 		ImportManagerImport: 0.000ms (0.000ms without children)
 			ImportInProcess: 0.000ms
 			ImportOutOfProcess: 0.000ms
@@ -270,21 +270,20 @@ RefreshProfiler: Total: 185.423ms
 		ReloadImportedAssets: 0.000ms
 	InvokeProjectHasChanged: 0.000ms
 	UpdateImportedAssetsSnapshot: -0.000ms
-	ReloadSourceAssets: 0.946ms
-	UnloadImportedAssets: 0.265ms
+	ReloadSourceAssets: 0.933ms
+	UnloadImportedAssets: 0.256ms
 	Hotreload: 0.018ms
-	FixTempGuids: 0.007ms
-	Untracked: 31.924ms
-WARNING: Shader Unsupported: 'Hidden/HDRP/TerrainLit_Basemap' - Setting to default shader.
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+	FixTempGuids: 0.002ms
+	Untracked: 11.506ms
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Initializing Unity extensions:
  'C:/UnityEditor/2019.3.0f3/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
-Unloading 118 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 89.9 MB.
+Unloading 119 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.8 MB.
+System memory in use after: 90.4 MB.
 
-Unloading 160 unused Assets to reduce memory usage. Loaded Objects now: 3305.
-Total: 2.643600 ms (FindLiveObjects: 0.238800 ms CreateObjectMapping: 0.066700 ms MarkObjects: 1.371800 ms  DeleteObjects: 0.965900 ms)
+Unloading 161 unused Assets to reduce memory usage. Loaded Objects now: 3308.
+Total: 2.548200 ms (FindLiveObjects: 0.192500 ms CreateObjectMapping: 0.067300 ms MarkObjects: 1.313200 ms  DeleteObjects: 0.974800 ms)
 
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
@@ -297,8 +296,8 @@ BuildPlayer: start building target 19
 - Starting script compilation
 - Starting compile Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll
 - Starting compile Library/PlayerScriptAssemblies/UnityEngine.UI.dll
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll in 2.512059 seconds
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.UI.dll in 2.537012 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll in 2.337248 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.UI.dll in 2.351517 seconds
 - Starting compile Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll
 - Starting compile Library/PlayerScriptAssemblies/Unity.Timeline.dll
 - Starting compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
@@ -306,38 +305,38 @@ BuildPlayer: start building target 19
 - Starting compile Library/PlayerScriptAssemblies/Unity.Subsystem.Registration.dll
 - Starting compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 - Starting compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
-- Finished compile Library/PlayerScriptAssemblies/Unity.Subsystem.Registration.dll in 0.481357 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll in 0.469894 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll in 0.457432 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.XR.Management.dll in 0.776393 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll in 1.132646 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.Timeline.dll in 1.164318 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.Subsystem.Registration.dll in 0.402692 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll in 0.39229 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll in 0.379613 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.XR.Management.dll in 0.73887 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.Timeline.dll in 1.08926 seconds
 - Starting compile Library/PlayerScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
-- Finished compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll in 1.176407 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll in 1.124293 seconds
 - Starting compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
-- Finished compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll in 0.297229 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll in 0.347223 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll in 1.179364 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll in 0.23422 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll in 0.308831 seconds
 - Starting compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
-- Finished compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll in 1.851007 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll in 2.042558 seconds
 - Starting compile Library/PlayerScriptAssemblies/Assembly-CSharp.dll
-- Finished compile Library/PlayerScriptAssemblies/Assembly-CSharp.dll in 0.275105 seconds
-- Finished script compilation in 6.284332 seconds
-Library\PackageCache\com.unity.xr.management@3.0.4\Runtime\XRGeneralSettings.cs(37,22): warning CS0414: The field 'XRGeneralSettings.m_ProviderStarted' is assigned but its value is never used
+- Finished compile Library/PlayerScriptAssemblies/Assembly-CSharp.dll in 0.187484 seconds
+- Finished script compilation in 6.087823 seconds
 Library\PackageCache\com.unity.xr.management@3.0.4\Runtime\XRGeneralSettings.cs(36,22): warning CS0414: The field 'XRGeneralSettings.m_ProviderIntialized' is assigned but its value is never used
+Library\PackageCache\com.unity.xr.management@3.0.4\Runtime\XRGeneralSettings.cs(37,22): warning CS0414: The field 'XRGeneralSettings.m_ProviderStarted' is assigned but its value is never used
 DisplayProgressbar: Building Player
-Refresh completed in 0.184833 seconds.
+Refresh completed in 0.161215 seconds.
 RefreshInfo: RefreshV2(NoUpdateAssetOptions)
-RefreshProfiler: Total: 184.695ms
-	InvokeBeforeRefreshCallbacks: 0.172ms
-	ApplyChangesToAssetFolders: 0.055ms
+RefreshProfiler: Total: 161.203ms
+	InvokeBeforeRefreshCallbacks: 0.217ms
+	ApplyChangesToAssetFolders: 0.051ms
 	WriteModifiedImportersToTextMetaFiles: 0.000ms
 	CleanLegacyArtifacts: 0.000ms
-	Scan: 128.627ms
+	Scan: 103.358ms
 	UnregisterDeletedAssets: 0.000ms
-	InitializeImportedAssetsSnapshot: 5.176ms
-	GetAllGuidsForCategorization: 0.319ms
-	CategorizeAssets: 31.883ms
-	ImportAndPostprocessOutOfDateAssets: 4.514ms (4.514ms without children)
+	InitializeImportedAssetsSnapshot: 5.288ms
+	GetAllGuidsForCategorization: 0.340ms
+	CategorizeAssets: 32.578ms
+	ImportAndPostprocessOutOfDateAssets: 4.971ms (4.971ms without children)
 		ImportManagerImport: 0.000ms (0.000ms without children)
 			ImportInProcess: 0.000ms
 			ImportOutOfProcess: 0.000ms
@@ -350,41 +349,41 @@ RefreshProfiler: Total: 184.695ms
 		ReloadImportedAssets: 0.000ms
 	InvokeProjectHasChanged: 0.000ms
 	UpdateImportedAssetsSnapshot: -0.000ms
-	ReloadSourceAssets: 0.895ms
-	UnloadImportedAssets: 0.249ms
-	Hotreload: 0.019ms
-	FixTempGuids: 0.005ms
-	Untracked: 12.780ms
+	ReloadSourceAssets: 0.970ms
+	UnloadImportedAssets: 0.269ms
+	Hotreload: 0.021ms
+	FixTempGuids: 0.004ms
+	Untracked: 13.135ms
 Opening scene 'Assets/Scenes/Layout_scene.unity'
 Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Assets/Scenes/Layout_scene.unity'
-	Deserialize:            98.422 ms
-	Integration:            246.619 ms
-	Integration of assets:  95.153 ms
-	Thread Wait Time:       18.979 ms
-	Total Operation Time:   459.173 ms
-System memory in use before: 348.5 MB.
-System memory in use after: 349.1 MB.
+	Deserialize:            99.272 ms
+	Integration:            251.467 ms
+	Integration of assets:  215.475 ms
+	Thread Wait Time:       19.625 ms
+	Total Operation Time:   585.840 ms
+System memory in use before: 348.6 MB.
+System memory in use after: 349.2 MB.
 
-Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 12659.
-Total: 5.128000 ms (FindLiveObjects: 0.847900 ms CreateObjectMapping: 0.355100 ms MarkObjects: 3.726700 ms  DeleteObjects: 0.198000 ms)
+Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 12270.
+Total: 5.767400 ms (FindLiveObjects: 0.893400 ms CreateObjectMapping: 0.413800 ms MarkObjects: 4.248500 ms  DeleteObjects: 0.211100 ms)
 
 DisplayProgressbar: Mesh data optimization - Resolving used channels
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Script attached to 'Main Camera' in scene 'Assets/Scenes/Layout_scene.unity' is missing or no valid script is attached.
 UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
 UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions)
@@ -400,30 +399,30 @@ DisplayProgressbar: Building Player
 Opening scene 'Assets/Scenes/LightingNight.unity'
 Unloading 997 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Assets/Scenes/LightingNight.unity'
-	Deserialize:            19.419 ms
-	Integration:            6.071 ms
-	Integration of assets:  3.832 ms
-	Thread Wait Time:       9.524 ms
-	Total Operation Time:   38.846 ms
-System memory in use before: 368.6 MB.
-System memory in use after: 146.6 MB.
+	Deserialize:            19.335 ms
+	Integration:            5.939 ms
+	Integration of assets:  31.172 ms
+	Thread Wait Time:       28.811 ms
+	Total Operation Time:   85.257 ms
+System memory in use before: 368.7 MB.
+System memory in use after: 151.4 MB.
 
-Unloading 5806 unused Assets to reduce memory usage. Loaded Objects now: 3377.
-Total: 12.104800 ms (FindLiveObjects: 0.703600 ms CreateObjectMapping: 0.274100 ms MarkObjects: 2.792100 ms  DeleteObjects: 8.334500 ms)
+Unloading 5610 unused Assets to reduce memory usage. Loaded Objects now: 3380.
+Total: 12.404200 ms (FindLiveObjects: 0.723500 ms CreateObjectMapping: 0.331200 ms MarkObjects: 2.786900 ms  DeleteObjects: 8.561600 ms)
 
 Opening scene 'Assets/Scenes/Materials_test.unity'
 Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Assets/Scenes/Materials_test.unity'
-	Deserialize:            56.703 ms
-	Integration:            10.399 ms
-	Integration of assets:  72.823 ms
-	Thread Wait Time:       21.807 ms
-	Total Operation Time:   161.733 ms
-System memory in use before: 270.8 MB.
-System memory in use after: 271.1 MB.
+	Deserialize:            54.114 ms
+	Integration:            11.791 ms
+	Integration of assets:  71.175 ms
+	Thread Wait Time:       24.499 ms
+	Total Operation Time:   161.578 ms
+System memory in use before: 271.2 MB.
+System memory in use after: 271.4 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3830.
-Total: 3.870500 ms (FindLiveObjects: 0.402300 ms CreateObjectMapping: 0.101400 ms MarkObjects: 3.297900 ms  DeleteObjects: 0.068200 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3833.
+Total: 3.714400 ms (FindLiveObjects: 0.367200 ms CreateObjectMapping: 0.104300 ms MarkObjects: 3.163900 ms  DeleteObjects: 0.078600 ms)
 
 Script attached to 'Main Camera' in scene 'Assets/Scenes/Materials_test.unity' is missing or no valid script is attached.
 UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
@@ -437,34 +436,34 @@ ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
 (Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
 
 Opening scene 'Assets/Scenes/samplescene.unity'
-Unloading 196 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 201 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Assets/Scenes/samplescene.unity'
-	Deserialize:            795.432 ms
-	Integration:            1058.551 ms
-	Integration of assets:  6.252 ms
-	Thread Wait Time:       9.765 ms
-	Total Operation Time:   1870.001 ms
-System memory in use before: 0.72 GB.
-System memory in use after: 0.73 GB.
+	Deserialize:            1296.028 ms
+	Integration:            1805.972 ms
+	Integration of assets:  6.900 ms
+	Thread Wait Time:       16.156 ms
+	Total Operation Time:   3125.055 ms
+System memory in use before: 0.90 GB.
+System memory in use after: 0.91 GB.
 
-Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 137457.
-Total: 58.380100 ms (FindLiveObjects: 10.726100 ms CreateObjectMapping: 4.545500 ms MarkObjects: 42.647800 ms  DeleteObjects: 0.460000 ms)
+Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 238317.
+Total: 109.385300 ms (FindLiveObjects: 20.037400 ms CreateObjectMapping: 8.207000 ms MarkObjects: 80.579400 ms  DeleteObjects: 0.561100 ms)
 
 DisplayProgressbar: Mesh data optimization - Resolving used channels
 DisplayProgressbar: Building Player
 Opening scene 'Assets/Scenes/test_scene.unity'
-Unloading 1019 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1044 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Assets/Scenes/test_scene.unity'
-	Deserialize:            17.070 ms
-	Integration:            10.994 ms
-	Integration of assets:  4.035 ms
-	Thread Wait Time:       12.167 ms
-	Total Operation Time:   44.266 ms
-System memory in use before: 0.51 GB.
-System memory in use after: 375.1 MB.
+	Deserialize:            15.113 ms
+	Integration:            11.489 ms
+	Integration of assets:  3.649 ms
+	Thread Wait Time:       14.104 ms
+	Total Operation Time:   44.355 ms
+System memory in use before: 0.61 GB.
+System memory in use after: 504.2 MB.
 
-Unloading 6596 unused Assets to reduce memory usage. Loaded Objects now: 3452.
-Total: 11.004900 ms (FindLiveObjects: 1.103600 ms CreateObjectMapping: 0.381700 ms MarkObjects: 2.824100 ms  DeleteObjects: 6.695100 ms)
+Unloading 6869 unused Assets to reduce memory usage. Loaded Objects now: 3455.
+Total: 15.570800 ms (FindLiveObjects: 2.110400 ms CreateObjectMapping: 0.452200 ms MarkObjects: 3.138700 ms  DeleteObjects: 9.868600 ms)
 
 Opening scene 'Assets/Vehicle - pro 3d models/Car1/Scenes/Scene.unity'
 LightmapEditorSettings: switching bake backend from 1 to 0.
@@ -493,52 +492,52 @@ ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
 (Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
 
 Loaded scene 'Assets/Vehicle - pro 3d models/Car1/Scenes/Scene.unity'
-	Deserialize:            17.787 ms
-	Integration:            36.710 ms
-	Integration of assets:  0.004 ms
-	Thread Wait Time:       10.783 ms
-	Total Operation Time:   65.285 ms
-System memory in use before: 196.7 MB.
-System memory in use after: 170.2 MB.
+	Deserialize:            17.866 ms
+	Integration:            43.819 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       11.957 ms
+	Total Operation Time:   73.644 ms
+System memory in use before: 219.1 MB.
+System memory in use after: 193.6 MB.
 
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 6008.
-Total: 6.600900 ms (FindLiveObjects: 0.867700 ms CreateObjectMapping: 0.171100 ms MarkObjects: 2.707300 ms  DeleteObjects: 2.854200 ms)
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 6011.
+Total: 7.446200 ms (FindLiveObjects: 1.281400 ms CreateObjectMapping: 0.181700 ms MarkObjects: 3.116100 ms  DeleteObjects: 2.866600 ms)
 
-Created GICache directory at C:/Users/tom.kim/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.033s, timestamps: [58.765 - 58.797]
+Created GICache directory at C:/Users/tom.kim/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.022s, timestamps: [52.925 - 52.947]
 [00:00:00] Enlighten: Precompute started.
 Setting up 8 worker threads for Enlighten.
-  Thread -> id: 1a6c -> priority: 1 
-  Thread -> id: 3720 -> priority: 1 
-  Thread -> id: ade8 -> priority: 1 
-  Thread -> id: 89a8 -> priority: 1 
-  Thread -> id: 4338 -> priority: 1 
-  Thread -> id: 48d0 -> priority: 1 
-  Thread -> id: 98d4 -> priority: 1 
-  Thread -> id: ac2c -> priority: 1 
-[00:00:00] Enlighten: Finished 1 Layout Systems job (0.00s execute, 0.00s integrate, 0.03s wallclock)
-[00:00:00] Enlighten: Finished 1 Tetrahedralize Probes job (0.01s execute, 0.00s integrate, 0.01s wallclock)
-[00:00:00] Enlighten: Precompute took 0.047265 seconds.
+  Thread -> id: 7bd0 -> priority: 1 
+  Thread -> id: 69f4 -> priority: 1 
+  Thread -> id: 4b18 -> priority: 1 
+  Thread -> id: 2b14 -> priority: 1 
+  Thread -> id: 241c -> priority: 1 
+  Thread -> id: 7760 -> priority: 1 
+  Thread -> id: 2860 -> priority: 1 
+  Thread -> id: 599c -> priority: 1 
+[00:00:00] Enlighten: Finished 1 Layout Systems job (0.00s execute, 0.00s integrate, 0.02s wallclock)
+[00:00:00] Enlighten: Finished 1 Tetrahedralize Probes job (0.00s execute, 0.00s integrate, 0.01s wallclock)
+[00:00:00] Enlighten: Precompute took 0.034281 seconds.
 Enlighten scene contents:   0 geometries.   0 instances.   0 systems.   0 probe groups.   0 cube maps. Scene is up-to-date.
 [00:00:00] Enlighten: Bake started.
 [Optix] Number of Devices = 1
-[Optix] context is using local device 0: GeForce RTX 2080 Ti - 11264MB VRAM (available: 9169MB)
+[Optix] context is using local device 0: GeForce RTX 2080 Ti - 11264MB VRAM (available: 9043MB)
 [Optix] successfully set up context.
 [Optix] removing context.
 [Radeon Pro] Checking for device support...
 [Radeon Pro] Found 2 devices
 [Radeon Pro] No compatible device found.
-[00:00:01] Enlighten: Finished 1 Bake Runtime job (0.08s execute, 0.00s integrate, 1.07s wallclock)
-[00:00:01] Enlighten: Bake took 1.073247 seconds.
+[00:00:00] Enlighten: Finished 1 Bake Runtime job (0.06s execute, 0.00s integrate, 0.76s wallclock)
+[00:00:00] Enlighten: Bake took 0.759312 seconds.
 [PathTracer] building lightmap data asset.
-[PathTracer] Total bake time: 0.010530, raw bake time: 0.000000
+[PathTracer] Total bake time: 0.009953, raw bake time: 0.000000
 gi::BakeBackendSwitch: Clear() active clients.
 [EnlightenBakeManager] m_Clear = false;
 [PathTracer] building lightmap data asset.
 gi::BakeBackendSwitch: switching bake backend from 3 to 0.
-[00:00:01] Enlighten: Bake started.
+[00:00:00] Enlighten: Bake started.
 [PathTracer] building lightmap data asset.
-[00:00:01] Enlighten: Finished 1 Bake Runtime job (0.07s execute, 0.00s integrate, 0.08s wallclock)
-[00:00:01] Enlighten: Bake took 0.080784 seconds.
+[00:00:01] Enlighten: Finished 1 Bake Runtime job (0.05s execute, 0.00s integrate, 0.06s wallclock)
+[00:00:01] Enlighten: Bake took 0.059914 seconds.
 [00:00:01] Enlighten: Reflection Probes started.
 [00:00:01] Enlighten: Finished 1 Bake Ambient Probe job (0.00s execute, 0.00s integrate, 0.01s wallclock)
 HDBakedReflectionSystem work with HDRP, please switch your render pipeline or use another reflection system
@@ -601,104 +600,106 @@ Dependency assembly - Unity.XR.Management.dll
 Dependency assembly - UnityEngine.UI.dll
 
 Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.3 MB.
-System memory in use after: 134.5 MB.
+System memory in use before: 159.8 MB.
+System memory in use after: 158.0 MB.
 
-Unloading 1261 unused Assets to reduce memory usage. Loaded Objects now: 3336.
-Total: 4.266100 ms (FindLiveObjects: 0.467900 ms CreateObjectMapping: 0.080500 ms MarkObjects: 2.442100 ms  DeleteObjects: 1.275200 ms)
+Unloading 1261 unused Assets to reduce memory usage. Loaded Objects now: 3339.
+Total: 4.958000 ms (FindLiveObjects: 0.832400 ms CreateObjectMapping: 0.086400 ms MarkObjects: 2.681200 ms  DeleteObjects: 1.357700 ms)
 
-[00:00:00] Enlighten: Reflection Probes took 5.696259 seconds. Cancelled, so not done yet.
-[00:00:00] Enlighten: LightingDataAsset took 5.682830 seconds. Cancelled, so not done yet.
+[00:00:00] Enlighten: Reflection Probes took 2.794941 seconds. Cancelled, so not done yet.
+[00:00:00] Enlighten: LightingDataAsset took 2.781922 seconds. Cancelled, so not done yet.
 [EnlightenBakeManager] m_Clear = false;
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.8 MB.
-System memory in use after: 133.0 MB.
+System memory in use before: 156.3 MB.
+System memory in use after: 156.5 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 3360.
-Total: 3.529100 ms (FindLiveObjects: 0.664800 ms CreateObjectMapping: 0.124700 ms MarkObjects: 2.734300 ms  DeleteObjects: 0.005000 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 3363.
+Total: 4.269800 ms (FindLiveObjects: 1.030300 ms CreateObjectMapping: 0.140400 ms MarkObjects: 3.093200 ms  DeleteObjects: 0.005300 ms)
 
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 233.2 MB.
-System memory in use after: 133.4 MB.
+System memory in use before: 256.7 MB.
+System memory in use after: 156.9 MB.
 
-Unloading 154 unused Assets to reduce memory usage. Loaded Objects now: 3346.
-Total: 21.377700 ms (FindLiveObjects: 0.728000 ms CreateObjectMapping: 0.127400 ms MarkObjects: 3.252300 ms  DeleteObjects: 17.269500 ms)
+Unloading 154 unused Assets to reduce memory usage. Loaded Objects now: 3349.
+Total: 20.603200 ms (FindLiveObjects: 0.727600 ms CreateObjectMapping: 0.069400 ms MarkObjects: 3.343400 ms  DeleteObjects: 16.462300 ms)
 
 DisplayProgressbar: Compiling shader variants
-Compiled shader 'Hidden/HDRP/FinalPass' in 3.65s
-    d3d11 (total internal programs: 128, unique: 128)
-Compiled shader 'HDRP/Lit' in 14.15s
+Compiled shader 'HDRP/Lit' in 9.95s
     d3d11 (total internal programs: 2112, unique: 1948)
 Compressed shader 'HDRP/Lit' on d3d11 from 44.43MB to 10.96MB
-Compiled shader 'Hidden/HDRP/DeferredTile' in 1.88s
+Compiled shader 'Hidden/HDRP/DeferredTile' in 1.31s
     d3d11 (total internal programs: 124, unique: 124)
 Compressed shader 'Hidden/HDRP/DeferredTile' on d3d11 from 2.95MB to 0.64MB
 DisplayProgressbar: Building Player
 DisplayProgressbar: Compiling shader variants
-Compiled shader 'HDRP/LayeredLit' in 4.40s
+Compiled shader 'HDRP/LayeredLit' in 4.46s
     d3d11 (total internal programs: 192, unique: 176)
 Compressed shader 'HDRP/LayeredLit' on d3d11 from 3.40MB to 0.78MB
 Unloading 816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 299.4 MB.
-System memory in use after: 298.8 MB.
+System memory in use before: 322.9 MB.
+System memory in use after: 322.3 MB.
 
-Unloading 1382 unused Assets to reduce memory usage. Loaded Objects now: 3360.
-Total: 5.055300 ms (FindLiveObjects: 0.677600 ms CreateObjectMapping: 0.106300 ms MarkObjects: 3.264300 ms  DeleteObjects: 1.006700 ms)
+Unloading 1382 unused Assets to reduce memory usage. Loaded Objects now: 3363.
+Total: 5.310700 ms (FindLiveObjects: 1.191200 ms CreateObjectMapping: 0.178300 ms MarkObjects: 2.969600 ms  DeleteObjects: 0.971100 ms)
 
 DisplayProgressbar: Building Player
 DisplayProgressbar: Compiling shader variants
-Compiled shader 'Standard' in 6.84s
+Compiled shader 'Standard' in 2.98s
     d3d11 (total internal programs: 102, unique: 88)
-Compiled shader 'Legacy Shaders/Diffuse' in 4.49s
+Compiled shader 'Legacy Shaders/Diffuse' in 3.09s
     d3d11 (total internal programs: 64, unique: 64)
-Compiled shader 'Hidden/Internal-PrePassLighting' in 2.36s
+Compiled shader 'Hidden/Internal-DepthNormalsTexture' in 1.27s
+    d3d11 (total internal programs: 20, unique: 17)
+Compiled shader 'Hidden/Internal-PrePassLighting' in 2.77s
     d3d11 (total internal programs: 52, unique: 39)
-Compiled shader 'Hidden/Internal-ScreenSpaceShadows' in 1.09s
+Compiled shader 'Hidden/Internal-ScreenSpaceShadows' in 1.19s
     d3d11 (total internal programs: 32, unique: 20)
-Compiled shader 'Hidden/Internal-DeferredShading' in 1.34s
+Compiled shader 'Hidden/Internal-DeferredShading' in 2.82s
     d3d11 (total internal programs: 54, unique: 54)
+Compiled shader 'Hidden/VideoDecode' in 1.03s
+    d3d11 (total internal programs: 40, unique: 23)
 DisplayProgressbar: Building Player
 
 -------------------------------------------------------------------------------
 Build Report
 Uncompressed usage by category (Percentages based on user generated assets only):
-Textures               2.5 gb	 92.9% 
-Meshes                 110.4 mb	 4.0% 
+Textures               2.6 gb	 92.1% 
+Meshes                 109.5 mb	 3.8% 
 Animations             0.0 kb	 0.0% 
 Sounds                 0.0 kb	 0.0% 
 Shaders                14.9 mb	 0.5% 
 Other Assets           9.5 mb	 0.3% 
-Levels                 16.5 mb	 0.6% 
+Levels                 29.1 mb	 1.0% 
 Scripts                2.8 mb	 0.1% 
 Included DLLs          13.3 mb	 0.5% 
-File headers           29.9 mb	 1.1% 
-Total User Assets      2.7 gb	 100.0% 
-Complete build size    2.8 gb
+File headers           51.7 mb	 1.8% 
+Total User Assets      2.8 gb	 100.0% 
+Complete build size    2.9 gb
 Used Assets and files from the Resources folder, sorted by uncompressed size:
- 128.0 mb	 4.5% Assets/Art/UnityHDRI/canary_wharf_8k.exr
+ 128.0 mb	 4.3% Assets/Art/UnityHDRI/canary_wharf_8k.exr
  32.0 mb	 1.1% Assets/Art/UnityHDRI/moonless_golf_4k.exr
  32.0 mb	 1.1% Assets/Scenes/LightingNight/twilight_sky.hdr
  32.0 mb	 1.1% Assets/Art/UnityHDRI/quarry_01_8k.hdr
- 21.3 mb	 0.8% Assets/Test/Tiling_13/Building_Brick_Wall_01_Normal.tga
- 21.3 mb	 0.8% Assets/Test/Tiling_13/Building_Brick_Wall_01_MaskMap.tga
- 21.3 mb	 0.8% Assets/Test/Tiling_14/Building_Glass_02_MaskMap.tga
- 21.3 mb	 0.8% Assets/Test/Tiling_12/Building_Glass_01_MaskMap.tga
- 21.3 mb	 0.8% Assets/Test/Tiling_14/Building_Glass_02_Normal.tga
- 21.3 mb	 0.8% Assets/Test/Tiling_12/Building_Glass_01_Albedo.tga
- 21.3 mb	 0.8% Assets/Art/Textures/Test/Multi-storied_building.tga
- 21.3 mb	 0.8% Assets/Vehicle - pro 3d models/Car1/Textures/Body_AlbedoPolice.tga
- 21.3 mb	 0.8% Assets/Vehicle - pro 3d models/Car1/Textures/Body_Metalness.tga
- 21.3 mb	 0.8% Assets/Vehicle - pro 3d models/Car1/Textures/Body_AlbedoTaxi.tga
- 21.3 mb	 0.8% Assets/Vehicle - pro 3d models/Car1/Textures/Body_Normal.tga
- 21.3 mb	 0.8% Assets/Vehicle - pro 3d models/Car1/Textures/Body_Albedo.tga
- 16.8 mb	 0.6% Assets/Art/Models/Road_01.fbx
+ 21.3 mb	 0.7% Assets/Test/Tiling_13/Building_Brick_Wall_01_Normal.tga
+ 21.3 mb	 0.7% Assets/Test/Tiling_13/Building_Brick_Wall_01_MaskMap.tga
+ 21.3 mb	 0.7% Assets/Test/Tiling_14/Building_Glass_02_MaskMap.tga
+ 21.3 mb	 0.7% Assets/Test/Tiling_12/Building_Glass_01_MaskMap.tga
+ 21.3 mb	 0.7% Assets/Test/Tiling_14/Building_Glass_02_Normal.tga
+ 21.3 mb	 0.7% Assets/Test/Tiling_12/Building_Glass_01_Albedo.tga
+ 21.3 mb	 0.7% Assets/Art/Textures/Test/Multi-storied_building.tga
+ 21.3 mb	 0.7% Assets/Vehicle - pro 3d models/Car1/Textures/Body_AlbedoPolice.tga
+ 21.3 mb	 0.7% Assets/Vehicle - pro 3d models/Car1/Textures/Body_Metalness.tga
+ 21.3 mb	 0.7% Assets/Vehicle - pro 3d models/Car1/Textures/Body_AlbedoTaxi.tga
+ 21.3 mb	 0.7% Assets/Vehicle - pro 3d models/Car1/Textures/Body_Normal.tga
+ 21.3 mb	 0.7% Assets/Vehicle - pro 3d models/Car1/Textures/Body_Albedo.tga
+ 15.9 mb	 0.5% Assets/Art/Models/Road_01.fbx
  12.6 mb	 0.4% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/Lit/Lit.shader
  10.7 mb	 0.4% Assets/Art/Textures/Vehicles/Scooter_A/Scooter_A_Mask.tif
  10.7 mb	 0.4% Assets/Art/Textures/Vehicles/MiniVan_A/MiniVan_A_Mask.tif
  9.2 mb	 0.3% Assets/Art/Models/Building/Northwest_Area/GaoMao_Building_D/GaoMao_Building_D_01.fbx
- 7.3 mb	 0.3% Assets/Art/Models/Building/Northeast_Area/Bulding_02.fbx
+ 7.3 mb	 0.2% Assets/Art/Models/Building/Northeast_Area/Bulding_02.fbx
  5.3 mb	 0.2% Assets/Art/Textures/Building/Northwest_Area/China_World_Summit_Wing_01/China_World_Summit_Wing_01_Trim_02_Normal.tga
  5.3 mb	 0.2% Assets/Art/Textures/Building/Northwest_Area/China_World_Summit_Wing_01/China_World_Summit_Wing_01_Trim_02_MaskMap.tga
  5.3 mb	 0.2% Assets/Art/Textures/Building/Northwest_Area/China_World_Summit_Wing_01/China_World_Summit_Wing_01_Trim_02_Albedo.tga
@@ -772,6 +773,9 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  5.3 mb	 0.2% Assets/Test/Tiling_01/Marble_Brick_01_MaskMap.tga
  5.3 mb	 0.2% Assets/Test/Tiling_01/Marble_Brick_01_Albedo.tga
  5.3 mb	 0.2% Assets/Art/Textures/Tiling/Street_Ground/Street_Ground_MaskMap.tga
+ 5.3 mb	 0.2% Assets/Art/Textures/Tiling/Painted_Concrete/Painted_Concrete_Normal.tga
+ 5.3 mb	 0.2% Assets/Art/Textures/Tiling/Painted_Concrete/Painted_Concrete_MaskMap.tga
+ 5.3 mb	 0.2% Assets/Art/Textures/Tiling/Painted_Concrete/Painted_Concrete_Albedo.tga
  5.3 mb	 0.2% Assets/Art/Textures/Tiling/Ground_Exterior/Ground_Exterior_Normal.tga
  5.3 mb	 0.2% Assets/Art/Textures/Tiling/Ground_Exterior/Ground_Exterior_MaskMap.tga
  5.3 mb	 0.2% Assets/Art/Textures/Tiling/Ground_Exterior/Ground_Exterior_Albedo.tga
@@ -927,10 +931,15 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  5.3 mb	 0.2% Assets/Art/Textures/Decal/Flow_Stains/Flow_Stains_Normal.tga
  5.3 mb	 0.2% Assets/Art/Textures/Decal/Flow_Stains/Flow_Stains_MakeMap.tga
  5.3 mb	 0.2% Assets/Art/Textures/Decal/Flow_Stains/Flow_Stains_Albedo.tga
+ 5.3 mb	 0.2% Assets/Art/Textures/Decal/Decals_08/Decals_08_MaskMap.tga
+ 5.3 mb	 0.2% Assets/Art/Textures/Decal/Decals_07/Decals_07_MaskMap.tga
+ 5.3 mb	 0.2% Assets/Art/Textures/Decal/Decals_06/Decals_06_MaskMap.tga
+ 5.3 mb	 0.2% Assets/Art/Textures/Decal/Decals_05/Decals_05_MaskMap.tga
  5.3 mb	 0.2% Assets/Art/Textures/Decal/Decals_04/Decals_04_MaskMap.tga
  5.3 mb	 0.2% Assets/Art/Textures/Decal/Decals_03/Decals_03_MaskMap.tga
  5.3 mb	 0.2% Assets/Art/Textures/Decal/Decals_02/Decals_02_MakeMap.tga
  5.3 mb	 0.2% Assets/Art/Textures/Decal/Decals_01/Decals_01_MaskMap.tga
+ 5.3 mb	 0.2% Assets/Art/Textures/Decal/Cracks/Cracks_01_MaskMap.tga
  5.3 mb	 0.2% Assets/Art/Prefab/Props/Billboards/Source/Textures/Billboard_Frame_n.png
  5.3 mb	 0.2% Assets/Art/Prefab/Props/Billboards/Source/Textures/Billboard_Frame_a.png
  5.3 mb	 0.2% Assets/Vehicle - pro 3d models/Car1/Textures/Interior_Albedo.tga
@@ -1002,6 +1011,14 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  5.3 mb	 0.2% Assets/Art/Textures/Decal/Grime_01/Grime_01_Normal.tga
  5.3 mb	 0.2% Assets/Art/Textures/Decal/Grime_01/Grime_01_MaskMap.tga
  5.3 mb	 0.2% Assets/Art/Textures/Decal/Grime_01/Grime_01_Albedo.tga
+ 5.3 mb	 0.2% Assets/Art/Textures/Decal/Decals_08/Decals_08_Normal.tga
+ 5.3 mb	 0.2% Assets/Art/Textures/Decal/Decals_08/Decals_08_Albedo.tga
+ 5.3 mb	 0.2% Assets/Art/Textures/Decal/Decals_07/Decals_07_Normal.tga
+ 5.3 mb	 0.2% Assets/Art/Textures/Decal/Decals_07/Decals_07_Albedo.tga
+ 5.3 mb	 0.2% Assets/Art/Textures/Decal/Decals_06/Decals_06_Normal.tga
+ 5.3 mb	 0.2% Assets/Art/Textures/Decal/Decals_06/Decals_06_Albodo.tga
+ 5.3 mb	 0.2% Assets/Art/Textures/Decal/Decals_05/Decals_05_Normal.tga
+ 5.3 mb	 0.2% Assets/Art/Textures/Decal/Decals_05/Decals_05_Albedo.tga
  5.3 mb	 0.2% Assets/Art/Textures/Decal/Decals_04/Decals_04_Normal.tga
  5.3 mb	 0.2% Assets/Art/Textures/Decal/Decals_04/Decals_04_Albedo.tga
  5.3 mb	 0.2% Assets/Art/Textures/Decal/Decals_03/Decals_03_Normal.tga
@@ -1010,6 +1027,8 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  5.3 mb	 0.2% Assets/Art/Textures/Decal/Decals_02/Decals_02_Albedo.tga
  5.3 mb	 0.2% Assets/Art/Textures/Decal/Decals_01/Decals_01_Normal.tga
  5.3 mb	 0.2% Assets/Art/Textures/Decal/Decals_01/Decals_01_Albedo.tga
+ 5.3 mb	 0.2% Assets/Art/Textures/Decal/Cracks/Cracks_01_Normal.tga
+ 5.3 mb	 0.2% Assets/Art/Textures/Decal/Cracks/Cracks_01_Albedo.tga
  5.3 mb	 0.2% Assets/Art/Textures/Building/Northwest_Area/Guomao_B/metal/Metal_MaskMap.tga
  5.3 mb	 0.2% Assets/Art/Textures/Building/Northwest_Area/Guomao_B/glass/Glass_MaskMap.tga
  5.3 mb	 0.2% Assets/Art/Textures/Building/Northwest_Area/GaoMao_Building_01/Trim_03/trim_03_Normal.tga
@@ -1194,7 +1213,7 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  1.1 mb	 0.0% Assets/Art/Models/Building/Southwest_Area/Yintai/Yintai_01.fbx
  990.5 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/LayeredLit/LayeredLit.shader
  924.3 kb	 0.0% Assets/Art/Models/Vehicles/Scooter_A/Scooter_A.FBX
- 847.4 kb	 0.0% Assets/Art/Models/Building/Northwest_Area/Subway_Station_01.fbx
+ 847.0 kb	 0.0% Assets/Art/Models/Building/Northwest_Area/Subway_Station_01.fbx
  735.6 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/DeferredTile.shader
  682.8 kb	 0.0% Assets/Vehicle - pro 3d models/Car1/Textures/Wheel_Normal.tga
  682.8 kb	 0.0% Assets/Vehicle - pro 3d models/Car1/Textures/Wheel_Albedo.tga
@@ -1216,13 +1235,13 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  549.2 kb	 0.0% Assets/Art/Models/Props/Bush/Bush_02.fbx
  547.6 kb	 0.0% Assets/Art/Models/Building/Southeast_Area/Building_03/building_03_01.fbx
  546.5 kb	 0.0% Assets/Scenes/Materials_test/LightingData.asset
- 545.6 kb	 0.0% Assets/Art/Models/Props/Police_Box_01.fbx
  478.8 kb	 0.0% Assets/Art/Models/Props/Street_Light_01/Street_Light_02a.fbx
  456.5 kb	 0.0% Assets/Art/Models/Building/Northwest_Area/GaoMao_Building_A/GaoMao_Building_A_01.fbx
  456.5 kb	 0.0% Assets/Art/Models/Building/Southwest_Area/Yintai/Yintai_02.fbx
  421.5 kb	 0.0% Assets/Art/Models/Props/Bush/Bush_03.FBX
  420.7 kb	 0.0% Assets/Art/Models/Props/Tree_Small_01.fbx
  418.0 kb	 0.0% Assets/Art/Models/Building/Southwest_Area/Yintai/Yintai_03.fbx
+ 416.5 kb	 0.0% Assets/Art/Models/Props/Police_Box_01.fbx
  403.6 kb	 0.0% Assets/Art/Models/Building/Southeast_Area/Pavements_06.fbx
  396.8 kb	 0.0% Assets/Art/Models/Building/Northwest_Area/GaoMao_Building_B/GuoMao_Building_B_01.fbx
  384.1 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/CoherentNoise/ScramblingTile8SPP.png
@@ -1274,6 +1293,7 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  256.1 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/FilmGrain/Medium01.png
  256.1 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/FilmGrain/Large02.png
  256.1 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/FilmGrain/Large01.png
+ 248.6 kb	 0.0% Assets/Art/Models/Building/Bridge/Bridge_02.fbx
  247.3 kb	 0.0% Assets/Art/Models/Building/Southeast_Area/Pavements_08.fbx
  236.2 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/SubsurfaceScattering/SubsurfaceScattering.compute
  225.5 kb	 0.0% Assets/Art/Models/Building/Northwest_Area/Guomao_Mall/Guomao_Mall_02.fbx
@@ -1283,7 +1303,6 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  211.3 kb	 0.0% Assets/Art/Models/Building/Southwest_Area/Yintai/Yintai_Small_Building_01.fbx
  210.6 kb	 0.0% Assets/Art/Models/people.fbx
  203.2 kb	 0.0% Assets/Art/Models/Props/Fence/Fence_02c.fbx
- 201.0 kb	 0.0% Assets/Art/Models/Building/Bridge/Bridge_02.fbx
  193.4 kb	 0.0% Assets/Art/Models/Props/Wire/Wire_E.fbx
  192.4 kb	 0.0% Assets/Art/Models/Props/Place_The_Building/Place_The_Building_01.fbx
  192.1 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/CoherentNoise/OwenScrambledNoise256.png
@@ -1297,16 +1316,16 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  170.8 kb	 0.0% Assets/projects/City Bus/Textures/city_bus_metal_001_map.png
  167.5 kb	 0.0% Assets/Test/Cube.FBX
  162.6 kb	 0.0% Assets/Art/Models/Props/Wire/Wire_H.fbx
- 161.6 kb	 0.0% Assets/Art/Models/Building/Bridge/Bridge_01.fbx
+ 162.0 kb	 0.0% Assets/Art/Models/Building/Bridge/Bridge_01.fbx
  160.7 kb	 0.0% Assets/Art/Models/Props/Fence/Fence_03c.fbx
  160.4 kb	 0.0% Assets/Art/Models/Building/Northwest_Area/GaoMao_Building_B/GuoMao_Building_B_02.fbx
  160.4 kb	 0.0% Assets/Art/Models/Building/Northwest_Area/GaoMao_Building_A/GaoMao_Building_A_02.fbx
- 158.8 kb	 0.0% Assets/Art/Models/Props/Security_Booth_01.fbx
  153.7 kb	 0.0% Assets/Art/Models/Ground/Ground/Ground_3.FBX
  153.0 kb	 0.0% Assets/Art/Models/Props/Telephone_Booth_01.fbx
  147.1 kb	 0.0% Assets/Art/Models/Props/Fence/Fence_01b.fbx
  144.8 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/lightlistbuild-clustered.compute
  139.9 kb	 0.0% Assets/Art/Models/Building/Northwest_Area/GaoMao_Building_D/GaoMao_Building_D_04.fbx
+ 139.6 kb	 0.0% Assets/Art/Models/Props/Security_Booth_01.fbx
  134.8 kb	 0.0% Assets/Art/Models/Props/CrushBarrier_01.fbx
  133.8 kb	 0.0% Assets/Art/Models/Building/Bridge/Bridge_Pillar_02.fbx
  129.5 kb	 0.0% Assets/Art/Models/Props/Cable/Cable_Sheath.fbx
@@ -1319,12 +1338,12 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  109.8 kb	 0.0% Resources/unity_builtin_extra
  108.7 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Deferred.shader
  102.5 kb	 0.0% Assets/Art/Models/Building/Vision_Building/Vision_Building_02.fbx
- 97.2 kb	 0.0% Assets/Art/Models/Props/Fence/Fence_04d.fbx
+ 97.9 kb	 0.0% Assets/Art/Models/Props/Fence/Fence_04d.fbx
  96.6 kb	 0.0% Assets/Art/Prefab/Props/Billboards/Source/Models/Billboard_07b_L1.fbx
  94.7 kb	 0.0% Assets/Art/Models/Props/Trash_Can_01/Trash_Can_01.fbx
  91.2 kb	 0.0% Assets/Art/Models/Props/Trash_Can_01/Trash_Can_02.fbx
  91.1 kb	 0.0% Assets/Art/Models/Building/Bridge/Bridge_Pillar_01.fbx
- 87.9 kb	 0.0% Assets/Art/Models/Props/Fence/Fence_04b.fbx
+ 88.5 kb	 0.0% Assets/Art/Models/Props/Fence/Fence_04b.fbx
  85.5 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/CoherentNoise/ScramblingTile1SPP.png
  85.5 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Texture/CoherentNoise/RankingTile1SPP.png
  85.5 kb	 0.0% Assets/projects/City Bus/Textures/city_bus_glass_001_spe.tga
@@ -1366,11 +1385,11 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  48.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/PostProcessing/Shaders/FinalPass.shader
  47.6 kb	 0.0% Assets/Art/Models/Props/Street_Light_01/Street_Light_02b.fbx
  45.8 kb	 0.0% Assets/Art/Models/Props/Place_The_Building/Place_The_Building_06.fbx
+ 45.5 kb	 0.0% Assets/Art/Models/Props/Fence/Fence_04c.fbx
  45.5 kb	 0.0% Assets/Art/Models/Props/Wire/Wire_D.fbx
  45.3 kb	 0.0% Assets/Art/Models/Building/Bridge/Bridge_03.fbx
  45.2 kb	 0.0% Assets/Art/Models/Props/Subway_Sign_02.fbx
  45.2 kb	 0.0% Assets/Art/Models/Props/Subway_Sign_01.fbx
- 44.8 kb	 0.0% Assets/Art/Models/Props/Fence/Fence_04c.fbx
  44.6 kb	 0.0% Assets/Art/Models/Props/Voltage_box/Voltage_box_02.fbx
  44.3 kb	 0.0% Assets/Art/Models/Props/Station_Info_Post.FBX
  44.3 kb	 0.0% Assets/Art/Models/Props/Wire/Wire_A.fbx
@@ -1387,6 +1406,7 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  41.0 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Sky/HDRISky/HDRISky.shader
  40.6 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/PostProcessing/Shaders/UberPost.compute
  40.5 kb	 0.0% Assets/Art/Models/Props/Electronic_Screen_01.fbx
+ 39.0 kb	 0.0% Assets/Art/Models/Building/Southwest_Area/Yintai_Main_01.fbx
  38.3 kb	 0.0% Assets/Art/Models/Props/Sign/Sign_02.fbx
  37.3 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/AtmosphericScattering/OpaqueAtmosphericScattering.shader
  37.3 kb	 0.0% Assets/Test/Tiling_15/test.FBX
@@ -1418,12 +1438,10 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  25.6 kb	 0.0% Assets/Art/Models/Props/Manhole_cover.fbx
  24.6 kb	 0.0% Assets/Art/Models/Props/Cable/Cable_A_1m_01.fbx
  24.2 kb	 0.0% Assets/Art/Models/Props/Place_The_Building/Place_The_Building_07.fbx
- 24.1 kb	 0.0% Assets/Art/Models/Props/Fence/Fence_04a.fbx
  23.5 kb	 0.0% Assets/Art/Models/Props/Sign/Sign_06.fbx
  23.2 kb	 0.0% Assets/Art/Models/Props/Traffic_Light/Traffic_Light_02.fbx
  23.2 kb	 0.0% Assets/Art/Prefab/Props/Billboards/Source/Models/Billboard_07c_L2.fbx
  23.1 kb	 0.0% Assets/Art/Models/Props/Wire/Wire_B.fbx
- 22.8 kb	 0.0% Assets/Art/Models/Building/Southwest_Area/Yintai_Main_01.fbx
  22.2 kb	 0.0% Assets/Art/Models/Building/Northwest_Area/GaoMao_Building_B/GuoMao_Building_B_04.fbx
  22.0 kb	 0.0% Assets/Art/Models/Building/Northwest_Area/GaoMao_Building_A/GaoMao_Building_A_04.fbx
  21.5 kb	 0.0% Assets/Art/Models/Props/Camera_02.fbx
@@ -1447,6 +1465,7 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  15.7 kb	 0.0% Assets/Art/Models/Props/Road_gate_01a.fbx
  15.7 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Core/CoreResources/EncodeBC6H.compute
  15.6 kb	 0.0% Assets/Art/Models/Props/Cable/Cable_A_4m_01.fbx
+ 15.2 kb	 0.0% Assets/Art/Models/Props/Sign/Sign_08.FBX
  15.1 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/PostProcessing/Shaders/MotionBlurTilePass.compute
  15.0 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Debug/DebugViewTiles.shader
  14.5 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/ScreenSpaceLighting/GTAODenoise.compute
@@ -1476,13 +1495,13 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  9.7 kb	 0.0% Assets/Art/Models/Props/Wire/Wire_F.fbx
  9.7 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/lightlistbuild-bigtile.compute
  9.5 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/RenderPass/MSAA/DepthValues.shader
- 9.5 kb	 0.0% Assets/Art/Models/Props/Sign/Sign_08.FBX
  9.5 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/RenderPass/MSAA/ColorResolve.shader
  9.4 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/PostProcessing/Shaders/TemporalAntiAliasing.shader
  9.2 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/ScreenSpaceLighting/ScreenSpaceReflections.compute
  9.0 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Sky/PhysicallyBasedSky/GroundIrradiancePrecomputation.compute
  9.0 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Sky/AmbientProbeConvolution.compute
  8.7 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/PostProcessing/Shaders/DepthOfFieldGather.compute
+ 8.7 kb	 0.0% Assets/Art/Models/Props/Fence/Fence_04a.fbx
  8.4 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/PostProcessing/Shaders/Exposure.compute
  8.4 kb	 0.0% Assets/Delete_Aplha/test_Alpha.fbx
  8.2 kb	 0.0% Assets/Art/Models/Props/Electric_Box/Electric_Box_C.fbx
@@ -1592,6 +1611,7 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  5.3 kb	 0.0% Assets/Test/Tiling_12/Building_Glass_01.mat
  5.3 kb	 0.0% Assets/Art/Materials/Tiling/Stone_Blocks_Ground.mat
  5.3 kb	 0.0% Assets/Art/Materials/Tiling/Street_Ground.mat
+ 5.3 kb	 0.0% Assets/Art/Materials/Tiling/Painted_Concrete.mat
  5.3 kb	 0.0% Assets/Art/Materials/Tiling/Ground_Exterior.mat
  5.3 kb	 0.0% Assets/Art/Materials/Props/FireHose_01a_snaps011.mat
  5.3 kb	 0.0% Assets/Art/Materials/Building/Building_Trim_03.mat
@@ -1682,6 +1702,10 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  4.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/GGXConvolution/GGXConvolve.shader
  4.9 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/GGXConvolution/BuildProbabilityTables.compute
  4.8 kb	 0.0% Assets/Art/Materials/Props/Electronic_Screen_01_Poster.mat
+ 4.8 kb	 0.0% Assets/Art/Materials/Decal/Decals_08.mat
+ 4.8 kb	 0.0% Assets/Art/Materials/Decal/Decals_07.mat
+ 4.8 kb	 0.0% Assets/Art/Materials/Decal/Decals_06.mat
+ 4.8 kb	 0.0% Assets/Art/Materials/Decal/Decals_05.mat
  4.8 kb	 0.0% Assets/Delete_Aplha/New Material.mat
  4.6 kb	 0.0% Assets/Art/Materials/Decal/Decal_Zebra_Crossing.mat
  4.6 kb	 0.0% Assets/Art/Materials/Props/Sign/Sign_Text_01.mat
@@ -1690,6 +1714,7 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  4.6 kb	 0.0% Assets/Art/Materials/Decal/Decals_03.mat
  4.6 kb	 0.0% Assets/Art/Materials/Decal/Decals_02.mat
  4.6 kb	 0.0% Assets/Art/Materials/Decal/Decals_01.mat
+ 4.6 kb	 0.0% Assets/Art/Materials/Decal/Cracks_01.mat
  4.6 kb	 0.0% Assets/Art/Materials/Decal/Grime_02.mat
  4.6 kb	 0.0% Assets/Art/Materials/Decal/Grime_01.mat
  4.4 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Material/DefaultHDDecalMaterial.mat
@@ -2296,6 +2321,7 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  0.1 kb	 0.0% Packages/com.unity.render-pipelines.core/Runtime/Debugging/DebugManager.cs
  0.1 kb	 0.0% Packages/com.unity.render-pipelines.core/Runtime/Common/XRGraphics.cs
  0.1 kb	 0.0% Packages/com.unity.render-pipelines.core/Runtime/Camera/FreeCamera.cs
+ 0.1 kb	 0.0% Assets/Scripts/Profiler/MakeTransformsForProfiling.cs
  0.1 kb	 0.0% Packages/com.unity.xr.management/Runtime/XRLoaderHelper.cs
  0.1 kb	 0.0% Packages/com.unity.ugui/Tests/Runtime/Util/GraphicTestHelper.cs
  0.1 kb	 0.0% Packages/com.unity.ugui/Tests/Runtime/Util/ExceptionUtils.cs
@@ -2580,6 +2606,7 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/AssemblyInfo.cs.cs
  0.1 kb	 0.0% Packages/com.unity.render-pipelines.core/Runtime/Utilities/BitArray.cs
  0.1 kb	 0.0% Packages/com.unity.render-pipelines.core/Runtime/Common/RectInt.cs
+ 0.1 kb	 0.0% Assets/Scripts/Profiler/ASOptimizer.cs
  0.1 kb	 0.0% Packages/com.unity.ugui/Runtime/UI/Core/VertexModifiers/Shadow.cs
  0.1 kb	 0.0% Packages/com.unity.ugui/Runtime/UI/Core/VertexModifiers/Outline.cs
  0.1 kb	 0.0% Packages/com.unity.ugui/Runtime/UI/Core/VertexModifiers/IMeshModifier.cs
@@ -2636,6 +2663,7 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  0.1 kb	 0.0% Packages/com.unity.timeline/Runtime/AssetUpgrade/TrackUpgrade.cs
  0.1 kb	 0.0% Packages/com.unity.timeline/Runtime/AssetUpgrade/ClipUpgrade.cs
  0.1 kb	 0.0% Packages/com.unity.timeline/Runtime/Animation/ICurvesOwner.cs
+ 0.1 kb	 0.0% Assets/Scripts/Profiler/SimpleFPS.cs
  0.1 kb	 0.0% Packages/com.unity.ugui/Runtime/UI/Core/Utility/ListPool.cs
  0.1 kb	 0.0% Packages/com.unity.ugui/Runtime/UI/Core/IMask.cs
  0.1 kb	 0.0% Packages/com.unity.timeline/Runtime/Events/IMarker.cs
@@ -2643,79 +2671,79 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  0.1 kb	 0.0% Assets/TutorialInfo/Scripts/Readme.cs
  0.0 kb	 0.0% Assets/Scenes/test_scene/LightingData.asset
 -------------------------------------------------------------------------------
-Unloading 218 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 272.0 MB.
-System memory in use after: 271.9 MB.
+Unloading 242 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 296.3 MB.
+System memory in use after: 296.1 MB.
 
-Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3372.
-Total: 4.272400 ms (FindLiveObjects: 0.662400 ms CreateObjectMapping: 0.130200 ms MarkObjects: 3.109800 ms  DeleteObjects: 0.369700 ms)
+Unloading 124 unused Assets to reduce memory usage. Loaded Objects now: 3375.
+Total: 4.727300 ms (FindLiveObjects: 1.096400 ms CreateObjectMapping: 0.138000 ms MarkObjects: 3.071100 ms  DeleteObjects: 0.421400 ms)
 
 DisplayProgressNotification: Build Successful
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            0.397 ms
-	Integration:            4.251 ms
+	Deserialize:            0.404 ms
+	Integration:            3.749 ms
 	Integration of assets:  0.002 ms
-	Thread Wait Time:       18.233 ms
-	Total Operation Time:   22.882 ms
-System memory in use before: 263.9 MB.
-System memory in use after: 264.1 MB.
+	Thread Wait Time:       19.409 ms
+	Total Operation Time:   23.563 ms
+System memory in use before: 287.6 MB.
+System memory in use after: 287.9 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 3362.
-Total: 3.848900 ms (FindLiveObjects: 0.677900 ms CreateObjectMapping: 0.138000 ms MarkObjects: 3.026600 ms  DeleteObjects: 0.005800 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 3365.
+Total: 4.339700 ms (FindLiveObjects: 1.025400 ms CreateObjectMapping: 0.134000 ms MarkObjects: 3.174600 ms  DeleteObjects: 0.005400 ms)
 
 Batchmode quit successfully invoked - shutting down!
-[Performance] WinEditorMain                                                 :        1 samples, Peak.  2.81 s (1.0x), Avg.  2.81 s, Total. 2.806 s (2.1%)
-[Performance] WinEditorMain.ConfigureCrashHandler                           :        1 samples, Peak.  20.1 us (1.0x), Avg.  20.1 us, Total. 20.10 us (0.0%)
-[Performance] WinEditorMain.CurlRequestInitialize                           :        1 samples, Peak.  6.60 ms (1.0x), Avg.  6.60 ms, Total. 6.596 ms (0.0%)
-[Performance] WinEditorMain.SetupLogFile                                    :        1 samples, Peak.   184 us (1.0x), Avg.   184 us, Total. 183.6 us (0.0%)
+[Performance] WinEditorMain                                                 :        1 samples, Peak.  2.35 s (1.0x), Avg.  2.35 s, Total. 2.345 s (1.9%)
+[Performance] WinEditorMain.ConfigureCrashHandler                           :        1 samples, Peak.  18.6 us (1.0x), Avg.  18.6 us, Total. 18.60 us (0.0%)
+[Performance] WinEditorMain.CurlRequestInitialize                           :        1 samples, Peak.  2.54 ms (1.0x), Avg.  2.54 ms, Total. 2.541 ms (0.0%)
+[Performance] WinEditorMain.SetupLogFile                                    :        1 samples, Peak.   172 us (1.0x), Avg.   172 us, Total. 172.1 us (0.0%)
 [Performance] WinEditorMain.RunNativeTestsIfRequiredAndExit                 :        1 samples, Peak.  2.30 us (1.0x), Avg.  2.30 us, Total. 2.300 us (0.0%)
-[Performance] WinEditorMain.Licensing                                       :        1 samples, Peak.  2.77 s (1.0x), Avg.  2.77 s, Total. 2.770 s (2.0%)
-[Performance] WinEditorMain.InitializeCrashHandler                          :        1 samples, Peak.  20.2 ms (1.0x), Avg.  20.2 ms, Total. 20.18 ms (0.0%)
-[Performance] WinEditorMain.CreateApplication                               :        1 samples, Peak.   384 us (1.0x), Avg.   384 us, Total. 384.3 us (0.0%)
-[Performance] Application.InitializeProject                                 :        1 samples, Peak.  14.9 s (1.0x), Avg.  14.9 s, Total. 14.94 s (11.0%)
-[Performance] Application.PackageManager.StartServer                        :        1 samples, Peak.  4.36 ms (1.0x), Avg.  4.36 ms, Total. 4.364 ms (0.0%)
-[Performance] Application.IsBrowserCacheEmpty                               :        1 samples, Peak.  1.02 ms (1.0x), Avg.  1.02 ms, Total. 1.017 ms (0.0%)
-[Performance] Application.AcquireProjectLock                                :        1 samples, Peak.  10.1 ms (1.0x), Avg.  10.1 ms, Total. 10.14 ms (0.0%)
-[Performance] Application.InitializeEngineNoGraphics                        :        1 samples, Peak.   175 ms (1.0x), Avg.   175 ms, Total. 175.3 ms (0.1%)
-[Performance] Application.PackageManager.Initialize                         :        1 samples, Peak.   835 ms (1.0x), Avg.   835 ms, Total. 835.4 ms (0.6%)
-[Performance] CurlRequestCheck                                              :       15 samples, Peak.  45.0 us (3.2x), Avg.  14.1 us, Total. 211.1 us (0.0%)
-[Performance] PackageManager::RunRequestSynchronously                       :       14 samples, Peak.  37.4 us (3.4x), Avg.  10.9 us, Total. 152.1 us (0.0%)
-[Performance] Application.EngineGraphics.Initialize                         :        1 samples, Peak.   166 ms (1.0x), Avg.   166 ms, Total. 165.8 ms (0.1%)
-[Performance] Application.GI.Initialize                                     :        1 samples, Peak.   363 ms (1.0x), Avg.   363 ms, Total. 362.7 ms (0.3%)
+[Performance] WinEditorMain.Licensing                                       :        1 samples, Peak.  2.32 s (1.0x), Avg.  2.32 s, Total. 2.322 s (1.9%)
+[Performance] WinEditorMain.InitializeCrashHandler                          :        1 samples, Peak.  19.0 ms (1.0x), Avg.  19.0 ms, Total. 18.97 ms (0.0%)
+[Performance] WinEditorMain.CreateApplication                               :        1 samples, Peak.   391 us (1.0x), Avg.   391 us, Total. 391.1 us (0.0%)
+[Performance] Application.InitializeProject                                 :        1 samples, Peak.  7.22 s (1.0x), Avg.  7.22 s, Total. 7.223 s (5.9%)
+[Performance] Application.PackageManager.StartServer                        :        1 samples, Peak.  3.71 ms (1.0x), Avg.  3.71 ms, Total. 3.713 ms (0.0%)
+[Performance] Application.IsBrowserCacheEmpty                               :        1 samples, Peak.  1.00 ms (1.0x), Avg.  1.00 ms, Total. 1.003 ms (0.0%)
+[Performance] Application.AcquireProjectLock                                :        1 samples, Peak.  9.48 ms (1.0x), Avg.  9.48 ms, Total. 9.484 ms (0.0%)
+[Performance] Application.InitializeEngineNoGraphics                        :        1 samples, Peak.  18.9 ms (1.0x), Avg.  18.9 ms, Total. 18.90 ms (0.0%)
+[Performance] Application.PackageManager.Initialize                         :        1 samples, Peak.  1.01 s (1.0x), Avg.  1.01 s, Total. 1.007 s (0.8%)
+[Performance] CurlRequestCheck                                              :       18 samples, Peak.  44.0 us (3.5x), Avg.  12.5 us, Total. 225.7 us (0.0%)
+[Performance] PackageManager::RunRequestSynchronously                       :       13 samples, Peak.  35.9 us (3.2x), Avg.  11.1 us, Total. 144.5 us (0.0%)
+[Performance] Application.EngineGraphics.Initialize                         :        1 samples, Peak.   148 ms (1.0x), Avg.   148 ms, Total. 147.7 ms (0.1%)
+[Performance] Application.GI.Initialize                                     :        1 samples, Peak.   345 ms (1.0x), Avg.   345 ms, Total. 345.4 ms (0.3%)
 [Performance] Application.LoadAllDefaultResourcesFromEditor                 :        1 samples, Peak.  1.99 ms (1.0x), Avg.  1.99 ms, Total. 1.989 ms (0.0%)
-[Performance] Application.LoadMonoAssemblies                                :        1 samples, Peak.  1.07 s (1.0x), Avg.  1.07 s, Total. 1.072 s (0.8%)
-[Performance] ProcessService.EditorAfterLoadAllAssemblies                   :        2 samples, Peak.  29.3 ms (1.2x), Avg.  24.3 ms, Total. 48.63 ms (0.0%)
-[Performance] Application.ReadLicenseInfo                                   :        1 samples, Peak.  1.45 ms (1.0x), Avg.  1.45 ms, Total. 1.450 ms (0.0%)
-[Performance] Application.InitialScriptRefresh                              :        1 samples, Peak.  9.81 s (1.0x), Avg.  9.81 s, Total. 9.814 s (7.2%)
-[Performance] Application.AssetDatabase.Refresh                             :        1 samples, Peak.   157 ms (1.0x), Avg.   157 ms, Total. 157.0 ms (0.1%)
-[Performance] Application.ImportAssetsWithMismatchingAssetImporterVersion   :        1 samples, Peak.   489 ms (1.0x), Avg.   489 ms, Total. 489.0 ms (0.4%)
-[Performance] Application.SyncCurrentColorSpace                             :        1 samples, Peak.   439 ms (1.0x), Avg.   439 ms, Total. 439.5 ms (0.3%)
-[Performance] Application.OnUsbDevicesChanged                               :        1 samples, Peak.  13.3 ms (1.0x), Avg.  13.3 ms, Total. 13.28 ms (0.0%)
-[Performance] Application.AssetInstanceCacheUpdate                          :        1 samples, Peak.   200 ns (1.0x), Avg.   200 ns, Total. 200.0 ns (0.0%)
-[Performance] Application.UnityExtensions.Initialize                        :        1 samples, Peak.  4.36 ms (1.0x), Avg.  4.36 ms, Total. 4.361 ms (0.0%)
-[Performance] Application.InitializeManagedCompilationPipeline              :        1 samples, Peak.  77.8 ms (1.0x), Avg.  77.8 ms, Total. 77.81 ms (0.1%)
-[Performance] Application.ExecuteStartups                                   :        1 samples, Peak.  15.4 ms (1.0x), Avg.  15.4 ms, Total. 15.44 ms (0.0%)
-[Performance] Application.RebuildOSMenu                                     :        1 samples, Peak.  54.9 ms (1.0x), Avg.  54.9 ms, Total. 54.94 ms (0.0%)
-[Performance] Application.editorInitializingProject                         :        1 samples, Peak.  12.7 us (1.0x), Avg.  12.7 us, Total. 12.70 us (0.0%)
-[Performance] GUIView.RepaintAll.PlayerLoopController                       :        4 samples, Peak.  1.70 us (2.2x), Avg.   775 ns, Total. 3.100 us (0.0%)
-[Performance] Application.InvokeFinishedLoadingProject                      :        1 samples, Peak.  37.4 ms (1.0x), Avg.  37.4 ms, Total. 37.40 ms (0.0%)
-[Performance] ProcessService.OnProjectLoaded                                :        1 samples, Peak.  28.7 ms (1.0x), Avg.  28.7 ms, Total. 28.67 ms (0.0%)
-[Performance] SceneDataContainer.TransformHierarchyChangedSetParentCallback :       12 samples, Peak.  2.90 us (4.2x), Avg.   683 ns, Total. 8.200 us (0.0%)
-[Performance] SceneVisibilityState.IsFlagSetInParents                       :       12 samples, Peak.  1.80 us (3.7x), Avg.   492 ns, Total. 5.900 us (0.0%)
-Refresh completed in 0.163831 seconds.
+[Performance] Application.LoadMonoAssemblies                                :        1 samples, Peak.  1.11 s (1.0x), Avg.  1.11 s, Total. 1.109 s (0.9%)
+[Performance] ProcessService.EditorAfterLoadAllAssemblies                   :        2 samples, Peak.  33.9 ms (1.3x), Avg.  26.8 ms, Total. 53.53 ms (0.0%)
+[Performance] Application.ReadLicenseInfo                                   :        1 samples, Peak.  1.39 ms (1.0x), Avg.  1.39 ms, Total. 1.393 ms (0.0%)
+[Performance] Application.InitialScriptRefresh                              :        1 samples, Peak.  1.90 s (1.0x), Avg.  1.90 s, Total. 1.905 s (1.5%)
+[Performance] Application.AssetDatabase.Refresh                             :        1 samples, Peak.   171 ms (1.0x), Avg.   171 ms, Total. 171.4 ms (0.1%)
+[Performance] Application.ImportAssetsWithMismatchingAssetImporterVersion   :        1 samples, Peak.   477 ms (1.0x), Avg.   477 ms, Total. 477.1 ms (0.4%)
+[Performance] Application.SyncCurrentColorSpace                             :        1 samples, Peak.   471 ms (1.0x), Avg.   471 ms, Total. 471.4 ms (0.4%)
+[Performance] Application.OnUsbDevicesChanged                               :        1 samples, Peak.  6.50 ms (1.0x), Avg.  6.50 ms, Total. 6.496 ms (0.0%)
+[Performance] Application.AssetInstanceCacheUpdate                          :        1 samples, Peak.   300 ns (1.0x), Avg.   300 ns, Total. 300.0 ns (0.0%)
+[Performance] Application.UnityExtensions.Initialize                        :        1 samples, Peak.  4.71 ms (1.0x), Avg.  4.71 ms, Total. 4.707 ms (0.0%)
+[Performance] Application.InitializeManagedCompilationPipeline              :        1 samples, Peak.   343 ms (1.0x), Avg.   343 ms, Total. 343.4 ms (0.3%)
+[Performance] Application.ExecuteStartups                                   :        1 samples, Peak.  15.1 ms (1.0x), Avg.  15.1 ms, Total. 15.14 ms (0.0%)
+[Performance] Application.RebuildOSMenu                                     :        1 samples, Peak.  54.2 ms (1.0x), Avg.  54.2 ms, Total. 54.19 ms (0.0%)
+[Performance] Application.editorInitializingProject                         :        1 samples, Peak.  12.4 us (1.0x), Avg.  12.4 us, Total. 12.40 us (0.0%)
+[Performance] GUIView.RepaintAll.PlayerLoopController                       :        4 samples, Peak.  2.00 us (2.4x), Avg.   825 ns, Total. 3.300 us (0.0%)
+[Performance] Application.InvokeFinishedLoadingProject                      :        1 samples, Peak.  34.5 ms (1.0x), Avg.  34.5 ms, Total. 34.53 ms (0.0%)
+[Performance] ProcessService.OnProjectLoaded                                :        1 samples, Peak.  29.0 ms (1.0x), Avg.  29.0 ms, Total. 29.00 ms (0.0%)
+[Performance] SceneDataContainer.TransformHierarchyChangedSetParentCallback :       12 samples, Peak.  2.80 us (3.7x), Avg.   767 ns, Total. 9.200 us (0.0%)
+[Performance] SceneVisibilityState.IsFlagSetInParents                       :       12 samples, Peak.  1.60 us (3.4x), Avg.   467 ns, Total. 5.600 us (0.0%)
+Refresh completed in 0.662707 seconds.
 RefreshInfo: RefreshV2(NoUpdateAssetOptions)
-RefreshProfiler: Total: 163.820ms
-	InvokeBeforeRefreshCallbacks: 0.168ms
-	ApplyChangesToAssetFolders: 0.053ms
+RefreshProfiler: Total: 662.344ms
+	InvokeBeforeRefreshCallbacks: 0.212ms
+	ApplyChangesToAssetFolders: 0.054ms
 	WriteModifiedImportersToTextMetaFiles: 0.000ms
 	CleanLegacyArtifacts: 0.000ms
-	Scan: 109.358ms
+	Scan: 603.157ms
 	UnregisterDeletedAssets: 0.000ms
-	InitializeImportedAssetsSnapshot: 4.298ms
-	GetAllGuidsForCategorization: 0.328ms
-	CategorizeAssets: 31.097ms
-	ImportAndPostprocessOutOfDateAssets: 5.122ms (5.122ms without children)
+	InitializeImportedAssetsSnapshot: 4.850ms
+	GetAllGuidsForCategorization: 0.358ms
+	CategorizeAssets: 33.105ms
+	ImportAndPostprocessOutOfDateAssets: 6.386ms (6.386ms without children)
 		ImportManagerImport: 0.000ms (0.000ms without children)
 			ImportInProcess: 0.000ms
 			ImportOutOfProcess: 0.000ms
@@ -2728,41 +2756,41 @@ RefreshProfiler: Total: 163.820ms
 		ReloadImportedAssets: 0.000ms
 	InvokeProjectHasChanged: 0.000ms
 	UpdateImportedAssetsSnapshot: -0.000ms
-	ReloadSourceAssets: 1.113ms
-	UnloadImportedAssets: 0.247ms
+	ReloadSourceAssets: 1.486ms
+	UnloadImportedAssets: 0.261ms
+	Hotreload: 0.019ms
+	FixTempGuids: 0.004ms
+	Untracked: 12.452ms
+Refresh completed in 0.581225 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions)
+RefreshProfiler: Total: 581.215ms
+	InvokeBeforeRefreshCallbacks: 0.168ms
+	ApplyChangesToAssetFolders: 0.050ms
+	WriteModifiedImportersToTextMetaFiles: 0.000ms
+	CleanLegacyArtifacts: 0.000ms
+	Scan: 524.023ms
+	UnregisterDeletedAssets: 0.000ms
+	InitializeImportedAssetsSnapshot: 4.534ms
+	GetAllGuidsForCategorization: 0.321ms
+	CategorizeAssets: 32.290ms
+	ImportAndPostprocessOutOfDateAssets: 6.439ms (6.439ms without children)
+		ImportManagerImport: 0.000ms (0.000ms without children)
+			ImportInProcess: 0.000ms
+			ImportOutOfProcess: 0.000ms
+			UpdateCategorizedAssets: 0.000ms
+			RemoteAssetCacheGetArtifact: 0.000ms (0.000ms without children)
+				RemoteAssetCacheResolve: 0.000ms
+				RemoteAssetCacheDownloadFile: 0.000ms
+		CompileScripts: 0.000ms
+		PostProcessAllAssets: 0.000ms
+		ReloadImportedAssets: 0.000ms
+	InvokeProjectHasChanged: 0.000ms
+	UpdateImportedAssetsSnapshot: -0.000ms
+	ReloadSourceAssets: 1.486ms
+	UnloadImportedAssets: 0.269ms
 	Hotreload: 0.018ms
 	FixTempGuids: 0.004ms
-	Untracked: 12.013ms
-Refresh completed in 0.155026 seconds.
-RefreshInfo: RefreshV2(NoUpdateAssetOptions)
-RefreshProfiler: Total: 155.016ms
-	InvokeBeforeRefreshCallbacks: 0.163ms
-	ApplyChangesToAssetFolders: 0.048ms
-	WriteModifiedImportersToTextMetaFiles: 0.000ms
-	CleanLegacyArtifacts: 0.000ms
-	Scan: 99.026ms
-	UnregisterDeletedAssets: 0.000ms
-	InitializeImportedAssetsSnapshot: 4.237ms
-	GetAllGuidsForCategorization: 0.368ms
-	CategorizeAssets: 32.757ms
-	ImportAndPostprocessOutOfDateAssets: 5.465ms (5.465ms without children)
-		ImportManagerImport: 0.000ms (0.000ms without children)
-			ImportInProcess: 0.000ms
-			ImportOutOfProcess: 0.000ms
-			UpdateCategorizedAssets: 0.000ms
-			RemoteAssetCacheGetArtifact: 0.000ms (0.000ms without children)
-				RemoteAssetCacheResolve: 0.000ms
-				RemoteAssetCacheDownloadFile: 0.000ms
-		CompileScripts: 0.000ms
-		PostProcessAllAssets: 0.000ms
-		ReloadImportedAssets: 0.000ms
-	InvokeProjectHasChanged: 0.000ms
-	UpdateImportedAssetsSnapshot: -0.000ms
-	ReloadSourceAssets: 1.219ms
-	UnloadImportedAssets: 0.283ms
-	Hotreload: 0.019ms
-	FixTempGuids: 0.003ms
-	Untracked: 11.429ms
+	Untracked: 11.613ms
 Cleanup mono
 Culling group was not disposed. You have to call Dispose explicitly from the main thread. This will likely result in a crash. 
 (Filename: C:\buildslave\unity\build\Runtime\Export\Camera\CullingGroup.bindings.cpp Line: 70)
