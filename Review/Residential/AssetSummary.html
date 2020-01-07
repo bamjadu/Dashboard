@@ -131,6 +131,62 @@
 		}
 	}
 
+	function DrawLineChartForProfile(chartName, chartTitle, xChartName, yChartName, inputLabels, inputValues)
+	{
+		var ctx = document.getElementById(chartName);
+		
+		if (ctx.getContext)
+		{
+			var context = ctx.getContext("2d");
+
+			var myChart = new Chart(context, {
+				type: 'line',
+				data: {
+					labels: inputLabels,
+						datasets: [{
+							label: 'Scanned value',
+							data: inputValues,
+							backgroundColor: 
+								'rgba(49, 215, 132, 1)',
+								
+							borderColor: 
+								'rgba(49, 215, 132, 1)',
+								
+							
+							fill: false
+						}]
+					},
+					options: {
+						responsive: true,
+						title: {
+							display: true,
+							text: chartTitle
+						},
+						animation: {
+							animateScale: true,
+							animateRotate: true
+						},
+						scales: {
+							xAxes: [{
+								display:true,
+								scaleLabel: {
+									display: true,
+									labelString: xChartName
+									}
+								}],
+							yAxes: [{
+								display:true,
+								scaleLabel: {
+									display: true,
+									labelString: yChartName
+									}
+								}]
+							}
+					}    
+				});
+		}
+	}
+
 </script>
 </head>
 
@@ -138,7 +194,7 @@
 <pre><br></pre>
 <strong><pre>Unity version : 2018.4.0f1</pre></strong>
 <hr>
-<strong><pre>Updated : 2019.12.17 11:40 (KST)</pre></strong>
+<strong><pre>Updated : 2020.1.7 14:8 (KST)</pre></strong>
 <hr>
 <pre><br></pre>
 <strong><pre>Texture summary</pre></strong>
@@ -158,13 +214,13 @@
 <hr>
 <pre>	Number of Models : 198</pre>
 <pre>	Number of Custom Shaders : 0</pre>
-<pre>	Number of Materials : 113</pre>
+<pre>	Number of Materials : 109</pre>
 <pre>	Number of Prefabs : 199</pre>
-<pre>	Number of Prefabs containing LOD : 125</pre>
-<pre>	Number of Meshes : 430</pre>
-<pre>	Number of LOD Meshes : 125</pre>
-<pre>	Tri Counts : from 40 to 24836 (Average Tri counts per mesh : 1774.36)</pre>
-<pre>	LOD Counts : from 2 to 5</pre>
+<pre>	Number of Prefabs containing LOD : 196</pre>
+<pre>	Number of Meshes : 442</pre>
+<pre>	Number of LOD Meshes : 196</pre>
+<pre>	Tri Counts : from 2 to 24836 (Average Tri counts per mesh : 1156.98)</pre>
+<pre>	LOD Counts : from 0 to 5</pre>
 <pre>	UV Counts : from 1 to 3</pre>
 <pre><br></pre>
 <strong><pre>Scene summary</pre></strong>
@@ -178,11 +234,11 @@
 <pre>		Scene #2</pre>
 <pre>			Name : SampleScene.unity</pre>
 <pre>			Path : Assets/Scenes/SampleScene.unity</pre>
-<pre>			Included GameObjects in the Scene : 6934</pre>
+<pre>			Included GameObjects in the Scene : 7638</pre>
 <pre>		Scene #3</pre>
 <pre>			Name : Test_Range.unity</pre>
 <pre>			Path : Assets/Scenes/Test_Range.unity</pre>
-<pre>			Included GameObjects in the Scene : 536</pre>
+<pre>			Included GameObjects in the Scene : 554</pre>
 <pre><br></pre>
 <strong><pre>Media summary</pre></strong>
 <hr>
