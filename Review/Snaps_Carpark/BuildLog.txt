@@ -1,10 +1,10 @@
 Initiating legacy licensing module
-LICENSE SYSTEM [20191212 15:59:34] Next license update check is after 2019-12-10T01:50:42
+LICENSE SYSTEM [2020110 18:10:20] Next license update check is after 2020-01-07T02:13:29
 
 Built from '2018.4/staging' branch; Version is '2018.4.0f1 (b6ffa8986c8d) revision 11993000'; Using compiler version '191326128'
 OS: 'Windows 10  (10.0.0) 64bit' Language: 'ko' Physical Memory: 32586 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-[Package Manager] Server::Start -- Port 63755 was selected
+[Package Manager] Server::Start -- Port 54358 was selected
 
  COMMAND LINE ARGUMENTS:
 C:/UnityEditor/2018.4.0f1/Editor/Unity.exe
@@ -15,12 +15,12 @@ E:/p4/WorldUrbanBiomes/SNAPS/Snaps_Carpark/
 -executeMethod
 ASBuildScript.RunBuild
 -logfile
-e:/build/LemonSky/Snaps_Carpark/2688/BuildLog.txt
+e:/build/LemonSky/Snaps_Carpark/3902/BuildLog.txt
 Successfully changed project path to: E:/p4/WorldUrbanBiomes/SNAPS/Snaps_Carpark/
 E:/p4/WorldUrbanBiomes/SNAPS/Snaps_Carpark
 Using Asset Import Pipeline V1.
-Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000060 seconds
-Loading Asset Database...0.007462 seconds
+Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000064 seconds
+Loading Asset Database...0.007999 seconds
 Build target: OSXUniversal found and added!
 Build target: WindowsStoreApps found and added!
 Build target: Win64 found and added!
@@ -49,11 +49,11 @@ Build target: N3DS found and added!
 Build target: WP8 found and added!
 Build target: SamsungTV found and added!
 Build target: Tizen found and added!
-AssetDatabase consistency checks...0.014332 seconds
-Refreshing native plugins compatible for Editor in 7.34 ms, found 2 plugins.
+AssetDatabase consistency checks...0.014419 seconds
+Refreshing native plugins compatible for Editor in 7.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Unity Package Manager
-[Package Manager] Done resolving packages in 0.13s seconds
+[Package Manager] Done resolving packages in 0.19s seconds
 [Package Manager] Registering 39 packages:
 [Package Manager]  * Package :  com.unity.ads@2.0.8
     (location: E:\p4\WorldUrbanBiomes\SNAPS\Snaps_Carpark\Library\PackageCache\com.unity.ads@2.0.8)
@@ -153,7 +153,7 @@ Initialize mono
 Mono path[0] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
 Begin MonoManager ReloadAssembly
 Refreshing native plugins compatible for Editor in 0.31 ms, found 3 plugins.
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
@@ -161,36 +161,36 @@ Registering precompiled unity dll's ...
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002096 seconds.
+Registered in 0.001753 seconds.
 Registering platform support modules:
-Registered platform support modules in: 0.0603276s.
+Registered platform support modules in: 0.0662598s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.89 ms.
+Preloading 1 native plugins for Editor in 1.03 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.588 seconds
+- Completed reload, in  1.646 seconds
 Registering precompiled user dll's ...
-Registered in 0.024291 seconds.
+Registered in 0.028024 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering platform support modules:
-Registered platform support modules in: 0.0376668s.
+Registered platform support modules in: 0.0338822s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.950 seconds
+- Completed reload, in  0.996 seconds
 Platform modules already initialized, skipping
-Validating Project structure ... 0.001446 seconds.
+Validating Project structure ... 0.001703 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.013103s
-	Asset Scan time: 0.011995s
+Refresh Completed time: 0.015179s
+	Asset Scan time: 0.014018s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -205,7 +205,7 @@ WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
-Warming cache for 1473 main assets: 0.002199 seconds elapsed
+Warming cache for 1623 main assets: 0.004028 seconds elapsed
 Initializing Unity extensions:
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
@@ -227,27 +227,25 @@ Initializing Unity extensions:
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
-Unloading 732 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.8 MB.
-System memory in use after: 144.3 MB.
+Unloading 807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.2 MB.
+System memory in use after: 146.9 MB.
 
-Unloading 158 unused Assets to reduce memory usage. Loaded Objects now: 1383.
-Total: 2.788100 ms (FindLiveObjects: 0.205600 ms CreateObjectMapping: 0.021200 ms MarkObjects: 1.732400 ms  DeleteObjects: 0.828600 ms)
+Unloading 232 unused Assets to reduce memory usage. Loaded Objects now: 1384.
+Total: 2.787300 ms (FindLiveObjects: 0.295600 ms CreateObjectMapping: 0.036200 ms MarkObjects: 1.675000 ms  DeleteObjects: 0.779600 ms)
 
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
-Script Compilation Pipeline Post Process Assets time: 0.000327s
-Assembly Updater Post Process Assets time: 0.000056s
-Updating ProjectSettings/GraphicsSettings.asset - GUID: 00000000000000006100000000000000...
- done. [Time: 51.161800 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000330s
+Assembly Updater Post Process Assets time: 0.000036s
 Updating ProjectSettings/UnityConnectSettings.asset - GUID: 0000000000000000a100000000000000...
- done. [Time: 2.741300 ms] 
-Script Compilation Pipeline Post Process Assets time: 0.000007s
-Assembly Updater Post Process Assets time: 0.000054s
+ done. [Time: 58.476600 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000011s
+Assembly Updater Post Process Assets time: 0.000035s
 Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Preloading 1 native plugins for Editor in 0.10 ms.
 BuildPlayer: start building target 19
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
@@ -255,16 +253,16 @@ BuildPlayer: start building target 19
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.Stl.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProGrids.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 26 milliseconds
+Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
 Symbols will be read from Temp\Unity.ProBuilder.Poly2Tri.pdb
 Script Module: Unity.ProBuilder.Poly2Tri.dll
 Pass: 0 took 0 milliseconds
 Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
-Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
-Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 21 milliseconds
-Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll
 Symbols will be read from Temp\Unity.ProBuilder.KdTree.pdb
 Script Module: Unity.ProBuilder.KdTree.dll
@@ -278,13 +276,13 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProGrids.dll
 Symbols will be read from Temp\Unity.ProGrids.pdb
 Script Module: Unity.ProGrids.dll
-Pass: 0 took 13 milliseconds
+Pass: 0 took 14 milliseconds
 Pass: 1 took 0 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.dll
 - Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbols will be read from Temp\Unity.TextMeshPro.pdb
 Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 32 milliseconds
+Pass: 0 took 34 milliseconds
 Pass: 1 took 6 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.dll
 Symbols will be read from Temp\Unity.ProBuilder.pdb
@@ -293,34 +291,33 @@ Pass: 0 took 18 milliseconds
 Pass: 1 took 1 milliseconds
 DisplayProgressbar: Building Player
 Opening scene 'Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/SampleScenes/Carpark_PrefabLayout.unity'
-Load scene 'Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/SampleScenes/Carpark_PrefabLayout.unity' time: 0.011600 ms 
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 138.5 MB.
-System memory in use after: 138.3 MB.
+Load scene 'Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/SampleScenes/Carpark_PrefabLayout.unity' time: 0.013600 ms 
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.8 MB.
+System memory in use after: 143.7 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2079.
-Total: 7.604500 ms (FindLiveObjects: 0.284300 ms CreateObjectMapping: 0.032700 ms MarkObjects: 7.100500 ms  DeleteObjects: 0.186600 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2873.
+Total: 7.814700 ms (FindLiveObjects: 0.337700 ms CreateObjectMapping: 0.056700 ms MarkObjects: 7.196100 ms  DeleteObjects: 0.223200 ms)
 
-Created GICache directory at C:/Users/tom.kim/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.021s, timestamps: [7.752 - 7.773]
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Created GICache directory at C:/Users/tom.kim/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.019s, timestamps: [8.231 - 8.250]
 [00:00:00] Enlighten: Precompute started.
 [PathTracer] Issuing atlassing job. Atlas hash: c76fea2bdba0708c9660795577e6727f, width: 512, height: 512
 [00:00:00] Enlighten: Finished 1 Layout Systems job (0.00s execute, 0.00s integrate, 0.01s wallclock)
 [PathTracer] Integrated atlassing. Atlas hash: c76fea2bdba0708c9660795577e6727f -> Atlas count: 0 -> Instance count: 0 -> Estimated texel count: 0.000M.
 [00:00:00] Enlighten: Finished 1 Tetrahedralize Probes job (0.00s execute, 0.00s integrate, 0.01s wallclock)
-[00:00:00] Enlighten: Precompute took 0.028144 seconds.
+[00:00:00] Enlighten: Precompute took 0.021731 seconds.
 Enlighten scene contents:   0 geometries.   0 instances.   0 systems.   0 probe groups.   0 cube maps. Scene is up-to-date.
 [00:00:00] Enlighten: Bake started.
 Setting up 8 worker threads for Enlighten.
-  Thread -> id: 1968 -> priority: 1 
-  Thread -> id: 68a0 -> priority: 1 
-  Thread -> id: 6e78 -> priority: 1 
-  Thread -> id: 3478 -> priority: 1 
-  Thread -> id: 606c -> priority: 1 
-  Thread -> id: 7e54 -> priority: 1 
-  Thread -> id: 3d68 -> priority: 1 
-  Thread -> id: 25b0 -> priority: 1 
-[00:00:00] Enlighten: Finished 1 Create Input Lighting job (0.01s execute, 0.00s integrate, 0.01s wallclock)
+  Thread -> id: 3b68 -> priority: 1 
+  Thread -> id: 405c -> priority: 1 
+  Thread -> id: 4398 -> priority: 1 
+  Thread -> id: 39e0 -> priority: 1 
+  Thread -> id: 825c -> priority: 1 
+  Thread -> id: a64 -> priority: 1 
+  Thread -> id: 4608 -> priority: 1 
+  Thread -> id: df0 -> priority: 1 
+[00:00:00] Enlighten: Finished 1 Create Input Lighting job (0.00s execute, 0.00s integrate, 0.01s wallclock)
 [PathTracer][LP] Issuing deduplication and tetrahedralization job. Combined: 80257199cfa681a16be5e09b3c2208f4, tetrahedralized probes: 00000000000000000000000000000000, non-tetrahedralized probes: 00000000000000000000000000000000, dependencies: 00000000000000000000000000000000
 [PathTracer][LP] Integrating deduplicated and tetrahedralized probes for hash 80257199cfa681a16be5e09b3c2208f4.
 [PathTracer] Common reset.
@@ -334,20 +331,24 @@ gi::BakeBackendSwitch: Clear() active clients.
 [PathTracer] building lightmap data asset.
 [PathTracer] m_Clear = false;
 gi::BakeBackendSwitch: switching bake backend from 3 to 1.
+[00:00:00] Enlighten: Finished 1 Bake Runtime job (0.08s execute, 0.00s integrate, 0.09s wallclock)
 [00:00:00] Enlighten: Finished 1 Create Input Lighting job (0.00s execute, 0.00s integrate, 0.01s wallclock)
-[00:00:00] Enlighten: Finished 2 Bake Runtime jobs (0.18s execute, 0.00s integrate, 0.09s wallclock)
-[00:00:00] Enlighten: Bake took 0.200649 seconds.
+[00:00:00] Enlighten: Finished 1 Bake Runtime job (0.06s execute, 0.00s integrate, 0.06s wallclock)
+[00:00:00] Enlighten: Bake took 0.171233 seconds.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+[00:00:00] Enlighten: Bake started.
+[PathTracer] Updated environment lighting, hash 1f4ddc7d1ec05219ab7da6482e194e2c.
 [PathTracer] Updated environment lighting, hash ea5ccde85e03b1d6cecad92f999fb0a7.
 [PathTracer] Common reset.
 [PathTracer] Lightmap reset.
 [PathTracer][LP] Light probes reset.
 [PathTracer] building lightmap data asset.
 [00:00:00] Enlighten: Reflection Probes started.
+[00:00:00] Enlighten: Finished 1 Bake Runtime job (0.06s execute, 0.00s integrate, 0.06s wallclock)
+[00:00:00] Enlighten: Bake took 0.060670 seconds.
 [00:00:00] Enlighten: Finished 1 Bake Ambient Probe job (0.00s execute, 0.00s integrate, 0.01s wallclock)
-Starting cubemap convolution for '' (size 128)
-...took 0.059 seconds
-[00:00:01] Enlighten: Finished 1 Reflection System job (0.18s execute, 0.00s integrate, 0.25s wallclock)
-[00:00:01] Enlighten: LightingDataAsset started.
+[00:00:00] Enlighten: Finished 1 Reflection System job (0.00s execute, 0.00s integrate, 0.01s wallclock)
+[00:00:00] Enlighten: LightingDataAsset started.
 [PathTracer] Fetching lightmaps for lightmap data asset started.
 [PathTracer] Fetching lightmaps for lightmap data asset finished.
 > Collecting Enlighten data
@@ -367,22 +368,22 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 second
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Opening scene 'Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/SampleScenes/Carpark_SampleLayout.unity'
-Load scene 'Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/SampleScenes/Carpark_SampleLayout.unity' time: 0.012700 ms 
-Unloading 147 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.2 MB.
-System memory in use after: 149.0 MB.
+Load scene 'Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/SampleScenes/Carpark_SampleLayout.unity' time: 0.008100 ms 
+Unloading 296 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.8 MB.
+System memory in use after: 151.1 MB.
 
-Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 8672.
-Total: 9.700500 ms (FindLiveObjects: 0.595800 ms CreateObjectMapping: 0.155600 ms MarkObjects: 8.612600 ms  DeleteObjects: 0.335900 ms)
+Unloading 354 unused Assets to reduce memory usage. Loaded Objects now: 9421.
+Total: 11.608700 ms (FindLiveObjects: 0.716700 ms CreateObjectMapping: 0.191900 ms MarkObjects: 9.889700 ms  DeleteObjects: 0.809500 ms)
 
 [00:00:00] Enlighten: Precompute started.
 [PathTracer] building lightmap data asset.
 [00:00:00] Enlighten: Finished 1 Layout Systems job (0.00s execute, 0.00s integrate, 0.00s wallclock)
 [00:00:00] Enlighten: Finished 1 Tetrahedralize Probes job (0.00s execute, 0.00s integrate, 0.01s wallclock)
-[00:00:00] Enlighten: Precompute took 0.010910 seconds.
+[00:00:00] Enlighten: Precompute took 0.010019 seconds.
 Enlighten scene contents:   0 geometries.   0 instances.   0 systems.   0 probe groups.   0 cube maps. Scene is up-to-date.
 [00:00:00] Enlighten: Bake started.
-[00:00:00] Enlighten: Bake took 0.009906 seconds.
+[00:00:00] Enlighten: Bake took 0.009555 seconds.
 [PathTracer] Fetching lightmaps for lightmap data asset started.
 [PathTracer] Fetching lightmaps for lightmap data asset finished.
 > Collecting Enlighten data
@@ -424,46 +425,48 @@ Dependency assembly - Unity.ProBuilder.dll
 Dependency assembly - Unity.ProGrids.dll
 Dependency assembly - Unity.TextMeshPro.dll
 
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.7 MB.
-System memory in use after: 144.3 MB.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.1 MB.
+System memory in use after: 145.4 MB.
 
-Unloading 378 unused Assets to reduce memory usage. Loaded Objects now: 1426.
-Total: 9.552900 ms (FindLiveObjects: 0.413300 ms CreateObjectMapping: 0.032300 ms MarkObjects: 8.006900 ms  DeleteObjects: 1.099700 ms)
+Unloading 528 unused Assets to reduce memory usage. Loaded Objects now: 1408.
+Total: 9.592100 ms (FindLiveObjects: 0.475300 ms CreateObjectMapping: 0.038400 ms MarkObjects: 7.949200 ms  DeleteObjects: 1.128300 ms)
 
 [EnlightenBakeManager] m_Clear = false;
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 143.5 MB.
-System memory in use after: 143.6 MB.
+System memory in use before: 144.3 MB.
+System memory in use after: 144.4 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1437.
-Total: 7.977800 ms (FindLiveObjects: 0.271900 ms CreateObjectMapping: 0.025900 ms MarkObjects: 7.674800 ms  DeleteObjects: 0.004500 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1419.
+Total: 9.613000 ms (FindLiveObjects: 0.266500 ms CreateObjectMapping: 0.020100 ms MarkObjects: 9.315900 ms  DeleteObjects: 0.009700 ms)
 
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.8 MB.
-System memory in use after: 143.7 MB.
+System memory in use before: 145.6 MB.
+System memory in use after: 144.5 MB.
 
-Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 1425.
-Total: 8.258700 ms (FindLiveObjects: 0.274300 ms CreateObjectMapping: 0.021300 ms MarkObjects: 7.179500 ms  DeleteObjects: 0.782500 ms)
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 1407.
+Total: 8.246300 ms (FindLiveObjects: 0.271400 ms CreateObjectMapping: 0.025600 ms MarkObjects: 7.178500 ms  DeleteObjects: 0.770100 ms)
 
+Compiled shader 'Standard' in 1.23s
+    d3d11 (total internal programs: 250, unique: 214)
 
 -------------------------------------------------------------------------------
 Build Report
 Uncompressed usage by category (Percentages based on user generated assets only):
-Textures               1.0 mb	 5.5% 
-Meshes                 1.6 mb	 8.9% 
+Textures               1.0 mb	 5.3% 
+Meshes                 2.2 mb	 11.8% 
 Animations             0.0 kb	 0.0% 
 Sounds                 0.0 kb	 0.0% 
 Shaders                249.6 kb	 1.3% 
-Other Assets           8.0 kb	 0.0% 
-Levels                 592.5 kb	 3.2% 
-Scripts                1.3 mb	 7.3% 
-Included DLLs          13.2 mb	 72.3% 
-File headers           276.2 kb	 1.5% 
-Total User Assets      18.2 mb	 100.0% 
-Complete build size    54.8 mb
+Other Assets           9.7 kb	 0.1% 
+Levels                 673.0 kb	 3.5% 
+Scripts                1.3 mb	 7.0% 
+Included DLLs          13.2 mb	 69.7% 
+File headers           276.4 kb	 1.4% 
+Total User Assets      18.9 mb	 100.0% 
+Complete build size    55.5 mb
 Used Assets and files from the Resources folder, sorted by uncompressed size:
  341.5 kb	 0.6% Packages/com.unity.probuilder/Content/Material/Textures/GridBox_Trigger.png
  341.5 kb	 0.6% Packages/com.unity.probuilder/Content/Material/Textures/GridBox_Collider.png
@@ -487,47 +490,121 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  47.2 kb	 0.1% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Bridge/Meshes/BridgeStairs_02a_snaps019.asset
  47.1 kb	 0.1% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/Door_01a_snaps019.asset
  40.3 kb	 0.1% Packages/com.unity.probuilder/Content/Shader/StandardVertexColor.shader
+ 35.5 kb	 0.1% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SprinklerPipe_08a_snaps019.asset
+ 34.6 kb	 0.1% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/CP_ParkingBooth_01a_snaps019.asset
+ 30.7 kb	 0.1% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/ElectricRoomDoor_02a_snaps019.asset
  30.7 kb	 0.1% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/ElectricRoomDoor_01a_snaps019.asset
+ 29.9 kb	 0.1% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/FireHose_01a_snaps019.asset
  29.7 kb	 0.1% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_WallBlind_01a_snaps019.asset
- 29.1 kb	 0.1% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/ElectricRoomDoor_02a_snaps019.asset
  27.7 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/Road_03a_snaps019.asset
+ 25.7 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/EmergencyLight_01a_snaps019.asset
+ 24.8 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SwitchBox_04a_snaps019.asset
  23.7 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/LiftFrame_02a_snaps019.asset
  21.6 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_GlassWall_02a_snaps019.asset
  20.5 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Bridge/Meshes/BridgePillar_01a_snaps019.asset
  19.8 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Bridge/Meshes/BridgePillar_02a_snaps019.asset
+ 18.9 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/WheelClamp_01a_snaps019.asset
+ 18.6 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/FireExtinguisher_01a_snaps019.asset
  18.3 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_WallWindow_02a_snaps019.asset
+ 18.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/Ventilation_02a_snaps019.asset
+ 16.9 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/EmergencyLight_02a_snaps019.asset
+ 16.0 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/Compressor_02a_snaps019.asset
+ 15.4 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SprinklerPipe_08b_snaps019.asset
+ 14.7 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/CashierMachine_01a_snaps019.asset
+ 14.0 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SprinklerPipe_09b_snaps019.asset
+ 13.3 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/PlasticPipe_12a_snaps019.asset
+ 13.2 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/PlasticPipe_11a_snaps019.asset
+ 12.5 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SwitchBox_05a_snaps019.asset
+ 11.9 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/Ventilation_01a_snaps019.asset
+ 11.8 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/ConvexMirror_01a_snaps019.asset
+ 11.3 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SwitchBox_03a_snaps019.asset
+ 10.3 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SprinklerPipe_04b_snaps019.asset
  9.7 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Bridge/Meshes/BridgePillar_04a_snaps019.asset
  9.6 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_Floor_03a_snaps019.asset
- 9.5 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/FireEscapeDoor_01a_snaps019.asset
+ 9.6 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/FireEscapeDoor_01a_snaps019.asset
+ 9.3 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/CP_ParkingBooth_Door_01a_snaps019.asset
+ 9.2 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SprinklerPipe_09a_snaps019.asset
  9.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_WallWindow_01a_snaps019.asset
+ 8.9 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SprinklerPipe_04a_snaps019.asset
  8.8 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_Wall_02a_snaps019.asset
  8.3 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Bridge/Meshes/BridgePillar_03a_snaps019.asset
+ 8.2 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/Ventilation_09a_snaps019.asset
+ 8.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SwitchBox_01a_snaps019.asset
+ 7.7 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/Compressor_01a_snaps019.asset
+ 7.3 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/PlasticPipe_13a_snaps019.asset
+ 7.3 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/PlasticPipe_04a_snaps019.asset
+ 6.9 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/FenceBarrier_01a_snaps019.asset
+ 6.8 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/TrashCan_01a_snaps019.asset
+ 6.8 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/OfficeChair_01a_snaps019.asset
+ 6.6 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/FluorescentLight_01a_snaps019.asset
+ 6.5 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/FluorescentLight_02a_snaps019.asset
+ 6.2 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/Ventilation_10a_snaps019.asset
+ 6.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SprinklerPipe_06b_snaps019.asset
+ 5.8 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/Ventilation_08a_snaps019.asset
+ 5.7 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/Ventilation_05a_snaps019.asset
  5.4 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_Floor_02a_snaps019.asset
+ 5.4 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/LightPole_02a_snaps019.asset
+ 5.3 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SprinklerPipe_06a_snaps019.asset
+ 4.9 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/PlasticPipe_14a_snaps019.asset
+ 4.8 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/PlasticPipe_07a_snaps019.asset
+ 4.7 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SprinklerPipe_05b_snaps019.asset
+ 4.7 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/ParkingBarrier_02a_snaps019.asset
+ 4.6 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SwitchBox_02a_snaps019.asset
+ 4.5 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/Bell_01a_snaps019.asset
+ 4.5 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/PlasticPipe_05a_snaps019.asset
+ 4.3 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/TicketMachine_01a_snaps019.asset
  4.2 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_WallDoor_01a_snaps019.asset
+ 4.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/LightPole_01a_snaps019.asset
+ 4.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/TrashCan_02a_snaps019.asset
  4.1 kb	 0.0% C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
  4.1 kb	 0.0% C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
+ 4.0 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SprinklerPipe_05a_snaps019.asset
+ 4.0 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/Ventilation_07a_snaps019.asset
  3.8 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/LiftWeight_01a_snaps019.asset
  3.6 kb	 0.0% Packages/com.unity.probuilder/Content/Shader/VertexPicker.shader
+ 3.2 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/Cone_01a_snaps019.asset
+ 3.2 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/Ventilation_06a_snaps019.asset
+ 3.2 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/Ventilation_04a_snaps019.asset
+ 3.2 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/Ventilation_03a_snaps019.asset
  3.0 kb	 0.0% Packages/com.unity.probuilder/Content/Shader/EdgePicker.shader
  3.0 kb	 0.0% Packages/com.unity.probuilder/Content/Shader/UnlitVertexColor.shader
  2.9 kb	 0.0% Packages/com.unity.probuilder/Content/Shader/FacePicker.shader
  2.8 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/LiftDoor_02a_snaps019.asset
  2.8 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/LiftDoor_01a_snaps019.asset
  2.7 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_FireEscapeWall_01a_snaps019.asset
+ 2.6 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/AutoPayStation_01a_snaps019.asset
  2.4 kb	 0.0% Packages/com.unity.probuilder/Content/Shader/HideVertices.shader
+ 2.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SprinklerPipe_07b_snaps019.asset
+ 2.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SprinklerPipe_07a_snaps019.asset
+ 2.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SprinklerPipe_03a_snaps019.asset
+ 2.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SprinklerPipe_02b_snaps019.asset
+ 2.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SprinklerPipe_02a_snaps019.asset
+ 2.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SprinklerPipe_01b_snaps019.asset
+ 2.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SprinklerPipe_01a_snaps019.asset
+ 2.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/PlasticPipe_10a_snaps019.asset
+ 2.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/PlasticPipe_09a_snaps019.asset
+ 2.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/PlasticPipe_08a_snaps019.asset
+ 2.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/PlasticPipe_06a_snaps019.asset
+ 2.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/PlasticPipe_03a_snaps019.asset
+ 2.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/PlasticPipe_02a_snaps019.asset
+ 2.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/PlasticPipe_01a_snaps019.asset
  2.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_ElectricRoomWall_01a_snaps019.asset
  2.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Bridge/Meshes/BridgePillar_05a_snaps019.asset
+ 2.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/ClearanceBar_01a_snaps019.asset
  2.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_LiftRoof_01a_snaps019.asset
  2.1 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_Roof_01a_snaps019.asset
  1.9 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_ElevatedGround_05a_snaps019.asset
  1.9 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_Pillar_02a_snaps019.asset
+ 1.9 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SprinklerPipe_03b_snaps019.asset
  1.8 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_ElevatedGround_04a_snaps019.asset
  1.8 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_ElevatedGround_02a_snaps019.asset
  1.8 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_ElevatedGround_01a_snaps019.asset
  1.7 kb	 0.0% C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
  1.7 kb	 0.0% C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll
+ 1.7 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/ParkingBarrier_01a_snaps019.asset
  1.6 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_LiftPillar_02a_snaps019.asset
  1.6 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_LiftPillar_01a_snaps019.asset
+ 1.6 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/Bollard_01a_snaps019.asset
  1.5 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_Ramp_01a_snaps019.asset
  1.5 kb	 0.0% C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll
  1.5 kb	 0.0% C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll
@@ -536,22 +613,25 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  1.2 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_SmallRamp_01a_snaps019.asset
  1.2 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_GlassWall_03a_snaps019.asset
  1.2 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_GlassWall_01a_snaps019.asset
+ 1.2 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/WheelStopper_01a_snaps019.asset
  1.2 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_Pillar_03a_snaps019.asset
  1.2 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_Pillar_01a_snaps019.asset
  1.2 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_Floor_01a_snaps019.asset
  1.2 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_Wall_01a_snaps019.asset
- 0.9 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Materials/Glass.mat
+ 1.0 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Materials/Glass_snaps019.mat
  0.9 kb	 0.0% C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll
+ 0.9 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Materials/Green_snaps019.mat
  0.8 kb	 0.0% Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat
  0.6 kb	 0.0% C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll
  0.6 kb	 0.0% C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll
- 0.5 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Materials/Terracotta.mat
- 0.5 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Materials/LightGray.mat
- 0.5 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Materials/Yellow.mat
- 0.5 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Materials/DarkGray.mat
- 0.5 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Materials/Brown.mat
- 0.5 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Materials/Red.mat
- 0.5 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Materials/Blue.mat
+ 0.5 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Materials/Terracotta_snaps019.mat
+ 0.5 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Materials/LightGray_snaps019.mat
+ 0.5 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Materials/DarkGray_snaps019.mat
+ 0.5 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Materials/Yellow_snaps019.mat
+ 0.5 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Materials/White_snaps019.mat
+ 0.5 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Materials/Brown_snaps019.mat
+ 0.5 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Materials/Blue_snaps019.mat
+ 0.5 kb	 0.0% Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Materials/Red_snaps019.mat
  0.4 kb	 0.0% C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll
  0.4 kb	 0.0% C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll
  0.3 kb	 0.0% Packages/com.unity.analytics/Unity.Analytics.Tracker.dll
@@ -770,22 +850,22 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  0.1 kb	 0.0% Packages/com.unity.probuilder/Content/Resources/Materials/VertexPicker.mat
  0.1 kb	 0.0% Packages/com.unity.probuilder/Content/Resources/Materials/EdgePicker.mat
 -------------------------------------------------------------------------------
-Unloading 99 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.4 MB.
-System memory in use after: 145.8 MB.
+Unloading 176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.4 MB.
+System memory in use after: 147.8 MB.
 
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 1443.
-Total: 8.190500 ms (FindLiveObjects: 0.309400 ms CreateObjectMapping: 0.024400 ms MarkObjects: 7.119100 ms  DeleteObjects: 0.736900 ms)
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 1425.
+Total: 8.891200 ms (FindLiveObjects: 0.303700 ms CreateObjectMapping: 0.029400 ms MarkObjects: 7.856100 ms  DeleteObjects: 0.700900 ms)
 
 DisplayProgressNotification: Build Successful
-Load scene 'Temp/__Backupscenes/0.backup' time: 0.055200 ms 
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.107200 ms 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-[00:00:00] Enlighten: LightingDataAsset took 10.161058 seconds. Cancelled, so not done yet.
-System memory in use before: 143.9 MB.
-System memory in use after: 144.0 MB.
+[00:00:00] Enlighten: LightingDataAsset took 12.664413 seconds. Cancelled, so not done yet.
+System memory in use before: 144.8 MB.
+System memory in use after: 144.9 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1435.
-Total: 7.356000 ms (FindLiveObjects: 0.243300 ms CreateObjectMapping: 0.016900 ms MarkObjects: 7.091400 ms  DeleteObjects: 0.003800 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1417.
+Total: 7.252500 ms (FindLiveObjects: 0.251000 ms CreateObjectMapping: 0.021400 ms MarkObjects: 6.974600 ms  DeleteObjects: 0.004600 ms)
 
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
@@ -797,21 +877,15 @@ Total: 7.356000 ms (FindLiveObjects: 0.243300 ms CreateObjectMapping: 0.016900 m
 - Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll
-- Finished compile Library/ScriptAssemblies/Unity.ProGrids.dll
-Symbols will be read from Temp\Unity.ProGrids.pdb
-Script Module: Unity.ProGrids.dll
-Pass: 0 took 19 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 41 milliseconds
 Pass: 1 took 0 milliseconds
-- Starting compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
 Symbols will be read from Temp\Unity.ProBuilder.Poly2Tri.pdb
 Script Module: Unity.ProBuilder.Poly2Tri.dll
 Pass: 0 took 0 milliseconds
-Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
-Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
-Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 26 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll
 Symbols will be read from Temp\Unity.ProBuilder.KdTree.pdb
@@ -823,23 +897,29 @@ Symbols will be read from Temp\Unity.ProBuilder.Stl.pdb
 Script Module: Unity.ProBuilder.Stl.dll
 Pass: 0 took 0 milliseconds
 Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Settings.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.ProGrids.dll
+Symbols will be read from Temp\Unity.ProGrids.pdb
+Script Module: Unity.ProGrids.dll
+Pass: 0 took 13 milliseconds
+Pass: 1 took 0 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.dll
+- Starting compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbols will be read from Temp\Unity.TextMeshPro.pdb
 Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 52 milliseconds
+Pass: 0 took 46 milliseconds
 Pass: 1 took 5 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Settings.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.dll
 Symbols will be read from Temp\Unity.ProBuilder.pdb
 Script Module: Unity.ProBuilder.dll
-Pass: 0 took 14 milliseconds
-Pass: 1 took 1 milliseconds
+Pass: 0 took 19 milliseconds
+Pass: 1 took 2 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
@@ -848,12 +928,12 @@ Pass: 1 took 1 milliseconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 Batchmode quit successfully invoked - shutting down!
-[Performance] CurlRequestCheck                        :       16 samples, Peak.  30.7 us (3.2x), Avg.  9.45 us, Total. 151.2 us (0.0%)
-[Performance] PackageManager::RunRequestSynchronously :        3 samples, Peak.  42.3 us (2.4x), Avg.  17.6 us, Total. 52.80 us (0.0%)
+[Performance] CurlRequestCheck                        :       15 samples, Peak.  22.4 us (2.5x), Avg.  9.11 us, Total. 136.6 us (0.0%)
+[Performance] PackageManager::RunRequestSynchronously :        4 samples, Peak.  28.4 us (2.4x), Avg.  11.8 us, Total. 47.20 us (0.0%)
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.013162s
-	Asset Scan time: 0.012056s
+Refresh Completed time: 0.013923s
+	Asset Scan time: 0.012651s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -864,8 +944,8 @@ Refresh Completed time: 0.013162s
 
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.012760s
-	Asset Scan time: 0.011767s
+Refresh Completed time: 0.013037s
+	Asset Scan time: 0.012066s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
