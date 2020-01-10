@@ -131,6 +131,62 @@
 		}
 	}
 
+	function DrawLineChartForProfile(chartName, chartTitle, xChartName, yChartName, inputLabels, inputValues)
+	{
+		var ctx = document.getElementById(chartName);
+		
+		if (ctx.getContext)
+		{
+			var context = ctx.getContext("2d");
+
+			var myChart = new Chart(context, {
+				type: 'line',
+				data: {
+					labels: inputLabels,
+						datasets: [{
+							label: 'Scanned value',
+							data: inputValues,
+							backgroundColor: 
+								'rgba(49, 215, 132, 1)',
+								
+							borderColor: 
+								'rgba(49, 215, 132, 1)',
+								
+							
+							fill: false
+						}]
+					},
+					options: {
+						responsive: true,
+						title: {
+							display: true,
+							text: chartTitle
+						},
+						animation: {
+							animateScale: true,
+							animateRotate: true
+						},
+						scales: {
+							xAxes: [{
+								display:true,
+								scaleLabel: {
+									display: true,
+									labelString: xChartName
+									}
+								}],
+							yAxes: [{
+								display:true,
+								scaleLabel: {
+									display: true,
+									labelString: yChartName
+									}
+								}]
+							}
+					}    
+				});
+		}
+	}
+
 </script>
 </head>
 
@@ -138,7 +194,7 @@
 <pre><br></pre>
 <strong><pre>Unity version : 2018.4.0f1</pre></strong>
 <hr>
-<strong><pre>Updated : 2019.12.12 15:52 (KST)</pre></strong>
+<strong><pre>Updated : 2020.1.10 18:5 (KST)</pre></strong>
 <hr>
 <pre><br></pre>
 <strong><pre>Texture summary</pre></strong>
@@ -153,13 +209,13 @@
 <pre>	Number of Models : 0</pre>
 <pre>	Number of Custom Shaders : 0</pre>
 <pre>	Number of Materials : 13</pre>
-<pre>	Number of Prefabs : 58</pre>
-<pre>	Number of Prefabs containing LOD : 0</pre>
-<pre>	Number of Meshes : 58</pre>
-<pre>	Number of LOD Meshes : 0</pre>
-<pre>	Tri Counts : from 2147483647 to -2147483648 (Average Tri counts per mesh : NaN)</pre>
-<pre>	LOD Counts : from 2147483647 to -2147483648</pre>
-<pre>	UV Counts : from 2147483647 to -2147483648</pre>
+<pre>	Number of Prefabs : 133</pre>
+<pre>	Number of Prefabs containing LOD : 133</pre>
+<pre>	Number of Meshes : 133</pre>
+<pre>	Number of LOD Meshes : 133</pre>
+<pre>	Tri Counts : from 12 to 4808 (Average Tri counts per mesh : 300.985)</pre>
+<pre>	LOD Counts : from 0 to 0</pre>
+<pre>	UV Counts : from 1 to 1</pre>
 <pre><br></pre>
 <strong><pre>Scene summary</pre></strong>
 <hr>
@@ -168,11 +224,11 @@
 <pre>		Scene #1</pre>
 <pre>			Name : Carpark_PrefabLayout.unity</pre>
 <pre>			Path : Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/SampleScenes/Carpark_PrefabLayout.unity</pre>
-<pre>			Included GameObjects in the Scene : 62</pre>
+<pre>			Included GameObjects in the Scene : 136</pre>
 <pre>		Scene #2</pre>
 <pre>			Name : Carpark_SampleLayout.unity</pre>
 <pre>			Path : Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/SampleScenes/Carpark_SampleLayout.unity</pre>
-<pre>			Included GameObjects in the Scene : 1247</pre>
+<pre>			Included GameObjects in the Scene : 1373</pre>
 <pre><br></pre>
 <strong><pre>Media summary</pre></strong>
 <hr>
