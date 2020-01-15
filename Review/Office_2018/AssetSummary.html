@@ -1,0 +1,244 @@
+
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js" integrity="sha256-arMsf+3JJK2LoTGqxfnuJPFTU4hAK57MtIPdFpiHXOU=" crossorigin="anonymous"></script>
+
+<style>
+
+	.canvas { border: 1px solid black; }
+
+
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+	text-align: center;
+	}
+
+	/* Tooltip text */
+	.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 270px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+
+	/* Position the tooltip text */
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -60px;
+
+	/* Fade in tooltip */
+	opacity: 0;
+	transition: opacity 0.3s;
+	}
+
+	/* Tooltip arrow */
+	.tooltip .tooltiptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+	}
+
+	/* Show the tooltip text when you mouse over the tooltip container */
+	.tooltip:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
+	}
+
+</style>
+
+<script>
+
+
+	function ShowSucceeRateText(canvasName, successRate)
+	{
+		var canvas = document.getElementById(canvasName);
+
+		if (canvas.getContext)
+		{
+		var context = canvas .getContext("2d");
+
+		context.fillStyle = "#606060";
+
+		if (successRate < 40)
+			context.fillStyle = "#FF6384";
+		else if (successRate > 90)
+			context.fillStyle = "#36A2EB";
+
+		context.font = '30px Arial Black';
+			
+		var textString = successRate + "%";
+			textWidth = context.measureText(textString).width;
+			
+		context.fillText(textString, (canvas.width/2)- (textWidth / 2), (canvas.height/2));
+
+		}
+	}
+
+
+	function SuccessRateDrawChart(chartName, tableTitle, succeedCount, failedCount)
+	{
+		var tableName = tableTitle;
+		
+		var ctx = document.getElementById(chartName);
+
+		if (ctx.getContext)
+		{
+			var context = ctx.getContext("2d");
+
+			var myChart = new Chart(context, {
+				type: 'doughnut',
+				data: {
+					labels: ['Failed', 'Passed'],
+					datasets: [{
+						label: '# of Votes',
+						data: [failedCount, succeedCount],
+						backgroundColor: [
+							'rgba(255, 99, 132, 0.2)',
+							'rgba(54, 162, 235, 0.2)'
+						],
+						borderColor: [
+							'rgba(255, 99, 132, 1)',
+							'rgba(54, 162, 235, 1)'	                
+						],
+						borderWidth: 1
+					}]
+				},
+				options: {
+					responsive: true,
+					legend: {
+						position: 'bottom'
+					},
+					title: {
+						display: true,
+						text: tableName
+					},
+					animation: {
+						animateScale: true,
+						animateRotate: true
+					}
+				}    
+			});
+		}
+	}
+
+	function DrawLineChartForProfile(chartName, chartTitle, xChartName, yChartName, inputLabels, inputValues)
+	{
+		var ctx = document.getElementById(chartName);
+		
+		if (ctx.getContext)
+		{
+			var context = ctx.getContext("2d");
+
+			var myChart = new Chart(context, {
+				type: 'line',
+				data: {
+					labels: inputLabels,
+						datasets: [{
+							label: 'Scanned value',
+							data: inputValues,
+							backgroundColor: 
+								'rgba(49, 215, 132, 1)',
+								
+							borderColor: 
+								'rgba(49, 215, 132, 1)',
+								
+							
+							fill: false
+						}]
+					},
+					options: {
+						responsive: true,
+						title: {
+							display: true,
+							text: chartTitle
+						},
+						animation: {
+							animateScale: true,
+							animateRotate: true
+						},
+						scales: {
+							xAxes: [{
+								display:true,
+								scaleLabel: {
+									display: true,
+									labelString: xChartName
+									}
+								}],
+							yAxes: [{
+								display:true,
+								scaleLabel: {
+									display: true,
+									labelString: yChartName
+									}
+								}]
+							}
+					}    
+				});
+		}
+	}
+
+</script>
+</head>
+
+<html>
+<pre><br></pre>
+<strong><pre>Unity version : 2018.4.3f1</pre></strong>
+<hr>
+<strong><pre>Updated : 2020.1.15 17:8 (KST)</pre></strong>
+<hr>
+<pre><br></pre>
+<strong><pre>Texture summary</pre></strong>
+<hr>
+<pre>	Number of Textures : 171</pre>
+<pre>	Number of Sprites : 0</pre>
+<pre>	Texture Resolution : 2048 x 2048, 1024 x 1024, 256 x 256, 128 x 128</pre>
+<pre>		2048 x 2048 : 146</pre>
+<pre>		1024 x 1024 : 14</pre>
+<pre>		256 x 256 : 8</pre>
+<pre>		128 x 128 : 3</pre>
+<pre><br></pre>
+<strong><pre>Model summary</pre></strong>
+<hr>
+<pre>	Number of Models : 102</pre>
+<pre>	Number of Custom Shaders : 0</pre>
+<pre>	Number of Materials : 199</pre>
+<pre>	Number of Prefabs : 102</pre>
+<pre>	Number of Prefabs containing LOD : 95</pre>
+<pre>	Number of Meshes : 238</pre>
+<pre>	Number of LOD Meshes : 95</pre>
+<pre>	Tri Counts : from 4 to 4338 (Average Tri counts per mesh : 574.9895)</pre>
+<pre>	LOD Counts : from 0 to 4</pre>
+<pre>	UV Counts : from 1 to 4</pre>
+<pre><br></pre>
+<strong><pre>Scene summary</pre></strong>
+<hr>
+<pre>	Number of Scenes : 2</pre>
+<pre>	Scene Details : </pre>
+<pre>		Scene #1</pre>
+<pre>			Name : Office_light.unity</pre>
+<pre>			Path : Assets/Scenes/Office_light.unity</pre>
+<pre>			Included GameObjects in the Scene : 949</pre>
+<pre>		Scene #2</pre>
+<pre>			Name : Office_Module.unity</pre>
+<pre>			Path : Assets/Scenes/Office_Module.unity</pre>
+<pre>			Included GameObjects in the Scene : 304</pre>
+<pre><br></pre>
+<strong><pre>Media summary</pre></strong>
+<hr>
+<pre>	Number of AnimationClips : 3</pre>
+<pre>	Number of AudioClips : 0</pre>
+<pre>	Number of AudioMixers : 0</pre>
+<pre>	Number of VideoClips : 0</pre>
+<pre><br></pre>
+<pre><br></pre>
+</html>
