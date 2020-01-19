@@ -1,10 +1,10 @@
 Initiating legacy licensing module
-LICENSE SYSTEM [2020119 17:25:33] Next license update check is after 2020-01-16T02:04:17
+LICENSE SYSTEM [2020119 19:39:33] Next license update check is after 2020-01-16T02:04:17
 
 Built from '2018.4/staging' branch; Version is '2018.4.0f1 (b6ffa8986c8d) revision 11993000'; Using compiler version '191326128'
 OS: 'Windows 10  (10.0.0) 64bit' Language: 'ko' Physical Memory: 32586 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-[Package Manager] Server::Start -- Port 54389 was selected
+[Package Manager] Server::Start -- Port 61738 was selected
 
  COMMAND LINE ARGUMENTS:
 C:/UnityEditor/2018.4.0f1/Editor/Unity.exe
@@ -15,12 +15,12 @@ E:/p4/WorldUrbanBiomes/Residential/
 -executeMethod
 ASBuildScript.RunBuild
 -logfile
-e:/build/ArtsUnited/Residential/4135/BuildLog.txt
+e:/build/ArtsUnited/Residential/4138/BuildLog.txt
 Successfully changed project path to: E:/p4/WorldUrbanBiomes/Residential/
 E:/p4/WorldUrbanBiomes/Residential
 Using Asset Import Pipeline V1.
 Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000060 seconds
-Loading Asset Database...0.017331 seconds
+Loading Asset Database...0.017874 seconds
 Build target: OSXUniversal found and added!
 Build target: WindowsStoreApps found and added!
 Build target: Win64 found and added!
@@ -49,8 +49,8 @@ Build target: N3DS found and added!
 Build target: WP8 found and added!
 Build target: SamsungTV found and added!
 Build target: Tizen found and added!
-AssetDatabase consistency checks...0.017445 seconds
-Refreshing native plugins compatible for Editor in 10.85 ms, found 3 plugins.
+AssetDatabase consistency checks...0.016638 seconds
+Refreshing native plugins compatible for Editor in 9.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Unity Package Manager
 [Package Manager] Done resolving packages in 0.13s seconds
@@ -161,44 +161,44 @@ Initialize mono
 Mono path[0] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
 Begin MonoManager ReloadAssembly
-Refreshing native plugins compatible for Editor in 0.51 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 4 plugins.
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering precompiled unity dll's ...
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001780 seconds.
+Registered in 0.001828 seconds.
 Registering platform support modules:
-Registered platform support modules in: 0.0671466s.
+Registered platform support modules in: 0.0596661s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.88 ms.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.90 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.619 seconds
+- Completed reload, in  1.606 seconds
 Registering precompiled user dll's ...
-Registered in 0.052181 seconds.
+Registered in 0.053770 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering platform support modules:
-Registered platform support modules in: 0.038215s.
+Registered platform support modules in: 0.035514s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.048 seconds
+- Completed reload, in  1.018 seconds
 Platform modules already initialized, skipping
-Validating Project structure ... 0.007766 seconds.
+Validating Project structure ... 0.008269 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.029520s
-	Asset Scan time: 0.028343s
+Refresh Completed time: 0.029728s
+	Asset Scan time: 0.028665s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -213,7 +213,7 @@ WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
-Warming cache for 3369 main assets: 0.007315 seconds elapsed
+Warming cache for 3371 main assets: 0.006223 seconds elapsed
 Initializing Unity extensions:
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
@@ -235,24 +235,24 @@ Initializing Unity extensions:
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
-Unloading 1540 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.5 MB.
-System memory in use after: 172.1 MB.
+Unloading 1542 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.8 MB.
+System memory in use after: 172.3 MB.
 
-Unloading 358 unused Assets to reduce memory usage. Loaded Objects now: 2025.
-Total: 3.547400 ms (FindLiveObjects: 0.523300 ms CreateObjectMapping: 0.107400 ms MarkObjects: 1.924900 ms  DeleteObjects: 0.990900 ms)
+Unloading 360 unused Assets to reduce memory usage. Loaded Objects now: 2025.
+Total: 3.048200 ms (FindLiveObjects: 0.415500 ms CreateObjectMapping: 0.070000 ms MarkObjects: 1.621900 ms  DeleteObjects: 0.940300 ms)
 
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
-Script Compilation Pipeline Post Process Assets time: 0.000375s
-Assembly Updater Post Process Assets time: 0.000039s
+Script Compilation Pipeline Post Process Assets time: 0.000415s
+Assembly Updater Post Process Assets time: 0.000051s
 Updating ProjectSettings/UnityConnectSettings.asset - GUID: 0000000000000000a100000000000000...
- done. [Time: 72.727900 ms] 
-Script Compilation Pipeline Post Process Assets time: 0.000012s
-Assembly Updater Post Process Assets time: 0.000037s
-Refreshing native plugins compatible for Editor in 0.50 ms, found 4 plugins.
+ done. [Time: 65.617600 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000009s
+Assembly Updater Post Process Assets time: 0.000032s
+Refreshing native plugins compatible for Editor in 0.44 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.10 ms.
 BuildPlayer: start building target 19
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
@@ -265,13 +265,8 @@ BuildPlayer: start building target 19
 - Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
 Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
 Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 25 milliseconds
+Pass: 0 took 26 milliseconds
 Pass: 1 took 1 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Timeline.dll
-Symbols will be read from Temp\Unity.Timeline.pdb
-Script Module: Unity.Timeline.dll
-Pass: 0 took 0 milliseconds
-Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
 Script Module: Unity.Postprocessing.Runtime.dll
@@ -280,12 +275,17 @@ Pass: 1 took 2 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
 Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 18 milliseconds
+Pass: 0 took 13 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Timeline.dll
+Symbols will be read from Temp\Unity.Timeline.pdb
+Script Module: Unity.Timeline.dll
+Pass: 0 took 0 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Formats.Fbx.Runtime.dll
 Symbols will be read from Temp\Unity.Formats.Fbx.Runtime.pdb
 Script Module: Unity.Formats.Fbx.Runtime.dll
-Pass: 0 took 12 milliseconds
+Pass: 0 took 17 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
@@ -297,38 +297,38 @@ Pass: 1 took 0 milliseconds
 Symbols will be read from Temp\Unity.TextMeshPro.pdb
 Script Module: Unity.TextMeshPro.dll
 Pass: 0 took 34 milliseconds
-Pass: 1 took 6 milliseconds
+Pass: 1 took 9 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
 Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
-Pass: 0 took 41 milliseconds
-Pass: 1 took 5 milliseconds
+Pass: 0 took 45 milliseconds
+Pass: 1 took 13 milliseconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
 Symbols will be read from Temp\Assembly-CSharp.pdb
 Script Module: Assembly-CSharp.dll
-Pass: 0 took 13 milliseconds
+Pass: 0 took 19 milliseconds
 Pass: 1 took 0 milliseconds
 DisplayProgressbar: Building Player
 Opening scene 'Assets/Scenes/Lighting.unity'
-Load scene 'Assets/Scenes/Lighting.unity' time: 0.009500 ms 
+Load scene 'Assets/Scenes/Lighting.unity' time: 0.011000 ms 
 Unloading 201 Unused Serialized files (Serialized files now loaded: 0)
 WARNING: Shader Unsupported: 'Hidden/PostProcessing/Uber' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/PostProcessing/Uber' - Pass '' has no vertex shader
-System memory in use before: 190.6 MB.
-System memory in use after: 190.5 MB.
+System memory in use before: 190.8 MB.
+System memory in use after: 190.6 MB.
 
 Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 2504.
-Total: 8.647800 ms (FindLiveObjects: 0.377800 ms CreateObjectMapping: 0.070700 ms MarkObjects: 8.002200 ms  DeleteObjects: 0.196000 ms)
+Total: 10.730700 ms (FindLiveObjects: 0.431000 ms CreateObjectMapping: 0.086100 ms MarkObjects: 9.811900 ms  DeleteObjects: 0.400500 ms)
 
 Opening scene 'Assets/Scenes/SampleScene.unity'
-Load scene 'Assets/Scenes/SampleScene.unity' time: 0.008600 ms 
+Load scene 'Assets/Scenes/SampleScene.unity' time: 0.009500 ms 
 Unloading 69 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 479.8 MB.
-System memory in use after: 471.9 MB.
+System memory in use before: 480.0 MB.
+System memory in use after: 472.9 MB.
 
-Unloading 625 unused Assets to reduce memory usage. Loaded Objects now: 41636.
-Total: 19.672800 ms (FindLiveObjects: 2.375300 ms CreateObjectMapping: 0.703300 ms MarkObjects: 15.327400 ms  DeleteObjects: 1.266000 ms)
+Unloading 625 unused Assets to reduce memory usage. Loaded Objects now: 41826.
+Total: 26.086200 ms (FindLiveObjects: 2.468300 ms CreateObjectMapping: 0.870900 ms MarkObjects: 21.321200 ms  DeleteObjects: 1.425100 ms)
 
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
@@ -343,7 +343,7 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 second
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Script attached to 'Fence_Grid_01_LOD01' in scene 'Assets/Scenes/SampleScene.unity' is missing or no valid script is attached.
@@ -985,50 +985,6 @@ ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
 (Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
 
 Script attached to 'Stone_Steps_LOD01' in scene 'Assets/Scenes/SampleScene.unity' is missing or no valid script is attached.
-UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
-UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
-UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
-UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
-UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
-ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
-
-[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
-(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
-
-Script attached to 'Windows_02_Frame_02_LOD01' in scene 'Assets/Scenes/SampleScene.unity' is missing or no valid script is attached.
-UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
-UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
-UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
-UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
-UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
-ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
-
-[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
-(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
-
-Script attached to 'Windows_02_Frame_02_LOD01' in scene 'Assets/Scenes/SampleScene.unity' is missing or no valid script is attached.
-UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
-UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
-UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
-UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
-UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
-ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
-
-[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
-(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
-
-Script attached to 'Windows_02_Frame_02_LOD01' in scene 'Assets/Scenes/SampleScene.unity' is missing or no valid script is attached.
-UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
-UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
-UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
-UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
-UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
-ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
-
-[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
-(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
-
-Script attached to 'Windows_02_Frame_02_LOD01' in scene 'Assets/Scenes/SampleScene.unity' is missing or no valid script is attached.
 UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
 UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
 UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
@@ -2206,50 +2162,6 @@ ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
 (Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
 
 Script attached to 'Bar_Sunshade_01_LOD01' in scene 'Assets/Scenes/SampleScene.unity' is missing or no valid script is attached.
-UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
-UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
-UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
-UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
-UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
-ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
-
-[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
-(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
-
-Script attached to 'Windows_02_LOD01' in scene 'Assets/Scenes/SampleScene.unity' is missing or no valid script is attached.
-UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
-UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
-UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
-UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
-UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
-ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
-
-[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
-(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
-
-Script attached to 'Windows_02_LOD01' in scene 'Assets/Scenes/SampleScene.unity' is missing or no valid script is attached.
-UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
-UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
-UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
-UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
-UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
-ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
-
-[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
-(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
-
-Script attached to 'Windows_02_LOD01' in scene 'Assets/Scenes/SampleScene.unity' is missing or no valid script is attached.
-UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
-UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
-UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
-UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
-UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
-ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
-
-[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
-(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
-
-Script attached to 'Windows_02_LOD01' in scene 'Assets/Scenes/SampleScene.unity' is missing or no valid script is attached.
 UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
 UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
 UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
@@ -5473,6 +5385,105 @@ ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
 (Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
 
 Script attached to 'Bar_Sunshade_01_LOD03' in scene 'Assets/Scenes/SampleScene.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Windows_04_LOD01' in scene 'Assets/Scenes/SampleScene.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Windows_04_LOD01' in scene 'Assets/Scenes/SampleScene.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Windows_04_LOD01' in scene 'Assets/Scenes/SampleScene.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Windows_04_LOD01' in scene 'Assets/Scenes/SampleScene.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Windows_04_LOD01' in scene 'Assets/Scenes/SampleScene.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Windows_04_LOD01' in scene 'Assets/Scenes/SampleScene.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Windows_04_LOD01' in scene 'Assets/Scenes/SampleScene.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Windows_04_LOD01' in scene 'Assets/Scenes/SampleScene.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Windows_04_LOD01' in scene 'Assets/Scenes/SampleScene.unity' is missing or no valid script is attached.
 UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
 UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
 UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
@@ -9774,15 +9785,15 @@ ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
 (Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
 
 Opening scene 'Assets/Scenes/Test_Range.unity'
-Load scene 'Assets/Scenes/Test_Range.unity' time: 0.016200 ms 
-WARNING: Shader Unsupported: 'Hidden/PostProcessing/Uber' - Pass '' has no vertex shader
-WARNING: Shader Unsupported: 'Hidden/PostProcessing/Uber' - Pass '' has no vertex shader
+Load scene 'Assets/Scenes/Test_Range.unity' time: 0.015400 ms 
 Unloading 825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 425.4 MB.
+WARNING: Shader Unsupported: 'Hidden/PostProcessing/Uber' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/PostProcessing/Uber' - Pass '' has no vertex shader
+System memory in use before: 425.5 MB.
 System memory in use after: 423.3 MB.
 
-Unloading 360 unused Assets to reduce memory usage. Loaded Objects now: 7719.
-Total: 9.926500 ms (FindLiveObjects: 0.638000 ms CreateObjectMapping: 0.223300 ms MarkObjects: 8.276200 ms  DeleteObjects: 0.788200 ms)
+Unloading 360 unused Assets to reduce memory usage. Loaded Objects now: 7753.
+Total: 10.705200 ms (FindLiveObjects: 0.604500 ms CreateObjectMapping: 0.207300 ms MarkObjects: 9.118800 ms  DeleteObjects: 0.774200 ms)
 
 Script attached to 'Fence_Grid_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
 UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
@@ -9883,17 +9894,6 @@ ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
 [C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
 (Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
 
-Script attached to 'Windows_02_Frame_02_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
-UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
-UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
-UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
-UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
-UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
-ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
-
-[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
-(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
-
 Script attached to 'Roof_4X4_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
 UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
 UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
@@ -9972,17 +9972,6 @@ ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
 (Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
 
 Script attached to 'Bar_Sunshade_01_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
-UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
-UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
-UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
-UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
-UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
-ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
-
-[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
-(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
-
-Script attached to 'Windows_02_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
 UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
 UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
 UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
@@ -10467,6 +10456,17 @@ ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
 (Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
 
 Script attached to 'Bar_Sunshade_01_LOD03' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Runtime/Mono/ManagedMonoBehaviourRef.cpp line 141] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script attached to 'Windows_04_LOD01' in scene 'Assets/Scenes/Test_Range.unity' is missing or no valid script is attached.
 UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
 UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
 UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
@@ -11200,37 +11200,37 @@ Dependency assembly - Unity.TextMeshPro.dll
 Dependency assembly - Unity.Timeline.dll
 
 Unloading 273 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 220.1 MB.
-System memory in use after: 176.3 MB.
+System memory in use before: 220.2 MB.
+System memory in use after: 176.2 MB.
 
-Unloading 3083 unused Assets to reduce memory usage. Loaded Objects now: 2117.
-Total: 14.170500 ms (FindLiveObjects: 0.482000 ms CreateObjectMapping: 0.156800 ms MarkObjects: 7.147600 ms  DeleteObjects: 6.383600 ms)
+Unloading 3100 unused Assets to reduce memory usage. Loaded Objects now: 2117.
+Total: 14.442100 ms (FindLiveObjects: 0.417400 ms CreateObjectMapping: 0.089100 ms MarkObjects: 7.509200 ms  DeleteObjects: 6.425500 ms)
 
 [EnlightenBakeManager] m_Clear = false;
 Setting up 8 worker threads for Enlighten.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-  Thread -> id: 5d4c -> priority: 1 
-  Thread -> id: 3514 -> priority: 1 
-  Thread -> id: eb4 -> priority: 1 
-  Thread -> id: 7b48 -> priority: 1 
-  Thread -> id: 95c8 -> priority: 1 
-  Thread -> id: 87d8 -> priority: 1 
-  Thread -> id: 9788 -> priority: 1 
-  Thread -> id: 7a4c -> priority: 1 
+  Thread -> id: 7714 -> priority: 1 
+  Thread -> id: 5de0 -> priority: 1 
+  Thread -> id: 8b38 -> priority: 1 
+  Thread -> id: 829c -> priority: 1 
+  Thread -> id: 87f4 -> priority: 1 
+  Thread -> id: 13b8 -> priority: 1 
+  Thread -> id: 8b94 -> priority: 1 
+  Thread -> id: 5eb8 -> priority: 1 
 System memory in use before: 167.3 MB.
-System memory in use after: 167.4 MB.
+System memory in use after: 167.5 MB.
 
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2130.
-Total: 7.698200 ms (FindLiveObjects: 0.307100 ms CreateObjectMapping: 0.043100 ms MarkObjects: 7.343000 ms  DeleteObjects: 0.004400 ms)
+Total: 8.172700 ms (FindLiveObjects: 0.325300 ms CreateObjectMapping: 0.047300 ms MarkObjects: 7.790800 ms  DeleteObjects: 0.008100 ms)
 
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 168.7 MB.
-System memory in use after: 167.5 MB.
+System memory in use after: 167.6 MB.
 
 Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 2117.
-Total: 8.262800 ms (FindLiveObjects: 0.353100 ms CreateObjectMapping: 0.057100 ms MarkObjects: 7.037500 ms  DeleteObjects: 0.814200 ms)
+Total: 8.037300 ms (FindLiveObjects: 0.257600 ms CreateObjectMapping: 0.035400 ms MarkObjects: 6.859700 ms  DeleteObjects: 0.884000 ms)
 
 DisplayProgressbar: Compiling shader variants
 Compressed shader 'HDRP/Lit' on d3d11 from 28.24MB to 6.86MB
@@ -11246,16 +11246,16 @@ DisplayProgressbar: Building Player
 Compressed shader 'HDRP/LayeredLit' on d3d11 from 3.90MB to 0.92MB
 Unloading 679 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 228.3 MB.
-System memory in use after: 226.3 MB.
+System memory in use after: 226.4 MB.
 
 Unloading 719 unused Assets to reduce memory usage. Loaded Objects now: 2131.
-Total: 8.697400 ms (FindLiveObjects: 0.367700 ms CreateObjectMapping: 0.059800 ms MarkObjects: 6.254100 ms  DeleteObjects: 2.015100 ms)
+Total: 9.185900 ms (FindLiveObjects: 0.366300 ms CreateObjectMapping: 0.061100 ms MarkObjects: 6.655300 ms  DeleteObjects: 2.102400 ms)
 
 
 -------------------------------------------------------------------------------
 Build Report
 Uncompressed usage by category (Percentages based on user generated assets only):
-Textures               1031.4 mb	 90.8% 
+Textures               1031.4 mb	 90.7% 
 Meshes                 27.2 mb	 2.4% 
 Animations             0.0 kb	 0.0% 
 Sounds                 0.0 kb	 0.0% 
@@ -11264,9 +11264,9 @@ Other Assets           5.8 mb	 0.5%
 Levels                 7.6 mb	 0.7% 
 Scripts                2.5 mb	 0.2% 
 Included DLLs          13.2 mb	 1.2% 
-File headers           34.7 mb	 3.1% 
-Total User Assets      1136.3 mb	 100.0% 
-Complete build size    1173.0 mb
+File headers           35.0 mb	 3.1% 
+Total User Assets      1136.7 mb	 100.0% 
+Complete build size    1173.3 mb
 Used Assets and files from the Resources folder, sorted by uncompressed size:
  21.3 mb	 1.8% Assets/Art/Textures/Props/Decal/Decal_Road_01_MaskMap_Snaps015.tga
  21.3 mb	 1.8% Assets/Art/Textures/Props/Decal/Decal_Road_01_Albedo_Snaps015.tga
@@ -12354,16 +12354,16 @@ System memory in use before: 168.6 MB.
 System memory in use after: 168.4 MB.
 
 Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2139.
-Total: 8.928800 ms (FindLiveObjects: 0.317100 ms CreateObjectMapping: 0.043500 ms MarkObjects: 8.304300 ms  DeleteObjects: 0.263600 ms)
+Total: 7.858200 ms (FindLiveObjects: 0.306300 ms CreateObjectMapping: 0.045700 ms MarkObjects: 7.261800 ms  DeleteObjects: 0.244200 ms)
 
 DisplayProgressNotification: Build Successful
-Load scene 'Temp/__Backupscenes/0.backup' time: 0.022500 ms 
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.024900 ms 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 167.7 MB.
 System memory in use after: 167.8 MB.
 
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2131.
-Total: 7.949300 ms (FindLiveObjects: 0.329900 ms CreateObjectMapping: 0.049000 ms MarkObjects: 7.561800 ms  DeleteObjects: 0.007400 ms)
+Total: 6.659300 ms (FindLiveObjects: 0.328100 ms CreateObjectMapping: 0.049100 ms MarkObjects: 6.277800 ms  DeleteObjects: 0.003600 ms)
 
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
@@ -12376,11 +12376,6 @@ Total: 7.949300 ms (FindLiveObjects: 0.329900 ms CreateObjectMapping: 0.049000 m
 - Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
 - Starting compile Library/ScriptAssemblies/Autodesk.Fbx.dll
 - Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
-Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
-Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 60 milliseconds
-Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Timeline.dll
 Symbols will be read from Temp\Unity.Timeline.pdb
 Script Module: Unity.Timeline.dll
@@ -12395,33 +12390,38 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
 Script Module: Unity.Postprocessing.Runtime.dll
-Pass: 0 took 19 milliseconds
+Pass: 0 took 21 milliseconds
 Pass: 1 took 2 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbols will be read from Temp\Unity.TextMeshPro.pdb
-Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 46 milliseconds
-Pass: 1 took 5 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
 Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 14 milliseconds
+Pass: 0 took 18 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 20 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Formats.Fbx.Runtime.dll
 Symbols will be read from Temp\Unity.Formats.Fbx.Runtime.pdb
 Script Module: Unity.Formats.Fbx.Runtime.dll
-Pass: 0 took 12 milliseconds
+Pass: 0 took 16 milliseconds
 Pass: 1 took 0 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 57 milliseconds
+Pass: 1 took 5 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
 - Finished compile Library/ScriptAssemblies/Autodesk.Fbx.dll
 - Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
-- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.Formats.Fbx.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
@@ -12429,15 +12429,15 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
 Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
-Pass: 0 took 56 milliseconds
-Pass: 1 took 5 milliseconds
+Pass: 0 took 49 milliseconds
+Pass: 1 took 6 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
 Symbols will be read from Temp\Assembly-CSharp.pdb
 Script Module: Assembly-CSharp.dll
-Pass: 0 took 13 milliseconds
+Pass: 0 took 12 milliseconds
 Pass: 1 took 0 milliseconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
@@ -12458,12 +12458,12 @@ Assets\Editor\replace.cs(54,54): warning CS0618: 'PrefabType' is obsolete: 'Pref
 (Filename: Assets\Editor\replace.cs Line: 54)
 
 Batchmode quit successfully invoked - shutting down!
-[Performance] CurlRequestCheck                        :       14 samples, Peak.  22.3 us (2.5x), Avg.  9.04 us, Total. 126.6 us (0.0%)
-[Performance] PackageManager::RunRequestSynchronously :        3 samples, Peak.  28.7 us (2.2x), Avg.  12.8 us, Total. 38.30 us (0.0%)
+[Performance] CurlRequestCheck                        :       14 samples, Peak.  21.9 us (2.3x), Avg.  9.35 us, Total. 130.9 us (0.0%)
+[Performance] PackageManager::RunRequestSynchronously :        3 samples, Peak.  28.3 us (2.2x), Avg.  12.8 us, Total. 38.30 us (0.0%)
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.032981s
-	Asset Scan time: 0.031793s
+Refresh Completed time: 0.031661s
+	Asset Scan time: 0.030416s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -12474,8 +12474,8 @@ Refresh Completed time: 0.032981s
 
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.027618s
-	Asset Scan time: 0.026618s
+Refresh Completed time: 0.029525s
+	Asset Scan time: 0.028498s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
