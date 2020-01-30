@@ -1,10 +1,10 @@
 Initiating legacy licensing module
-LICENSE SYSTEM [2020128 19:28:46] Next license update check is after 2020-01-22T03:48:16
+LICENSE SYSTEM [2020130 13:35:38] Next license update check is after 2020-01-22T03:48:16
 
 Built from '2018.4/staging' branch; Version is '2018.4.0f1 (b6ffa8986c8d) revision 11993000'; Using compiler version '191326128'
 OS: 'Windows 10  (10.0.0) 64bit' Language: 'ko' Physical Memory: 32586 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-[Package Manager] Server::Start -- Port 49422 was selected
+[Package Manager] Server::Start -- Port 64701 was selected
 
  COMMAND LINE ARGUMENTS:
 C:/UnityEditor/2018.4.0f1/Editor/Unity.exe
@@ -15,12 +15,12 @@ E:/p4/WorldUrbanBiomes/Carpark/Carpark/
 -executeMethod
 ASBuildScript.RunBuild
 -logfile
-e:/build/LemonSky/Carpark/4312/BuildLog.txt
+e:/build/LemonSky/Carpark/4361/BuildLog.txt
 Successfully changed project path to: E:/p4/WorldUrbanBiomes/Carpark/Carpark/
 E:/p4/WorldUrbanBiomes/Carpark/Carpark
 Using Asset Import Pipeline V1.
-Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000058 seconds
-Loading Asset Database...0.021309 seconds
+Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000061 seconds
+Loading Asset Database...0.021556 seconds
 Build target: OSXUniversal found and added!
 Build target: WindowsStoreApps found and added!
 Build target: Win64 found and added!
@@ -49,8 +49,8 @@ Build target: N3DS found and added!
 Build target: WP8 found and added!
 Build target: SamsungTV found and added!
 Build target: Tizen found and added!
-AssetDatabase consistency checks...0.023477 seconds
-Refreshing native plugins compatible for Editor in 8.59 ms, found 3 plugins.
+AssetDatabase consistency checks...0.023333 seconds
+Refreshing native plugins compatible for Editor in 8.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Unity Package Manager
 [Package Manager] Done resolving packages in 0.19s seconds
@@ -167,7 +167,7 @@ Initialize mono
 Mono path[0] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
 Begin MonoManager ReloadAssembly
 Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
@@ -175,36 +175,36 @@ Registering precompiled unity dll's ...
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001817 seconds.
+Registered in 0.001739 seconds.
 Registering platform support modules:
-Registered platform support modules in: 0.0592448s.
+Registered platform support modules in: 0.0656427s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.58 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 1.04 ms.
+Preloading 1 native plugins for Editor in 0.87 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.560 seconds
+- Completed reload, in  1.638 seconds
 Registering precompiled user dll's ...
-Registered in 0.058293 seconds.
+Registered in 0.057135 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering platform support modules:
-Registered platform support modules in: 0.0336842s.
+Registered platform support modules in: 0.0361108s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.025 seconds
+- Completed reload, in  1.092 seconds
 Platform modules already initialized, skipping
-Validating Project structure ... 0.006134 seconds.
+Validating Project structure ... 0.006839 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.036051s
-	Asset Scan time: 0.034831s
+Refresh Completed time: 0.035267s
+	Asset Scan time: 0.034006s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -219,7 +219,7 @@ WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
-Warming cache for 5063 main assets: 0.011140 seconds elapsed
+Warming cache for 5064 main assets: 0.011284 seconds elapsed
 Initializing Unity extensions:
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
@@ -246,20 +246,20 @@ System memory in use before: 190.2 MB.
 System memory in use after: 188.7 MB.
 
 Unloading 418 unused Assets to reduce memory usage. Loaded Objects now: 2468.
-Total: 3.145400 ms (FindLiveObjects: 0.259500 ms CreateObjectMapping: 0.058800 ms MarkObjects: 1.787100 ms  DeleteObjects: 1.039600 ms)
+Total: 3.493000 ms (FindLiveObjects: 0.343500 ms CreateObjectMapping: 0.076200 ms MarkObjects: 1.953500 ms  DeleteObjects: 1.119500 ms)
 
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
-Script Compilation Pipeline Post Process Assets time: 0.000480s
-Assembly Updater Post Process Assets time: 0.000056s
+Script Compilation Pipeline Post Process Assets time: 0.000356s
+Assembly Updater Post Process Assets time: 0.000037s
 Updating ProjectSettings/UnityConnectSettings.asset - GUID: 0000000000000000a100000000000000...
- done. [Time: 73.460000 ms] 
-Script Compilation Pipeline Post Process Assets time: 0.000008s
-Assembly Updater Post Process Assets time: 0.000033s
+ done. [Time: 74.457900 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000009s
+Assembly Updater Post Process Assets time: 0.000032s
 Refreshing native plugins compatible for Editor in 0.39 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Preloading 1 native plugins for Editor in 0.12 ms.
 BuildPlayer: start building target 19
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
@@ -272,30 +272,30 @@ BuildPlayer: start building target 19
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.Stl.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProGrids.dll
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+- Finished compile Library/ScriptAssemblies/Unity.Polybrush.dll
+Symbols will be read from Temp\Unity.Polybrush.pdb
+Script Module: Unity.Polybrush.dll
+Pass: 0 took 18 milliseconds
+Pass: 1 took 2 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
 Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 17 milliseconds
-Pass: 1 took 3 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
-Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
-Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 20 milliseconds
+Pass: 0 took 13 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
 Script Module: Unity.Postprocessing.Runtime.dll
 Pass: 0 took 13 milliseconds
 Pass: 1 took 1 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Polybrush.dll
-Symbols will be read from Temp\Unity.Polybrush.pdb
-Script Module: Unity.Polybrush.dll
-Pass: 0 took 12 milliseconds
-Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
 Symbols will be read from Temp\Unity.ProBuilder.Poly2Tri.pdb
 Script Module: Unity.ProBuilder.Poly2Tri.dll
 Pass: 0 took 0 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 19 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll
 Symbols will be read from Temp\Unity.ProBuilder.KdTree.pdb
@@ -315,7 +315,7 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProGrids.dll
 Symbols will be read from Temp\Unity.ProGrids.pdb
 Script Module: Unity.ProGrids.dll
-Pass: 0 took 18 milliseconds
+Pass: 0 took 16 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
@@ -328,8 +328,8 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbols will be read from Temp\Unity.TextMeshPro.pdb
 Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 59 milliseconds
-Pass: 1 took 11 milliseconds
+Pass: 0 took 44 milliseconds
+Pass: 1 took 5 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Recorder.dll
 Symbols will be read from Temp\Unity.Recorder.pdb
 Script Module: Unity.Recorder.dll
@@ -343,8 +343,8 @@ Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
 Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
-Pass: 0 took 46 milliseconds
-Pass: 1 took 5 milliseconds
+Pass: 0 took 44 milliseconds
+Pass: 1 took 8 milliseconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
 Symbols will be read from Temp\Assembly-CSharp.pdb
@@ -352,40 +352,230 @@ Script Module: Assembly-CSharp.dll
 Pass: 0 took 12 milliseconds
 Pass: 1 took 0 milliseconds
 DisplayProgressbar: Building Player
+Opening scene 'Assets/Scenes/AdditionalSubLevel.unity'
+Load scene 'Assets/Scenes/AdditionalSubLevel.unity' time: 0.011200 ms 
+Unloading 272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.5 MB.
+System memory in use after: 162.0 MB.
+
+Unloading 993 unused Assets to reduce memory usage. Loaded Objects now: 2917.
+Total: 8.537800 ms (FindLiveObjects: 0.451900 ms CreateObjectMapping: 0.143400 ms MarkObjects: 6.870100 ms  DeleteObjects: 1.071800 ms)
+
+Created GICache directory at C:/Users/tom.kim/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.025s, timestamps: [11.380 - 11.405]
+[00:00:00] Enlighten: Precompute started.
+[00:00:00] Enlighten: Finished 1 Create Geometry job (0.11s execute, 0.00s integrate, 0.11s wallclock)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+[PathTracer] Issuing atlassing job. Atlas hash: bc06a9703e5ae257241f86e6e5e9cb62, width: 1024, height: 1024
+[00:00:01] Enlighten: Finished 1 Layout Systems job (0.00s execute, 0.00s integrate, 0.01s wallclock)
+[PathTracer] Integrated atlassing. Atlas hash: bc06a9703e5ae257241f86e6e5e9cb62 -> Atlas count: 0 -> Instance count: 0 -> Estimated texel count: 0.000M.
+[PathTracer][LP] Issuing deduplication and tetrahedralization job. Combined: 80257199cfa681a16be5e09b3c2208f4, tetrahedralized probes: 00000000000000000000000000000000, non-tetrahedralized probes: 00000000000000000000000000000000, dependencies: 00000000000000000000000000000000
+[00:00:01] Enlighten: Finished 1 Create System job (0.02s execute, 0.00s integrate, 0.02s wallclock)
+[PathTracer][LP] Integrating deduplicated and tetrahedralized probes for hash 80257199cfa681a16be5e09b3c2208f4.
+[00:00:01] Enlighten: Finished 1 Create SystemAtlas job (0.00s execute, 0.00s integrate, 0.01s wallclock)
+[PathTracer] Common reset.
+[PathTracer] Lightmap reset.
+[PathTracer][LP] Light probes reset.
+[PathTracer][CB] Custom bakes reset.
+[PathTracer] building lightmap data asset.
+[PathTracer] m_Clear = false;
+gi::BakeBackendSwitch: Clear() active clients.
+[EnlightenBakeManager] m_Clear = false;
+[PathTracer] building lightmap data asset.
+[PathTracer] m_Clear = false;
+gi::BakeBackendSwitch: switching bake backend from 3 to 1.
+[00:00:01] Enlighten: Finished 1 Clustering job (0.14s execute, 0.00s integrate, 0.15s wallclock)
+[00:00:01] Enlighten: Finished 1 Visibility job (0.08s execute, 0.00s integrate, 0.09s wallclock)
+[PathTracer] Issuing atlassing job. Atlas hash: bc167c6fbb4d290c883153787a38e1d6, width: 1024, height: 1024
+[PathTracer] Integrated atlassing. Atlas hash: bc167c6fbb4d290c883153787a38e1d6 -> Atlas count: 1 -> Instance count: 10 -> Estimated texel count: 0.001M.
+[PathTracer] Updated environment lighting, hash c27f32d12c01cefa1732d872b0740b26.
+[PathTracer] Added a GBuffer with hash: 3c83e4d41c26fead0ac66b49d7c1ddb0, width: 64, height: 64, supersampling multiplier: 2
+[PathTracer] GBuffer: added: 1, removed: 0 jobs
+[PathTracer] Lightmap: added: 1, removed: 0 jobs
+[PathTracer] Added lightmap with hash: 8950092588f0c7151638158c8b8427e9, atlas hash: 881f573a3842671cc75882aba5ff147f, atlas instance offset: 0, gbuffer: 3c83e4d41c26fead0ac66b49d7c1ddb0, bake mode: directional
+[PathTracer] Rendered albedo/emissive for material hash: 2d8ba581be0bce00226ca0d684c2c672, size: 2x2.
+[PathTracer] Rendered albedo/emissive for material hash: 3ffc2be6b79e8e1fe4c4049ba544abf3, size: 29x23.
+[PathTracer] Rendered albedo/emissive for material hash: e6233e0613b1362e4cb313cb63682505, size: 14x11.
+[PathTracer] Rendered albedo/emissive for material hash: e7f4df806923c7aa9cad4e1162aa5084, size: 7x5.
+[PathTracer] Rendered albedo/emissive for material hash: 761fb041b6b393d53e1925e9550e31e7, size: 3x2.
+[00:00:01] Enlighten: Finished 1 Light Transport job (0.21s execute, 0.00s integrate, 0.21s wallclock)
+[00:00:01] Enlighten: Finished 1 Tetrahedralize Probes job (0.00s execute, 0.00s integrate, 0.01s wallclock)
+[00:00:01] Enlighten: Precompute took 1.465000 seconds.
+Enlighten scene contents:   1 geometries.   2 instances.   1 systems.   0 probe groups.   0 cube maps. Scene is up-to-date.
+[00:00:01] Enlighten: Bake started.
+[PathTracer] Material added to context. Hash: 2d8ba581be0bce00226ca0d684c2c672.
+[PathTracer] Material added to context. Hash: 3ffc2be6b79e8e1fe4c4049ba544abf3.
+[PathTracer] Material added to context. Hash: e6233e0613b1362e4cb313cb63682505.
+[PathTracer] Material added to context. Hash: e7f4df806923c7aa9cad4e1162aa5084.
+[PathTracer] Material added to context. Hash: 761fb041b6b393d53e1925e9550e31e7.
+[PathTracer] Material bound to instance. Material hash: 3ffc2be6b79e8e1fe4c4049ba544abf3 bound to object ID hash: 8a410344dd667285957d2223fa662b21.
+[PathTracer] Material bound to instance. Material hash: 2d8ba581be0bce00226ca0d684c2c672 bound to object ID hash: fe762579411aed65dfc90a513e0c1fec.
+[PathTracer] Material bound to instance. Material hash: e7f4df806923c7aa9cad4e1162aa5084 bound to object ID hash: 5d84e3921f41cadd1f238beb2bb712e3.
+[PathTracer] Material bound to instance. Material hash: 3ffc2be6b79e8e1fe4c4049ba544abf3 bound to object ID hash: d43b3a33b403f539a06d12527235aa04.
+[PathTracer] Material bound to instance. Material hash: e6233e0613b1362e4cb313cb63682505 bound to object ID hash: 72ec3b19772bd30117c0baebca10bcdc.
+[PathTracer] Material bound to instance. Material hash: e7f4df806923c7aa9cad4e1162aa5084 bound to object ID hash: 6a41fb46e1d91cf488b4b2b1b156f4d4.
+[PathTracer] Material bound to instance. Material hash: 761fb041b6b393d53e1925e9550e31e7 bound to object ID hash: b677e388035ce079f5ccec8f09692068.
+[PathTracer] Material bound to instance. Material hash: 2d8ba581be0bce00226ca0d684c2c672 bound to object ID hash: 572d6385f883e14e13637acf1b39349d.
+[PathTracer] Material bound to instance. Material hash: 761fb041b6b393d53e1925e9550e31e7 bound to object ID hash: 498d936ab958aefa00d84049c18cf39c.
+[PathTracer] Material bound to instance. Material hash: e6233e0613b1362e4cb313cb63682505 bound to object ID hash: 8aa03b1b8761de70bbee0d7a92c09cf5.
+Setting up 8 worker threads for Enlighten.
+  Thread -> id: 17c8 -> priority: 1 
+  Thread -> id: 63c8 -> priority: 1 
+  Thread -> id: 8f0 -> priority: 1 
+  Thread -> id: 3060 -> priority: 1 
+  Thread -> id: 67a4 -> priority: 1 
+  Thread -> id: 660 -> priority: 1 
+  Thread -> id: 5df4 -> priority: 1 
+  Thread -> id: 39b8 -> priority: 1 
+[00:00:01] Enlighten: Finished 1 Bake Runtime job (0.06s execute, 0.00s integrate, 0.07s wallclock)
+[00:00:01] Enlighten: Bake took 0.070819 seconds.
+[PathTracer] Common reset.
+[PathTracer] Lightmap reset.
+[PathTracer][LP] Light probes reset.
+[PathTracer][CB] Custom bakes reset.
+[PathTracer] GBuffer: added: 1, removed: 0 jobs
+[PathTracer] Added a GBuffer with hash: 3c83e4d41c26fead0ac66b49d7c1ddb0, width: 64, height: 64, supersampling multiplier: 2, took 0.02 secs (not cached) -> Timestamps: [12.968 - 12.989]
+[PathTracer]    Texel estimate: 859 -> actual: 1183 -> 27% off
+[PathTracer] Lightmap heavy data: added: 1, removed: 0 jobs
+There are 10 objects in the Scene with overlapping UV's. Please see the details list below or use the 'UV Overlap' visualisation mode in the Scene View or Lightmaps in Lighting Settings for more information.
+
+- StandSign_01a_snaps019_LOD0: 329 texels
+- StandSign_01a_snaps019_LOD0: 313 texels
+- StandSign_01a_snaps019_LOD1: 107 texels
+- StandSign_01a_snaps019_LOD1: 98 texels
+- StandSign_01a_snaps019_LOD2: 47 texels
+- StandSign_01a_snaps019_LOD2: 38 texels
+- StandSign_01a_snaps019_LOD3: 16 texels
+- StandSign_01a_snaps019_LOD4: 11 texels
+- StandSign_01a_snaps019_LOD3: 10 texels
+- StandSign_01a_snaps019_LOD4: 8 texels
+
+Please see this webpage for more information about objects with overlapping UVs:
+https://docs.unity3d.com/Manual/ProgressiveLightmapper-UVOverlap.html
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Editor/Src/GI/Progressive/PVRRuntimeManager.cpp line 1507] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+[PathTracer] Initialized lightmap with hash: 8950092588f0c7151638158c8b8427e9, gbuffer: 3c83e4d41c26fead0ac66b49d7c1ddb0, width: 64, height: 64
+[PathTracer] Issuing a culling job for lightmap 8950092588f0c7151638158c8b8427e9.
+[PathTracer] Issuing a render job for lightmap 8950092588f0c7151638158c8b8427e9, visible texels: 1183, Timestamps: [13.121].
+[PathTracer] Issuing a convergence job for lightmap 8950092588f0c7151638158c8b8427e9.
+[PathTracer] Lightmap convergence 8950092588f0c7151638158c8b8427e9 -> (min/max/avg) Direct (0/0/0), GI (125/125/125), convergedInView: false, converged: false, passHash: 03baa2905b81396e646e8a902807666e, took: 0.000s.
+[PathTracer] Issuing lightmap composite job for a not converged lightmap; index: 0, lightmapCompositeHash: 643288c5b1b3e84cc825c9dc5955c27d, lightmapHash: 8950092588f0c7151638158c8b8427e9, renderPassHash: 03baa2905b81396e646e8a902807666e, compositingHash: a8a3ebe9a801c4022a5d0c3edcfa140e.
+[PathTracer] Issuing a render job for lightmap 8950092588f0c7151638158c8b8427e9, visible texels: 1183, Timestamps: [14.028].
+[PathTracer] Issuing a convergence job for lightmap 8950092588f0c7151638158c8b8427e9.
+[PathTracer] Composited not yet converged lightmap; index: 0, lightmap composite hash: 643288c5b1b3e84cc825c9dc5955c27d, lightmap hash: 8950092588f0c7151638158c8b8427e9, render pass hash: 03baa2905b81396e646e8a902807666e, took 0.001s -> Timestamps: [14.028 - 14.029].
+[PathTracer] Setting pending lightmap data, so that it's used for rendering; hash: ff1ca6c7bd6fdad7b1bf5a8ba59fbb67.
+[PathTracer]     lightmap hash: 8950092588f0c7151638158c8b8427e9, instanceID: -1492.
+[PathTracer] Lightmap convergence 8950092588f0c7151638158c8b8427e9 -> (min/max/avg) Direct (0/0/0), GI (250/250/250), convergedInView: false, converged: false, passHash: a198b4c8be8608cc19ba1e51760fee11, took: 0.000s.
+[PathTracer] Issuing lightmap composite job for a not converged lightmap; index: 0, lightmapCompositeHash: 8cf476f09a587c79d0bed271cb483687, lightmapHash: 8950092588f0c7151638158c8b8427e9, renderPassHash: a198b4c8be8608cc19ba1e51760fee11, compositingHash: a8a3ebe9a801c4022a5d0c3edcfa140e.
+[PathTracer] Issuing a render job for lightmap 8950092588f0c7151638158c8b8427e9, visible texels: 1183, Timestamps: [14.058].
+[PathTracer] Issuing a convergence job for lightmap 8950092588f0c7151638158c8b8427e9.
+[PathTracer] Composited not yet converged lightmap; index: 0, lightmap composite hash: 8cf476f09a587c79d0bed271cb483687, lightmap hash: 8950092588f0c7151638158c8b8427e9, render pass hash: a198b4c8be8608cc19ba1e51760fee11, took 0.001s -> Timestamps: [14.058 - 14.059].
+[PathTracer] Lightmap convergence 8950092588f0c7151638158c8b8427e9 -> (min/max/avg) Direct (0/0/0), GI (375/375/375), convergedInView: false, converged: false, passHash: e154bf8bd4d96b0daa86330a1eb2ee58, took: 0.000s.
+[PathTracer] Issuing lightmap composite job for a not converged lightmap; index: 0, lightmapCompositeHash: 363a77b8ed9a8e3dc82e1ceb18a0ec45, lightmapHash: 8950092588f0c7151638158c8b8427e9, renderPassHash: e154bf8bd4d96b0daa86330a1eb2ee58, compositingHash: a8a3ebe9a801c4022a5d0c3edcfa140e.
+[PathTracer] Issuing a render job for lightmap 8950092588f0c7151638158c8b8427e9, visible texels: 1183, Timestamps: [14.088].
+[PathTracer] Issuing a convergence job for lightmap 8950092588f0c7151638158c8b8427e9.
+[PathTracer] Composited not yet converged lightmap; index: 0, lightmap composite hash: 363a77b8ed9a8e3dc82e1ceb18a0ec45, lightmap hash: 8950092588f0c7151638158c8b8427e9, render pass hash: e154bf8bd4d96b0daa86330a1eb2ee58, took 0.002s -> Timestamps: [14.088 - 14.090].
+[PathTracer] Lightmap convergence 8950092588f0c7151638158c8b8427e9 -> (min/max/avg) Direct (0/0/0), GI (500/500/500), convergedInView: true, converged: true, passHash: 62ff535213ee7bf12597d43d18c9b0c0, took: 0.000s.
+[PathTracer] Issuing lightmap composite job for a converged lightmap; index: 0, lightmapCompositeHash: 8a33842a98bba27dfd767e3f22e3b290, lightmapHash: 8950092588f0c7151638158c8b8427e9, renderPassHash: 62ff535213ee7bf12597d43d18c9b0c0, compositingHash: a8a3ebe9a801c4022a5d0c3edcfa140e.
+[PathTracer] Composited converged lightmap; index: 0, lightmap composite hash: 8a33842a98bba27dfd767e3f22e3b290, lightmap hash: 8950092588f0c7151638158c8b8427e9, render pass hash: 62ff535213ee7bf12597d43d18c9b0c0, took 0.068s -> Timestamps: [14.118 - 14.186].
+[PathTracer] Setting pending lightmap data, so that it's used for rendering; hash: 659a03aa5f6d3ab463cdf49aaa91e95b.
+[PathTracer]     lightmap hash: 8950092588f0c7151638158c8b8427e9, instanceID: -1496.
+[PathTracer] building lightmap data asset.
+[00:00:02] Enlighten: Reflection Probes started.
+[PathTracer] Updated environment lighting, hash 8e7d5d16f07f59c6ad71f49a624ce8ae.
+[PathTracer] Common reset.
+[PathTracer] Lightmap reset.
+[PathTracer][LP] Light probes reset.
+[PathTracer] Setting pending lightmap data, so that it's used for rendering; hash: 659a03aa5f6d3ab463cdf49aaa91e95b.
+[PathTracer]     lightmap hash: 8950092588f0c7151638158c8b8427e9, instanceID: -1496.
+[PathTracer] Issuing a render job for lightmap 8950092588f0c7151638158c8b8427e9, visible texels: 1183, Timestamps: [15.295].
+[PathTracer] Issuing a convergence job for lightmap 8950092588f0c7151638158c8b8427e9.
+[PathTracer] Lightmap convergence 8950092588f0c7151638158c8b8427e9 -> (min/max/avg) Direct (0/0/0), GI (125/125/125), convergedInView: false, converged: false, passHash: 03baa2905b81396e646e8a902807666e, took: 0.000s.
+[PathTracer] Issuing lightmap composite job for a not converged lightmap; index: 0, lightmapCompositeHash: 643288c5b1b3e84cc825c9dc5955c27d, lightmapHash: 8950092588f0c7151638158c8b8427e9, renderPassHash: 03baa2905b81396e646e8a902807666e, compositingHash: a8a3ebe9a801c4022a5d0c3edcfa140e.
+[PathTracer] Issuing a render job for lightmap 8950092588f0c7151638158c8b8427e9, visible texels: 1183, Timestamps: [15.325].
+[PathTracer] Issuing a convergence job for lightmap 8950092588f0c7151638158c8b8427e9.
+[PathTracer] Composited not yet converged lightmap; index: 0, lightmap composite hash: 643288c5b1b3e84cc825c9dc5955c27d, lightmap hash: 8950092588f0c7151638158c8b8427e9, render pass hash: 03baa2905b81396e646e8a902807666e, took 0.001s -> Timestamps: [15.325 - 15.326].
+[PathTracer] Lightmap convergence 8950092588f0c7151638158c8b8427e9 -> (min/max/avg) Direct (0/0/0), GI (250/250/250), convergedInView: false, converged: false, passHash: a198b4c8be8608cc19ba1e51760fee11, took: 0.000s.
+[PathTracer] Issuing lightmap composite job for a not converged lightmap; index: 0, lightmapCompositeHash: 8cf476f09a587c79d0bed271cb483687, lightmapHash: 8950092588f0c7151638158c8b8427e9, renderPassHash: a198b4c8be8608cc19ba1e51760fee11, compositingHash: a8a3ebe9a801c4022a5d0c3edcfa140e.
+[PathTracer] Issuing a render job for lightmap 8950092588f0c7151638158c8b8427e9, visible texels: 1183, Timestamps: [15.355].
+[PathTracer] Issuing a convergence job for lightmap 8950092588f0c7151638158c8b8427e9.
+[PathTracer] Composited not yet converged lightmap; index: 0, lightmap composite hash: 8cf476f09a587c79d0bed271cb483687, lightmap hash: 8950092588f0c7151638158c8b8427e9, render pass hash: a198b4c8be8608cc19ba1e51760fee11, took 0.002s -> Timestamps: [15.355 - 15.357].
+[PathTracer] Lightmap convergence 8950092588f0c7151638158c8b8427e9 -> (min/max/avg) Direct (0/0/0), GI (375/375/375), convergedInView: false, converged: false, passHash: e154bf8bd4d96b0daa86330a1eb2ee58, took: 0.000s.
+[PathTracer] Issuing lightmap composite job for a not converged lightmap; index: 0, lightmapCompositeHash: 363a77b8ed9a8e3dc82e1ceb18a0ec45, lightmapHash: 8950092588f0c7151638158c8b8427e9, renderPassHash: e154bf8bd4d96b0daa86330a1eb2ee58, compositingHash: a8a3ebe9a801c4022a5d0c3edcfa140e.
+[PathTracer] Issuing a render job for lightmap 8950092588f0c7151638158c8b8427e9, visible texels: 1183, Timestamps: [15.395].
+[PathTracer] Issuing a convergence job for lightmap 8950092588f0c7151638158c8b8427e9.
+[PathTracer] Composited not yet converged lightmap; index: 0, lightmap composite hash: 363a77b8ed9a8e3dc82e1ceb18a0ec45, lightmap hash: 8950092588f0c7151638158c8b8427e9, render pass hash: e154bf8bd4d96b0daa86330a1eb2ee58, took 0.001s -> Timestamps: [15.395 - 15.396].
+[PathTracer] Lightmap convergence 8950092588f0c7151638158c8b8427e9 -> (min/max/avg) Direct (0/0/0), GI (500/500/500), convergedInView: true, converged: true, passHash: 62ff535213ee7bf12597d43d18c9b0c0, took: 0.000s.
+[PathTracer] Issuing lightmap composite job for a converged lightmap; index: 0, lightmapCompositeHash: 8a33842a98bba27dfd767e3f22e3b290, lightmapHash: 8950092588f0c7151638158c8b8427e9, renderPassHash: 62ff535213ee7bf12597d43d18c9b0c0, compositingHash: a8a3ebe9a801c4022a5d0c3edcfa140e.
+[PathTracer] Composited converged lightmap; index: 0, lightmap composite hash: 8a33842a98bba27dfd767e3f22e3b290, lightmap hash: 8950092588f0c7151638158c8b8427e9, render pass hash: 62ff535213ee7bf12597d43d18c9b0c0, took 0.050s -> Timestamps: [15.425 - 15.475].
+[PathTracer] Setting pending lightmap data, so that it's used for rendering; hash: efc8db8f94433c06aaad85a2edca29f3.
+[PathTracer]     lightmap hash: 8950092588f0c7151638158c8b8427e9, instanceID: -1816.
+[PathTracer] building lightmap data asset.
+[00:00:04] Enlighten: Finished 1 Bake Ambient Probe job (0.00s execute, 0.00s integrate, 0.01s wallclock)
+[00:00:04] Enlighten: Finished 1 Bake Ambient Probe job (0.00s execute, 0.00s integrate, 0.01s wallclock)
+Starting cubemap convolution for '' (size 128)
+...took 0.064 seconds
+Starting cubemap convolution for '' (size 128)
+...took 0.053 seconds
+[00:00:04] Enlighten: Finished 2 Reflection System jobs (0.35s execute, 0.00s integrate, 0.49s wallclock)
+[00:00:04] Enlighten: LightingDataAsset started.
+[PathTracer] Fetching lightmaps for lightmap data asset started.
+[PathTracer] lightmapCompositeHash: 8a33842a98bba27dfd767e3f22e3b290, lightmapHash: 8950092588f0c7151638158c8b8427e9, renderPassHash: 62ff535213ee7bf12597d43d18c9b0c0, atlasIndex: 0 .
+[PathTracer] Fetching lightmaps for lightmap data asset finished.
+> Collecting Enlighten data
+snapshotting 7d/7d2c8070920815d2e84f79a4d1fb2f3f.caw
+snapshotting 7d/7d2c8070920815d2e84f79a4d1fb2f3f.ecm
+snapshotting 7d/7d2c8070920815d2e84f79a4d1fb2f3f.iws.neo
+snapshotting 7d/7d2c8070920815d2e84f79a4d1fb2f3f.iws.ref
+snapshotting 7d/7d2c8070920815d2e84f79a4d1fb2f3f.iws.sse
+snapshotting 7d/7d2c8070920815d2e84f79a4d1fb2f3f.rgb
+snapshotting 7d/7d2c8070920815d2e84f79a4d1fb2f3f.rsc.neo
+snapshotting 7d/7d2c8070920815d2e84f79a4d1fb2f3f.rsc.ref
+snapshotting 7d/7d2c8070920815d2e84f79a4d1fb2f3f.rsc.sse
+snapshotting 7d/7d2c8070920815d2e84f79a4d1fb2f3f.vis
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Opening scene 'Assets/Scenes/Asset_Layout.unity'
-Load scene 'Assets/Scenes/Asset_Layout.unity' time: 0.010400 ms 
-Unloading 276 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 274.3 MB.
-System memory in use after: 275.1 MB.
+Load scene 'Assets/Scenes/Asset_Layout.unity' time: 0.009800 ms 
+Unloading 92 Unused Serialized files (Serialized files now loaded: 0)
+[00:00:00] Enlighten: LightingDataAsset took 4.364083 seconds. Cancelled, so not done yet.
+System memory in use before: 0.58 GB.
+System memory in use after: 0.58 GB.
 
-Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 16982.
-Total: 10.676300 ms (FindLiveObjects: 1.066500 ms CreateObjectMapping: 0.466000 ms MarkObjects: 8.929000 ms  DeleteObjects: 0.214100 ms)
+Unloading 544 unused Assets to reduce memory usage. Loaded Objects now: 17082.
+Total: 13.968700 ms (FindLiveObjects: 1.105600 ms CreateObjectMapping: 0.493500 ms MarkObjects: 11.370900 ms  DeleteObjects: 0.998100 ms)
 
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+DisplayProgressbar: Compiling shader variants
+DisplayProgressbar: Building Player
 Opening scene 'Assets/Scenes/Carpark.unity'
-Load scene 'Assets/Scenes/Carpark.unity' time: 0.017900 ms 
+Load scene 'Assets/Scenes/Carpark.unity' time: 0.013000 ms 
 LightmapEditorSettings: switching bake backend from 1 to 2.
-Unloading 983 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 0.71 GB.
-System memory in use after: 0.73 GB.
+Unloading 952 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 1.01 GB.
+System memory in use after: 1.03 GB.
 
-Unloading 1336 unused Assets to reduce memory usage. Loaded Objects now: 299994.
-Total: 149.081400 ms (FindLiveObjects: 19.837000 ms CreateObjectMapping: 11.525900 ms MarkObjects: 115.695700 ms  DeleteObjects: 2.022400 ms)
+Unloading 836 unused Assets to reduce memory usage. Loaded Objects now: 300130.
+Total: 161.008700 ms (FindLiveObjects: 23.359800 ms CreateObjectMapping: 11.226300 ms MarkObjects: 124.555700 ms  DeleteObjects: 1.865700 ms)
 
 DisplayProgressbar: Compiling shader variants
 DisplayProgressbar: Building Player
@@ -435,79 +625,105 @@ Dependency assembly - Unity.RenderPipelines.HighDefinition.Runtime.dll
 Dependency assembly - Unity.TextMeshPro.dll
 Dependency assembly - Unity.Timeline.dll
 
-Unloading 744 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 0.60 GB.
-System memory in use after: 0.53 GB.
+Unloading 741 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.91 GB.
+System memory in use after: 0.83 GB.
 
-Unloading 8844 unused Assets to reduce memory usage. Loaded Objects now: 2559.
-Total: 29.534800 ms (FindLiveObjects: 2.690000 ms CreateObjectMapping: 0.463300 ms MarkObjects: 7.205700 ms  DeleteObjects: 19.175500 ms)
+Unloading 8846 unused Assets to reduce memory usage. Loaded Objects now: 2692.
+Total: 30.274500 ms (FindLiveObjects: 2.781600 ms CreateObjectMapping: 0.556400 ms MarkObjects: 6.628500 ms  DeleteObjects: 20.307300 ms)
 
 [EnlightenBakeManager] m_Clear = false;
-Setting up 8 worker threads for Enlighten.
-  Thread -> id: 5d34 -> priority: 1 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-  Thread -> id: 59ec -> priority: 1 
-  Thread -> id: 808c -> priority: 1 
-  Thread -> id: 5958 -> priority: 1 
-  Thread -> id: 7a9c -> priority: 1 
-  Thread -> id: 2bbc -> priority: 1 
-  Thread -> id: 68f8 -> priority: 1 
-  Thread -> id: 67d8 -> priority: 1 
-System memory in use before: 227.7 MB.
-System memory in use after: 227.9 MB.
+System memory in use before: 0.51 GB.
+System memory in use after: 0.51 GB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2572.
-Total: 8.156500 ms (FindLiveObjects: 1.031400 ms CreateObjectMapping: 0.081900 ms MarkObjects: 7.038400 ms  DeleteObjects: 0.004600 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2702.
+Total: 8.373000 ms (FindLiveObjects: 1.096200 ms CreateObjectMapping: 0.082300 ms MarkObjects: 7.189300 ms  DeleteObjects: 0.004700 ms)
 
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.0 MB.
-System memory in use after: 227.9 MB.
+System memory in use before: 0.52 GB.
+System memory in use after: 0.51 GB.
 
-Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2559.
-Total: 8.595400 ms (FindLiveObjects: 0.805400 ms CreateObjectMapping: 0.044200 ms MarkObjects: 6.934800 ms  DeleteObjects: 0.810800 ms)
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2689.
+Total: 8.992200 ms (FindLiveObjects: 0.954200 ms CreateObjectMapping: 0.084700 ms MarkObjects: 7.089500 ms  DeleteObjects: 0.863300 ms)
 
 Compressed shader 'Hidden/HDRenderPipeline/Deferred' on d3d11 from 1.38MB to 0.32MB
+Compiled shader 'HDRenderPipeline/Decal' in 2.54s
+    d3d11 (total internal programs: 300, unique: 40)
 DisplayProgressbar: Compiling shader variants
-Compiled shader 'HDRenderPipeline/Lit' in 2.56s
-    d3d11 (total internal programs: 1864, unique: 1631)
-Compressed shader 'HDRenderPipeline/Lit' on d3d11 from 35.39MB to 8.70MB
+Compiled shader 'HDRenderPipeline/Lit' in 383.32s
+    d3d11 (total internal programs: 2836, unique: 2475)
+Compressed shader 'HDRenderPipeline/Lit' on d3d11 from 58.19MB to 14.33MB
 Compressed shader 'Hidden/HDRenderPipeline/ColorResolve' on d3d11 from 2.29MB to 0.62MB
-Compressed shader 'Hidden/HDRenderPipeline/TerrainLit_Basemap' on d3d11 from 7.16MB to 1.69MB
-Compressed shader 'HDRenderPipeline/TerrainLit' on d3d11 from 8.23MB to 1.77MB
+Compiled shader 'Hidden/HDRenderPipeline/TerrainLit_Basemap' in 65.16s
+    d3d11 (total internal programs: 528, unique: 524)
+Compressed shader 'Hidden/HDRenderPipeline/TerrainLit_Basemap' on d3d11 from 11.85MB to 2.77MB
+Compiled shader 'HDRenderPipeline/TerrainLit' in 74.02s
+    d3d11 (total internal programs: 528, unique: 524)
+Compressed shader 'HDRenderPipeline/TerrainLit' on d3d11 from 13.63MB to 2.94MB
 DisplayProgressbar: Building Player
+Compiled shader 'Standard' in 2.42s
+    d3d11 (total internal programs: 331, unique: 291)
+Compressed shader 'Standard' on d3d11 from 1.11MB to 0.09MB
+Compiled shader 'ProBuilder/Standard Vertex Color' in 1.37s
+    d3d11 (total internal programs: 225, unique: 225)
 DisplayProgressbar: Compiling shader variants
+Compiled shader 'Hidden/PostProcessing/Uber' in 4.24s
+    d3d11 (total internal programs: 1152, unique: 1152)
 Compressed shader 'Hidden/PostProcessing/Uber' on d3d11 from 3.81MB to 0.24MB
-Compressed shader 'Shader Graphs/Floor' on d3d11 from 3.85MB to 0.89MB
-Compressed shader 'Shader Graphs/mask_colorize' on d3d11 from 3.32MB to 0.75MB
-Unloading 866 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 299.4 MB.
-System memory in use after: 296.8 MB.
-
-Unloading 724 unused Assets to reduce memory usage. Loaded Objects now: 2573.
-Total: 10.601900 ms (FindLiveObjects: 0.941600 ms CreateObjectMapping: 0.105000 ms MarkObjects: 6.941700 ms  DeleteObjects: 2.613300 ms)
-
 DisplayProgressbar: Building Player
+Compiled shader 'Shader Graphs/Floor' in 34.65s
+    d3d11 (total internal programs: 280, unique: 280)
+Shader warning in 'Shader Graphs/Floor': implicit truncation of vector type at Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/ShaderPassLightTransport.hlsl(34) (on d3d11)
+
+Compiling Fragment program with UNITY_PASS_META LOD_FADE_CROSSFADE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+ 
+(Filename: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/ShaderPassLightTransport.hlsl Line: 34)
+
+Shader warning in 'Shader Graphs/Floor': implicit truncation of vector type at Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/ShaderPassLightTransport.hlsl(38) (on d3d11)
+
+Compiling Fragment program with UNITY_PASS_META LOD_FADE_CROSSFADE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+ 
+(Filename: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/ShaderPassLightTransport.hlsl Line: 38)
+
+Compressed shader 'Shader Graphs/Floor' on d3d11 from 6.34MB to 1.47MB
+Compiled shader 'Shader Graphs/mask_colorize' in 29.31s
+    d3d11 (total internal programs: 248, unique: 247)
+Compressed shader 'Shader Graphs/mask_colorize' on d3d11 from 5.51MB to 1.25MB
+Unloading 866 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.58 GB.
+System memory in use after: 0.58 GB.
+
+Unloading 723 unused Assets to reduce memory usage. Loaded Objects now: 2703.
+Total: 12.099600 ms (FindLiveObjects: 1.108800 ms CreateObjectMapping: 0.098500 ms MarkObjects: 8.018900 ms  DeleteObjects: 2.872900 ms)
+
+Compiled shader 'Legacy Shaders/Diffuse' in 1.88s
+    d3d11 (total internal programs: 191, unique: 191)
+Compiled shader 'Hidden/Internal-PrePassLighting' in 1.89s
+    d3d11 (total internal programs: 188, unique: 141)
 
 -------------------------------------------------------------------------------
 Build Report
 Uncompressed usage by category (Percentages based on user generated assets only):
-Textures               1154.6 mb	 83.4% 
+Textures               1154.6 mb	 82.8% 
 Meshes                 19.1 mb	 1.4% 
 Animations             0.0 kb	 0.0% 
 Sounds                 0.0 kb	 0.0% 
-Shaders                18.2 mb	 1.3% 
+Shaders                28.4 mb	 2.0% 
 Other Assets           5.9 mb	 0.4% 
 Levels                 43.3 mb	 3.1% 
 Scripts                2.9 mb	 0.2% 
-Included DLLs          13.2 mb	 1.0% 
-File headers           127.5 mb	 9.2% 
-Total User Assets      1384.7 mb	 100.0% 
-Complete build size    1421.5 mb
+Included DLLs          13.2 mb	 0.9% 
+File headers           127.8 mb	 9.2% 
+Total User Assets      1395.2 mb	 100.0% 
+Complete build size    1432.0 mb
 Used Assets and files from the Resources folder, sorted by uncompressed size:
- 32.0 mb	 2.3% Assets/Textures/HDR/canary_wharf.hdr
- 9.9 mb	 0.7% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/Lit/Lit.shader
+ 32.0 mb	 2.2% Assets/Textures/HDR/canary_wharf.hdr
+ 16.3 mb	 1.1% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/Lit/Lit.shader
  5.3 mb	 0.4% Assets/Textures/Structures/CementYellowPainter_01a_N_snaps019.tga
  5.3 mb	 0.4% Assets/Textures/Structures/CementYellowPainter_01a_MM_snaps019.tga
  5.3 mb	 0.4% Assets/Textures/Structures/CementYellowPainter_01a_D_snaps019.tga
@@ -641,6 +857,8 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  5.3 mb	 0.4% Assets/Textures/Props/Cone_01a_N_snaps019.tga
  5.3 mb	 0.4% Assets/Textures/Props/Cone_01a_MM_snaps019.tga
  4.0 mb	 0.3% Packages/com.unity.postprocessing/PostProcessing/Textures/Lens Dirt/LensDirt02.png
+ 3.4 mb	 0.2% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/TerrainLit/TerrainLit.shader
+ 3.1 mb	 0.2% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/TerrainLit/TerrainLit_Basemap.shader
  2.7 mb	 0.2% Assets/Textures/Props/CashierMachine_01a_N_snaps019.tga
  2.7 mb	 0.2% Assets/Textures/Props/CashierMachine_01a_MM_snaps019.tga
  2.7 mb	 0.2% Assets/Textures/Structures/CP_SmallRamp_01a_N_snaps019.tga
@@ -708,8 +926,8 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  2.7 mb	 0.2% Assets/Textures/Structures/Lift_01_D_snaps019.tga
  2.7 mb	 0.2% Assets/Textures/Props/Cone_01a_D_snaps019.tga
  2.6 mb	 0.2% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/Deferred.compute
- 2.0 mb	 0.1% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/TerrainLit/TerrainLit.shader
- 1.9 mb	 0.1% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/TerrainLit/TerrainLit_Basemap.shader
+ 1.7 mb	 0.1% Assets/Materials/ShaderGraph/Floor.shadergraph
+ 1.4 mb	 0.1% Assets/Materials/ShaderGraph/mask_colorize.shadergraph
  1.3 mb	 0.1% Assets/Textures/Props/PunchCardMachine_01a_N_snaps019.tga
  1.3 mb	 0.1% Assets/Textures/Props/PunchCardMachine_01a_MM_snaps019.tga
  1.3 mb	 0.1% Assets/Textures/Props/FluorescentLight_01a_N_snaps019.tga
@@ -748,8 +966,6 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  1.3 mb	 0.1% Assets/Textures/Props/Bench_01a_D_snaps019.tga
  1.0 mb	 0.1% Assets/Scenes/Carpark/LightingData.asset
  1.0 mb	 0.1% Assets/Model/Structure/Carpark/Lift_01a_snaps019.fbx
- 1.0 mb	 0.1% Assets/Materials/ShaderGraph/Floor.shadergraph
- 866.2 kb	 0.1% Assets/Materials/ShaderGraph/mask_colorize.shadergraph
  820.2 kb	 0.1% Assets/Model/Props/CP_ParkingBooth_01a_snaps019.fbx
  816.0 kb	 0.1% Assets/Model/Structure/Carpark/CP_SpiralRampFence_01a_snaps019.fbx
  743.0 kb	 0.1% Assets/Model/Structure/Carpark/LiftFrame_03a_snaps019.fbx
@@ -1186,10 +1402,10 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  299.8 kb	 0.0% Assets/Model/Structure/Bridge/BridgePlatform_01a_snaps019.fbx
  298.3 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/VolumetricLighting/VolumetricLighting.compute
  290.1 kb	 0.0% Assets/Model/Props/FireHose_01a_snaps019.fbx
+ 281.1 kb	 0.0% Resources/unity_builtin_extra
  272.4 kb	 0.0% Assets/Model/Props/Drainage_03a_snaps019.fbx
  262.6 kb	 0.0% Packages/com.unity.postprocessing/PostProcessing/Textures/SMAA/AreaTex.tga
  243.8 kb	 0.0% Assets/Model/Props/Ventilation_02a_snaps019.fbx
- 240.0 kb	 0.0% Resources/unity_builtin_extra
  238.0 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Material/SubsurfaceScattering/SubsurfaceScattering.compute
  224.6 kb	 0.0% Assets/Model/Props/Cage_02a_snaps019.fbx
  215.9 kb	 0.0% Assets/Model/Props/WheelClamp_01a_snaps019.fbx
@@ -1210,6 +1426,7 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  170.8 kb	 0.0% Packages/com.unity.probuilder/Content/Resources/Textures/GridBox_Default.png
  170.8 kb	 0.0% Packages/com.unity.probuilder/Content/Material/Textures/GridBox_NoDraw.png
  169.9 kb	 0.0% Assets/Model/Props/ConvexMirror_01a_snaps019.fbx
+ 168.7 kb	 0.0% Packages/com.unity.probuilder/Content/Shader/StandardVertexColor.shader
  168.6 kb	 0.0% Assets/Model/Structure/Carpark/LiftFrame_02a_snaps019.fbx
  164.6 kb	 0.0% Assets/Model/Props/SprinklerPipe_08a_snaps019.fbx
  162.9 kb	 0.0% Assets/Model/Props/SwitchBox_04a_snaps019.fbx
@@ -1219,7 +1436,6 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  147.5 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/RenderPass/MSAA/AoResolve.shader
  146.9 kb	 0.0% Assets/Model/Structure/Carpark/FireEscapeDoor_01a_snaps019.fbx
  146.3 kb	 0.0% Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/lightlistbuild-clustered.compute
- 138.6 kb	 0.0% Packages/com.unity.probuilder/Content/Shader/StandardVertexColor.shader
  132.8 kb	 0.0% Assets/Model/Props/MegaPhone_01a_snaps019.fbx
  130.2 kb	 0.0% Assets/Model/Structure/Carpark/CP_GlassWall_02a_snaps019.fbx
  128.4 kb	 0.0% Assets/Scenes/Carpark/ReflectionProbe-9.exr
@@ -2434,20 +2650,20 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  0.1 kb	 0.0% Packages/com.unity.probuilder/Content/Resources/Materials/EdgePicker.mat
 -------------------------------------------------------------------------------
 Unloading 507 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 276.8 MB.
-System memory in use after: 276.6 MB.
+System memory in use before: 0.56 GB.
+System memory in use after: 0.56 GB.
 
-Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 2581.
-Total: 8.117400 ms (FindLiveObjects: 0.889900 ms CreateObjectMapping: 0.076900 ms MarkObjects: 6.811000 ms  DeleteObjects: 0.339200 ms)
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2719.
+Total: 10.410100 ms (FindLiveObjects: 1.003200 ms CreateObjectMapping: 0.083000 ms MarkObjects: 8.929000 ms  DeleteObjects: 0.394500 ms)
 
 DisplayProgressNotification: Build Successful
-Load scene 'Temp/__Backupscenes/0.backup' time: 0.237700 ms 
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.214500 ms 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 267.2 MB.
-System memory in use after: 267.4 MB.
+System memory in use before: 0.55 GB.
+System memory in use after: 0.55 GB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2573.
-Total: 9.586400 ms (FindLiveObjects: 0.997600 ms CreateObjectMapping: 0.080000 ms MarkObjects: 8.504000 ms  DeleteObjects: 0.004400 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2711.
+Total: 7.869800 ms (FindLiveObjects: 1.060700 ms CreateObjectMapping: 0.079100 ms MarkObjects: 6.724700 ms  DeleteObjects: 0.004900 ms)
 
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
@@ -2468,17 +2684,22 @@ Total: 9.586400 ms (FindLiveObjects: 0.997600 ms CreateObjectMapping: 0.080000 m
 - Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
 Script Module: Unity.Postprocessing.Runtime.dll
-Pass: 0 took 37 milliseconds
+Pass: 0 took 17 milliseconds
 Pass: 1 took 1 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 999 milliseconds
+Pass: 1 took 8 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Polybrush.dll
 Symbols will be read from Temp\Unity.Polybrush.pdb
 Script Module: Unity.Polybrush.dll
-Pass: 0 took 61 milliseconds
+Pass: 0 took 13 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
 Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 14 milliseconds
+Pass: 0 took 13 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
 Symbols will be read from Temp\Unity.ProBuilder.Poly2Tri.pdb
@@ -2488,7 +2709,7 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
 Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
 Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 25 milliseconds
+Pass: 0 took 20 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll
 Symbols will be read from Temp\Unity.ProBuilder.KdTree.pdb
@@ -2510,6 +2731,11 @@ Symbols will be read from Temp\Unity.ProGrids.pdb
 Script Module: Unity.ProGrids.dll
 Pass: 0 took 13 milliseconds
 Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
+Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
+Pass: 0 took 0 milliseconds
+Pass: 1 took 0 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.dll
 - Starting compile Library/ScriptAssemblies/Unity.Recorder.dll
@@ -2517,15 +2743,12 @@ Pass: 1 took 0 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbols will be read from Temp\Unity.TextMeshPro.pdb
-Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 131 milliseconds
-Pass: 1 took 5 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
-Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
-Pass: 0 took 0 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Recorder.dll
+Symbols will be read from Temp\Unity.Recorder.pdb
+Script Module: Unity.Recorder.dll
+Pass: 0 took 14 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.Settings.Editor.dll
@@ -2533,51 +2756,44 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll
 - Starting compile Library/ScriptAssemblies/Unity.Polybrush.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Recorder.dll
-Symbols will be read from Temp\Unity.Recorder.pdb
-Script Module: Unity.Recorder.dll
-Pass: 0 took 16 milliseconds
-Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
-Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
-Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
-Pass: 0 took 108 milliseconds
-Pass: 1 took 5 milliseconds
-- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.Recorder.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.dll
 Symbols will be read from Temp\Unity.ProBuilder.pdb
 Script Module: Unity.ProBuilder.dll
-Pass: 0 took 20 milliseconds
+Pass: 0 took 15 milliseconds
 Pass: 1 took 1 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Polybrush.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
+Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
+Pass: 0 took 59 milliseconds
+Pass: 1 took 6 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.Recorder.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Polybrush.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
 Symbols will be read from Temp\Assembly-CSharp.pdb
 Script Module: Assembly-CSharp.dll
-Pass: 0 took 12 milliseconds
+Pass: 0 took 15 milliseconds
 Pass: 1 took 0 milliseconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 Batchmode quit successfully invoked - shutting down!
-[Performance] CurlRequestCheck                        :       13 samples, Peak.  20.8 us (2.4x), Avg.  8.65 us, Total. 112.5 us (0.0%)
-[Performance] PackageManager::RunRequestSynchronously :        4 samples, Peak.  29.0 us (2.6x), Avg.  11.0 us, Total. 44.00 us (0.0%)
+[Performance] CurlRequestCheck                        :       15 samples, Peak.  21.5 us (2.4x), Avg.  9.03 us, Total. 135.4 us (0.0%)
+[Performance] PackageManager::RunRequestSynchronously :        4 samples, Peak.  28.6 us (2.4x), Avg.  11.7 us, Total. 46.90 us (0.0%)
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.035756s
-	Asset Scan time: 0.034538s
+Refresh Completed time: 0.038826s
+	Asset Scan time: 0.037611s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -2588,8 +2804,8 @@ Refresh Completed time: 0.035756s
 
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.034748s
-	Asset Scan time: 0.033699s
+Refresh Completed time: 0.033771s
+	Asset Scan time: 0.032745s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
