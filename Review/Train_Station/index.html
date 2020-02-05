@@ -131,16 +131,72 @@
 		}
 	}
 
+	function DrawLineChartForProfile(chartName, chartTitle, xChartName, yChartName, inputLabels, inputValues)
+	{
+		var ctx = document.getElementById(chartName);
+		
+		if (ctx.getContext)
+		{
+			var context = ctx.getContext("2d");
+
+			var myChart = new Chart(context, {
+				type: 'line',
+				data: {
+					labels: inputLabels,
+						datasets: [{
+							label: 'Scanned value',
+							data: inputValues,
+							backgroundColor: 
+								'rgba(49, 215, 132, 1)',
+								
+							borderColor: 
+								'rgba(49, 215, 132, 1)',
+								
+							
+							fill: false
+						}]
+					},
+					options: {
+						responsive: true,
+						title: {
+							display: true,
+							text: chartTitle
+						},
+						animation: {
+							animateScale: true,
+							animateRotate: true
+						},
+						scales: {
+							xAxes: [{
+								display:true,
+								scaleLabel: {
+									display: true,
+									labelString: xChartName
+									}
+								}],
+							yAxes: [{
+								display:true,
+								scaleLabel: {
+									display: true,
+									labelString: yChartName
+									}
+								}]
+							}
+					}    
+				});
+		}
+	}
+
 </script>
 </head>
 
 <html>
-<strong><pre>ASChecker Vetting Score</pre></strong>
+<strong><pre>ASChecker Vetting Score : Train_Station</pre></strong>
 <hr style="width: 1200px; position: absolute; left: 10px">
 <br>
-<h1><pre>     <font color="red">1668</font> pt. (<font color="red">92</font>% passed)</pre></h1>
+<h1><pre>     <font color="red">1680</font> pt. (<font color="red">93</font>% passed)</pre></h1>
 <div style="width:1200px; position:absolute; top:135px; left:10px; z-index:1">
-<strong><pre>Report Charts - updated : 2019.12.2 10:4 (KST)</pre></strong>
+<strong><pre>Report Charts - updated : 2020.2.5 17:26 (KST)</pre></strong>
 <hr>
 </div>
 <div style="position:absolute; top:200px; left:10px; z-index:1">
@@ -271,7 +327,7 @@
 </div>
 <canvas id = "ASChecker.LodChecker" width = "100px" height = "100px" ></canvas >
 </div>
-<script>SuccessRateDrawChart('ASChecker.LodChecker','ASChecker.LodChecker', 0, 449);</script>
+<script>SuccessRateDrawChart('ASChecker.LodChecker','ASChecker.LodChecker', 1, 448);</script>
 <div style = "width:400px;margin:3px; position:absolute;top:1290px; left:820px; z-index:0">
 <canvas id = "sRateASChecker.LodChecker" width = "400px" height = "400px" ></canvas >
 </div>
@@ -337,11 +393,11 @@
 </div>
 <canvas id = "ASChecker.UnusedTextureChecker" width = "100px" height = "100px" ></canvas >
 </div>
-<script>SuccessRateDrawChart('ASChecker.UnusedTextureChecker','ASChecker.UnusedTextureChecker', 553, 116);</script>
+<script>SuccessRateDrawChart('ASChecker.UnusedTextureChecker','ASChecker.UnusedTextureChecker', 632, 37);</script>
 <div style = "width:400px;margin:3px; position:absolute;top:2150px; left:820px; z-index:0">
 <canvas id = "sRateASChecker.UnusedTextureChecker" width = "400px" height = "400px" ></canvas >
 </div>
-<script>ShowSucceeRateText('sRateASChecker.UnusedTextureChecker',82);</script>
+<script>ShowSucceeRateText('sRateASChecker.UnusedTextureChecker',94);</script>
 <pre><br></pre>
 <pre><br></pre>
 </div>

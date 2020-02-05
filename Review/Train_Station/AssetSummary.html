@@ -131,14 +131,70 @@
 		}
 	}
 
+	function DrawLineChartForProfile(chartName, chartTitle, xChartName, yChartName, inputLabels, inputValues)
+	{
+		var ctx = document.getElementById(chartName);
+		
+		if (ctx.getContext)
+		{
+			var context = ctx.getContext("2d");
+
+			var myChart = new Chart(context, {
+				type: 'line',
+				data: {
+					labels: inputLabels,
+						datasets: [{
+							label: 'Scanned value',
+							data: inputValues,
+							backgroundColor: 
+								'rgba(49, 215, 132, 1)',
+								
+							borderColor: 
+								'rgba(49, 215, 132, 1)',
+								
+							
+							fill: false
+						}]
+					},
+					options: {
+						responsive: true,
+						title: {
+							display: true,
+							text: chartTitle
+						},
+						animation: {
+							animateScale: true,
+							animateRotate: true
+						},
+						scales: {
+							xAxes: [{
+								display:true,
+								scaleLabel: {
+									display: true,
+									labelString: xChartName
+									}
+								}],
+							yAxes: [{
+								display:true,
+								scaleLabel: {
+									display: true,
+									labelString: yChartName
+									}
+								}]
+							}
+					}    
+				});
+		}
+	}
+
 </script>
 </head>
 
 <html>
 <pre><br></pre>
-<strong><pre>Unity version : 2018.4.0f1</pre></strong>
+<strong><pre>Product : Train_Station - Unity version 2018.4.0f1</pre></strong>
 <hr>
-<strong><pre>Updated : 2019.12.2 10:4 (KST)</pre></strong>
+<strong><pre>Updated : 2020.2.5 17:26 (KST)</pre></strong>
 <hr>
 <pre><br></pre>
 <strong><pre>Texture summary</pre></strong>
