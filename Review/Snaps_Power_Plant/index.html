@@ -131,16 +131,72 @@
 		}
 	}
 
+	function DrawLineChartForProfile(chartName, chartTitle, xChartName, yChartName, inputLabels, inputValues)
+	{
+		var ctx = document.getElementById(chartName);
+		
+		if (ctx.getContext)
+		{
+			var context = ctx.getContext("2d");
+
+			var myChart = new Chart(context, {
+				type: 'line',
+				data: {
+					labels: inputLabels,
+						datasets: [{
+							label: 'Scanned value',
+							data: inputValues,
+							backgroundColor: 
+								'rgba(49, 215, 132, 1)',
+								
+							borderColor: 
+								'rgba(49, 215, 132, 1)',
+								
+							
+							fill: false
+						}]
+					},
+					options: {
+						responsive: true,
+						title: {
+							display: true,
+							text: chartTitle
+						},
+						animation: {
+							animateScale: true,
+							animateRotate: true
+						},
+						scales: {
+							xAxes: [{
+								display:true,
+								scaleLabel: {
+									display: true,
+									labelString: xChartName
+									}
+								}],
+							yAxes: [{
+								display:true,
+								scaleLabel: {
+									display: true,
+									labelString: yChartName
+									}
+								}]
+							}
+					}    
+				});
+		}
+	}
+
 </script>
 </head>
 
 <html>
-<strong><pre>ASChecker Vetting Score</pre></strong>
+<strong><pre>ASChecker Vetting Score : 3D_empty</pre></strong>
 <hr style="width: 1200px; position: absolute; left: 10px">
 <br>
 <h1><pre>     <font color="blue">1300</font> pt. (<font color="blue">100</font>% passed)</pre></h1>
 <div style="width:1200px; position:absolute; top:135px; left:10px; z-index:1">
-<strong><pre>Report Charts - updated : 2019.12.12 15:54 (KST)</pre></strong>
+<strong><pre>Report Charts - updated : 2020.2.5 17:31 (KST)</pre></strong>
 <hr>
 </div>
 <div style="position:absolute; top:200px; left:10px; z-index:1">
