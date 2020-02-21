@@ -1,10 +1,10 @@
 Initiating legacy licensing module
-LICENSE SYSTEM [2020221 20:6:45] Next license update check is after 2020-02-06T01:32:16
+LICENSE SYSTEM [2020221 21:45:15] Next license update check is after 2020-02-06T01:32:16
 
 Built from '2018.4/staging' branch; Version is '2018.4.0f1 (b6ffa8986c8d) revision 11993000'; Using compiler version '191326128'
 OS: 'Windows 10  (10.0.0) 64bit' Language: 'ko' Physical Memory: 32586 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-[Package Manager] Server::Start -- Port 62099 was selected
+[Package Manager] Server::Start -- Port 51509 was selected
 
  COMMAND LINE ARGUMENTS:
 C:/UnityEditor/2018.4.0f1/Editor/Unity.exe
@@ -15,12 +15,12 @@ E:/p4/WorldUrbanBiomes/Construction_Site/Construction_Site/
 -executeMethod
 ASBuildScript.RunBuild
 -logfile
-e:/build/LemonSky/Construction_Site/4601/BuildLog.txt
+e:/build/LemonSky/Construction_Site/4603/BuildLog.txt
 Successfully changed project path to: E:/p4/WorldUrbanBiomes/Construction_Site/Construction_Site/
 E:/p4/WorldUrbanBiomes/Construction_Site/Construction_Site
 Using Asset Import Pipeline V1.
-Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000055 seconds
-Loading Asset Database...0.022317 seconds
+Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000063 seconds
+Loading Asset Database...0.022359 seconds
 Build target: OSXUniversal found and added!
 Build target: WindowsStoreApps found and added!
 Build target: Win64 found and added!
@@ -49,11 +49,11 @@ Build target: N3DS found and added!
 Build target: WP8 found and added!
 Build target: SamsungTV found and added!
 Build target: Tizen found and added!
-AssetDatabase consistency checks...0.023973 seconds
-Refreshing native plugins compatible for Editor in 11.78 ms, found 4 plugins.
+AssetDatabase consistency checks...0.022281 seconds
+Refreshing native plugins compatible for Editor in 11.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Unity Package Manager
-[Package Manager] Done resolving packages in 0.13s seconds
+[Package Manager] Done resolving packages in 0.19s seconds
 [Package Manager] Registering 41 packages:
 [Package Manager]  * Package :  com.unity.ads@2.0.8
     (location: E:\p4\WorldUrbanBiomes\Construction_Site\Construction_Site\Library\PackageCache\com.unity.ads@2.0.8)
@@ -157,59 +157,1478 @@ Initialize mono
 Mono path[0] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
 Begin MonoManager ReloadAssembly
-Refreshing native plugins compatible for Editor in 0.61 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 4 plugins.
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering precompiled unity dll's ...
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001772 seconds.
+Registered in 0.001755 seconds.
 Registering platform support modules:
-Registered platform support modules in: 0.0589492s.
+Registered platform support modules in: 0.0586165s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.90 ms.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.94 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.542 seconds
 Registering precompiled user dll's ...
-Registered in 0.064688 seconds.
+Registered in 0.061893 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering platform support modules:
-Registered platform support modules in: 0.0382406s.
+Registered platform support modules in: 0.0314229s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.116 seconds
+- Completed reload, in  0.921 seconds
 Platform modules already initialized, skipping
-Validating Project structure ... 0.009921 seconds.
+- Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+- Starting compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Starting compile Library/ScriptAssemblies/Unity.Recorder.dll
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+- Starting compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
+Symbols will be read from Temp\Unity.VisualEffectGraph.Runtime.pdb
+Script Module: Unity.VisualEffectGraph.Runtime.dll
+Pass: 0 took 60 milliseconds
+Pass: 1 took 8 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 67 milliseconds
+Pass: 1 took 0 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
+Script Module: Unity.Postprocessing.Runtime.dll
+Pass: 0 took 14 milliseconds
+Pass: 1 took 1 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
+Script Module: Unity.RenderPipelines.Core.Runtime.dll
+Pass: 0 took 17 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Recorder.dll
+Symbols will be read from Temp\Unity.Recorder.pdb
+Script Module: Unity.Recorder.dll
+Pass: 0 took 40 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
+Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
+Pass: 0 took 0 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+- Starting compile Library/ScriptAssemblies/Unity.Recorder.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 42 milliseconds
+Pass: 1 took 5 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+
+-----Compiler Commandline Arguments:
+Filename: C:\UnityEditor\2018.4.0f1\Editor\Data\Tools\Roslyn\csc.exe
+Arguments: /noconfig  /shared @Temp/UnityTempFile-9539a31192fcf3b4e9cc9fa814291fa4
+index: 20
+Responsefile: Temp/UnityTempFile-9539a31192fcf3b4e9cc9fa814291fa4 Contents: 
+/target:library
+/nowarn:0169
+/out:Temp/Unity.Recorder.Editor.dll
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:Library/ScriptAssemblies/Unity.Recorder.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.TextCoreModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.VFXModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/UnityEditor.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\Managed/Unity.Locator.dll
+/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll
+/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll
+/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll
+/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll
+/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll
+/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll
+/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll
+/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll
+/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll
+/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll
+/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll
+/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll
+/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/Managed/UnityEditor.Graphs.dll
+/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+/reference:C:/UnityEditor/2018.4.0f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
+/reference:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+/reference:Assets/FbxExporters/UnityFbxPrefab.dll
+/reference:Assets/FbxExporters/Editor/UnityFbxExporterEditor.dll
+/reference:Assets/FbxExporters/Editor/FbxSdk/Plugins/UnityFbxSdk.dll
+/reference:Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll
+/reference:Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll
+/reference:Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll
+/reference:Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll
+/reference:Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll
+/reference:Assets/ProCore/ProBuilder/Editor/ProBuilderEditor-Unity5.dll
+/reference:E:/p4/WorldUrbanBiomes/Construction_Site/Construction_Site/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
+/reference:E:/p4/WorldUrbanBiomes/Construction_Site/Construction_Site/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll
+/reference:E:/p4/WorldUrbanBiomes/Construction_Site/Construction_Site/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll
+/reference:E:/p4/WorldUrbanBiomes/Construction_Site/Construction_Site/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll
+/reference:E:/p4/WorldUrbanBiomes/Construction_Site/Construction_Site/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
+/reference:E:/p4/WorldUrbanBiomes/Construction_Site/Construction_Site/Library/PackageCache/com.unity.render-pipelines.high-definition@4.1.0-preview/Editor/Core/ShaderGenerator/ICSharpCode.NRefactory.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Runtime.Serialization.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.Linq.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.Vectors.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Net.Http.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Microsoft.CSharp.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Data.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\Microsoft.Win32.Primitives.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\netstandard.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.AppContext.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Concurrent.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.NonGeneric.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Specialized.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Annotations.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.EventBasedAsync.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Primitives.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.TypeConverter.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Console.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Data.Common.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Contracts.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Debug.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.FileVersionInfo.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Process.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.StackTrace.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TextWriterTraceListener.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Tools.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TraceSource.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Drawing.Primitives.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Dynamic.Runtime.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Calendars.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Extensions.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Compression.ZipFile.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.DriveInfo.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Primitives.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Watcher.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.IsolatedStorage.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.MemoryMappedFiles.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Pipes.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.UnmanagedMemoryStream.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Expressions.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Parallel.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Queryable.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Http.Rtc.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NameResolution.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NetworkInformation.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Ping.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Primitives.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Requests.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Security.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Sockets.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebHeaderCollection.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.Client.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ObjectModel.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.ILGeneration.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.Lightweight.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Extensions.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Primitives.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Reader.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.ResourceManager.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Writer.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.CompilerServices.VisualC.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Extensions.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Handles.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Numerics.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Formatters.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Json.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Primitives.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Xml.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Claims.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Algorithms.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Csp.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Encoding.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Primitives.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.X509Certificates.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Principal.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.SecureString.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Duplex.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Http.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.NetTcp.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Primitives.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Security.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.Extensions.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.RegularExpressions.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Overlapped.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.Parallel.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Thread.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.ThreadPool.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Timer.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ValueTuple.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.ReaderWriter.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XDocument.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlDocument.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlSerializer.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.Lang.dll
+/reference:C:\UnityEditor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\Boo.Lang.dll
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2018_4_0
+/define:UNITY_2018_4
+/define:UNITY_2018
+/define:PLATFORM_ARCH_64
+/define:UNITY_64
+/define:UNITY_INCLUDE_TESTS
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_DUCK_TYPING
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_SPRITES
+/define:ENABLE_GRID
+/define:ENABLE_TILEMAP
+/define:ENABLE_TERRAIN
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_DIRECTOR
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_WEBCAM
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_HUB
+/define:ENABLE_CLOUD_PROJECT_ID
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_TIMELINE
+/define:ENABLE_EDITOR_METRICS
+/define:ENABLE_EDITOR_METRICS_CACHING
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:INCLUDE_GI
+/define:ENABLE_MONO_BDWGC
+/define:PLATFORM_SUPPORTS_MONO
+/define:RENDER_SOFTWARE_CURSOR
+/define:INCLUDE_PUBNUB
+/define:ENABLE_VIDEO
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_LOCALIZATION
+/define:PLATFORM_STANDALONE_WIN
+/define:PLATFORM_STANDALONE
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_STANDALONE
+/define:ENABLE_SUBSTANCE
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_MOVIES
+/define:ENABLE_NETWORK
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CLUSTERINPUT
+/define:ENABLE_VR
+/define:ENABLE_AR
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_MONO
+/define:NET_4_6
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:UNITY_TEAM_LICENSE
+/define:ENABLE_VSTU
+/define:UNITY_PRO_LICENSE
+/define:UNITY_POST_PROCESSING_STACK_V2
+/define:PROBUILDER_FBX_ENABLED
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+"Assets\Unity Recorder\Editor\Sources\_RecorderComponent.cs"
+"Assets\Unity Recorder\Editor\Sources\AspectRatio.cs"
+"Assets\Unity Recorder\Editor\Sources\AspectRatioPropertyDrawer.cs"
+"Assets\Unity Recorder\Editor\Sources\BaseRenderTextureInput.cs"
+"Assets\Unity Recorder\Editor\Sources\EditableLabel.cs"
+"Assets\Unity Recorder\Editor\Sources\EnumProperyDrawer.cs"
+"Assets\Unity Recorder\Editor\Sources\FileNameGenerator.cs"
+"Assets\Unity Recorder\Editor\Sources\FileNameGeneratorDrawer.cs"
+"Assets\Unity Recorder\Editor\Sources\FrameRateProperyDrawer.cs"
+"Assets\Unity Recorder\Editor\Sources\GenericRecorder.cs"
+"Assets\Unity Recorder\Editor\Sources\Helpers\PresetHelper.cs"
+"Assets\Unity Recorder\Editor\Sources\Helpers\StatusBarHelper.cs"
+"Assets\Unity Recorder\Editor\Sources\ImageHeightSelector.cs"
+"Assets\Unity Recorder\Editor\Sources\ImageInputSelector.cs"
+"Assets\Unity Recorder\Editor\Sources\ImageInputSettings.cs"
+"Assets\Unity Recorder\Editor\Sources\InputPropertyDrawer.cs"
+"Assets\Unity Recorder\Editor\Sources\InputSettings.cs"
+"Assets\Unity Recorder\Editor\Sources\InputSettingsSelector.cs"
+"Assets\Unity Recorder\Editor\Sources\InputSettingsSelectorDrawer.cs"
+"Assets\Unity Recorder\Editor\Sources\InternalEnums.cs"
+"Assets\Unity Recorder\Editor\Sources\OutputPath.cs"
+"Assets\Unity Recorder\Editor\Sources\OutputPathDrawer.cs"
+"Assets\Unity Recorder\Editor\Sources\OutputResolution.cs"
+"Assets\Unity Recorder\Editor\Sources\OutputResolutionPropertyDrawer.cs"
+"Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorder.cs"
+"Assets\Unity Recorder\Editor\Sources\RecorderController.cs"
+"Assets\Unity Recorder\Editor\Sources\RecorderControllerSettings.cs"
+"Assets\Unity Recorder\Editor\Sources\RecorderControllerSettingsPreset.cs"
+"Assets\Unity Recorder\Editor\Sources\RecorderControllerSettingsPresetEditor.cs"
+"Assets\Unity Recorder\Editor\Sources\RecorderEditor.cs"
+"Assets\Unity Recorder\Editor\Sources\RecorderInput.cs"
+"Assets\Unity Recorder\Editor\Sources\RecorderItem.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Animation\AnimationInput.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Animation\AnimationInputSettings.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Animation\AnimationInputSettingsPropertyDrawer.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Audio\AudioInput.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Audio\AudioInputSettings.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Audio\AudioInputSettingsPropertyDrawer.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera\CameraInput.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera\CameraInputSettings.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera\CameraInputSettingsPropertyDrawer.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360Input.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360InputPropertyDrawer.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360InputSettings.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\GameView\GameViewInput.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\GameView\GameViewInputPropertyDrawer.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\GameView\GameViewInputSettings.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\GameViewSize.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTexture\RenderTextureInput.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTexture\RenderTextureInputSettings.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTexture\RenderTextureInputSettingsPropertyDrawer.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSampler.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSamplerPropertyDrawer.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSamplerSettings.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\BaseFCRecorderSettings.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\EXR\EXRRecorder.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\EXR\EXRRecorderSettings.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\EXR\EXRRecorderSettingsEditor.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\EncoderBase.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\EXREncoder.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\GIFEncoder.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\MovieEncoder.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\MP4Encoder.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\PNGEncoder.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\WEBMEncoder.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Misc\Bool.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Misc\BoolDrawer.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Misc\DataPath.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Misc\DataPathDrawer.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\MP4\MP4Recorder.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\MP4\MP4RecorderSettings.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\MP4\MP4RecorderSettingsEditor.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\PNG\PNGRecorder.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\PNG\PNGRecorderSettings.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\PNG\PNGRecorderSettingsEditor.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\WEBM\WEBMRecorder.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\WEBM\WEBMRecorderSettings.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\WEBM\WEBMRecorderSettingsEditor.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\AnimationRecorder\AnimationRecorder.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\AnimationRecorder\AnimationRecorderSettings.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\AnimationRecorder\AnimationRecorderSettingsEditor.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\GIFRecorder\GIFRecorder.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\GIFRecorder\GIFRecorderSettings.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\GIFRecorder\GIFRecorderSettingsEditor.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\ImageRecorder\ImageRecorder.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\ImageRecorder\ImageRecorderEditor.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\ImageRecorder\ImageRecorderSettings.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\MovieRecorder\MovieRecorder.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\MovieRecorder\MovieRecorderEditor.cs"
+"Assets\Unity Recorder\Editor\Sources\Recorders\MovieRecorder\MovieRecorderSettings.cs"
+"Assets\Unity Recorder\Editor\Sources\RecorderSettings.cs"
+"Assets\Unity Recorder\Editor\Sources\RecorderSettingsAttribute.cs"
+"Assets\Unity Recorder\Editor\Sources\RecorderSettingsPrefsEditor.cs"
+"Assets\Unity Recorder\Editor\Sources\RecordersInventory.cs"
+"Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs"
+"Assets\Unity Recorder\Editor\Sources\RecordingSession.cs"
+"Assets\Unity Recorder\Editor\Sources\RecordModePropertyDrawer.cs"
+"Assets\Unity Recorder\Editor\Sources\SceneHook.cs"
+"Assets\Unity Recorder\Editor\Sources\TargetedPropertyDrawer.cs"
+"Assets\Unity Recorder\Editor\Sources\TextureFlipper.cs"
+"Assets\Unity Recorder\Editor\Sources\VisualListItem.cs"
+"Assets\Unity Recorder\Editor\Timeline\_WaitForEndOfFrameComponent.cs"
+"Assets\Unity Recorder\Editor\Timeline\RecorderClip.cs"
+"Assets\Unity Recorder\Editor\Timeline\RecorderClipEditor.cs"
+"Assets\Unity Recorder\Editor\Timeline\RecorderPlayableBehaviour.cs"
+"Assets\Unity Recorder\Editor\Timeline\RecorderSelector.cs"
+"Assets\Unity Recorder\Editor\Timeline\RecorderTrack.cs"
+
+-----CompilerOutput:-stdout--exitcode: 1--compilationhadfailure: True--outfile: Temp/Unity.Recorder.Editor.dll
+Microsoft (R) Visual C# Compiler version 2.9.1.65535 (9d34608e)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Assets\Unity Recorder\Editor\Sources\EditableLabel.cs(35,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\EditableLabel.cs(36,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\EditableLabel.cs(40,59): warning CS0618: 'Capture' is obsolete: 'Use TrickleDown instead of Capture.'
+Assets\Unity Recorder\Editor\Sources\EditableLabel.cs(40,13): warning CS0618: 'CallbackEventHandler.RegisterCallback<TEventType>(EventCallback<TEventType>, Capture)' is obsolete: 'Use TrickleDown instead of Capture.'
+Assets\Unity Recorder\Editor\Timeline\RecorderSelector.cs(25,21): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\OutputResolutionPropertyDrawer.cs(66,21): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorder.cs(45,25): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(47,59): warning CS0618: 'Capture' is obsolete: 'Use TrickleDown instead of Capture.'
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(47,13): warning CS0618: 'CallbackEventHandler.RegisterCallback<TEventType>(EventCallback<TEventType>, Capture)' is obsolete: 'Use TrickleDown instead of Capture.'
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(48,59): warning CS0618: 'Capture' is obsolete: 'Use TrickleDown instead of Capture.'
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(48,13): warning CS0618: 'CallbackEventHandler.RegisterCallback<TEventType>(EventCallback<TEventType>, Capture)' is obsolete: 'Use TrickleDown instead of Capture.'
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(49,55): warning CS0618: 'Capture' is obsolete: 'Use TrickleDown instead of Capture.'
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(49,13): warning CS0618: 'CallbackEventHandler.RegisterCallback<TEventType>(EventCallback<TEventType>, Capture)' is obsolete: 'Use TrickleDown instead of Capture.'
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSamplerPropertyDrawer.cs(57,43): error CS0103: The name 'EnumHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSamplerPropertyDrawer.cs(58,29): error CS0103: The name 'EnumHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSamplerPropertyDrawer.cs(62,41): error CS0103: The name 'EnumHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSamplerPropertyDrawer.cs(92,17): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderEditor.cs(28,30): error CS0246: The type or namespace name 'PropertyFinder<>' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(60,13): warning CS0618: 'MouseCaptureController.TakeMouseCapture(IEventHandler)' is obsolete: 'Use CaptureMouse instead of TakeMouseCapture.'
+Assets\Unity Recorder\Editor\Sources\Recorder.cs(55,17): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorder.cs(65,56): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderController.cs(54,21): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderController.cs(60,17): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderController.cs(71,25): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderController.cs(81,25): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderController.cs(97,25): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderController.cs(104,25): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorder.cs(89,17): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Timeline\RecorderClipEditor.cs(32,21): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Timeline\RecorderClipEditor.cs(123,13): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Timeline\RecorderClipEditor.cs(126,13): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorder.cs(109,25): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorder.cs(120,16): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(93,13): warning CS0618: 'MouseCaptureController.ReleaseMouseCapture(IEventHandler)' is obsolete: 'Use ReleaseMouse instead of ReleaseMouseCapture.'
+Assets\Unity Recorder\Editor\Sources\RecorderController.cs(144,17): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Timeline\RecorderClipEditor.cs(135,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Timeline\RecorderClipEditor.cs(144,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\WEBM\WEBMRecorderSettingsEditor.cs(21,26): error CS0246: The type or namespace name 'PropertyFinder<>' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Unity Recorder\Editor\Sources\RecorderItem.cs(47,17): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Audio\AudioInput.cs(129,17): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Audio\AudioInput.cs(147,21): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Timeline\RecorderClip.cs(36,41): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Timeline\RecorderClip.cs(45,13): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\ImageRecorder\ImageRecorderEditor.cs(25,26): error CS0246: The type or namespace name 'PropertyFinder<>' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera\CameraInputSettingsPropertyDrawer.cs(51,43): error CS0103: The name 'EnumHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera\CameraInputSettingsPropertyDrawer.cs(53,29): error CS0103: The name 'EnumHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera\CameraInputSettingsPropertyDrawer.cs(57,41): error CS0103: The name 'EnumHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderItem.cs(163,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderItem.cs(166,24): warning CS0618: 'Toggle.Toggle(Action)' is obsolete: 'Use Toggle() with OnValueChanged() instead.'
+Assets\Unity Recorder\Editor\Sources\RecorderItem.cs(171,39): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderItem.cs(224,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\VisualListItem.cs(56,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\ImageRecorder\ImageRecorder.cs(72,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\GameView\GameViewInput.cs(51,13): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360InputPropertyDrawer.cs(57,43): error CS0103: The name 'EnumHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360InputPropertyDrawer.cs(59,29): error CS0103: The name 'EnumHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360InputPropertyDrawer.cs(63,41): error CS0103: The name 'EnumHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360InputPropertyDrawer.cs(77,17): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360InputPropertyDrawer.cs(87,17): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\MP4\MP4RecorderSettingsEditor.cs(20,26): error CS0246: The type or namespace name 'PropertyFinder<>' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360Input.cs(112,21): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360Input.cs(115,21): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSampler.cs(170,33): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSampler.cs(278,33): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSampler.cs(285,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSampler.cs(287,21): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSampler.cs(288,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSampler.cs(289,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSampler.cs(290,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\MovieRecorder\MovieRecorder.cs(89,17): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\MovieRecorder\MovieRecorder.cs(114,21): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\MovieRecorder\MovieRecorder.cs(119,21): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\MovieRecorder\MovieRecorder.cs(132,21): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecordingSession.cs(54,21): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderSettingsPrefsEditor.cs(91,25): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderSettingsPrefsEditor.cs(107,25): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\SceneHook.cs(121,42): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\SceneHook.cs(51,38): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera\CameraInput.cs(282,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\TextureFlipper.cs(14,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\TextureFlipper.cs(31,13): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera\CameraInput.cs(310,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecordingSession.cs(153,25): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecordingSession.cs(159,26): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecordingSession.cs(199,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(146,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(156,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(184,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(198,17): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(198,89): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(204,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(215,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(228,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(234,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(248,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(277,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(318,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(336,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(345,21): warning CS0618: 'IStyle.backgroundSize' is obsolete: 'Use backgroundScaleMode instead'
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(362,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(467,17): warning CS0618: 'VisualElement.Dirty(ChangeType)' is obsolete: 'Dirty is deprecated. Use MarkDirtyRepaint to trigger a new repaint of the VisualElement.'
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(592,17): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(743,17): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(791,17): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(802,17): error CS0103: The name 'Options' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(845,29): warning CS0618: 'VisualElement.Dirty(ChangeType)' is obsolete: 'Dirty is deprecated. Use MarkDirtyRepaint to trigger a new repaint of the VisualElement.'
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(969,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(970,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(983,13): warning CS0618: 'VisualElement.Dirty(ChangeType)' is obsolete: 'Dirty is deprecated. Use MarkDirtyRepaint to trigger a new repaint of the VisualElement.'
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(1030,17): warning CS0618: 'VisualElement.Dirty(ChangeType)' is obsolete: 'Dirty is deprecated. Use MarkDirtyRepaint to trigger a new repaint of the VisualElement.'
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(485,24): warning CS0649: Field 'fcAPI.fcFlacConfig.blockSize' is never assigned to, and will always have its default value 0
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(481,42): warning CS0649: Field 'fcAPI.fcFlacConfig.sampleRate' is never assigned to, and will always have its default value 0
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(483,41): warning CS0649: Field 'fcAPI.fcFlacConfig.bitsPerSample' is never assigned to, and will always have its default value 
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(482,42): warning CS0649: Field 'fcAPI.fcFlacConfig.numChannels' is never assigned to, and will always have its default value 0
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(486,43): warning CS0649: Field 'fcAPI.fcFlacConfig.verify' is never assigned to, and will always have its default value 
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(484,37): warning CS0649: Field 'fcAPI.fcFlacConfig.compressionLevel' is never assigned to, and will always have its default value 0
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(487,39): warning CS0649: Field 'fcAPI.fcFlacConfig.maxTasks' is never assigned to, and will always have its default value 0
+-----CompilerOutput:-stderr----------
+-----EndCompilerOutput---------------
+- Finished compile Library/ScriptAssemblies/Unity.Recorder.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
+Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
+Pass: 0 took 54 milliseconds
+Pass: 1 took 5 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
+Assets\Unity Recorder\Editor\Sources\EditableLabel.cs(35,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\EditableLabel.cs Line: 35)
+
+Assets\Unity Recorder\Editor\Sources\EditableLabel.cs(36,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\EditableLabel.cs Line: 36)
+
+Assets\Unity Recorder\Editor\Sources\EditableLabel.cs(40,59): warning CS0618: 'Capture' is obsolete: 'Use TrickleDown instead of Capture.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\EditableLabel.cs Line: 40)
+
+Assets\Unity Recorder\Editor\Sources\EditableLabel.cs(40,13): warning CS0618: 'CallbackEventHandler.RegisterCallback<TEventType>(EventCallback<TEventType>, Capture)' is obsolete: 'Use TrickleDown instead of Capture.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\EditableLabel.cs Line: 40)
+
+Assets\Unity Recorder\Editor\Timeline\RecorderSelector.cs(25,21): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Timeline\RecorderSelector.cs Line: 25)
+
+Assets\Unity Recorder\Editor\Sources\OutputResolutionPropertyDrawer.cs(66,21): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\OutputResolutionPropertyDrawer.cs Line: 66)
+
+Assets\Unity Recorder\Editor\Sources\Recorder.cs(45,25): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorder.cs Line: 45)
+
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(47,59): warning CS0618: 'Capture' is obsolete: 'Use TrickleDown instead of Capture.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs Line: 47)
+
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(47,13): warning CS0618: 'CallbackEventHandler.RegisterCallback<TEventType>(EventCallback<TEventType>, Capture)' is obsolete: 'Use TrickleDown instead of Capture.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs Line: 47)
+
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(48,59): warning CS0618: 'Capture' is obsolete: 'Use TrickleDown instead of Capture.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs Line: 48)
+
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(48,13): warning CS0618: 'CallbackEventHandler.RegisterCallback<TEventType>(EventCallback<TEventType>, Capture)' is obsolete: 'Use TrickleDown instead of Capture.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs Line: 48)
+
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(49,55): warning CS0618: 'Capture' is obsolete: 'Use TrickleDown instead of Capture.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs Line: 49)
+
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(49,13): warning CS0618: 'CallbackEventHandler.RegisterCallback<TEventType>(EventCallback<TEventType>, Capture)' is obsolete: 'Use TrickleDown instead of Capture.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs Line: 49)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSamplerPropertyDrawer.cs(57,43): error CS0103: The name 'EnumHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSamplerPropertyDrawer.cs Line: 57)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSamplerPropertyDrawer.cs(58,29): error CS0103: The name 'EnumHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSamplerPropertyDrawer.cs Line: 58)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSamplerPropertyDrawer.cs(62,41): error CS0103: The name 'EnumHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSamplerPropertyDrawer.cs Line: 62)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSamplerPropertyDrawer.cs(92,17): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSamplerPropertyDrawer.cs Line: 92)
+
+Assets\Unity Recorder\Editor\Sources\RecorderEditor.cs(28,30): error CS0246: The type or namespace name 'PropertyFinder<>' could not be found (are you missing a using directive or an assembly reference?)
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderEditor.cs Line: 28)
+
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(60,13): warning CS0618: 'MouseCaptureController.TakeMouseCapture(IEventHandler)' is obsolete: 'Use CaptureMouse instead of TakeMouseCapture.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs Line: 60)
+
+Assets\Unity Recorder\Editor\Sources\Recorder.cs(55,17): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorder.cs Line: 55)
+
+Assets\Unity Recorder\Editor\Sources\Recorder.cs(65,56): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorder.cs Line: 65)
+
+Assets\Unity Recorder\Editor\Sources\RecorderController.cs(54,21): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderController.cs Line: 54)
+
+Assets\Unity Recorder\Editor\Sources\RecorderController.cs(60,17): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderController.cs Line: 60)
+
+Assets\Unity Recorder\Editor\Sources\RecorderController.cs(71,25): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderController.cs Line: 71)
+
+Assets\Unity Recorder\Editor\Sources\RecorderController.cs(81,25): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderController.cs Line: 81)
+
+Assets\Unity Recorder\Editor\Sources\RecorderController.cs(97,25): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderController.cs Line: 97)
+
+Assets\Unity Recorder\Editor\Sources\RecorderController.cs(104,25): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderController.cs Line: 104)
+
+Assets\Unity Recorder\Editor\Sources\Recorder.cs(89,17): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorder.cs Line: 89)
+
+Assets\Unity Recorder\Editor\Timeline\RecorderClipEditor.cs(32,21): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Timeline\RecorderClipEditor.cs Line: 32)
+
+Assets\Unity Recorder\Editor\Timeline\RecorderClipEditor.cs(123,13): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Timeline\RecorderClipEditor.cs Line: 123)
+
+Assets\Unity Recorder\Editor\Timeline\RecorderClipEditor.cs(126,13): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Timeline\RecorderClipEditor.cs Line: 126)
+
+Assets\Unity Recorder\Editor\Sources\Recorder.cs(109,25): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorder.cs Line: 109)
+
+Assets\Unity Recorder\Editor\Sources\Recorder.cs(120,16): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorder.cs Line: 120)
+
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(93,13): warning CS0618: 'MouseCaptureController.ReleaseMouseCapture(IEventHandler)' is obsolete: 'Use ReleaseMouse instead of ReleaseMouseCapture.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs Line: 93)
+
+Assets\Unity Recorder\Editor\Sources\RecorderController.cs(144,17): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderController.cs Line: 144)
+
+Assets\Unity Recorder\Editor\Timeline\RecorderClipEditor.cs(135,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Timeline\RecorderClipEditor.cs Line: 135)
+
+Assets\Unity Recorder\Editor\Timeline\RecorderClipEditor.cs(144,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Timeline\RecorderClipEditor.cs Line: 144)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\WEBM\WEBMRecorderSettingsEditor.cs(21,26): error CS0246: The type or namespace name 'PropertyFinder<>' could not be found (are you missing a using directive or an assembly reference?)
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\WEBM\WEBMRecorderSettingsEditor.cs Line: 21)
+
+Assets\Unity Recorder\Editor\Sources\RecorderItem.cs(47,17): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderItem.cs Line: 47)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Audio\AudioInput.cs(129,17): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Audio\AudioInput.cs Line: 129)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Audio\AudioInput.cs(147,21): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Audio\AudioInput.cs Line: 147)
+
+Assets\Unity Recorder\Editor\Timeline\RecorderClip.cs(36,41): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Timeline\RecorderClip.cs Line: 36)
+
+Assets\Unity Recorder\Editor\Timeline\RecorderClip.cs(45,13): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Timeline\RecorderClip.cs Line: 45)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\ImageRecorder\ImageRecorderEditor.cs(25,26): error CS0246: The type or namespace name 'PropertyFinder<>' could not be found (are you missing a using directive or an assembly reference?)
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\ImageRecorder\ImageRecorderEditor.cs Line: 25)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera\CameraInputSettingsPropertyDrawer.cs(51,43): error CS0103: The name 'EnumHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera\CameraInputSettingsPropertyDrawer.cs Line: 51)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera\CameraInputSettingsPropertyDrawer.cs(53,29): error CS0103: The name 'EnumHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera\CameraInputSettingsPropertyDrawer.cs Line: 53)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera\CameraInputSettingsPropertyDrawer.cs(57,41): error CS0103: The name 'EnumHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera\CameraInputSettingsPropertyDrawer.cs Line: 57)
+
+Assets\Unity Recorder\Editor\Sources\RecorderItem.cs(163,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderItem.cs Line: 163)
+
+Assets\Unity Recorder\Editor\Sources\RecorderItem.cs(166,24): warning CS0618: 'Toggle.Toggle(Action)' is obsolete: 'Use Toggle() with OnValueChanged() instead.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderItem.cs Line: 166)
+
+Assets\Unity Recorder\Editor\Sources\RecorderItem.cs(171,39): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderItem.cs Line: 171)
+
+Assets\Unity Recorder\Editor\Sources\RecorderItem.cs(224,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderItem.cs Line: 224)
+
+Assets\Unity Recorder\Editor\Sources\VisualListItem.cs(56,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\VisualListItem.cs Line: 56)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\ImageRecorder\ImageRecorder.cs(72,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\ImageRecorder\ImageRecorder.cs Line: 72)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\GameView\GameViewInput.cs(51,13): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\GameView\GameViewInput.cs Line: 51)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360InputPropertyDrawer.cs(57,43): error CS0103: The name 'EnumHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360InputPropertyDrawer.cs Line: 57)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360InputPropertyDrawer.cs(59,29): error CS0103: The name 'EnumHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360InputPropertyDrawer.cs Line: 59)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360InputPropertyDrawer.cs(63,41): error CS0103: The name 'EnumHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360InputPropertyDrawer.cs Line: 63)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360InputPropertyDrawer.cs(77,17): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360InputPropertyDrawer.cs Line: 77)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360InputPropertyDrawer.cs(87,17): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360InputPropertyDrawer.cs Line: 87)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\MP4\MP4RecorderSettingsEditor.cs(20,26): error CS0246: The type or namespace name 'PropertyFinder<>' could not be found (are you missing a using directive or an assembly reference?)
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\MP4\MP4RecorderSettingsEditor.cs Line: 20)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360Input.cs(112,21): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360Input.cs Line: 112)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360Input.cs(115,21): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera360\Camera360Input.cs Line: 115)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSampler.cs(170,33): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSampler.cs Line: 170)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSampler.cs(278,33): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSampler.cs Line: 278)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSampler.cs(285,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSampler.cs Line: 285)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSampler.cs(287,21): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSampler.cs Line: 287)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSampler.cs(288,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSampler.cs Line: 288)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSampler.cs(289,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSampler.cs Line: 289)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSampler.cs(290,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\RenderTextureSampler.cs Line: 290)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\MovieRecorder\MovieRecorder.cs(89,17): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\MovieRecorder\MovieRecorder.cs Line: 89)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\MovieRecorder\MovieRecorder.cs(114,21): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\MovieRecorder\MovieRecorder.cs Line: 114)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\MovieRecorder\MovieRecorder.cs(119,21): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\MovieRecorder\MovieRecorder.cs Line: 119)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\MovieRecorder\MovieRecorder.cs(132,21): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\MovieRecorder\MovieRecorder.cs Line: 132)
+
+Assets\Unity Recorder\Editor\Sources\RecordingSession.cs(54,21): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecordingSession.cs Line: 54)
+
+Assets\Unity Recorder\Editor\Sources\RecorderSettingsPrefsEditor.cs(91,25): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderSettingsPrefsEditor.cs Line: 91)
+
+Assets\Unity Recorder\Editor\Sources\RecorderSettingsPrefsEditor.cs(107,25): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderSettingsPrefsEditor.cs Line: 107)
+
+Assets\Unity Recorder\Editor\Sources\SceneHook.cs(121,42): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\SceneHook.cs Line: 121)
+
+Assets\Unity Recorder\Editor\Sources\SceneHook.cs(51,38): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\SceneHook.cs Line: 51)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera\CameraInput.cs(282,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera\CameraInput.cs Line: 282)
+
+Assets\Unity Recorder\Editor\Sources\TextureFlipper.cs(14,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\TextureFlipper.cs Line: 14)
+
+Assets\Unity Recorder\Editor\Sources\TextureFlipper.cs(31,13): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\TextureFlipper.cs Line: 31)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera\CameraInput.cs(310,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Inputs\Camera\CameraInput.cs Line: 310)
+
+Assets\Unity Recorder\Editor\Sources\RecordingSession.cs(153,25): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecordingSession.cs Line: 153)
+
+Assets\Unity Recorder\Editor\Sources\RecordingSession.cs(159,26): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecordingSession.cs Line: 159)
+
+Assets\Unity Recorder\Editor\Sources\RecordingSession.cs(199,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecordingSession.cs Line: 199)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(146,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 146)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(156,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 156)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(184,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 184)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(198,17): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 198)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(198,89): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 198)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(204,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 204)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(215,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 215)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(228,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 228)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(234,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 234)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(248,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 248)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(277,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 277)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(318,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 318)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(336,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 336)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(345,21): warning CS0618: 'IStyle.backgroundSize' is obsolete: 'Use backgroundScaleMode instead'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 345)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(362,13): error CS0103: The name 'UIElementHelper' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 362)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(467,17): warning CS0618: 'VisualElement.Dirty(ChangeType)' is obsolete: 'Dirty is deprecated. Use MarkDirtyRepaint to trigger a new repaint of the VisualElement.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 467)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(592,17): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 592)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(743,17): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 743)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(791,17): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 791)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(802,17): error CS0103: The name 'Options' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 802)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(845,29): warning CS0618: 'VisualElement.Dirty(ChangeType)' is obsolete: 'Dirty is deprecated. Use MarkDirtyRepaint to trigger a new repaint of the VisualElement.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 845)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(969,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 969)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(970,17): error CS0103: The name 'UnityHelpers' does not exist in the current context
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 970)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(983,13): warning CS0618: 'VisualElement.Dirty(ChangeType)' is obsolete: 'Dirty is deprecated. Use MarkDirtyRepaint to trigger a new repaint of the VisualElement.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 983)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(1030,17): warning CS0618: 'VisualElement.Dirty(ChangeType)' is obsolete: 'Dirty is deprecated. Use MarkDirtyRepaint to trigger a new repaint of the VisualElement.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 1030)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(485,24): warning CS0649: Field 'fcAPI.fcFlacConfig.blockSize' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 485)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(481,42): warning CS0649: Field 'fcAPI.fcFlacConfig.sampleRate' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 481)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(483,41): warning CS0649: Field 'fcAPI.fcFlacConfig.bitsPerSample' is never assigned to, and will always have its default value 
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 483)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(482,42): warning CS0649: Field 'fcAPI.fcFlacConfig.numChannels' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 482)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(486,43): warning CS0649: Field 'fcAPI.fcFlacConfig.verify' is never assigned to, and will always have its default value 
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 486)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(484,37): warning CS0649: Field 'fcAPI.fcFlacConfig.compressionLevel' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 484)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(487,39): warning CS0649: Field 'fcAPI.fcFlacConfig.maxTasks' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 487)
+
+Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Editor\Models\Operators\Implementations\ChangeSpace.cs(12,28): warning CS0649: Field 'ChangeSpace.m_targetSpace' is never assigned to, and will always have its default value 
+ 
+(Filename: Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Editor\Models\Operators\Implementations\ChangeSpace.cs Line: 12)
+
+Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Runtime\Utilities\Playables\VisualEffectActivation\VisualEffectActivationBehaviour.cs(39,26): warning CS0649: Field 'VisualEffectActivationBehaviour.clipExitEventAttributes' is never assigned to, and will always have its default value null
+ 
+(Filename: Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Runtime\Utilities\Playables\VisualEffectActivation\VisualEffectActivationBehaviour.cs Line: 39)
+
+Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Runtime\Utilities\Playables\VisualEffectActivation\VisualEffectActivationBehaviour.cs(37,26): warning CS0649: Field 'VisualEffectActivationBehaviour.clipEnterEventAttributes' is never assigned to, and will always have its default value null
+ 
+(Filename: Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Runtime\Utilities\Playables\VisualEffectActivation\VisualEffectActivationBehaviour.cs Line: 37)
+
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
+Registering platform support modules:
+Registered platform support modules in: 0.0368373s.
+Native extension for Android target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.968 seconds
+Platform modules already initialized, skipping
+Validating Project structure ... 0.009772 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.036136s
-	Asset Scan time: 0.034985s
-	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
-	Asset Import (Scripting) time: 0.000000s (count: 0)
-	Post Processs Assets (Scripting) time: 0.000000s
-	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
-	Asset Import (Non Scripting) time: 0.000000s (count: 0)
-	Post Process Assets (Non Scripting) time: 0.000000s
-	Dependent Assets to Import Queue time: 0.000000s
+Hashing assets (10 files)... 0.008 seconds
+  file read: 0.002 seconds (6.472 MB)
+  wait for write: 0.001 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.001 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.006 seconds
+Updating Assets/Unity Recorder/Documentation/UnityRecorderV1UserManual.pdf - GUID: 8a307a3b38b9d9c41ba879ad6019927a...
+ done. [Time: 258.592700 ms] 
+Unloading 1871 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.6 MB.
+System memory in use after: 98.2 MB.
 
-WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
-WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
-WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
-WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
-WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
-WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
-Warming cache for 4905 main assets: 0.010577 seconds elapsed
+Unloading 214 unused Assets to reduce memory usage. Loaded Objects now: 2507.
+Total: 27.864500 ms (FindLiveObjects: 0.383300 ms CreateObjectMapping: 0.104200 ms MarkObjects: 3.176500 ms  DeleteObjects: 24.199700 ms)
+
+Updating Assets/Unity Recorder/Samples/Unity.Recorder.Samples.asmdef - GUID: 23130678a8f49844c959f891f4ed88b6...
+ done. [Time: 18.995200 ms] 
+Updating Assets/Unity Recorder/Editor/Sources/Helpers/SerializableObjHelper.cs - GUID: 130688d22164e3c4188f749a2babfcf5...
+ done. [Time: 18.430100 ms] 
+Updating Assets/Unity Recorder/Editor/Sources/Helpers/UnityHelpers.cs - GUID: 6b649a63cc2620e4f920aa775f95be7f...
+ done. [Time: 11.544200 ms] 
+Updating Assets/Unity Recorder/Editor/Sources/Options.cs - GUID: 6c3909f411e0e1b42b3a95ded8e1fd5a...
+ done. [Time: 9.683200 ms] 
+Updating Assets/Unity Recorder/Editor/Sources/Helpers/EnumHelper.cs - GUID: 8ac62795fb4713e42b44c3fb6b3c86e8...
+ done. [Time: 8.840000 ms] 
+Updating Assets/Unity Recorder/Samples/Editor/RecorderEditorExample.cs - GUID: bda7ef56cff178f44bd5839568dbd198...
+ done. [Time: 11.397600 ms] 
+Updating Assets/Unity Recorder/Editor/Sources/Helpers/UIElementHelper.cs - GUID: c7240197859383247bc225d9bf03e7a7...
+ done. [Time: 11.050900 ms] 
+Updating Assets/Unity Recorder/Samples/RecorderExample.cs - GUID: d4dd339be962bba4aa82c902f7b3452e...
+ done. [Time: 8.057600 ms] 
+- Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+- Starting compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Starting compile Library/ScriptAssemblies/Unity.Recorder.dll
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+- Starting compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
+Script Module: Unity.RenderPipelines.Core.Runtime.dll
+Pass: 0 took 32 milliseconds
+Pass: 1 took 8 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
+Script Module: Unity.Postprocessing.Runtime.dll
+Pass: 0 took 15 milliseconds
+Pass: 1 took 2 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
+Symbols will be read from Temp\Unity.VisualEffectGraph.Runtime.pdb
+Script Module: Unity.VisualEffectGraph.Runtime.dll
+Pass: 0 took 24 milliseconds
+Pass: 1 took 1 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 20 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Recorder.dll
+Symbols will be read from Temp\Unity.Recorder.pdb
+Script Module: Unity.Recorder.dll
+Pass: 0 took 13 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
+Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
+Pass: 0 took 0 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+- Starting compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.Recorder.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 44 milliseconds
+Pass: 1 took 6 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Recorder.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.Recorder.Samples.dll
+- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Recorder.Samples.dll
+Symbols will be read from Temp\Unity.Recorder.Samples.pdb
+Script Module: Unity.Recorder.Samples.dll
+Pass: 0 took 35 milliseconds
+Pass: 1 took 20 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
+Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
+Pass: 0 took 55 milliseconds
+Pass: 1 took 5 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbols will be read from Temp\Assembly-CSharp.pdb
+Script Module: Assembly-CSharp.dll
+Pass: 0 took 12 milliseconds
+Pass: 1 took 10 milliseconds
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs(16,10): warning CS0618: 'WWW' is obsolete: 'Use UnityWebRequest, a fully featured replacement which is more efficient and has additional features'
+ 
+(Filename: Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs Line: 16)
+
+Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs(39,23): warning CS0618: 'WWW' is obsolete: 'Use UnityWebRequest, a fully featured replacement which is more efficient and has additional features'
+ 
+(Filename: Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs Line: 39)
+
+Assets\ProCore\ProGrids\Editor\pg_Editor.cs(473,4): warning CS0618: 'EditorApplication.hierarchyWindowChanged' is obsolete: 'Use EditorApplication.hierarchyChanged'
+ 
+(Filename: Assets\ProCore\ProGrids\Editor\pg_Editor.cs Line: 473)
+
+Assets\ProCore\ProGrids\Editor\pg_Editor.cs(488,4): warning CS0618: 'EditorApplication.hierarchyWindowChanged' is obsolete: 'Use EditorApplication.hierarchyChanged'
+ 
+(Filename: Assets\ProCore\ProGrids\Editor\pg_Editor.cs Line: 488)
+
+Assets\ProCore\ProGrids\Editor\pg_Editor.cs(492,4): warning CS0618: 'EditorApplication.hierarchyWindowChanged' is obsolete: 'Use EditorApplication.hierarchyChanged'
+ 
+(Filename: Assets\ProCore\ProGrids\Editor\pg_Editor.cs Line: 492)
+
+Assets\ProCore\ProBuilder\Editor\pb_MissingScriptEditor.cs(136,12): warning CS0618: 'PrefabUtility.GetPrefabType(Object)' is obsolete: 'Use GetPrefabAssetType and GetPrefabInstanceStatus to get the full picture about Prefab types.'
+ 
+(Filename: Assets\ProCore\ProBuilder\Editor\pb_MissingScriptEditor.cs Line: 136)
+
+Assets\ProCore\ProBuilder\Editor\pb_MissingScriptEditor.cs(136,47): warning CS0618: 'PrefabType' is obsolete: 'PrefabType no longer tells everything about Prefab instance.'
+ 
+(Filename: Assets\ProCore\ProBuilder\Editor\pb_MissingScriptEditor.cs Line: 136)
+
+Assets\ProCore\ProBuilder\Editor\pb_MissingScriptEditor.cs(137,9): warning CS0618: 'PrefabUtility.GetPrefabType(Object)' is obsolete: 'Use GetPrefabAssetType and GetPrefabInstanceStatus to get the full picture about Prefab types.'
+ 
+(Filename: Assets\ProCore\ProBuilder\Editor\pb_MissingScriptEditor.cs Line: 137)
+
+Assets\ProCore\ProBuilder\Editor\pb_MissingScriptEditor.cs(137,44): warning CS0618: 'PrefabType' is obsolete: 'PrefabType no longer tells everything about Prefab instance.'
+ 
+(Filename: Assets\ProCore\ProBuilder\Editor\pb_MissingScriptEditor.cs Line: 137)
+
+Assets\ProCore\ProBuilder\Editor\pb_MissingScriptEditor.cs(139,38): warning CS0618: 'PrefabUtility.GetPrefabParent(Object)' is obsolete: 'Use GetCorrespondingObjectFromSource.'
+ 
+(Filename: Assets\ProCore\ProBuilder\Editor\pb_MissingScriptEditor.cs Line: 139)
+
+Assets\ProCore\ProGrids\Editor\pg_Editor.cs(534,4): warning CS0618: 'EditorApplication.hierarchyWindowChanged' is obsolete: 'Use EditorApplication.hierarchyChanged'
+ 
+(Filename: Assets\ProCore\ProGrids\Editor\pg_Editor.cs Line: 534)
+
+Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_StripProBuilderScripts.cs(75,9): warning CS0618: 'PrefabUtility.GetPrefabType(Object)' is obsolete: 'Use GetPrefabAssetType and GetPrefabInstanceStatus to get the full picture about Prefab types.'
+ 
+(Filename: Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_StripProBuilderScripts.cs Line: 75)
+
+Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_StripProBuilderScripts.cs(75,44): warning CS0618: 'PrefabType' is obsolete: 'PrefabType no longer tells everything about Prefab instance.'
+ 
+(Filename: Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_StripProBuilderScripts.cs Line: 75)
+
+Assets\Unity Recorder\Editor\Sources\EditableLabel.cs(40,59): warning CS0618: 'Capture' is obsolete: 'Use TrickleDown instead of Capture.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\EditableLabel.cs Line: 40)
+
+Assets\Unity Recorder\Editor\Sources\EditableLabel.cs(40,13): warning CS0618: 'CallbackEventHandler.RegisterCallback<TEventType>(EventCallback<TEventType>, Capture)' is obsolete: 'Use TrickleDown instead of Capture.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\EditableLabel.cs Line: 40)
+
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(47,59): warning CS0618: 'Capture' is obsolete: 'Use TrickleDown instead of Capture.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs Line: 47)
+
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(47,13): warning CS0618: 'CallbackEventHandler.RegisterCallback<TEventType>(EventCallback<TEventType>, Capture)' is obsolete: 'Use TrickleDown instead of Capture.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs Line: 47)
+
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(48,59): warning CS0618: 'Capture' is obsolete: 'Use TrickleDown instead of Capture.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs Line: 48)
+
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(48,13): warning CS0618: 'CallbackEventHandler.RegisterCallback<TEventType>(EventCallback<TEventType>, Capture)' is obsolete: 'Use TrickleDown instead of Capture.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs Line: 48)
+
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(49,55): warning CS0618: 'Capture' is obsolete: 'Use TrickleDown instead of Capture.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs Line: 49)
+
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(49,13): warning CS0618: 'CallbackEventHandler.RegisterCallback<TEventType>(EventCallback<TEventType>, Capture)' is obsolete: 'Use TrickleDown instead of Capture.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs Line: 49)
+
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(60,13): warning CS0618: 'MouseCaptureController.TakeMouseCapture(IEventHandler)' is obsolete: 'Use CaptureMouse instead of TakeMouseCapture.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs Line: 60)
+
+Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs(93,13): warning CS0618: 'MouseCaptureController.ReleaseMouseCapture(IEventHandler)' is obsolete: 'Use ReleaseMouse instead of ReleaseMouseCapture.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\PanelSplitter.cs Line: 93)
+
+Assets\Unity Recorder\Editor\Sources\RecorderItem.cs(166,24): warning CS0618: 'Toggle.Toggle(Action)' is obsolete: 'Use Toggle() with OnValueChanged() instead.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderItem.cs Line: 166)
+
+Assets\Unity Recorder\Editor\Sources\RecorderItem.cs(168,13): warning CS0618: 'Toggle.OnToggle(Action)' is obsolete: 'Use OnValueChanged() instead.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderItem.cs Line: 168)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(345,21): warning CS0618: 'IStyle.backgroundSize' is obsolete: 'Use backgroundScaleMode instead'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 345)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(467,17): warning CS0618: 'VisualElement.Dirty(ChangeType)' is obsolete: 'Dirty is deprecated. Use MarkDirtyRepaint to trigger a new repaint of the VisualElement.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 467)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(845,29): warning CS0618: 'VisualElement.Dirty(ChangeType)' is obsolete: 'Dirty is deprecated. Use MarkDirtyRepaint to trigger a new repaint of the VisualElement.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 845)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(983,13): warning CS0618: 'VisualElement.Dirty(ChangeType)' is obsolete: 'Dirty is deprecated. Use MarkDirtyRepaint to trigger a new repaint of the VisualElement.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 983)
+
+Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(1030,17): warning CS0618: 'VisualElement.Dirty(ChangeType)' is obsolete: 'Dirty is deprecated. Use MarkDirtyRepaint to trigger a new repaint of the VisualElement.'
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 1030)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(487,39): warning CS0649: Field 'fcAPI.fcFlacConfig.maxTasks' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 487)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(481,42): warning CS0649: Field 'fcAPI.fcFlacConfig.sampleRate' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 481)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(484,37): warning CS0649: Field 'fcAPI.fcFlacConfig.compressionLevel' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 484)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(482,42): warning CS0649: Field 'fcAPI.fcFlacConfig.numChannels' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 482)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(486,43): warning CS0649: Field 'fcAPI.fcFlacConfig.verify' is never assigned to, and will always have its default value 
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 486)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(483,41): warning CS0649: Field 'fcAPI.fcFlacConfig.bitsPerSample' is never assigned to, and will always have its default value 
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 483)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(485,24): warning CS0649: Field 'fcAPI.fcFlacConfig.blockSize' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 485)
+
+Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Editor\Models\Operators\Implementations\ChangeSpace.cs(12,28): warning CS0649: Field 'ChangeSpace.m_targetSpace' is never assigned to, and will always have its default value 
+ 
+(Filename: Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Editor\Models\Operators\Implementations\ChangeSpace.cs Line: 12)
+
+Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Runtime\Utilities\Playables\VisualEffectActivation\VisualEffectActivationBehaviour.cs(39,26): warning CS0649: Field 'VisualEffectActivationBehaviour.clipExitEventAttributes' is never assigned to, and will always have its default value null
+ 
+(Filename: Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Runtime\Utilities\Playables\VisualEffectActivation\VisualEffectActivationBehaviour.cs Line: 39)
+
+Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Runtime\Utilities\Playables\VisualEffectActivation\VisualEffectActivationBehaviour.cs(37,26): warning CS0649: Field 'VisualEffectActivationBehaviour.clipEnterEventAttributes' is never assigned to, and will always have its default value null
+ 
+(Filename: Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Runtime\Utilities\Playables\VisualEffectActivation\VisualEffectActivationBehaviour.cs Line: 37)
+
+Reloading assemblies after script compilation.
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
+Registering platform support modules:
+Registered platform support modules in: 0.0369392s.
+Native extension for Android target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 6.25 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.324 seconds
+Platform modules already initialized, skipping
+Script Compilation Pipeline Post Process Assets time: 4.901336s
+Assembly Updater Post Process Assets time: 0.000233s
+
+Hashing assets (1 files)... 0.007 seconds
+  file read: 0.002 seconds (6.211 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.006 seconds
+Updating Assets/Unity Recorder/Editor/Sources/Recorders/_Legacy/FrameCapturer/Plugins/x86_64/fccore.dll - GUID: 179d640c46150214a8076e7c738f27c1...
+ done. [Time: 71.273600 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000224s
+Assembly Updater Post Process Assets time: 0.000109s
+Refreshing native plugins compatible for Editor in 0.70 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+
+Refresh Completed time: 5.549733s
+	Asset Scan time: 0.034550s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.357299s (count: 9)
+	Post Processs Assets (Scripting) time: 4.918249s
+	Asset Rehashing: 0.014699s [12.7 MB, 862.881714 mb/s]
+	Asset Import (Non Scripting) time: 0.071460s (count: 1)
+	Post Process Assets (Non Scripting) time: 0.004614s
+	Dependent Assets to Import Queue time: 0.006090s
+
+Warming cache for 4905 main assets: 0.008969 seconds elapsed
 Initializing Unity extensions:
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
@@ -231,132 +1650,150 @@ Initializing Unity extensions:
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
-Unloading 2019 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 190.7 MB.
-System memory in use after: 188.4 MB.
+Unloading 364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 72.8 MB.
 
-Unloading 356 unused Assets to reduce memory usage. Loaded Objects now: 2584.
-Total: 3.310700 ms (FindLiveObjects: 0.295600 ms CreateObjectMapping: 0.061400 ms MarkObjects: 1.941800 ms  DeleteObjects: 1.011800 ms)
+Unloading 309 unused Assets to reduce memory usage. Loaded Objects now: 2574.
+Total: 2.682000 ms (FindLiveObjects: 0.345300 ms CreateObjectMapping: 0.060300 ms MarkObjects: 2.213000 ms  DeleteObjects: 0.062900 ms)
 
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
-Script Compilation Pipeline Post Process Assets time: 0.000498s
-Assembly Updater Post Process Assets time: 0.000058s
+Cannot set mode of files in offline mode
+UnityEditor.VersionControl.Task:Wait()
+UnityEditorInternal.VersionControl.AssetModificationHook:GetStatusForceUpdate(String) (at C:\buildslave\unity\build\Editor\Mono\VersionControl\Common\VCAssetModificationHooks.cs:39)
+UnityEditorInternal.VersionControl.AssetModificationHook:IsOpenForEdit(String, String&, StatusQueryOptions) (at C:\buildslave\unity\build\Editor\Mono\VersionControl\Common\VCAssetModificationHooks.cs:114)
+UnityEditor.AssetModificationProcessorInternal:IsOpenForEdit(String, String&, StatusQueryOptions) (at C:\buildslave\unity\build\Editor\Mono\AssetModificationProcessor.cs:280)
+UnityEditor.AssetDatabase:IsOpenForEdit(String, String&, StatusQueryOptions) (at C:\buildslave\unity\build\artifacts\generated\bindings_old\common\Editor\AssetDatabaseBindings.gen.cs:598)
+UnityEditor.AssetDatabase:IsOpenForEdit(String, StatusQueryOptions) (at C:\buildslave\unity\build\artifacts\generated\bindings_old\common\Editor\AssetDatabaseBindings.gen.cs:571)
+UnityEditor.AssetModificationProcessorInternal:OnWillSaveAssets(String[], String[]&, String[]&, Boolean) (at C:\buildslave\unity\build\Editor\Mono\AssetModificationProcessor.cs:162)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+ASBuildScript:RunBuild() (at Assets\Scripts\Editor\ASBuildScript.cs:40)
+
+[C:\buildslave\unity\build\Editor/Src/VersionControl/VCMessage.cpp line 109] 
+(Filename: Assets/Scripts/Editor/ASBuildScript.cs Line: 40)
+
+Script Compilation Pipeline Post Process Assets time: 0.000230s
+Assembly Updater Post Process Assets time: 0.000033s
 Updating ProjectSettings/UnityConnectSettings.asset - GUID: 0000000000000000a100000000000000...
- done. [Time: 70.106900 ms] 
-Script Compilation Pipeline Post Process Assets time: 0.000009s
-Assembly Updater Post Process Assets time: 0.000034s
-Refreshing native plugins compatible for Editor in 0.61 ms, found 5 plugins.
+ done. [Time: 5.788500 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000008s
+Assembly Updater Post Process Assets time: 0.000032s
+Refreshing native plugins compatible for Editor in 0.58 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.10 ms.
 BuildPlayer: start building target 19
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
-- Starting compile Library/ScriptAssemblies/Unity.Recorder.dll
 - Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
-- Starting compile Library/ScriptAssemblies/Unity.Recorder.Samples.dll
+- Starting compile Library/ScriptAssemblies/Unity.Recorder.dll
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
-Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
-Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 18 milliseconds
-Pass: 1 took 2 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
-Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
-Script Module: Unity.Postprocessing.Runtime.dll
-Pass: 0 took 13 milliseconds
-Pass: 1 took 1 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
-Symbols will be read from Temp\Unity.VisualEffectGraph.Runtime.pdb
-Script Module: Unity.VisualEffectGraph.Runtime.dll
-Pass: 0 took 29 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.Recorder.Samples.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 27 milliseconds
 Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Recorder.dll
 Symbols will be read from Temp\Unity.Recorder.pdb
 Script Module: Unity.Recorder.dll
 Pass: 0 took 13 milliseconds
 Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
-Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
-Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 19 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
+Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
+Pass: 0 took 0 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Recorder.Samples.dll
 Symbols will be read from Temp\Unity.Recorder.Samples.pdb
 Script Module: Unity.Recorder.Samples.dll
 Pass: 0 took 0 milliseconds
 Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
-Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
-Pass: 0 took 0 milliseconds
-Pass: 1 took 0 milliseconds
-- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
+Script Module: Unity.Postprocessing.Runtime.dll
+Pass: 0 took 14 milliseconds
+Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbols will be read from Temp\Unity.TextMeshPro.pdb
 Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 33 milliseconds
-Pass: 1 took 6 milliseconds
+Pass: 0 took 25 milliseconds
+Pass: 1 took 5 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
+Script Module: Unity.RenderPipelines.Core.Runtime.dll
+Pass: 0 took 14 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
+Symbols will be read from Temp\Unity.VisualEffectGraph.Runtime.pdb
+Script Module: Unity.VisualEffectGraph.Runtime.dll
+Pass: 0 took 27 milliseconds
+Pass: 1 took 1 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
 Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
-Pass: 0 took 44 milliseconds
+Pass: 0 took 45 milliseconds
 Pass: 1 took 5 milliseconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
 Symbols will be read from Temp\Assembly-CSharp.pdb
 Script Module: Assembly-CSharp.dll
-Pass: 0 took 12 milliseconds
+Pass: 0 took 13 milliseconds
 Pass: 1 took 17 milliseconds
-Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Runtime\Utilities\Playables\VisualEffectActivation\VisualEffectActivationBehaviour.cs(39,26): warning CS0649: Field 'VisualEffectActivationBehaviour.clipExitEventAttributes' is never assigned to, and will always have its default value null
- 
-(Filename: Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Runtime\Utilities\Playables\VisualEffectActivation\VisualEffectActivationBehaviour.cs Line: 39)
-
 Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Runtime\Utilities\Playables\VisualEffectActivation\VisualEffectActivationBehaviour.cs(37,26): warning CS0649: Field 'VisualEffectActivationBehaviour.clipEnterEventAttributes' is never assigned to, and will always have its default value null
  
 (Filename: Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Runtime\Utilities\Playables\VisualEffectActivation\VisualEffectActivationBehaviour.cs Line: 37)
 
+Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Runtime\Utilities\Playables\VisualEffectActivation\VisualEffectActivationBehaviour.cs(39,26): warning CS0649: Field 'VisualEffectActivationBehaviour.clipExitEventAttributes' is never assigned to, and will always have its default value null
+ 
+(Filename: Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Runtime\Utilities\Playables\VisualEffectActivation\VisualEffectActivationBehaviour.cs Line: 39)
+
 DisplayProgressbar: Building Player
 Opening scene 'Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Audio Visualizer.unity'
-Load scene 'Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Audio Visualizer.unity' time: 0.012100 ms 
+Load scene 'Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Audio Visualizer.unity' time: 0.013000 ms 
 LightmapEditorSettings: switching bake backend from 1 to 0.
-Unloading 103 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.3 MB.
-System memory in use after: 159.3 MB.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.4 MB.
 
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 2732.
-Total: 9.373600 ms (FindLiveObjects: 0.348200 ms CreateObjectMapping: 0.074500 ms MarkObjects: 8.767800 ms  DeleteObjects: 0.182800 ms)
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2655.
+Total: 10.642100 ms (FindLiveObjects: 0.317600 ms CreateObjectMapping: 0.056000 ms MarkObjects: 10.025300 ms  DeleteObjects: 0.242700 ms)
 
 Opening scene 'Assets/ProCore/ProBuilder/API Examples/Procedural Mesh/Extrude Random Edges.unity'
-Load scene 'Assets/ProCore/ProBuilder/API Examples/Procedural Mesh/Extrude Random Edges.unity' time: 0.007800 ms 
+Load scene 'Assets/ProCore/ProBuilder/API Examples/Procedural Mesh/Extrude Random Edges.unity' time: 0.008600 ms 
 LightmapEditorSettings: switching bake backend from 1 to 0.
 Unloading 51 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 161.9 MB.
-System memory in use after: 161.4 MB.
+System memory in use before: 70.4 MB.
+System memory in use after: 69.5 MB.
 
-Unloading 520 unused Assets to reduce memory usage. Loaded Objects now: 2697.
-Total: 10.028700 ms (FindLiveObjects: 0.362300 ms CreateObjectMapping: 0.092100 ms MarkObjects: 8.679300 ms  DeleteObjects: 0.894500 ms)
+Unloading 523 unused Assets to reduce memory usage. Loaded Objects now: 2620.
+Total: 9.990600 ms (FindLiveObjects: 0.342000 ms CreateObjectMapping: 0.073600 ms MarkObjects: 8.358400 ms  DeleteObjects: 1.215500 ms)
 
-Created GICache directory at C:/Users/tom.kim/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.022s, timestamps: [10.866 - 10.888]
+Created GICache directory at C:/Users/tom.kim/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.024s, timestamps: [21.726 - 21.750]
 [00:00:00] Enlighten: Precompute started.
 [PathTracer] Issuing atlassing job. Atlas hash: bc06a9703e5ae257241f86e6e5e9cb62, width: 1024, height: 1024
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Setting up 8 worker threads for Enlighten.
-  Thread -> id: 5968 -> priority: 1 
-  Thread -> id: 9bc8 -> priority: 1 
-  Thread -> id: 304 -> priority: 1 
-  Thread -> id: 1714 -> priority: 1 
-  Thread -> id: 96d4 -> priority: 1 
-  Thread -> id: 71f8 -> priority: 1 
-  Thread -> id: 5488 -> priority: 1 
-  Thread -> id: 3bec -> priority: 1 
-[00:00:00] Enlighten: Finished 1 Layout Systems job (0.00s execute, 0.00s integrate, 0.08s wallclock)
+  Thread -> id: 6f64 -> priority: 1 
+  Thread -> id: 7388 -> priority: 1 
+  Thread -> id: 9d88 -> priority: 1 
+  Thread -> id: 7fa4 -> priority: 1 
+  Thread -> id: 3f9c -> priority: 1 
+  Thread -> id: a368 -> priority: 1 
+  Thread -> id: 2544 -> priority: 1 
+  Thread -> id: 25b8 -> priority: 1 
+[00:00:00] Enlighten: Finished 1 Layout Systems job (0.00s execute, 0.00s integrate, 0.09s wallclock)
 [PathTracer] Integrated atlassing. Atlas hash: bc06a9703e5ae257241f86e6e5e9cb62 -> Atlas count: 0 -> Instance count: 0 -> Estimated texel count: 0.000M.
 [00:00:00] Enlighten: Finished 1 Tetrahedralize Probes job (0.00s execute, 0.00s integrate, 0.01s wallclock)
-[00:00:00] Enlighten: Precompute took 0.094231 seconds.
+[00:00:00] Enlighten: Precompute took 0.100708 seconds.
 Enlighten scene contents:   0 geometries.   0 instances.   0 systems.   0 probe groups.   0 cube maps. Scene is up-to-date.
 [00:00:00] Enlighten: Bake started.
 [PathTracer][LP] Issuing deduplication and tetrahedralization job. Combined: 80257199cfa681a16be5e09b3c2208f4, tetrahedralized probes: 00000000000000000000000000000000, non-tetrahedralized probes: 00000000000000000000000000000000, dependencies: 00000000000000000000000000000000
@@ -366,7 +1803,7 @@ Enlighten scene contents:   0 geometries.   0 instances.   0 systems.   0 probe 
 [PathTracer][LP] Light probes reset.
 [PathTracer][CB] Custom bakes reset.
 [00:00:00] Enlighten: Finished 1 Bake Runtime job (0.06s execute, 0.00s integrate, 0.07s wallclock)
-[00:00:00] Enlighten: Bake took 0.069686 seconds.
+[00:00:00] Enlighten: Bake took 0.069593 seconds.
 [PathTracer] building lightmap data asset.
 [PathTracer] m_Clear = false;
 gi::BakeBackendSwitch: Clear() active clients.
@@ -377,7 +1814,7 @@ gi::BakeBackendSwitch: switching bake backend from 3 to 0.
 [00:00:00] Enlighten: Bake started.
 [PathTracer] building lightmap data asset.
 [00:00:00] Enlighten: Finished 1 Bake Runtime job (0.06s execute, 0.00s integrate, 0.06s wallclock)
-[00:00:00] Enlighten: Bake took 0.060399 seconds.
+[00:00:00] Enlighten: Bake took 0.059616 seconds.
 [00:00:00] Enlighten: Reflection Probes started.
 [00:00:00] Enlighten: Finished 1 Bake Ambient Probe job (0.00s execute, 0.00s integrate, 0.01s wallclock)
 [00:00:01] Enlighten: Finished 1 Bake Ambient Probe job (0.00s execute, 0.00s integrate, 0.01s wallclock)
@@ -385,60 +1822,60 @@ gi::BakeBackendSwitch: switching bake backend from 3 to 0.
 [00:00:01] Enlighten: LightingDataAsset started.
 > Collecting Enlighten data
 Opening scene 'Assets/ProCore/ProBuilder/API Examples/Runtime Editing/RuntimeEdit.unity'
-Load scene 'Assets/ProCore/ProBuilder/API Examples/Runtime Editing/RuntimeEdit.unity' time: 0.008800 ms 
+Load scene 'Assets/ProCore/ProBuilder/API Examples/Runtime Editing/RuntimeEdit.unity' time: 0.008900 ms 
 LightmapEditorSettings: switching bake backend from 1 to 0.
 Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
-[00:00:00] Enlighten: LightingDataAsset took 0.060714 seconds. Cancelled, so not done yet.
-System memory in use before: 451.3 MB.
-System memory in use after: 451.4 MB.
+[00:00:00] Enlighten: LightingDataAsset took 0.069681 seconds. Cancelled, so not done yet.
+System memory in use before: 359.4 MB.
+System memory in use after: 359.6 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2819.
-Total: 8.905500 ms (FindLiveObjects: 0.379100 ms CreateObjectMapping: 0.072800 ms MarkObjects: 8.410700 ms  DeleteObjects: 0.042300 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2742.
+Total: 9.213800 ms (FindLiveObjects: 0.327000 ms CreateObjectMapping: 0.063100 ms MarkObjects: 8.782400 ms  DeleteObjects: 0.040400 ms)
 
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Opening scene 'Assets/ProCore/ProBuilder/API Examples/Vertex Colors/HighlightNearestFace.unity'
-Load scene 'Assets/ProCore/ProBuilder/API Examples/Vertex Colors/HighlightNearestFace.unity' time: 0.008300 ms 
+Load scene 'Assets/ProCore/ProBuilder/API Examples/Vertex Colors/HighlightNearestFace.unity' time: 0.007800 ms 
 LightmapEditorSettings: switching bake backend from 1 to 0.
 Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 451.4 MB.
-System memory in use after: 451.4 MB.
+System memory in use before: 359.7 MB.
+System memory in use after: 359.6 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2811.
-Total: 9.216100 ms (FindLiveObjects: 0.331200 ms CreateObjectMapping: 0.060100 ms MarkObjects: 8.586200 ms  DeleteObjects: 0.237700 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2734.
+Total: 10.742300 ms (FindLiveObjects: 0.324700 ms CreateObjectMapping: 0.076400 ms MarkObjects: 10.064800 ms  DeleteObjects: 0.276000 ms)
 
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Opening scene 'Assets/Scenes/Asset_Layout.unity'
-Load scene 'Assets/Scenes/Asset_Layout.unity' time: 0.007800 ms 
+Load scene 'Assets/Scenes/Asset_Layout.unity' time: 0.007900 ms 
 Unloading 119 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 0.66 GB.
-System memory in use after: 0.66 GB.
+System memory in use before: 0.57 GB.
+System memory in use after: 0.57 GB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 16437.
-Total: 12.039200 ms (FindLiveObjects: 1.009100 ms CreateObjectMapping: 0.424700 ms MarkObjects: 10.376000 ms  DeleteObjects: 0.228800 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 16349.
+Total: 12.455800 ms (FindLiveObjects: 1.019100 ms CreateObjectMapping: 0.464100 ms MarkObjects: 10.708800 ms  DeleteObjects: 0.263100 ms)
 
 DisplayProgressbar: Compiling shader variants
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 DisplayProgressbar: Building Player
 Opening scene 'Assets/Scenes/Construction_site.unity'
-Load scene 'Assets/Scenes/Construction_site.unity' time: 0.011500 ms 
+Load scene 'Assets/Scenes/Construction_site.unity' time: 0.011200 ms 
 Unloading 1029 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 1.17 GB.
-System memory in use after: 1.18 GB.
+System memory in use before: 1.08 GB.
+System memory in use after: 1.09 GB.
 
-Unloading 162 unused Assets to reduce memory usage. Loaded Objects now: 94168.
-Total: 39.192600 ms (FindLiveObjects: 5.625300 ms CreateObjectMapping: 4.663700 ms MarkObjects: 28.430200 ms  DeleteObjects: 0.472900 ms)
+Unloading 164 unused Assets to reduce memory usage. Loaded Objects now: 94091.
+Total: 39.813600 ms (FindLiveObjects: 5.596300 ms CreateObjectMapping: 4.809500 ms MarkObjects: 28.894800 ms  DeleteObjects: 0.512500 ms)
 
 DisplayProgressbar: Compiling shader variants
 DisplayProgressbar: Building Player
@@ -490,50 +1927,56 @@ Dependency assembly - Unity.TextMeshPro.dll
 Dependency assembly - Unity.VisualEffectGraph.Runtime.dll
 
 Unloading 445 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 1.05 GB.
-System memory in use after: 0.97 GB.
+System memory in use before: 0.96 GB.
+System memory in use after: 0.88 GB.
 
-Unloading 45899 unused Assets to reduce memory usage. Loaded Objects now: 2794.
-Total: 38.275100 ms (FindLiveObjects: 2.747900 ms CreateObjectMapping: 2.114100 ms MarkObjects: 8.961900 ms  DeleteObjects: 24.450700 ms)
+Unloading 45901 unused Assets to reduce memory usage. Loaded Objects now: 2717.
+Total: 39.454100 ms (FindLiveObjects: 2.811700 ms CreateObjectMapping: 2.673500 ms MarkObjects: 8.892800 ms  DeleteObjects: 25.075700 ms)
 
 [EnlightenBakeManager] m_Clear = false;
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 481.1 MB.
-System memory in use after: 481.3 MB.
+System memory in use before: 389.2 MB.
+System memory in use after: 389.3 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2806.
-Total: 9.510000 ms (FindLiveObjects: 0.696900 ms CreateObjectMapping: 0.094000 ms MarkObjects: 8.714100 ms  DeleteObjects: 0.004600 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2729.
+Total: 11.173300 ms (FindLiveObjects: 0.697000 ms CreateObjectMapping: 0.081500 ms MarkObjects: 10.389500 ms  DeleteObjects: 0.004900 ms)
 
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 482.3 MB.
-System memory in use after: 481.4 MB.
+System memory in use before: 481.5 MB.
+System memory in use after: 389.7 MB.
 
-Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 2794.
-Total: 10.800100 ms (FindLiveObjects: 0.499000 ms CreateObjectMapping: 0.055200 ms MarkObjects: 9.465100 ms  DeleteObjects: 0.780500 ms)
+Unloading 150 unused Assets to reduce memory usage. Loaded Objects now: 2717.
+Total: 30.404600 ms (FindLiveObjects: 0.643900 ms CreateObjectMapping: 0.098600 ms MarkObjects: 8.698300 ms  DeleteObjects: 20.963200 ms)
 
 Compressed shader 'Hidden/HDRenderPipeline/Deferred' on d3d11 from 1.38MB to 0.32MB
 DisplayProgressbar: Compiling shader variants
-Compiled shader 'HDRenderPipeline/Lit' in 2.60s
+Compiled shader 'HDRenderPipeline/Lit' in 4.99s
     d3d11 (total internal programs: 1864, unique: 1629)
 Compressed shader 'HDRenderPipeline/Lit' on d3d11 from 35.75MB to 8.78MB
 Compressed shader 'Hidden/HDRenderPipeline/ColorResolve' on d3d11 from 2.29MB to 0.62MB
 Compressed shader 'Hidden/HDRenderPipeline/TerrainLit_Basemap' on d3d11 from 7.16MB to 1.69MB
 Compressed shader 'HDRenderPipeline/TerrainLit' on d3d11 from 8.23MB to 1.77MB
 DisplayProgressbar: Building Player
-Compressed shader 'ProBuilder/Standard Vertex Color' on d3d11 from 2.66MB to 0.16MB
 DisplayProgressbar: Compiling shader variants
+Compiled shader 'ProBuilder/Standard Vertex Color' in 1.79s
+    d3d11 (total internal programs: 736, unique: 656)
+Compressed shader 'ProBuilder/Standard Vertex Color' on d3d11 from 2.66MB to 0.16MB
+DisplayProgressbar: Building Player
+DisplayProgressbar: Compiling shader variants
+Compiled shader 'Hidden/PostProcessing/Uber' in 3.20s
+    d3d11 (total internal programs: 1152, unique: 1152)
 Compressed shader 'Hidden/PostProcessing/Uber' on d3d11 from 3.81MB to 0.24MB
-Compiled shader 'HDRenderPipeline/LayeredLit' in 2.27s
+Compiled shader 'HDRenderPipeline/LayeredLit' in 6.00s
     d3d11 (total internal programs: 2160, unique: 2148)
 Compressed shader 'HDRenderPipeline/LayeredLit' on d3d11 from 51.37MB to 12.62MB
 Unloading 936 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 0.54 GB.
-System memory in use after: 0.53 GB.
+System memory in use before: 457.9 MB.
+System memory in use after: 455.1 MB.
 
-Unloading 809 unused Assets to reduce memory usage. Loaded Objects now: 2807.
-Total: 13.529900 ms (FindLiveObjects: 0.857000 ms CreateObjectMapping: 0.144600 ms MarkObjects: 9.632600 ms  DeleteObjects: 2.894900 ms)
+Unloading 812 unused Assets to reduce memory usage. Loaded Objects now: 2730.
+Total: 12.688300 ms (FindLiveObjects: 0.606000 ms CreateObjectMapping: 0.096200 ms MarkObjects: 8.643300 ms  DeleteObjects: 3.342200 ms)
 
 DisplayProgressbar: Building Player
 
@@ -551,7 +1994,7 @@ Scripts                2.8 mb	 0.1%
 Included DLLs          13.2 mb	 0.6% 
 File headers           163.1 mb	 7.6% 
 Total User Assets      2158.7 mb	 100.0% 
-Complete build size    -1946090.8 kb
+Complete build size    -1946090.9 kb
 Used Assets and files from the Resources folder, sorted by uncompressed size:
  42.7 mb	 1.9% Assets/Scenes/Construction_site/Lightmap-4_comp_light.exr
  42.7 mb	 1.9% Assets/Scenes/Construction_site/Lightmap-3_comp_light.exr
@@ -1989,27 +3432,27 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  0.0 kb	 0.0% Assets/Scenes/Asset_Layout/LightingData.asset
 -------------------------------------------------------------------------------
 Unloading 95 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 485.7 MB.
-System memory in use after: 485.3 MB.
+System memory in use before: 393.9 MB.
+System memory in use after: 393.4 MB.
 
-Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 2818.
-Total: 9.386700 ms (FindLiveObjects: 0.741200 ms CreateObjectMapping: 0.095200 ms MarkObjects: 7.881200 ms  DeleteObjects: 0.668600 ms)
+Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 2741.
+Total: 9.759300 ms (FindLiveObjects: 0.575400 ms CreateObjectMapping: 0.055700 ms MarkObjects: 8.381300 ms  DeleteObjects: 0.746100 ms)
 
 DisplayProgressNotification: Build Successful
-Load scene 'Temp/__Backupscenes/0.backup' time: 0.056400 ms 
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.059300 ms 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 483.2 MB.
-System memory in use after: 483.4 MB.
+System memory in use before: 391.3 MB.
+System memory in use after: 391.4 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2810.
-Total: 9.117000 ms (FindLiveObjects: 0.595800 ms CreateObjectMapping: 0.053000 ms MarkObjects: 8.461900 ms  DeleteObjects: 0.005300 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2733.
+Total: 9.041000 ms (FindLiveObjects: 0.644500 ms CreateObjectMapping: 0.091600 ms MarkObjects: 8.299800 ms  DeleteObjects: 0.004700 ms)
 
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
-- Starting compile Library/ScriptAssemblies/Unity.Recorder.dll
 - Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Starting compile Library/ScriptAssemblies/Unity.Recorder.dll
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
 - Starting compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
@@ -2017,71 +3460,71 @@ Total: 9.117000 ms (FindLiveObjects: 0.595800 ms CreateObjectMapping: 0.053000 m
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
 Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 15 milliseconds
+Pass: 0 took 24 milliseconds
 Pass: 1 took 0 milliseconds
-- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
-Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
-Script Module: Unity.Postprocessing.Runtime.dll
-Pass: 0 took 116 milliseconds
-Pass: 1 took 4 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
 Symbols will be read from Temp\Unity.VisualEffectGraph.Runtime.pdb
 Script Module: Unity.VisualEffectGraph.Runtime.dll
-Pass: 0 took 28 milliseconds
-Pass: 1 took 2 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Recorder.dll
-Symbols will be read from Temp\Unity.Recorder.pdb
-Script Module: Unity.Recorder.dll
-Pass: 0 took 13 milliseconds
-Pass: 1 took 0 milliseconds
+Pass: 0 took 54 milliseconds
+Pass: 1 took 3 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
 Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
 Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 26 milliseconds
+Pass: 0 took 35 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Recorder.dll
+Symbols will be read from Temp\Unity.Recorder.pdb
+Script Module: Unity.Recorder.dll
+Pass: 0 took 19 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
 Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
 Pass: 0 took 0 milliseconds
 Pass: 1 took 0 milliseconds
-- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.Recorder.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
+Script Module: Unity.Postprocessing.Runtime.dll
+Pass: 0 took 24 milliseconds
+Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbols will be read from Temp\Unity.TextMeshPro.pdb
 Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 56 milliseconds
-Pass: 1 took 5 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+Pass: 0 took 77 milliseconds
+Pass: 1 took 9 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+- Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.Recorder.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.Recorder.Samples.dll
 - Finished compile Library/ScriptAssemblies/Unity.Recorder.Samples.dll
 Symbols will be read from Temp\Unity.Recorder.Samples.pdb
 Script Module: Unity.Recorder.Samples.dll
-Pass: 0 took 20 milliseconds
-Pass: 1 took 15 milliseconds
+Pass: 0 took 19 milliseconds
+Pass: 1 took 20 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
 Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
-Pass: 0 took 50 milliseconds
+Pass: 0 took 65 milliseconds
 Pass: 1 took 5 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
 Symbols will be read from Temp\Assembly-CSharp.pdb
 Script Module: Assembly-CSharp.dll
-Pass: 0 took 12 milliseconds
-Pass: 1 took 12 milliseconds
+Pass: 0 took 13 milliseconds
+Pass: 1 took 17 milliseconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs(16,10): warning CS0618: 'WWW' is obsolete: 'Use UnityWebRequest, a fully featured replacement which is more efficient and has additional features'
@@ -2204,14 +3647,6 @@ Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(1030,17): warning CS0618:
  
 (Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 1030)
 
-Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(483,41): warning CS0649: Field 'fcAPI.fcFlacConfig.bitsPerSample' is never assigned to, and will always have its default value 
- 
-(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 483)
-
-Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(485,24): warning CS0649: Field 'fcAPI.fcFlacConfig.blockSize' is never assigned to, and will always have its default value 0
- 
-(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 485)
-
 Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(482,42): warning CS0649: Field 'fcAPI.fcFlacConfig.numChannels' is never assigned to, and will always have its default value 0
  
 (Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 482)
@@ -2220,17 +3655,25 @@ Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Enc
  
 (Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 486)
 
-Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(484,37): warning CS0649: Field 'fcAPI.fcFlacConfig.compressionLevel' is never assigned to, and will always have its default value 0
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(483,41): warning CS0649: Field 'fcAPI.fcFlacConfig.bitsPerSample' is never assigned to, and will always have its default value 
  
-(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 484)
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 483)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(481,42): warning CS0649: Field 'fcAPI.fcFlacConfig.sampleRate' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 481)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(485,24): warning CS0649: Field 'fcAPI.fcFlacConfig.blockSize' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 485)
 
 Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(487,39): warning CS0649: Field 'fcAPI.fcFlacConfig.maxTasks' is never assigned to, and will always have its default value 0
  
 (Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 487)
 
-Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(481,42): warning CS0649: Field 'fcAPI.fcFlacConfig.sampleRate' is never assigned to, and will always have its default value 0
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(484,37): warning CS0649: Field 'fcAPI.fcFlacConfig.compressionLevel' is never assigned to, and will always have its default value 0
  
-(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 481)
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 484)
 
 Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Editor\Models\Operators\Implementations\ChangeSpace.cs(12,28): warning CS0649: Field 'ChangeSpace.m_targetSpace' is never assigned to, and will always have its default value 
  
@@ -2245,12 +3688,12 @@ Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Runtime\Utilitie
 (Filename: Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Runtime\Utilities\Playables\VisualEffectActivation\VisualEffectActivationBehaviour.cs Line: 37)
 
 Batchmode quit successfully invoked - shutting down!
-[Performance] CurlRequestCheck                        :       14 samples, Peak.  22.1 us (2.5x), Avg.  8.98 us, Total. 125.7 us (0.0%)
-[Performance] PackageManager::RunRequestSynchronously :        3 samples, Peak.  23.1 us (2.3x), Avg.  10.2 us, Total. 30.50 us (0.0%)
+[Performance] CurlRequestCheck                        :       14 samples, Peak.  21.5 us (2.6x), Avg.  8.34 us, Total. 116.8 us (0.0%)
+[Performance] PackageManager::RunRequestSynchronously :        4 samples, Peak.  27.1 us (2.7x), Avg.  10.2 us, Total. 40.70 us (0.0%)
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.036827s
-	Asset Scan time: 0.035602s
+Refresh Completed time: 0.037132s
+	Asset Scan time: 0.035912s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -2261,8 +3704,8 @@ Refresh Completed time: 0.036827s
 
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.034366s
-	Asset Scan time: 0.033370s
+Refresh Completed time: 0.034580s
+	Asset Scan time: 0.033570s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
