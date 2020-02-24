@@ -1,10 +1,10 @@
 Initiating legacy licensing module
-LICENSE SYSTEM [2020224 17:18:6] Next license update check is after 2020-02-06T01:32:16
+LICENSE SYSTEM [2020224 17:24:42] Next license update check is after 2020-02-06T01:32:16
 
 Built from '2018.4/staging' branch; Version is '2018.4.0f1 (b6ffa8986c8d) revision 11993000'; Using compiler version '191326128'
 OS: 'Windows 10  (10.0.0) 64bit' Language: 'ko' Physical Memory: 32586 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-[Package Manager] Server::Start -- Port 62566 was selected
+[Package Manager] Server::Start -- Port 60801 was selected
 
  COMMAND LINE ARGUMENTS:
 C:/UnityEditor/2018.4.0f1/Editor/Unity.exe
@@ -15,12 +15,12 @@ E:/p4/WorldUrbanBiomes/Train_Station/
 -executeMethod
 ASBuildScript.RunBuild
 -logfile
-e:/build/LemonSky/Train_Station/4614/BuildLog.txt
+e:/build/LemonSky/Train_Station/4618/BuildLog.txt
 Successfully changed project path to: E:/p4/WorldUrbanBiomes/Train_Station/
 E:/p4/WorldUrbanBiomes/Train_Station
 Using Asset Import Pipeline V1.
-Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000059 seconds
-Loading Asset Database...0.021393 seconds
+Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000062 seconds
+Loading Asset Database...0.020934 seconds
 Build target: OSXUniversal found and added!
 Build target: WindowsStoreApps found and added!
 Build target: Win64 found and added!
@@ -49,11 +49,11 @@ Build target: N3DS found and added!
 Build target: WP8 found and added!
 Build target: SamsungTV found and added!
 Build target: Tizen found and added!
-AssetDatabase consistency checks...0.020686 seconds
-Refreshing native plugins compatible for Editor in 9.82 ms, found 4 plugins.
+AssetDatabase consistency checks...0.021240 seconds
+Refreshing native plugins compatible for Editor in 9.47 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Unity Package Manager
-[Package Manager] Done resolving packages in 0.13s seconds
+[Package Manager] Done resolving packages in 0.19s seconds
 [Package Manager] Registering 40 packages:
 [Package Manager]  * Package :  com.unity.ads@2.0.8
     (location: E:\p4\WorldUrbanBiomes\Train_Station\Library\PackageCache\com.unity.ads@2.0.8)
@@ -155,7 +155,7 @@ Initialize mono
 Mono path[0] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
 Begin MonoManager ReloadAssembly
 Refreshing native plugins compatible for Editor in 0.63 ms, found 5 plugins.
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
@@ -163,36 +163,36 @@ Registering precompiled unity dll's ...
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001744 seconds.
+Registered in 0.001696 seconds.
 Registering platform support modules:
-Registered platform support modules in: 0.0582745s.
+Registered platform support modules in: 0.0592441s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.63 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.87 ms.
+Preloading 1 native plugins for Editor in 1.18 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.550 seconds
+- Completed reload, in  1.554 seconds
 Registering precompiled user dll's ...
-Registered in 0.088014 seconds.
+Registered in 0.089828 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering platform support modules:
-Registered platform support modules in: 0.0347746s.
+Registered platform support modules in: 0.038781s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.67 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.969 seconds
+- Completed reload, in  0.976 seconds
 Platform modules already initialized, skipping
-Validating Project structure ... 0.029242 seconds.
+Validating Project structure ... 0.031346 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.050043s
-	Asset Scan time: 0.048853s
+Refresh Completed time: 0.051197s
+	Asset Scan time: 0.050199s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -201,13 +201,13 @@ Refresh Completed time: 0.050043s
 	Post Process Assets (Non Scripting) time: 0.000000s
 	Dependent Assets to Import Queue time: 0.000000s
 
-WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
-WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
-Warming cache for 5062 main assets: 0.011011 seconds elapsed
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Warming cache for 5055 main assets: 0.010947 seconds elapsed
 Initializing Unity extensions:
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
@@ -229,24 +229,24 @@ Initializing Unity extensions:
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
-Unloading 1794 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 184.1 MB.
-System memory in use after: 182.1 MB.
+Unloading 1778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.8 MB.
+System memory in use after: 181.8 MB.
 
-Unloading 644 unused Assets to reduce memory usage. Loaded Objects now: 2009.
-Total: 3.156700 ms (FindLiveObjects: 0.310800 ms CreateObjectMapping: 0.058700 ms MarkObjects: 1.581200 ms  DeleteObjects: 1.204600 ms)
+Unloading 628 unused Assets to reduce memory usage. Loaded Objects now: 2009.
+Total: 3.554900 ms (FindLiveObjects: 0.305600 ms CreateObjectMapping: 0.048600 ms MarkObjects: 1.664800 ms  DeleteObjects: 1.535600 ms)
 
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
-Script Compilation Pipeline Post Process Assets time: 0.000485s
-Assembly Updater Post Process Assets time: 0.000042s
+Script Compilation Pipeline Post Process Assets time: 0.000475s
+Assembly Updater Post Process Assets time: 0.000039s
 Updating ProjectSettings/UnityConnectSettings.asset - GUID: 0000000000000000a100000000000000...
- done. [Time: 73.406000 ms] 
+ done. [Time: 72.716100 ms] 
 Script Compilation Pipeline Post Process Assets time: 0.000009s
 Assembly Updater Post Process Assets time: 0.000034s
-Refreshing native plugins compatible for Editor in 0.62 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.10 ms.
 BuildPlayer: start building target 19
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
@@ -269,12 +269,12 @@ Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
 Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 12 milliseconds
+Pass: 0 took 13 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
 Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
 Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 25 milliseconds
+Pass: 0 took 19 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Recorder.Samples.dll
 Symbols will be read from Temp\Unity.Recorder.Samples.pdb
@@ -290,20 +290,20 @@ Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbols will be read from Temp\Unity.TextMeshPro.pdb
 Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 33 milliseconds
-Pass: 1 took 5 milliseconds
+Pass: 0 took 30 milliseconds
+Pass: 1 took 7 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
 Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
-Pass: 0 took 36 milliseconds
-Pass: 1 took 6 milliseconds
+Pass: 0 took 48 milliseconds
+Pass: 1 took 5 milliseconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
 
 -----Compiler Commandline Arguments:
 Filename: C:\UnityEditor\2018.4.0f1\Editor\Data\Tools\Roslyn\csc.exe
-Arguments: /noconfig  /shared @Temp/UnityTempFile-953fd9ab2b493c441b946006dda3a208
+Arguments: /noconfig  /shared @Temp/UnityTempFile-aa5c7e6f4ab18344f8e8966a071f9965
 index: 20
-Responsefile: Temp/UnityTempFile-953fd9ab2b493c441b946006dda3a208 Contents: 
+Responsefile: Temp/UnityTempFile-aa5c7e6f4ab18344f8e8966a071f9965 Contents: 
 /target:library
 /nowarn:0169
 /out:Temp/Assembly-CSharp.dll
@@ -626,19 +626,19 @@ Error building Player because scripts had compiler errors
 (Filename:  Line: -1)
 
 Unloading 89 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 155.5 MB.
-System memory in use after: 155.5 MB.
+System memory in use before: 155.7 MB.
+System memory in use after: 155.7 MB.
 
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2100.
-Total: 10.440800 ms (FindLiveObjects: 0.284900 ms CreateObjectMapping: 0.042000 ms MarkObjects: 10.098300 ms  DeleteObjects: 0.014900 ms)
+Total: 9.420900 ms (FindLiveObjects: 0.299000 ms CreateObjectMapping: 0.044600 ms MarkObjects: 9.059200 ms  DeleteObjects: 0.017500 ms)
 
-Load scene 'Temp/__Backupscenes/0.backup' time: 0.047300 ms 
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.048500 ms 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.9 MB.
-System memory in use after: 154.0 MB.
+System memory in use before: 154.0 MB.
+System memory in use after: 154.2 MB.
 
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2097.
-Total: 9.104900 ms (FindLiveObjects: 0.304900 ms CreateObjectMapping: 0.026700 ms MarkObjects: 8.765200 ms  DeleteObjects: 0.007500 ms)
+Total: 9.123200 ms (FindLiveObjects: 0.309600 ms CreateObjectMapping: 0.042200 ms MarkObjects: 8.762400 ms  DeleteObjects: 0.008500 ms)
 
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
@@ -652,55 +652,55 @@ Total: 9.104900 ms (FindLiveObjects: 0.304900 ms CreateObjectMapping: 0.026700 m
 - Finished compile Library/ScriptAssemblies/Unity.Recorder.dll
 Symbols will be read from Temp\Unity.Recorder.pdb
 Script Module: Unity.Recorder.dll
-Pass: 0 took 20 milliseconds
+Pass: 0 took 15 milliseconds
 Pass: 1 took 0 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.Recorder.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
-Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
-Script Module: Unity.Postprocessing.Runtime.dll
-Pass: 0 took 44 milliseconds
-Pass: 1 took 2 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
 Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 18 milliseconds
-Pass: 1 took 0 milliseconds
+Pass: 0 took 25 milliseconds
+Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
 Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
 Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 42 milliseconds
+Pass: 0 took 21 milliseconds
 Pass: 1 took 0 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
 Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
 Pass: 0 took 0 milliseconds
 Pass: 1 took 0 milliseconds
-- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
+Script Module: Unity.Postprocessing.Runtime.dll
+Pass: 0 took 14 milliseconds
+Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbols will be read from Temp\Unity.TextMeshPro.pdb
 Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 50 milliseconds
+Pass: 0 took 66 milliseconds
 Pass: 1 took 5 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.Recorder.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.Recorder.Samples.dll
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+- Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Recorder.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.Recorder.Samples.dll
 - Finished compile Library/ScriptAssemblies/Unity.Recorder.Samples.dll
 Symbols will be read from Temp\Unity.Recorder.Samples.pdb
 Script Module: Unity.Recorder.Samples.dll
-Pass: 0 took 13 milliseconds
-Pass: 1 took 12 milliseconds
+Pass: 0 took 24 milliseconds
+Pass: 1 took 23 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
 Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
-Pass: 0 took 59 milliseconds
+Pass: 0 took 65 milliseconds
 Pass: 1 took 5 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
@@ -708,7 +708,7 @@ Pass: 1 took 5 milliseconds
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
 Symbols will be read from Temp\Assembly-CSharp.pdb
 Script Module: Assembly-CSharp.dll
-Pass: 0 took 28 milliseconds
+Pass: 0 took 42 milliseconds
 Pass: 1 took 0 milliseconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
@@ -780,56 +780,56 @@ Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs(1030,17): warning CS0618:
  
 (Filename: Assets\Unity Recorder\Editor\Sources\RecorderWindow.cs Line: 1030)
 
-Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(484,37): warning CS0649: Field 'fcAPI.fcFlacConfig.compressionLevel' is never assigned to, and will always have its default value 0
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(486,43): warning CS0649: Field 'fcAPI.fcFlacConfig.verify' is never assigned to, and will always have its default value 
  
-(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 484)
-
-Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(483,41): warning CS0649: Field 'fcAPI.fcFlacConfig.bitsPerSample' is never assigned to, and will always have its default value 
- 
-(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 483)
-
-Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(482,42): warning CS0649: Field 'fcAPI.fcFlacConfig.numChannels' is never assigned to, and will always have its default value 0
- 
-(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 482)
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 486)
 
 Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(485,24): warning CS0649: Field 'fcAPI.fcFlacConfig.blockSize' is never assigned to, and will always have its default value 0
  
 (Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 485)
 
-Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(486,43): warning CS0649: Field 'fcAPI.fcFlacConfig.verify' is never assigned to, and will always have its default value 
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(482,42): warning CS0649: Field 'fcAPI.fcFlacConfig.numChannels' is never assigned to, and will always have its default value 0
  
-(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 486)
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 482)
 
-Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(487,39): warning CS0649: Field 'fcAPI.fcFlacConfig.maxTasks' is never assigned to, and will always have its default value 0
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(483,41): warning CS0649: Field 'fcAPI.fcFlacConfig.bitsPerSample' is never assigned to, and will always have its default value 
  
-(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 487)
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 483)
 
 Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(481,42): warning CS0649: Field 'fcAPI.fcFlacConfig.sampleRate' is never assigned to, and will always have its default value 0
  
 (Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 481)
 
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(484,37): warning CS0649: Field 'fcAPI.fcFlacConfig.compressionLevel' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 484)
+
+Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs(487,39): warning CS0649: Field 'fcAPI.fcFlacConfig.maxTasks' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\Unity Recorder\Editor\Sources\Recorders\_Legacy\FrameCapturer\Scripts\Encoder\fcAPI.cs Line: 487)
+
 Reloading assemblies after script compilation.
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering platform support modules:
-Registered platform support modules in: 0.0340958s.
+Registered platform support modules in: 0.0326233s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.12 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 3.14 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
 Mono: successfully reloaded assembly
-Refreshing native plugins compatible for Editor in 0.55 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-- Completed reload, in  1.287 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+- Completed reload, in  1.271 seconds
 Platform modules already initialized, skipping
 Batchmode quit successfully invoked - shutting down!
-[Performance] CurlRequestCheck                        :       14 samples, Peak.  21.9 us (2.2x), Avg. 10.00 us, Total. 140.0 us (0.0%)
-[Performance] PackageManager::RunRequestSynchronously :        3 samples, Peak.  28.9 us (2.4x), Avg.  12.0 us, Total. 35.90 us (0.0%)
+[Performance] CurlRequestCheck                        :       13 samples, Peak.  21.3 us (2.4x), Avg.  8.92 us, Total. 115.9 us (0.0%)
+[Performance] PackageManager::RunRequestSynchronously :        4 samples, Peak.  25.8 us (2.5x), Avg.  10.2 us, Total. 40.70 us (0.0%)
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.050873s
-	Asset Scan time: 0.049831s
+Refresh Completed time: 0.050632s
+	Asset Scan time: 0.049434s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -840,8 +840,8 @@ Refresh Completed time: 0.050873s
 
 Refresh: detecting if any assets need to be imported or removed ...
 
-Refresh Completed time: 0.050587s
-	Asset Scan time: 0.049499s
+Refresh Completed time: 0.050089s
+	Asset Scan time: 0.049016s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000000s
@@ -851,14 +851,14 @@ Refresh Completed time: 0.050587s
 	Dependent Assets to Import Queue time: 0.000000s
 
 Setting up 8 worker threads for Enlighten.
-  Thread -> id: 9a9c -> priority: 1 
-  Thread -> id: 2dd8 -> priority: 1 
-  Thread -> id: a7e0 -> priority: 1 
-  Thread -> id: b84 -> priority: 1 
-  Thread -> id: 3300 -> priority: 1 
-  Thread -> id: 9058 -> priority: 1 
-  Thread -> id: 8ed0 -> priority: 1 
-  Thread -> id: 7dc0 -> priority: 1 
+  Thread -> id: 8130 -> priority: 1 
+  Thread -> id: 4d98 -> priority: 1 
+  Thread -> id: 3240 -> priority: 1 
+  Thread -> id: 6ca0 -> priority: 1 
+  Thread -> id: 9ee0 -> priority: 1 
+  Thread -> id: 3f24 -> priority: 1 
+  Thread -> id: 8dcc -> priority: 1 
+  Thread -> id: 5c20 -> priority: 1 
 [Package Manager] Server::Kill -- Server was shutdown
 Cleanup mono
 Exiting batchmode successfully now!
