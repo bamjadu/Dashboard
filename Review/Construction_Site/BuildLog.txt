@@ -1,10 +1,10 @@
 Initiating legacy licensing module
-LICENSE SYSTEM [2020224 19:22:29] Next license update check is after 2020-02-06T01:32:16
+LICENSE SYSTEM [2020225 21:20:58] Next license update check is after 2020-02-06T01:32:16
 
 Built from '2018.4/staging' branch; Version is '2018.4.0f1 (b6ffa8986c8d) revision 11993000'; Using compiler version '191326128'
 OS: 'Windows 10  (10.0.0) 64bit' Language: 'ko' Physical Memory: 32586 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-[Package Manager] Server::Start -- Port 51945 was selected
+[Package Manager] Server::Start -- Port 49557 was selected
 
  COMMAND LINE ARGUMENTS:
 C:/UnityEditor/2018.4.0f1/Editor/Unity.exe
@@ -15,12 +15,12 @@ E:/p4/WorldUrbanBiomes/Construction_Site/Construction_Site/
 -executeMethod
 ASBuildScript.RunBuild
 -logfile
-e:/build/LemonSky/Construction_Site/4621/BuildLog.txt
+e:/build/LemonSky/Construction_Site/4688/BuildLog.txt
 Successfully changed project path to: E:/p4/WorldUrbanBiomes/Construction_Site/Construction_Site/
 E:/p4/WorldUrbanBiomes/Construction_Site/Construction_Site
 Using Asset Import Pipeline V1.
 Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000057 seconds
-Loading Asset Database...0.022078 seconds
+Loading Asset Database...0.022655 seconds
 Build target: OSXUniversal found and added!
 Build target: WindowsStoreApps found and added!
 Build target: Win64 found and added!
@@ -49,8 +49,8 @@ Build target: N3DS found and added!
 Build target: WP8 found and added!
 Build target: SamsungTV found and added!
 Build target: Tizen found and added!
-AssetDatabase consistency checks...0.020387 seconds
-Refreshing native plugins compatible for Editor in 11.07 ms, found 4 plugins.
+AssetDatabase consistency checks...0.019860 seconds
+Refreshing native plugins compatible for Editor in 12.25 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Unity Package Manager
 [Package Manager] Done resolving packages in 0.19s seconds
@@ -161,26 +161,26 @@ Initialize mono
 Mono path[0] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/UnityEditor/2018.4.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
 Begin MonoManager ReloadAssembly
-Refreshing native plugins compatible for Editor in 0.59 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 5 plugins.
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering precompiled unity dll's ...
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:\UnityEditor\2018.4.0f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001756 seconds.
+Registered in 0.001755 seconds.
 Registering platform support modules:
-Registered platform support modules in: 0.0604941s.
+Registered platform support modules in: 0.0595426s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 1.01 ms.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.569 seconds
+- Completed reload, in  1.577 seconds
 Registering precompiled user dll's ...
-Registered in 0.068441 seconds.
+Registered in 0.067432 seconds.
 Platform modules already initialized, skipping
 Assembly has reference to non-existent assembly 'Unity.Recorder' (Packages/com.unity.recorder/Editor/Unity.Recorder.Editor.asmdef)
  
@@ -209,12 +209,12 @@ Assembly has reference to non-existent assembly 'Unity.Recorder' (Packages/com.u
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering platform support modules:
-Registered platform support modules in: 0.0314174s.
+Registered platform support modules in: 0.0319659s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Assembly has reference to non-existent assembly 'Unity.Recorder' (Packages/com.unity.recorder/Editor/Unity.Recorder.Editor.asmdef)
  
 (Filename:  Line: 0)
@@ -228,7 +228,7 @@ Assembly has reference to non-existent assembly 'Unity.Recorder' (Packages/com.u
 (Filename:  Line: 0)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.910 seconds
+- Completed reload, in  0.913 seconds
 Platform modules already initialized, skipping
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
@@ -240,33 +240,26 @@ Platform modules already initialized, skipping
 - Starting compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
-Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
-Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Pass: 0 took 28 milliseconds
-Pass: 1 took 13 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
-Symbols will be read from Temp\Unity.VisualEffectGraph.Runtime.pdb
-Script Module: Unity.VisualEffectGraph.Runtime.dll
-Pass: 0 took 40 milliseconds
-Pass: 1 took 3 milliseconds
-- Starting compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
-Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
-Script Module: Unity.Postprocessing.Runtime.dll
-Pass: 0 took 48 milliseconds
-Pass: 1 took 1 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbols will be read from Temp\Unity.TextMeshPro.pdb
-Script Module: Unity.TextMeshPro.dll
-Pass: 0 took 37 milliseconds
-Pass: 1 took 10 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
 Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
 Script Module: Unity.Analytics.DataPrivacy.dll
-Pass: 0 took 70 milliseconds
+Pass: 0 took 41 milliseconds
+Pass: 1 took 4 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbols will be read from Temp\Unity.Postprocessing.Runtime.pdb
+Script Module: Unity.Postprocessing.Runtime.dll
+Pass: 0 took 26 milliseconds
+Pass: 1 took 5 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+Symbols will be read from Temp\Unity.RenderPipelines.Core.Runtime.pdb
+Script Module: Unity.RenderPipelines.Core.Runtime.dll
+Pass: 0 took 44 milliseconds
 Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
+Symbols will be read from Temp\Unity.VisualEffectGraph.Runtime.pdb
+Script Module: Unity.VisualEffectGraph.Runtime.dll
+Pass: 0 took 23 milliseconds
+Pass: 1 took 1 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.Timeline.dll
 Symbols will be read from Temp\Unity.Timeline.pdb
 Script Module: Unity.Timeline.dll
@@ -277,21 +270,28 @@ Symbols will be read from Temp\Unity.RenderPipelines.Core.ShaderLibrary.pdb
 Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
 Pass: 0 took 0 milliseconds
 Pass: 1 took 0 milliseconds
-- Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+- Starting compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.Recorder.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 49 milliseconds
+Pass: 1 took 10 milliseconds
 - Finished compile Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll
 
 -----Compiler Commandline Arguments:
 Filename: C:\UnityEditor\2018.4.0f1\Editor\Data\Tools\Roslyn\csc.exe
-Arguments: /noconfig  /shared @Temp/UnityTempFile-ddceb5aa68646694ab5d1fab895692b4
+Arguments: /noconfig  /shared @Temp/UnityTempFile-a280305551ed071418b871d6700dc75e
 index: 20
-Responsefile: Temp/UnityTempFile-ddceb5aa68646694ab5d1fab895692b4 Contents: 
+Responsefile: Temp/UnityTempFile-a280305551ed071418b871d6700dc75e Contents: 
 /target:library
 /nowarn:0169
 /out:Temp/Unity.Recorder.Editor.dll
@@ -681,25 +681,25 @@ Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\ImageInpu
 Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\ImageInputSelector.cs(16,33): error CS0246: The type or namespace name 'RenderTextureInputSettings' could not be found (are you missing a using directive or an assembly reference?)
 Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\ImageInputSelector.cs(17,33): error CS0246: The type or namespace name 'RenderTextureSamplerSettings' could not be found (are you missing a using directive or an assembly reference?)
 Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\ImageInputSelector.cs(58,33): error CS0246: The type or namespace name 'CameraInputSettings' could not be found (are you missing a using directive or an assembly reference?)
-Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\Recorders\AudioRecorder\AudioRecorderSettings.cs(26,16): error CS0246: The type or namespace name 'AudioInputSettings' could not be found (are you missing a using directive or an assembly reference?)
 Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\ImageInputSelector.cs(59,33): error CS0246: The type or namespace name 'RenderTextureInputSettings' could not be found (are you missing a using directive or an assembly reference?)
-Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\Recorders\AudioRecorder\AudioRecorderSettings.cs(19,26): error CS0246: The type or namespace name 'AudioInputSettings' could not be found (are you missing a using directive or an assembly reference?)
-Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\SceneHook.cs(69,46): error CS0246: The type or namespace name 'RecorderBindings' could not be found (are you missing a using directive or an assembly reference?)
 Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\ImageInputSelector.cs(60,33): error CS0246: The type or namespace name 'RenderTextureSamplerSettings' could not be found (are you missing a using directive or an assembly reference?)
+Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\Recorders\AudioRecorder\AudioRecorderSettings.cs(26,16): error CS0246: The type or namespace name 'AudioInputSettings' could not be found (are you missing a using directive or an assembly reference?)
+Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\SceneHook.cs(69,46): error CS0246: The type or namespace name 'RecorderBindings' could not be found (are you missing a using directive or an assembly reference?)
+Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\Recorders\AudioRecorder\AudioRecorderSettings.cs(19,26): error CS0246: The type or namespace name 'AudioInputSettings' could not be found (are you missing a using directive or an assembly reference?)
 Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\SceneHook.cs(77,23): error CS0246: The type or namespace name 'RecorderBindings' could not be found (are you missing a using directive or an assembly reference?)
 -----CompilerOutput:-stderr----------
 -----EndCompilerOutput---------------
 - Finished compile Library/ScriptAssemblies/Unity.Recorder.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-- Finished compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 Symbols will be read from Temp\Unity.RenderPipelines.HighDefinition.Runtime.pdb
 Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
-Pass: 0 took 61 milliseconds
+Pass: 0 took 54 milliseconds
 Pass: 1 took 5 milliseconds
 - Starting compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll
 - Finished compile Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
 Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\SceneHook.cs(4,19): error CS0234: The type or namespace name 'Recorder' does not exist in the namespace 'UnityEngine' (are you missing an assembly reference?)
  
@@ -729,25 +729,25 @@ Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\ImageInpu
  
 (Filename: Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\ImageInputSelector.cs Line: 58)
 
-Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\Recorders\AudioRecorder\AudioRecorderSettings.cs(26,16): error CS0246: The type or namespace name 'AudioInputSettings' could not be found (are you missing a using directive or an assembly reference?)
- 
-(Filename: Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\Recorders\AudioRecorder\AudioRecorderSettings.cs Line: 26)
-
 Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\ImageInputSelector.cs(59,33): error CS0246: The type or namespace name 'RenderTextureInputSettings' could not be found (are you missing a using directive or an assembly reference?)
  
 (Filename: Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\ImageInputSelector.cs Line: 59)
 
-Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\Recorders\AudioRecorder\AudioRecorderSettings.cs(19,26): error CS0246: The type or namespace name 'AudioInputSettings' could not be found (are you missing a using directive or an assembly reference?)
+Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\ImageInputSelector.cs(60,33): error CS0246: The type or namespace name 'RenderTextureSamplerSettings' could not be found (are you missing a using directive or an assembly reference?)
  
-(Filename: Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\Recorders\AudioRecorder\AudioRecorderSettings.cs Line: 19)
+(Filename: Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\ImageInputSelector.cs Line: 60)
+
+Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\Recorders\AudioRecorder\AudioRecorderSettings.cs(26,16): error CS0246: The type or namespace name 'AudioInputSettings' could not be found (are you missing a using directive or an assembly reference?)
+ 
+(Filename: Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\Recorders\AudioRecorder\AudioRecorderSettings.cs Line: 26)
 
 Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\SceneHook.cs(69,46): error CS0246: The type or namespace name 'RecorderBindings' could not be found (are you missing a using directive or an assembly reference?)
  
 (Filename: Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\SceneHook.cs Line: 69)
 
-Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\ImageInputSelector.cs(60,33): error CS0246: The type or namespace name 'RenderTextureSamplerSettings' could not be found (are you missing a using directive or an assembly reference?)
+Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\Recorders\AudioRecorder\AudioRecorderSettings.cs(19,26): error CS0246: The type or namespace name 'AudioInputSettings' could not be found (are you missing a using directive or an assembly reference?)
  
-(Filename: Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\ImageInputSelector.cs Line: 60)
+(Filename: Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\Recorders\AudioRecorder\AudioRecorderSettings.cs Line: 19)
 
 Library\PackageCache\com.unity.recorder@2.1.0-preview.1\Editor\Sources\SceneHook.cs(77,23): error CS0246: The type or namespace name 'RecorderBindings' could not be found (are you missing a using directive or an assembly reference?)
  
@@ -757,18 +757,18 @@ Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Editor\Models\Op
  
 (Filename: Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Editor\Models\Operators\Implementations\ChangeSpace.cs Line: 12)
 
-Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Runtime\Utilities\Playables\VisualEffectActivation\VisualEffectActivationBehaviour.cs(37,26): warning CS0649: Field 'VisualEffectActivationBehaviour.clipEnterEventAttributes' is never assigned to, and will always have its default value null
- 
-(Filename: Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Runtime\Utilities\Playables\VisualEffectActivation\VisualEffectActivationBehaviour.cs Line: 37)
-
 Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Runtime\Utilities\Playables\VisualEffectActivation\VisualEffectActivationBehaviour.cs(39,26): warning CS0649: Field 'VisualEffectActivationBehaviour.clipExitEventAttributes' is never assigned to, and will always have its default value null
  
 (Filename: Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Runtime\Utilities\Playables\VisualEffectActivation\VisualEffectActivationBehaviour.cs Line: 39)
 
+Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Runtime\Utilities\Playables\VisualEffectActivation\VisualEffectActivationBehaviour.cs(37,26): warning CS0649: Field 'VisualEffectActivationBehaviour.clipEnterEventAttributes' is never assigned to, and will always have its default value null
+ 
+(Filename: Library\PackageCache\com.unity.visualeffectgraph@4.10.0-preview\Runtime\Utilities\Playables\VisualEffectActivation\VisualEffectActivationBehaviour.cs Line: 37)
+
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.4.0 for Unity v2018.4.0f1
 Registering platform support modules:
-Registered platform support modules in: 0.0339987s.
+Registered platform support modules in: 0.0357555s.
 Native extension for Android target not found
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
@@ -787,7 +787,7 @@ Assembly has reference to non-existent assembly 'Unity.Recorder' (Packages/com.u
 (Filename:  Line: 0)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.959 seconds
+- Completed reload, in  0.958 seconds
 Platform modules already initialized, skipping
 Assembly has reference to non-existent assembly 'Unity.Recorder' (Packages/com.unity.recorder/Editor/Unity.Recorder.Editor.asmdef)
  
@@ -801,7 +801,7 @@ Assembly has reference to non-existent assembly 'Unity.Recorder' (Packages/com.u
  
 (Filename:  Line: 0)
 
-Validating Project structure ... 0.009518 seconds.
+Validating Project structure ... 0.009535 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
 GUID [195c80e0a88f4aff975d21a4f4bb06fd] for asset 'Packages/com.unity.recorder/Editor/Sources/Helpers' conflicts with:
   'Assets/Unity Recorder/Editor/Sources/Helpers' (current owner)
@@ -1035,10 +1035,10 @@ We can't assign a new GUID because the asset is in an immutable folder. The asse
 (Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V1/AssetInterface.cpp Line: 940)
 
 
-Hashing assets (95 files)... 0.017 seconds
+Hashing assets (95 files)... 0.018 seconds
   file read: 0.005 seconds (12.149 MB)
   wait for write: 0.006 seconds (I/O thread blocked by consumer, aka CPU bound)
-  wait for read: 0.003 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  wait for read: 0.004 seconds (CPUT thread waiting for I/O thread, aka disk bound)
   hash: 0.012 seconds
 Ignoring asset refresh of Packages/com.unity.recorder/Editor/Sources/Recorders/_Legacy/FrameCapturer/Plugins/x86_64/fccore.bundle/Contents/Info.plist because the folder it is in has not been imported yet!
 
@@ -1416,10 +1416,10 @@ Ignoring asset refresh of Packages/com.unity.recorder/Editor/Sources/Recorders/_
 (Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V1/AssetInterface.cpp Line: 1492)
 
 
-Hashing assets (20 files)... 0.007 seconds
+Hashing assets (20 files)... 0.008 seconds
   file read: 0.001 seconds (5.808 MB)
   wait for write: 0.001 seconds (I/O thread blocked by consumer, aka CPU bound)
-  wait for read: 0.001 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  wait for read: 0.002 seconds (CPUT thread waiting for I/O thread, aka disk bound)
   hash: 0.006 seconds
 Ignoring asset refresh of Packages/com.unity.recorder/Editor/Sources/Recorders/MovieRecorder/Resources/movie_16.png because the folder it is in has not been imported yet!
 
@@ -1521,18 +1521,18 @@ Ignoring asset refresh of Packages/com.unity.recorder/Editor/Sources/Resources/S
  
 (Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V1/AssetInterface.cpp Line: 1492)
 
-Refreshing native plugins compatible for Editor in 0.67 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.10 ms.
 
-Refresh Completed time: 0.125303s
-	Asset Scan time: 0.036896s
+Refresh Completed time: 0.128273s
+	Asset Scan time: 0.036612s
 	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
 	Asset Import (Scripting) time: 0.000000s (count: 0)
 	Post Processs Assets (Scripting) time: 0.000002s
-	Asset Rehashing: 0.024561s [18.0 MB, 731.133972 mb/s]
+	Asset Rehashing: 0.026536s [18.0 MB, 676.709473 mb/s]
 	Asset Import (Non Scripting) time: 0.000000s (count: 0)
 	Post Process Assets (Non Scripting) time: 0.000001s
-	Dependent Assets to Import Queue time: 0.005735s
+	Dependent Assets to Import Queue time: 0.005963s
 
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
@@ -1540,7 +1540,7 @@ WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
-Warming cache for 4876 main assets: 0.011649 seconds elapsed
+Warming cache for 4893 main assets: 0.012479 seconds elapsed
 Initializing Unity extensions:
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
  'C:/UnityEditor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
@@ -1575,11 +1575,11 @@ Assembly has reference to non-existent assembly 'Unity.Recorder' (Packages/com.u
 (Filename:  Line: 0)
 
 Unloading 1760 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 182.5 MB.
-System memory in use after: 181.2 MB.
+System memory in use before: 182.6 MB.
+System memory in use after: 181.3 MB.
 
 Unloading 164 unused Assets to reduce memory usage. Loaded Objects now: 2505.
-Total: 2.907800 ms (FindLiveObjects: 0.326100 ms CreateObjectMapping: 0.067900 ms MarkObjects: 1.736600 ms  DeleteObjects: 0.776900 ms)
+Total: 3.145300 ms (FindLiveObjects: 0.354300 ms CreateObjectMapping: 0.072400 ms MarkObjects: 1.896200 ms  DeleteObjects: 0.821900 ms)
 
 Scripts have compiler errors.
  
